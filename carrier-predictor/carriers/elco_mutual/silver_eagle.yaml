@@ -90,3 +90,13 @@ sources:
 state_availability:
   all_states: true
   except: []
+
+# Enhanced fields for GPT brain parity
+riders:
+  - "Accelerated Death Benefit"
+  - "Waiver of Premium"
+  - "Funeral Concierge Services"
+
+am_best_rating: "A"
+
+typical_premium_tier: "medium"

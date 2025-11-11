@@ -69,3 +69,12 @@ sources:
 state_availability:
   all_states: true
   except: []
+
+# Enhanced fields for GPT brain parity
+riders:
+  - "Accelerated Death Benefit (Accidental only in graded period)"
+  - "Waiver of Premium"
+
+am_best_rating: "A+"
+
+typical_premium_tier: "low"

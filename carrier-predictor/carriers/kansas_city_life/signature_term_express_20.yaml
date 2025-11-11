@@ -80,3 +80,14 @@ sources:
 state_availability:
   all_states: true
   except: ["NY", "MT"]
+
+# Enhanced fields for GPT brain parity
+riders:
+  - "Living Benefit (Terminal, Chronic, Critical Illness)"
+  - "Waiver of Premium"
+  - "Child Term Rider"
+  - "Conversion Privilege"
+
+am_best_rating: "A"
+
+typical_premium_tier: "medium"

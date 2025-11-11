@@ -29,7 +29,11 @@ eligibility:
   build:
     source: "618352-SI+Underwriting_0124.pdf:2"
     rule: "use_express_build_chart"
+    max_bmi:
+      standard: 40  # Lenient for final expense
   nicotine_non_tobacco_allowed: false
+  medications:
+    rejected: ["Chemotherapy (active)", "Hospice care medications"]
   driving:
     dui_years_lookback: 5
     max_major_violations: 0
@@ -71,3 +75,13 @@ sources:
 state_availability:
   all_states: true
   except: []
+
+# Enhanced fields for GPT brain parity
+riders:
+  - "Accelerated Death Benefit (Terminal Illness)"
+  - "Accelerated Death Benefit (Nursing Home/Chronic Illness)"
+  - "Waiver of Premium"
+
+am_best_rating: "A+"
+
+typical_premium_tier: "medium"

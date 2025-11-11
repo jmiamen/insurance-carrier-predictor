@@ -112,20 +112,24 @@ async def recommend_rules_based(profile: Dict[str, Any]) -> Dict[str, Any]:
         rules = load_rules()
         logger.info(f"Loaded {len(rules)} product rules")
 
-        picks = assign(profile, rules)
+        result = assign(profile, rules)
+        recommendations = result.get('recommendations', [])
 
-        fallback_triggered = len(picks) == 0
+        fallback_triggered = len(recommendations) == 0
 
         # Format response
-        explanation = render_response(profile, picks)
+        explanation = render_response(profile, result)
 
         logger.info(
-            f"Returning {len(picks)} recommendations "
+            f"Returning {len(recommendations)} recommendations "
             f"(fallback_triggered={fallback_triggered})"
         )
 
         return {
-            "recommendations": picks,
+            "recommendations": recommendations,
+            "best_match": result.get('best_match'),
+            "budget_options": result.get('budget_options', []),
+            "alternatives": result.get('alternatives', []),
             "explanation": explanation,
             "fallback_triggered": fallback_triggered,
             "request_id": request_id,

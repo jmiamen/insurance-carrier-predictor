@@ -85,3 +85,14 @@ sources:
 state_availability:
   all_states: true
   except: ["NY"]
+
+# Enhanced fields for GPT brain parity
+riders:
+  - "Accelerated Death Benefit"
+  - "Waiver of Premium"
+  - "Child Term Rider"
+  - "Conversion Privilege"
+
+am_best_rating: "A+"
+
+typical_premium_tier: "medium"

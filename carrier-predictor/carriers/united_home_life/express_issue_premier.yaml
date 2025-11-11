@@ -79,3 +79,12 @@ sources:
 state_availability:
   all_states: true
   except: ["NY", "WA"]
+
+# Enhanced fields for GPT brain parity
+riders:
+  - "Accelerated Death Benefit"
+  - "Waiver of Premium"
+
+am_best_rating: "B++"
+
+typical_premium_tier: "low"
