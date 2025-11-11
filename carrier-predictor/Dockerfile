@@ -17,11 +17,17 @@ COPY src/ ./src/
 COPY scripts/ ./scripts/
 COPY .env.example .env
 
-# Create data directories
-RUN mkdir -p data/carriers data/index
+# Copy carrier data files
+COPY data/ ./data/
+
+# Create index directory
+RUN mkdir -p data/index
 
 # Download embedding model at build time (optional, speeds up first run)
 RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')"
+
+# Build knowledge base
+RUN python scripts/update_kb.py --path data --rebuild
 
 # Expose port
 EXPOSE 8000
