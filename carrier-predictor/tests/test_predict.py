@@ -33,12 +33,12 @@ def setup_test_index():
             product_guess="Golden Eagle",
         ),
         DocumentChunk(
-            text="Americo Term Life Insurance for ages 18-75. Competitive rates for healthy individuals. "
+            text="Transamerica Trendsetter Super 20 Term Life Insurance for ages 18-70. Competitive rates for healthy individuals. "
             "Available in most states including Texas, Florida, California. "
             "Medical exam required for amounts over $250,000.",
-            source_path="americo_term.pdf",
-            carrier_guess="Americo",
-            product_guess="Term",
+            source_path="transamerica_term.pdf",
+            carrier_guess="Transamerica",
+            product_guess="Trendsetter Super 20",
         ),
     ]
 

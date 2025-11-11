@@ -1,6 +1,6 @@
 # Carrier eligibility rules
 # This file must match carrier names in carriers/*.yaml product files
-# Carrier names MUST exactly match the "carrier:" field in product YAMLs
+# Carrier names AND product names MUST exactly match the YAML files
 
 "Elco Mutual":
   states: ["TX", "CO", "MI", "MO", "KS", "OK", "NE", "AR", "LA"]
@@ -12,13 +12,13 @@
       max_age: 85
       smoker: true
       health_tolerance: ["diabetes", "neuropathy", "high blood pressure", "high cholesterol"]
-    "Silver Eagle":
+    "Silver Eagle Final Expense":
       type: "Whole Life"
       min_age: 0
       max_age: 85
       smoker: true
       health_tolerance: ["diabetes", "high blood pressure"]
-    "Platinum Eagle":
+    "Platinum Eagle SPWL":
       type: "Whole Life"
       min_age: 0
       max_age: 85
@@ -41,13 +41,13 @@
   states: ["TX", "FL", "GA", "CA", "NY", "IL", "OH", "PA", "NC", "VA", "AZ", "TN", "IN", "MO", "WI"]
   portal_url: "https://www.mutualofomaha.com/agent"
   products:
-    "Living Promise Level":
+    "Living Promise Level Benefit":
       type: "Whole Life"
       min_age: 45
       max_age: 85
       smoker: true
       health_tolerance: ["diabetes controlled", "high blood pressure", "high cholesterol"]
-    "Living Promise Graded":
+    "Living Promise Graded Benefit":
       type: "Whole Life"
       min_age: 45
       max_age: 85
@@ -99,7 +99,7 @@
   states: ["TX", "MO", "KS", "OK", "AR", "LA", "NE", "IA", "IL", "TN", "MS", "AL"]
   portal_url: "https://www.kclife.com/agents"
   products:
-    "Signature Term Express 20":
+    "Signature Term Express Level 20":
       type: "Term"
       min_age: 18
       max_age: 60
@@ -116,7 +116,7 @@
       max_age: 65
       smoker: true
       health_tolerance: []
-    "Step UL":
+    "Life Step UL":
       type: "Universal Life"
       min_age: 0
       max_age: 85
@@ -127,7 +127,7 @@
   states: ["All states"]
   portal_url: "https://www.sbli.com/agents"
   products:
-    "Level Term":
+    "SBLI Level Term":
       type: "Term"
       min_age: 18
       max_age: 65
@@ -155,13 +155,13 @@
       max_age: 70
       smoker: true
       health_tolerance: []
-    "Trendsetter LB 20":
+    "Trendsetter LB 20 (Ladder Benefit)":
       type: "Term"
       min_age: 18
       max_age: 70
       smoker: true
       health_tolerance: []
-    "FFIUL":
+    "Financial Foundation IUL (FFIUL)":
       type: "IUL"
       min_age: 0
       max_age: 85
