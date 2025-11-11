@@ -1,0 +1,265 @@
+===METADATA===
+CARRIER: ELCO Mutual Life & Annuity
+PRODUCT_NAME: Presidio Plus with Irrevocable Funeral Trust
+PRODUCT_CATEGORY: Single Premium Whole Life with Funeral Trust
+ISSUE_TYPE: Guaranteed Issue
+PRODUCT_CODE: Presidio Plus IFT
+COMPANY_TYPE: Mutual Company
+ESTABLISHED: 1946
+UNIQUE_FEATURE: Irrevocable Funeral Trust for asset protection and funeral funding
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Seniors planning for end of life, Medicaid planning
+HEALTH_PROFILE: Guaranteed issue, no health questions
+UNDERWRITING_SELECTIVITY: Guaranteed issue, everyone qualifies
+COMPETITIVE_ADVANTAGE: BEST RATE APPROVE EVERYONE, guaranteed issue, asset protection from nursing homes creditors, may help qualify for Medicaid
+MAXIMUM_COVERAGE: 2500 to 15000 funeral focused
+LIVING_BENEFITS: Not applicable funeral planning focused
+APPLICATION_PROCESS: Guaranteed issue, no underwriting
+APPROVAL_SPEED: Guaranteed acceptance
+SALES_BOX: Box 4 Old and Unhealthy, guaranteed issue for funeral planning
+STATE_RESTRICTIONS: Not offered in California, Florida does not have e-app
+COMMISSION_STRUCTURE: No advance cap
+BEST_FOR: Funeral planning, Medicaid planning, nursing home asset protection, seniors, lump sum 2500 to 15000 available, wants funds to funeral home directly, creditor protection
+UNIQUE_STRENGTH: Irrevocable Funeral Trust included no cost, protected from creditors nursing homes, may be exempt for Medicaid, pays funeral home directly in 48 hours
+AVOID_IF: California Florida residents, need more than 15000, need estate planning (use IET instead), not willing to irrevocably assign
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Single Premium Whole Life with Irrevocable Funeral Trust
+PERMANENT_COVERAGE: Yes
+PREMIUM_STRUCTURE: Single payment only
+CASH_VALUE_ACCUMULATION: Yes
+TRUST_TYPE: Irrevocable Funeral Trust
+TRUST_COST: No additional cost to policyholders
+
+===CORE_SPECIFICATIONS===
+ISSUE_AGES:
+  MIN_AGE: Not specified in brochure
+  MAX_AGE: Not specified in brochure
+  NOTES: Designed for seniors planning for end of life expenses
+
+FACE_AMOUNTS:
+  MINIMUM: 2500
+  MAXIMUM: 15000
+  PURPOSE: Funeral and final expense coverage
+
+UNDERWRITING:
+  TYPE: Guaranteed Issue
+  QUALIFICATION: Everyone qualifies
+  MEDICAL_EXAMS: None required
+  HEALTH_QUESTIONS: None required
+  ACCEPTANCE: Guaranteed
+
+===IRREVOCABLE_FUNERAL_TRUST_FEATURES===
+TRUST_NAME: ELCO Mutual Irrevocable Funeral Trust (IFT)
+TRUST_COST: No additional cost to ELCO policyholders
+TRUST_PURPOSE: Shelter assets and ensure funding for burial and funeral costs
+
+ASSET_PROTECTION:
+  IRREVOCABLE_ASSIGNMENT: Once assigned policy may become exempt asset
+  PROTECTED_FROM:
+    - Creditors
+    - Nursing homes
+    - Government assistance programs
+  ELIGIBILITY_NOTE: Not guaranteed consult local Elder Law Attorney
+  MEDICAID_CONSIDERATION: May be excluded asset to qualify for Medicaid
+
+BENEFIT_PAYMENT_PROCESS:
+  TIMELINE: Approximately 48 hours after receiving death claim paperwork
+  PAYMENT_TO: Funeral home as their interest may appear
+  PROBATE: Funds not tied up in probate process
+  CONTINGENT_BENEFICIARY: Estate
+
+QUALIFYING_GOODS_AND_SERVICES:
+  Basic_Services:
+    - Basic services of funeral director and staff
+    - Embalming
+    - Care for deceased
+    - Dressing cosmetology casketing
+  Funeral_Home_Facilities:
+    - Viewing visitation
+    - Funeral service
+    - Memorial service
+    - Graveside service
+    - Other
+  Cremation_Services: Yes
+  Casket: Yes
+  Alternative_Burial_Container: Yes
+  Outer_Burial_Container: Yes
+  Other_Funeral_Services:
+    - Memorial meal
+    - Memoriam celebration
+    - Professional facilitation for memorial planning
+  Transportation:
+    - Transfer of deceased
+    - Car limousine
+    - Funeral vehicle hearse
+    - Utility service vehicle
+    - Other
+  Cemetery_Charges:
+    - Memorial tree or other markers
+    - Open close
+  Other_Services:
+    - Clergy honorarium
+    - Death certificates
+    - Musicians
+    - Temporary marker
+    - Stationery package
+    - Obituary notices
+    - Flowers
+    - Clothing
+    - Other
+
+===USE_CASES===
+PRIMARY_PURPOSES:
+  - Fund funeral expenses
+  - Protect assets from nursing home costs
+  - Avoid family financial burden
+  - Qualify for Medicaid by exempting funeral assets
+  - Ensure funds available quickly after death
+  - Avoid probate for funeral funding
+
+NURSING_HOME_PROTECTION:
+  CONCERN: Nursing home costs can drain assets quickly leaving no funds for funeral
+  SOLUTION: Set aside funeral funds now with guaranteed issue policy
+  BENEFIT: Once irrevocably assigned may become exempt asset
+  PROTECTION: Protected from nursing homes creditors government programs
+
+FAMILY_BENEFITS:
+  - Eliminates need for family to fund funeral out of pocket
+  - Funds available in 48 hours no delays
+  - Family can focus on planning and grieving not paying
+  - No probate delays
+  - Financial certainty immediately
+
+FUNERAL_COST_COVERAGE:
+  AVERAGE_FUNERAL_COST: 14893 (NFDA example)
+  BREAKDOWN_EXAMPLE:
+    Transportation: 350
+    Basic_Services_Fee: 2300
+    Embalming: 775
+    Flowers: 700
+    Burial_Plot: 3000
+    Headstone: 1500
+    Casket: 3000
+    Preparation_of_Body: 275
+    Use_Facilities_Viewing: 450
+    Use_Facilities_Ceremony: 515
+    Hearse: 350
+    Printed_Materials: 183
+    Vault: 1495
+
+===COMPARISON_TO_OTHER_FUNDING_METHODS===
+ADVANTAGE_OVER_ANNUITY:
+  Benefit_Paid_to_Funeral_Home_First: Yes for IFT vs No for annuity
+  Funds_Protected_from_Creditors: Yes for IFT vs No for annuity
+  May_be_Excluded_for_Medicaid: Yes for IFT vs No for annuity unless in trust
+
+ADVANTAGE_OVER_SAVINGS_ACCOUNT:
+  Benefit_Paid_to_Funeral_Home_First: Yes for IFT vs No for savings
+  Funds_Protected_from_Creditors: Yes for IFT vs No for savings
+  May_be_Excluded_for_Medicaid: Yes for IFT vs No for savings unless in trust
+
+ADVANTAGE_OVER_CD:
+  Benefit_Paid_to_Funeral_Home_First: Yes for IFT vs No for CD
+  Funds_Protected_from_Creditors: Yes for IFT vs No for CD
+  May_be_Excluded_for_Medicaid: Yes for IFT vs No for CD unless in trust
+
+ADVANTAGE_OVER_MONEY_MARKET:
+  Benefit_Paid_to_Funeral_Home_First: Yes for IFT vs No for money market
+  Funds_Protected_from_Creditors: Yes for IFT vs No for money market
+  May_be_Excluded_for_Medicaid: Yes for IFT vs No for money market unless in trust
+
+ADVANTAGE_OVER_MUTUAL_FUNDS:
+  Benefit_Paid_to_Funeral_Home_First: Yes for IFT vs No for mutual funds
+  Funds_Protected_from_Creditors: Yes for IFT vs No for mutual funds
+  May_be_Excluded_for_Medicaid: Yes for IFT vs No for mutual funds unless in trust
+
+===HOW_FUNERAL_TRUST_WORKS===
+STEP_1: Purchase policy with face amount 2500 to 15000
+STEP_2: Irrevocably assign the policy to the IFT
+STEP_3: Funds paid immediately upon death to funeral home as their interest may appear
+STEP_4: Estate is contingent beneficiary for any remaining funds
+
+MEDICAID_REQUIREMENTS:
+  - If assigning ownership to ELCO trust and applying for public assistance
+  - May be required to provide list of services and merchandise selected from funeral home
+
+===ADMINISTRATIVE_INFORMATION===
+POLICY_FORM: ICC21 TSPL 21
+FORM_NOTE: Policy forms may vary by state
+POLICY_FEES: Single premium only
+GRACE_PERIOD: Not applicable single premium
+CONTESTABILITY_PERIOD: Typically 2 years
+SUICIDE_CLAUSE: Typically 2 years
+
+CLAIM_PROCESSING:
+  TIMELINE: Approximately 48 hours after receiving paperwork
+  PAYMENT_METHOD: Direct to funeral home then estate
+  PROBATE_AVOIDANCE: Yes
+  CUSTOMER_SERVICE: Real person answers every call
+
+===CONTACT_INFORMATION===
+CARRIER_NAME: ELCO Mutual Life & Annuity
+WEBSITE: elcomutual.com
+POLICY_SERVICES_PHONE: 800 321 3526
+POLICY_SERVICES_FAX: 847 295 6043
+POLICY_SERVICES_EMAIL: phs@elcomutual.com
+CLAIMS_PHONE: 800 962 8610
+CLAIMS_FAX: 847 295 1145
+CLAIMS_EMAIL: claims@elcomutual.com
+PROCESSING_TIME: Under 48 hours average
+
+===DECISION_RULES===
+APPROVE_IF:
+  - Needs funeral expense coverage
+  - Face amount 2500 to 15000
+  - Wants guaranteed issue no underwriting
+  - Concerned about nursing home costs depleting assets
+  - Wants to qualify for Medicaid
+  - Wants asset protection from creditors nursing homes
+  - Wants funds available quickly to funeral home
+  - Wants to avoid probate for funeral funding
+  - Willing to irrevocably assign policy to trust
+
+IDEAL_CANDIDATE:
+  - Senior planning for end of life
+  - Concerned about nursing home costs
+  - May need Medicaid in future
+  - Wants to protect funeral funds
+  - Wants guaranteed acceptance
+  - Has lump sum 2500 to 15000 available
+  - Wants family to receive funds quickly
+  - Wants funeral home paid directly
+  - Concerned about creditor protection
+
+NOT_GUARANTEED:
+  - Medicaid eligibility must consult Elder Law Attorney
+  - ELCO not affiliated with government programs
+  - Exempt asset status depends on state laws and circumstances
+
+===COMPETITIVE_ADVANTAGES===
+KEY_FEATURES:
+  - Guaranteed issue everyone qualifies
+  - Irrevocable Funeral Trust included no cost
+  - Funds to funeral home in 48 hours
+  - Protected from creditors nursing homes government programs
+  - May qualify as exempt asset for Medicaid
+  - Avoids probate
+  - Direct payment to funeral home
+  - Comprehensive list of covered funeral goods and services
+  - Single premium no ongoing payments
+  - Mutual company policyholder owned
+  - Over 75 years in business
+
+UNIQUE_BENEFITS:
+  - Only funeral funding method that pays funeral home first
+  - Only method protected from creditors without separate trust
+  - May be excluded for Medicaid eligibility
+  - Immediate asset protection upon irrevocable assignment
+  - No additional trust cost unlike separate funeral trusts
+  - Customizable to cover specific funeral preferences
+  - May require funeral home selection list for Medicaid
+
+===PRODUCT_DESCRIPTION===
+Presidio Plus with Irrevocable Funeral Trust is ELCO Mutual's guaranteed issue single premium whole life insurance designed specifically for funeral planning with asset protection benefits. Face amounts from 2500 to 15000 cover comprehensive funeral expenses. Everyone qualifies with no medical exams or health questions. The key feature is ELCO's Irrevocable Funeral Trust (IFT) available at no additional cost to policyholders. Once the policy is irrevocably assigned to the IFT it may become an exempt asset protected from creditors nursing homes and government assistance programs potentially helping qualify for Medicaid. Funds are paid directly to the designated funeral home within approximately 48 hours avoiding probate delays. Estate is contingent beneficiary. Covers all funeral goods and services including basic services embalming facilities casket vault cemetery charges transportation flowers and more. Ideal for seniors concerned about nursing home costs depleting assets wanting to secure funeral funding protect assets and qualify for Medicaid. Eligibility for Medicaid not guaranteed consult Elder Law Attorney. Policy form ICC21 TSPL 21 may vary by state.

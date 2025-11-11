@@ -1,0 +1,193 @@
+===METADATA===
+CARRIER: United Home Life Insurance Company
+PRODUCT_NAME: Provider Whole Life
+PRODUCT_CATEGORY: Simplified Issue Whole Life Insurance
+ISSUE_TYPE: Simplified Issue
+FORM_NUMBER: ICC21-UHSIWL / UHSIWL-21
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 0 to 80, higher build or moderate health issues
+HEALTH_PROFILE: Higher build or moderate health issues, lenient underwriting
+UNDERWRITING_SELECTIVITY: Very lenient on build charts
+COMPETITIVE_ADVANTAGE: FOR FAT PEOPLE, lenient build requirements, accepts moderate health, permanent coverage
+MAXIMUM_COVERAGE: Up to 50000 whole life
+LIVING_BENEFITS: Check product specifications
+APPLICATION_PROCESS: Simplified issue
+APPROVAL_SPEED: Moderate
+SALES_BOX: Box 3 Young and Unhealthy
+BEST_FOR: Heavier build clients, moderate health issues, permanent coverage needs, ages 0 to 80
+UNIQUE_STRENGTH: Very lenient on build charts
+AVOID_IF: Looking for best rates, need higher coverage amounts, want term insurance
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Whole Life
+PREMIUM_STRUCTURE: Level
+DEATH_BENEFIT: Level
+CASH_VALUE: Yes builds over time
+
+===CORE_SPECIFICATIONS===
+ISSUE_AGES:
+  MIN_AGE: 0
+  MAX_AGE: 80
+
+FACE_AMOUNTS:
+  MINIMUM: 10000
+  MAXIMUM_BY_AGE:
+    AGES_0_TO_50: 150000
+    AGES_51_TO_60: 100000
+    AGES_61_TO_80: 50000
+
+POLICY_FEE:
+  AMOUNT: 50
+  FREQUENCY: Annual
+
+MATURITY_AGE: 121
+
+===UNDERWRITING_REQUIREMENTS===
+UNDERWRITING_TYPE: Simplified Issue
+MEDICAL_EXAM: Not required
+HEALTH_QUESTIONS: Yes
+
+REQUIREMENTS:
+  PHI_REQUIRED: true
+  PARAMED: false
+  APS: May be ordered if needed
+  MVR: May be ordered if needed
+  PRESCRIPTION_CHECK: Yes via underwriting services
+
+===RATE_CLASSES===
+RATE_CLASS: Preferred
+  HEALTH_STANDARDS: Better health minimal to no impairments
+  TOBACCO_USE: No tobacco use in last 12 months
+
+RATE_CLASS: Standard
+  HEALTH_STANDARDS: Average health some impairments allowed
+  TOBACCO_USE: No tobacco use in last 12 months
+
+RATE_CLASS: Preferred_Tobacco
+  HEALTH_STANDARDS: Better health minimal to no impairments
+  TOBACCO_USE: Tobacco use within last 12 months
+
+RATE_CLASS: Standard_Tobacco
+  HEALTH_STANDARDS: Average health some impairments allowed
+  TOBACCO_USE: Tobacco use within last 12 months
+
+===TABLE_RATINGS===
+TABLE_RATING_STRUCTURE: Built in table ratings for specific health conditions
+TABLE_RATINGS_AVAILABLE: A B C D E F
+
+AUTOMATIC_TABLE_RATINGS:
+  CONDITION: Diabetes with complications
+    TABLE: Varies by severity
+  CONDITION: Heart disease history
+    TABLE: Varies by severity and time since event
+  CONDITION: Cancer history
+    TABLE: Varies by type and time since treatment
+  CONDITION: COPD
+    TABLE: Varies by severity
+  CONDITION: Stroke history
+    TABLE: Varies by severity and time since event
+
+===INCLUDED_RIDERS===
+RIDER: Accelerated Death Benefit for Terminal Illness
+  INCLUDED: true
+  COST: No additional charge
+  BENEFIT: Up to 50 percent of death benefit or 250000 whichever is less
+  QUALIFICATION: Terminal illness with life expectancy 12 months or less
+
+RIDER: Waiver of Premium for Disability
+  INCLUDED: true
+  COST: No additional charge
+  BENEFIT: Waives premium if insured becomes totally disabled
+  QUALIFICATION: Total disability before age 60 lasting 6 consecutive months
+  DURATION: Waiver continues while disabled before age 65
+
+===OPTIONAL_RIDERS===
+RIDER: Accidental Death Benefit
+  COST: Additional premium
+  BENEFIT: Additional death benefit if death results from accident
+  MAXIMUM: Equal to base policy face amount
+  TERMINATION_AGE: 70
+
+RIDER: Child Term Rider
+  COST: Additional premium
+  BENEFIT: Term insurance on children
+  ELIGIBLE_CHILDREN: Age 15 days to 18 years
+  FACE_AMOUNTS: 5000 10000 15000 20000 25000
+  CONVERSION: Can convert to permanent policy at age 25 without evidence of insurability
+  TERMINATION: Age 25 or when base policy terminates
+
+RIDER: Guaranteed Insurability Rider
+  COST: Additional premium
+  BENEFIT: Purchase additional insurance without evidence of insurability
+  PURCHASE_DATES: Age 25 28 31 34 37 40 and marriage or birth of child
+  MAX_INCREASE: Lesser of original face amount or 25000 per option
+  TERMINATION_AGE: 40
+
+RIDER: Additional Insured Rider
+  COST: Additional premium
+  BENEFIT: Term insurance on spouse or other person
+  ISSUE_AGES: 18 to 65
+  FACE_AMOUNTS: 5000 to 50000
+  TERMINATION_AGE: 70 or when base policy terminates
+
+===PRODUCT_FEATURES===
+CASH_VALUE:
+  ACCUMULATION: Guaranteed cash value accumulation
+  LOAN_PROVISION: Policy loans available after first year
+  LOAN_INTEREST_RATE: Fixed rate specified in policy
+  WITHDRAWAL: Partial withdrawals may be available reduces death benefit
+
+NONFORFEITURE_OPTIONS:
+  CASH_SURRENDER: Full cash value less any outstanding loans
+  REDUCED_PAID_UP: Reduced death benefit no further premiums required
+  EXTENDED_TERM: Original death benefit for limited time period
+
+GRACE_PERIOD: 31 days
+REINSTATEMENT_PERIOD: 3 years from lapse date
+
+===STATE_AVAILABILITY===
+STATES_AVAILABLE: TX FL GA AL MS LA AR TN KY SC NC VA WV OH IN IL MO OK KS
+
+STATES_NOT_AVAILABLE: NY CA AK HI
+
+===DECISION_RULES===
+ELIGIBILITY_REQUIREMENTS:
+  AGE: Between 0 and 80 years
+  STATE: Must reside in approved state
+  HEALTH: Must meet simplified issue health questions
+  FACE_AMOUNT: Must be within allowable range for age
+
+APPROVAL_FACTORS:
+  - Answers to health questions on application
+  - Prescription drug history review
+  - PHI verification
+  - MVR results if ordered
+  - APS if ordered
+  - Table rating assignment based on health conditions
+
+DECLINE_FACTORS:
+  - Recent cancer diagnosis or active treatment
+  - Uncontrolled diabetes with complications
+  - Recent heart attack or stroke within 12 months
+  - End stage renal disease on dialysis
+  - AIDS or HIV with complications
+  - Cirrhosis of liver
+  - Oxygen use for lung condition
+  - Pending surgery or tests for serious condition
+  - Decline on other life insurance within last 6 months
+
+===COMMISSION_STRUCTURE===
+COMPENSATION_TYPE: Standard agent commission schedule
+FIRST_YEAR: Higher commission percentage
+RENEWAL: Lower commission percentage years 2 and beyond
+
+===CONTACT_INFORMATION===
+AGENT_PORTAL: https://uhlic.com/agent-portal
+UNDERWRITING_PHONE: Check agent portal for current number
+HOME_OFFICE: Indianapolis IN
+
+===NOTES===
+PRODUCT_POSITIONING: Mid market simplified issue whole life for ages 0 to 80 with table rating flexibility
+TARGET_MARKET: Individuals who cannot qualify for fully underwritten preferred rates or need coverage without medical exam
+COMPETITIVE_ADVANTAGES: Built in table ratings allow coverage for impaired risks that other carriers decline

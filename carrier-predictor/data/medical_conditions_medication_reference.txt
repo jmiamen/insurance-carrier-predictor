@@ -1,0 +1,1072 @@
+===METADATA===
+DOCUMENT_TYPE: Medical Conditions and Medication Reference
+PURPOSE: Agent reference guide for identifying health conditions from medications and mapping to carrier underwriting criteria
+USE_CASE: Reverse lookup - client provides medications, agent identifies conditions and appropriate carrier positioning
+VERSION: 1.0
+LAST_UPDATED: 2025-11-11
+
+===USAGE_INSTRUCTIONS===
+HOW_TO_USE:
+  1. Client provides list of current medications
+  2. Search this file for medication names (generic or brand)
+  3. Identify underlying health conditions
+  4. Assess severity based on medication combinations
+  5. Reference CARRIER_POSITIONING to match client to appropriate sales box
+  6. Cross-reference with individual carrier underwriting files for final determination
+
+SEVERITY_ASSESSMENT:
+  SINGLE_MEDICATION: Often indicates well-controlled condition, may qualify for Box 1 or 2
+  MULTIPLE_MEDICATIONS_SAME_CONDITION: Indicates more serious or poorly controlled condition, likely Box 3 or 4
+  COMBINATION_CONDITIONS: Multiple conditions increase complexity, typically Box 3 or 4
+
+===CONDITION_1_HEART_ATTACK===
+CONDITION_NAME: Heart Attack (Post-Myocardial Infarction)
+MEDICAL_TERM: Myocardial Infarction, MI, Acute Coronary Syndrome
+SEVERITY: Major cardiac event
+
+MEDICATIONS_PRESCRIBED:
+  MEDICATION_1:
+    GENERIC: Aspirin
+    BRAND: Various
+    PURPOSE: Reduces risk of future blood clots
+    DOSAGE_INDICATOR: Low dose daily (81mg or 325mg)
+
+  MEDICATION_2:
+    GENERIC: Atorvastatin
+    BRAND: Lipitor
+    PURPOSE: Lowers cholesterol and stabilizes arterial plaque
+    DOSAGE_INDICATOR: Varies
+    MEDICATION_CLASS: Statin
+
+  MEDICATION_3:
+    GENERIC: Metoprolol
+    BRAND: Lopressor
+    PURPOSE: Beta blocker to reduce strain on the heart
+    DOSAGE_INDICATOR: Varies
+    MEDICATION_CLASS: Beta Blocker
+
+UNDERWRITING_IMPACT:
+  SEVERITY_LEVEL: Critical
+  TYPICAL_OUTCOME: Decline or heavy table rating
+  TIME_SINCE_EVENT: Critical factor - most carriers require 2-5+ years
+
+CARRIER_POSITIONING:
+  BOX_1_CARRIERS:
+    LGA_OPTERM: Decline
+    SBLI: Decline
+    KANSAS_CITY_LIFE: Decline
+
+  BOX_2_CARRIERS:
+    MUTUAL_OF_OMAHA: Decline unless 2+ years and no complications
+
+  BOX_3_CARRIERS:
+    UHL_PRODUCTS: Decline or heavy rating
+
+  BOX_4_CARRIERS:
+    ELCO_PRODUCTS: Possible approval with rating depending on time and complications
+
+  TRADITIONAL_CARRIERS:
+    COREBRIDGE: Table rating possible if 5+ years, no complications
+    TRANSAMERICA: Table rating possible if 5+ years, no complications
+
+AGENT_GUIDANCE:
+  RED_FLAGS: Recent MI (less than 2 years), multiple MIs, ongoing chest pain, stents, bypass surgery
+  BEST_APPROACH: Wait until 2-5 years post-event, ensure stable condition, consider final expense products
+  DOCUMENTATION_NEEDED: Cardiology records, stress test results, ejection fraction, current medications
+
+===CONDITION_2_STROKE===
+CONDITION_NAME: Stroke (Ischemic)
+MEDICAL_TERM: Cerebrovascular Accident, CVA, Ischemic Stroke
+SEVERITY: Major neurological event
+
+MEDICATIONS_PRESCRIBED:
+  MEDICATION_1:
+    GENERIC: Clopidogrel
+    BRAND: Plavix
+    PURPOSE: Prevents blood clots
+    DOSAGE_INDICATOR: Daily
+    MEDICATION_CLASS: Antiplatelet agent
+
+  MEDICATION_2:
+    GENERIC: Atorvastatin
+    BRAND: Lipitor
+    PURPOSE: Lowers cholesterol and reduces stroke recurrence
+    DOSAGE_INDICATOR: Varies
+    MEDICATION_CLASS: Statin
+
+  MEDICATION_3:
+    GENERIC: Warfarin
+    BRAND: Coumadin
+    PURPOSE: Anticoagulant for clot prevention
+    DOSAGE_INDICATOR: Daily with INR monitoring
+    MEDICATION_CLASS: Blood thinner
+    ALTERNATIVE: Apixaban (Eliquis)
+
+UNDERWRITING_IMPACT:
+  SEVERITY_LEVEL: Critical
+  TYPICAL_OUTCOME: Decline or heavy table rating
+  TIME_SINCE_EVENT: Critical factor - most carriers require 5+ years for TIA only
+  STROKE_VS_TIA: TIA (mini-stroke) has better underwriting outcomes than full stroke
+
+CARRIER_POSITIONING:
+  BOX_1_CARRIERS:
+    ALL: Decline
+
+  BOX_2_CARRIERS:
+    ALL: Decline
+
+  BOX_3_CARRIERS:
+    ALL: Decline unless TIA only and 5+ years
+
+  BOX_4_CARRIERS:
+    ELCO_PRODUCTS: Possible consideration for TIA with significant time passed
+
+  TRADITIONAL_CARRIERS:
+    COREBRIDGE: Table rating possible if 5+ years TIA only, no recurrence
+    TRANSAMERICA: Table rating possible if 5+ years TIA only, no recurrence
+
+AGENT_GUIDANCE:
+  RED_FLAGS: Full stroke vs TIA, residual deficits, multiple events, atrial fibrillation
+  BEST_APPROACH: TIA only with 5+ years may have options, full stroke extremely limited
+  DOCUMENTATION_NEEDED: Neurology records, imaging results, functional status, recurrence history
+
+===CONDITION_3_DIABETES===
+CONDITION_NAME: Diabetes Mellitus (Type 1 and Type 2)
+MEDICAL_TERM: Diabetes, DM, Type 1 DM, Type 2 DM
+SEVERITY: Chronic metabolic condition - severity varies by type and control
+
+MEDICATIONS_PRESCRIBED:
+  MEDICATION_1:
+    GENERIC: Metformin
+    BRAND: Glucophage
+    PURPOSE: First-line oral medication for type 2 diabetes
+    DOSAGE_INDICATOR: 500mg to 2000mg daily
+    MEDICATION_CLASS: Biguanide
+    SEVERITY_INDICATOR: Single oral medication suggests good control
+
+  MEDICATION_2:
+    GENERIC: Semaglutide
+    BRAND: Ozempic
+    PURPOSE: GLP-1 agonist for blood sugar control and weight loss
+    DOSAGE_INDICATOR: Weekly injection
+    MEDICATION_CLASS: GLP-1 receptor agonist
+    SEVERITY_INDICATOR: May indicate need for additional control beyond metformin
+
+  MEDICATION_3:
+    GENERIC: Insulin
+    BRAND: Lantus, Humalog, Novolog
+    PURPOSE: Injected hormone for blood sugar control
+    DOSAGE_INDICATOR: Daily or multiple times daily
+    MEDICATION_CLASS: Insulin
+    SEVERITY_INDICATOR: Insulin use indicates Type 1 or poorly controlled Type 2
+
+  MEDICATION_4:
+    GENERIC: Empagliflozin
+    BRAND: Jardiance
+    PURPOSE: SGLT2 inhibitor for blood sugar and heart protection
+    DOSAGE_INDICATOR: Daily
+    MEDICATION_CLASS: SGLT2 inhibitor
+    SEVERITY_INDICATOR: Often added for cardiovascular benefits
+
+UNDERWRITING_IMPACT:
+  SEVERITY_LEVEL: Moderate to Critical (depends on type and control)
+  TYPE_1_DIABETES: Almost always decline or very heavy table rating
+  TYPE_2_DIET_CONTROLLED: May qualify for Standard Plus or better at some carriers
+  TYPE_2_SINGLE_ORAL_MED: Standard Plus or Standard with good A1C
+  TYPE_2_INSULIN: Likely table rating or decline
+  A1C_IMPORTANCE: Critical - under 7 is good, under 8 acceptable, over 8 problematic
+
+CARRIER_POSITIONING:
+  BOX_1_CARRIERS:
+    LGA_OPTERM: Decline for any diabetes
+    SBLI: Decline for any diabetes
+    KANSAS_CITY_LIFE: Possible with diet-controlled only
+
+  BOX_2_CARRIERS:
+    MUTUAL_OF_OMAHA_IUL_EXPRESS: Accepts controlled diabetes BP cholesterol
+    MUTUAL_OF_OMAHA_TERM_LIFE_EXPRESS: Accepts controlled diabetes BP cholesterol
+    MUTUAL_OF_OMAHA_LIVING_PROMISE: Accepts controlled diabetes BP cholesterol
+
+  BOX_3_CARRIERS:
+    UHL_SIMPLE_TERM: Accepts diabetes and heart issues
+    UHL_PROVIDER_WHOLE_LIFE: Moderate health issues accepted
+    UHL_EXPRESS_ISSUE: Multiple health tiers available
+    UHL_FINAL_EXPENSE: Lenient underwriting
+
+  BOX_4_CARRIERS:
+    ELCO_GOLDEN_EAGLE: Best rate approve everyone
+    ELCO_SILVER_EAGLE: Multiple health tiers
+    ELCO_PRESIDIO_IET: Guaranteed issue
+    ELCO_PRESIDIO_IFT: Guaranteed issue
+
+  TRADITIONAL_CARRIERS:
+    COREBRIDGE: Standard Plus possible if diet controlled or single oral med with A1C under 7
+    TRANSAMERICA: Standard Plus possible if diet controlled or single oral med with A1C under 7
+
+AGENT_GUIDANCE:
+  MEDICATION_COMBINATION_SEVERITY:
+    METFORMIN_ONLY: Good control, Box 2 likely
+    METFORMIN_PLUS_OZEMPIC_OR_JARDIANCE: Moderate control, Box 2 or 3
+    INSULIN_USE: Poor control or Type 1, Box 3 or 4 only
+  QUESTIONS_TO_ASK:
+    - Type 1 or Type 2?
+    - When diagnosed?
+    - Most recent A1C level?
+    - Any complications (neuropathy, retinopathy, kidney issues)?
+  BEST_APPROACH: Box 2 carriers (Mutual of Omaha) specifically mention accepting controlled diabetes
+  DOCUMENTATION_NEEDED: A1C results, medication list, complication status, physician notes
+
+===CONDITION_4_HIGH_BLOOD_PRESSURE===
+CONDITION_NAME: High Blood Pressure (Hypertension)
+MEDICAL_TERM: Hypertension, HTN, Essential Hypertension
+SEVERITY: Mild to Moderate (very common, usually manageable)
+
+MEDICATIONS_PRESCRIBED:
+  MEDICATION_1:
+    GENERIC: Lisinopril
+    BRAND: Prinivil, Zestril
+    PURPOSE: ACE inhibitor to lower blood pressure
+    DOSAGE_INDICATOR: 5mg to 40mg daily
+    MEDICATION_CLASS: ACE Inhibitor
+    SEVERITY_INDICATOR: Single medication suggests good control
+
+  MEDICATION_2:
+    GENERIC: Amlodipine
+    BRAND: Norvasc
+    PURPOSE: Calcium channel blocker to relax blood vessels
+    DOSAGE_INDICATOR: 2.5mg to 10mg daily
+    MEDICATION_CLASS: Calcium Channel Blocker
+    SEVERITY_INDICATOR: Often first-line or added to ACE inhibitor
+
+  MEDICATION_3:
+    GENERIC: Losartan
+    BRAND: Cozaar
+    PURPOSE: ARB (angiotensin receptor blocker) to lower blood pressure
+    DOSAGE_INDICATOR: 25mg to 100mg daily
+    MEDICATION_CLASS: ARB
+    SEVERITY_INDICATOR: Alternative to ACE inhibitors
+
+UNDERWRITING_IMPACT:
+  SEVERITY_LEVEL: Mild to Moderate
+  SINGLE_MEDICATION_CONTROLLED: Usually acceptable at most carriers
+  MULTIPLE_MEDICATIONS: May result in rating depending on control
+  BLOOD_PRESSURE_READINGS: More important than medication - controlled BP is key
+
+CARRIER_POSITIONING:
+  BOX_1_CARRIERS:
+    LGA_OPTERM: Preferred Plus if 140/90 or lower untreated, Preferred if 145/95 or lower
+    SBLI: Similar to LGA standards
+    KANSAS_CITY_LIFE: Moderate health accepted
+
+  BOX_2_CARRIERS:
+    MUTUAL_OF_OMAHA_ALL: Accepts controlled diabetes BP cholesterol
+
+  BOX_3_CARRIERS:
+    UHL_ALL: Very lenient
+
+  BOX_4_CARRIERS:
+    ELCO_ALL: Best rate approve everyone
+
+  TRADITIONAL_CARRIERS:
+    COREBRIDGE: Multiple rate classes based on BP readings and medication count
+    TRANSAMERICA: Preferred Plus 140/90 untreated, Preferred 145/95, Standard Plus 150/100
+
+AGENT_GUIDANCE:
+  MEDICATION_COUNT_MATTERS:
+    ONE_MEDICATION: Usually Standard or better if controlled
+    TWO_MEDICATIONS: Standard Plus or Standard
+    THREE_PLUS_MEDICATIONS: Likely table rating
+  QUESTIONS_TO_ASK:
+    - What are your typical BP readings at home?
+    - How long on medication?
+    - Any recent changes to medications?
+  BEST_APPROACH: Controlled BP on 1-2 medications works at almost all carriers
+  DOCUMENTATION_NEEDED: Recent BP readings, medication list, physician notes
+
+===CONDITION_5_HIGH_CHOLESTEROL===
+CONDITION_NAME: High Cholesterol (Hyperlipidemia)
+MEDICAL_TERM: Hyperlipidemia, Hypercholesterolemia, Dyslipidemia
+SEVERITY: Mild (very common, easily managed)
+
+MEDICATIONS_PRESCRIBED:
+  MEDICATION_1:
+    GENERIC: Atorvastatin
+    BRAND: Lipitor
+    PURPOSE: Statin to lower LDL cholesterol
+    DOSAGE_INDICATOR: 10mg to 80mg daily
+    MEDICATION_CLASS: Statin
+    SEVERITY_INDICATOR: Most common and well-tolerated statin
+
+  MEDICATION_2:
+    GENERIC: Rosuvastatin
+    BRAND: Crestor
+    PURPOSE: Potent statin to lower LDL cholesterol
+    DOSAGE_INDICATOR: 5mg to 40mg daily
+    MEDICATION_CLASS: Statin
+    SEVERITY_INDICATOR: Often used for higher cholesterol levels
+
+  MEDICATION_3:
+    GENERIC: Simvastatin
+    BRAND: Zocor
+    PURPOSE: Statin to lower LDL cholesterol
+    DOSAGE_INDICATOR: 10mg to 40mg daily
+    MEDICATION_CLASS: Statin
+    SEVERITY_INDICATOR: Older statin, still effective
+
+UNDERWRITING_IMPACT:
+  SEVERITY_LEVEL: Mild
+  TYPICAL_OUTCOME: Usually not a barrier to preferred classes if controlled
+  CHOLESTEROL_LEVELS_MATTER: More important than medication - controlled levels are key
+  RARELY_RATED_ALONE: Cholesterol alone rarely causes table rating
+
+CARRIER_POSITIONING:
+  BOX_1_CARRIERS:
+    LGA_OPTERM: Preferred Plus if total 240 or lower, HDL 40+
+    SBLI: Similar standards
+    KANSAS_CITY_LIFE: Accepted
+
+  BOX_2_CARRIERS:
+    MUTUAL_OF_OMAHA_ALL: Accepts controlled cholesterol
+
+  BOX_3_CARRIERS:
+    UHL_ALL: Not a concern
+
+  BOX_4_CARRIERS:
+    ELCO_ALL: Not a concern
+
+  TRADITIONAL_CARRIERS:
+    COREBRIDGE: Specific total and HDL ratio requirements by rate class
+    TRANSAMERICA: Preferred Plus total 240 HDL 40+, Preferred 260, Standard Plus 300
+
+AGENT_GUIDANCE:
+  STATIN_USE_COMMON: Very common medication, usually not a barrier
+  QUESTIONS_TO_ASK:
+    - Recent cholesterol panel results?
+    - Total cholesterol, LDL, HDL, triglycerides?
+  BEST_APPROACH: Controlled cholesterol accepted at all carriers
+  DOCUMENTATION_NEEDED: Recent lipid panel
+
+===CONDITION_6_THYROID_CONDITIONS===
+CONDITION_NAME: Thyroid Conditions (Hypothyroidism and Hyperthyroidism)
+MEDICAL_TERM: Hypothyroidism, Hyperthyroidism, Hashimoto's, Graves Disease
+SEVERITY: Mild to Moderate (usually well-managed)
+
+MEDICATIONS_PRESCRIBED:
+  MEDICATION_1:
+    GENERIC: Levothyroxine
+    BRAND: Synthroid
+    PURPOSE: Thyroid hormone replacement for hypothyroidism (most common)
+    DOSAGE_INDICATOR: 25mcg to 200mcg daily
+    MEDICATION_CLASS: Thyroid hormone
+    SEVERITY_INDICATOR: Very common, well-tolerated, indicates underactive thyroid
+
+  MEDICATION_2:
+    GENERIC: Liothyronine
+    BRAND: Cytomel
+    PURPOSE: Synthetic T3 for thyroid hormone support
+    DOSAGE_INDICATOR: Varies
+    MEDICATION_CLASS: Thyroid hormone
+    SEVERITY_INDICATOR: Sometimes added to levothyroxine
+
+  MEDICATION_3:
+    GENERIC: Methimazole
+    BRAND: Tapazole
+    PURPOSE: For hyperthyroidism (overactive thyroid)
+    DOSAGE_INDICATOR: Varies
+    MEDICATION_CLASS: Antithyroid agent
+    SEVERITY_INDICATOR: Indicates overactive thyroid, less common
+
+UNDERWRITING_IMPACT:
+  SEVERITY_LEVEL: Mild
+  HYPOTHYROIDISM: Very common, well-controlled, usually not a barrier
+  HYPERTHYROIDISM: Less common, may require more scrutiny
+  TYPICAL_OUTCOME: Usually acceptable at all carriers if controlled
+
+CARRIER_POSITIONING:
+  BOX_1_CARRIERS:
+    ALL: Usually acceptable if controlled
+
+  BOX_2_CARRIERS:
+    ALL: Acceptable
+
+  BOX_3_CARRIERS:
+    ALL: Acceptable
+
+  BOX_4_CARRIERS:
+    ALL: Acceptable
+
+  TRADITIONAL_CARRIERS:
+    ALL: Usually no impact if stable and controlled
+
+AGENT_GUIDANCE:
+  LEVOTHYROXINE_VERY_COMMON: One of most prescribed medications, minimal underwriting impact
+  QUESTIONS_TO_ASK:
+    - Hypo or hyperthyroidism?
+    - When diagnosed?
+    - Recent TSH levels?
+    - Any complications?
+  BEST_APPROACH: Controlled thyroid condition accepted everywhere
+  DOCUMENTATION_NEEDED: Recent TSH test, medication dosage stable
+
+===CONDITION_7_MAJOR_SURGERIES===
+CONDITION_NAME: Major Surgeries (Postoperative Care)
+MEDICAL_TERM: Post-surgical, Postoperative, Recovery
+SEVERITY: Temporary to Moderate (depends on surgery type and reason)
+
+MEDICATIONS_PRESCRIBED:
+  MEDICATION_1:
+    GENERIC: Oxycodone with Acetaminophen
+    BRAND: Percocet
+    PURPOSE: Pain management post-surgery
+    DOSAGE_INDICATOR: As needed
+    MEDICATION_CLASS: Opioid analgesic
+    SEVERITY_INDICATOR: Temporary use expected, long-term use is red flag
+
+  MEDICATION_2:
+    GENERIC: Ibuprofen
+    BRAND: Motrin, Advil
+    PURPOSE: Anti-inflammatory and pain relief
+    DOSAGE_INDICATOR: 200mg to 800mg as needed
+    MEDICATION_CLASS: NSAID
+    SEVERITY_INDICATOR: Common post-surgical medication
+
+  MEDICATION_3:
+    GENERIC: Cephalexin
+    BRAND: Keflex
+    PURPOSE: Antibiotic to prevent infection
+    DOSAGE_INDICATOR: 250mg to 500mg multiple times daily
+    MEDICATION_CLASS: Antibiotic
+    SEVERITY_INDICATOR: Short-term preventive use
+
+UNDERWRITING_IMPACT:
+  SEVERITY_LEVEL: Varies greatly by surgery type
+  SURGERY_TYPE_CRITICAL: Elective vs emergency, reason for surgery
+  TIME_SINCE_SURGERY: May need to postpone until recovery complete
+  UNDERLYING_CONDITION: Surgery reason more important than medications
+
+CARRIER_POSITIONING:
+  DEPENDS_ON_SURGERY_TYPE:
+    ELECTIVE_PROCEDURES: Gastric bypass, knee replacement, etc - specific waiting periods
+    CANCER_SURGERY: Significant underwriting impact
+    CARDIAC_SURGERY: Major impact - see heart attack section
+    ROUTINE_PROCEDURES: Gallbladder, appendix, hernia - minimal impact after recovery
+
+AGENT_GUIDANCE:
+  CRITICAL_QUESTIONS:
+    - What surgery did you have?
+    - When was the surgery?
+    - What was the reason for surgery?
+    - Full recovery expected?
+    - Any complications?
+  POSTPONEMENT_COMMON: May need to wait 3-6 months post-surgery
+  DOCUMENTATION_NEEDED: Operative report, pathology (if applicable), recovery status
+
+===CONDITION_8_ASTHMA_COPD===
+CONDITION_NAME: Asthma and COPD (Chronic Obstructive Pulmonary Disease)
+MEDICAL_TERM: Asthma, COPD, Chronic Bronchitis, Emphysema
+SEVERITY: Mild to Severe (depends on frequency and medication regimen)
+
+MEDICATIONS_PRESCRIBED:
+  MEDICATION_1:
+    GENERIC: Albuterol
+    BRAND: Ventolin, ProAir
+    PURPOSE: Rescue inhaler for acute symptoms
+    DOSAGE_INDICATOR: As needed
+    MEDICATION_CLASS: Short-acting bronchodilator
+    SEVERITY_INDICATOR: Frequency of use matters - daily use indicates poor control
+
+  MEDICATION_2:
+    GENERIC: Fluticasone/Salmeterol
+    BRAND: Advair
+    PURPOSE: Steroid plus long-acting bronchodilator for maintenance
+    DOSAGE_INDICATOR: Twice daily
+    MEDICATION_CLASS: Combination inhaler
+    SEVERITY_INDICATOR: Daily use indicates chronic condition requiring control
+
+  MEDICATION_3:
+    GENERIC: Tiotropium
+    BRAND: Spiriva
+    PURPOSE: Long-term maintenance inhaler
+    DOSAGE_INDICATOR: Daily
+    MEDICATION_CLASS: Long-acting anticholinergic
+    SEVERITY_INDICATOR: Used for COPD, indicates chronic condition
+
+UNDERWRITING_IMPACT:
+  SEVERITY_LEVEL: Mild to Severe
+  ASTHMA_MILD_CHILDHOOD: May qualify for preferred classes if no recent attacks
+  ASTHMA_ADULT_ONSET: More scrutiny required
+  COPD: Significant underwriting concern, often rated or declined if severe
+  HOSPITALIZATIONS: Major red flag
+  OXYGEN_USE: Usually decline
+
+CARRIER_POSITIONING:
+  BOX_1_CARRIERS:
+    LGA_OPTERM: Decline if medicated, possible if mild childhood only
+    SBLI: Similar standards
+    KANSAS_CITY_LIFE: Moderate asthma possible
+
+  BOX_2_CARRIERS:
+    MUTUAL_OF_OMAHA: Mild conditions acceptable
+
+  BOX_3_CARRIERS:
+    UHL_ALL: Moderate conditions accepted
+
+  BOX_4_CARRIERS:
+    ELCO_ALL: Wide acceptance
+
+  TRADITIONAL_CARRIERS:
+    COREBRIDGE: Detailed guidelines based on severity and hospitalizations
+    TRANSAMERICA: Standard Plus possible if controlled, no hospitalizations
+
+AGENT_GUIDANCE:
+  MEDICATION_FREQUENCY_CRITICAL:
+    RESCUE_INHALER_ONLY_OCCASIONAL: Mild, better underwriting
+    DAILY_MAINTENANCE_INHALERS: Moderate to severe
+    MULTIPLE_MEDICATIONS: Severe
+  QUESTIONS_TO_ASK:
+    - How often do you use rescue inhaler?
+    - Any hospitalizations for breathing problems?
+    - When was last attack or flare-up?
+    - Ever on oxygen?
+  BEST_APPROACH: Mild well-controlled asthma works at Box 2 carriers
+  DOCUMENTATION_NEEDED: Pulmonary function tests, hospitalization history, current treatment
+
+===CONDITION_9_ANXIETY===
+CONDITION_NAME: Anxiety Disorders
+MEDICAL_TERM: Generalized Anxiety Disorder, GAD, Panic Disorder, Anxiety
+SEVERITY: Mild to Moderate (very common)
+
+MEDICATIONS_PRESCRIBED:
+  MEDICATION_1:
+    GENERIC: Sertraline
+    BRAND: Zoloft
+    PURPOSE: SSRI antidepressant for anxiety
+    DOSAGE_INDICATOR: 25mg to 200mg daily
+    MEDICATION_CLASS: SSRI
+    SEVERITY_INDICATOR: Single SSRI indicates mild to moderate anxiety
+
+  MEDICATION_2:
+    GENERIC: Alprazolam
+    BRAND: Xanax
+    PURPOSE: Short-term benzodiazepine for acute anxiety
+    DOSAGE_INDICATOR: 0.25mg to 2mg as needed
+    MEDICATION_CLASS: Benzodiazepine
+    SEVERITY_INDICATOR: Regular use raises concerns, as-needed use better
+
+  MEDICATION_3:
+    GENERIC: Buspirone
+    BRAND: Buspar
+    PURPOSE: Non-sedating anti-anxiety medication
+    DOSAGE_INDICATOR: 5mg to 30mg daily
+    MEDICATION_CLASS: Anxiolytic
+    SEVERITY_INDICATOR: Alternative to benzodiazepines
+
+UNDERWRITING_IMPACT:
+  SEVERITY_LEVEL: Mild to Moderate
+  SINGLE_SSRI_STABLE: Usually Standard or better
+  BENZODIAZEPINES_CONCERNING: Daily use problematic, as-needed better
+  HOSPITALIZATIONS: Major red flag - usually decline
+  DISABILITY: Red flag
+
+CARRIER_POSITIONING:
+  BOX_1_CARRIERS:
+    LGA_OPTERM: Decline if medicated for Preferred Plus
+    SBLI: Similar
+    KANSAS_CITY_LIFE: Possible if mild
+
+  BOX_2_CARRIERS:
+    MUTUAL_OF_OMAHA: Mild conditions acceptable
+
+  BOX_3_CARRIERS:
+    UHL_ALL: Accepted
+
+  BOX_4_CARRIERS:
+    ELCO_ALL: Accepted
+
+  TRADITIONAL_CARRIERS:
+    COREBRIDGE: Possible if mild, well-controlled, single medication
+    TRANSAMERICA: Standard Plus possible if controlled on single medication
+
+AGENT_GUIDANCE:
+  MEDICATION_TYPE_MATTERS:
+    SSRI_SINGLE_STABLE: Better underwriting outcome
+    BENZODIAZEPINES_DAILY: Concerning
+    MULTIPLE_MEDICATIONS: More severe condition
+  QUESTIONS_TO_ASK:
+    - When diagnosed?
+    - Any hospitalizations or disability?
+    - How long on current medication?
+    - Dosage changes recently?
+  BEST_APPROACH: Mild anxiety on single SSRI works at Box 2 and up
+  DOCUMENTATION_NEEDED: Psychiatrist/physician notes, hospitalization history, work status
+
+===CONDITION_10_DEPRESSION===
+CONDITION_NAME: Depression
+MEDICAL_TERM: Major Depressive Disorder, MDD, Clinical Depression, Depression
+SEVERITY: Mild to Severe
+
+MEDICATIONS_PRESCRIBED:
+  MEDICATION_1:
+    GENERIC: Sertraline
+    BRAND: Zoloft
+    PURPOSE: SSRI antidepressant
+    DOSAGE_INDICATOR: 50mg to 200mg daily
+    MEDICATION_CLASS: SSRI
+    SEVERITY_INDICATOR: First-line treatment, indicates depression
+
+  MEDICATION_2:
+    GENERIC: Escitalopram
+    BRAND: Lexapro
+    PURPOSE: SSRI antidepressant
+    DOSAGE_INDICATOR: 10mg to 20mg daily
+    MEDICATION_CLASS: SSRI
+    SEVERITY_INDICATOR: Common first-line SSRI
+
+  MEDICATION_3:
+    GENERIC: Bupropion
+    BRAND: Wellbutrin
+    PURPOSE: Norepinephrine-dopamine reuptake inhibitor
+    DOSAGE_INDICATOR: 150mg to 450mg daily
+    MEDICATION_CLASS: NDRI
+    SEVERITY_INDICATOR: Alternative to SSRIs, also used for smoking cessation
+
+UNDERWRITING_IMPACT:
+  SEVERITY_LEVEL: Mild to Severe
+  SINGLE_EPISODE_REMOTE_TREATED: May qualify for preferred
+  CURRENT_SINGLE_MEDICATION: Standard Plus or Standard
+  MULTIPLE_MEDICATIONS: Table rating possible
+  HOSPITALIZATIONS: Usually decline
+  SUICIDE_ATTEMPTS: Decline (specific timeframes apply)
+  DISABILITY: Usually decline
+
+CARRIER_POSITIONING:
+  BOX_1_CARRIERS:
+    LGA_OPTERM: Decline if medicated for Preferred Plus, possible if mild remote episode
+    SBLI: Similar
+    KANSAS_CITY_LIFE: Possible if controlled
+
+  BOX_2_CARRIERS:
+    MUTUAL_OF_OMAHA: Mild conditions acceptable
+
+  BOX_3_CARRIERS:
+    UHL_ALL: Accepted
+
+  BOX_4_CARRIERS:
+    ELCO_ALL: Accepted
+
+  TRADITIONAL_CARRIERS:
+    COREBRIDGE: Standard Plus possible if controlled on single medication
+    TRANSAMERICA: Standard Plus possible if controlled on single medication
+
+AGENT_GUIDANCE:
+  CRITICAL_QUESTIONS:
+    - Any hospitalizations for depression?
+    - Any suicidal thoughts or attempts (if yes, WHEN)?
+    - Currently working full time?
+    - How many different medications have you tried?
+    - How many episodes of depression?
+  RED_FLAGS:
+    - Hospitalization in last year - decline
+    - Suicide attempt in last year - decline
+    - Multiple suicide attempts - decline
+    - Disability - decline
+    - Multiple medication changes - concerning
+  BEST_APPROACH: Stable on single SSRI, working, no hospitalizations works at Box 2+
+  DOCUMENTATION_NEEDED: Treatment history, hospitalization records, work status
+
+===CONDITION_11_BIPOLAR_DISORDER===
+CONDITION_NAME: Bipolar Disorder
+MEDICAL_TERM: Bipolar I, Bipolar II, Manic Depression
+SEVERITY: Moderate to Severe
+
+MEDICATIONS_PRESCRIBED:
+  MEDICATION_1:
+    GENERIC: Lithium
+    BRAND: Lithobid
+    PURPOSE: Mood stabilizer
+    DOSAGE_INDICATOR: Varies - requires blood level monitoring
+    MEDICATION_CLASS: Mood stabilizer
+    SEVERITY_INDICATOR: Classic bipolar medication, indicates significant condition
+
+  MEDICATION_2:
+    GENERIC: Quetiapine
+    BRAND: Seroquel
+    PURPOSE: Antipsychotic for mood regulation
+    DOSAGE_INDICATOR: 200mg to 800mg daily
+    MEDICATION_CLASS: Atypical antipsychotic
+    SEVERITY_INDICATOR: Indicates significant mood disorder
+
+  MEDICATION_3:
+    GENERIC: Lamotrigine
+    BRAND: Lamictal
+    PURPOSE: Anticonvulsant used for bipolar maintenance therapy
+    DOSAGE_INDICATOR: 100mg to 400mg daily
+    MEDICATION_CLASS: Mood stabilizer
+    SEVERITY_INDICATOR: Used for bipolar maintenance
+
+UNDERWRITING_IMPACT:
+  SEVERITY_LEVEL: Severe
+  TYPICAL_OUTCOME: Usually decline or heavy table rating
+  HOSPITALIZATIONS: Almost always decline
+  DISABILITY: Decline
+  WELL_CONTROLLED_MILD: Rare cases may get table rating
+
+CARRIER_POSITIONING:
+  BOX_1_CARRIERS:
+    ALL: Decline
+
+  BOX_2_CARRIERS:
+    ALL: Decline
+
+  BOX_3_CARRIERS:
+    UHL_ALL: Likely decline, possible heavy rating if very stable
+
+  BOX_4_CARRIERS:
+    ELCO_PRODUCTS: Possible consideration if stable, no recent hospitalizations
+
+  TRADITIONAL_CARRIERS:
+    ALL: Usually decline
+
+AGENT_GUIDANCE:
+  LITHIUM_SEROQUEL_MAJOR_FLAGS: These medications indicate significant psychiatric condition
+  QUESTIONS_TO_ASK:
+    - Any hospitalizations?
+    - Currently working?
+    - How long stable on current medications?
+    - Bipolar I or II?
+  REALISTIC_EXPECTATIONS: Very limited options, likely final expense only
+  BEST_APPROACH: ELCO guaranteed issue products (Presidio IFT/IET) or wait for stability
+  DOCUMENTATION_NEEDED: Psychiatric records, hospitalization history, work status
+
+===MEDICATION_LOOKUP_INDEX===
+PURPOSE: Quick alphabetical reference for medication lookup
+
+MEDICATION_NAME: Advair
+  SEE_CONDITION: Asthma/COPD
+
+MEDICATION_NAME: Albuterol
+  SEE_CONDITION: Asthma/COPD
+
+MEDICATION_NAME: Alprazolam
+  SEE_CONDITION: Anxiety
+
+MEDICATION_NAME: Amlodipine
+  SEE_CONDITION: High Blood Pressure
+
+MEDICATION_NAME: Apixaban
+  SEE_CONDITION: Stroke
+
+MEDICATION_NAME: Aspirin (Daily)
+  SEE_CONDITION: Heart Attack
+
+MEDICATION_NAME: Atorvastatin
+  SEE_CONDITION: High Cholesterol, Heart Attack, Stroke
+
+MEDICATION_NAME: Bupropion
+  SEE_CONDITION: Depression
+
+MEDICATION_NAME: Buspar
+  SEE_CONDITION: Anxiety
+
+MEDICATION_NAME: Buspirone
+  SEE_CONDITION: Anxiety
+
+MEDICATION_NAME: Cephalexin
+  SEE_CONDITION: Major Surgeries
+
+MEDICATION_NAME: Clopidogrel
+  SEE_CONDITION: Stroke
+
+MEDICATION_NAME: Coumadin
+  SEE_CONDITION: Stroke
+
+MEDICATION_NAME: Crestor
+  SEE_CONDITION: High Cholesterol
+
+MEDICATION_NAME: Cytomel
+  SEE_CONDITION: Thyroid Conditions
+
+MEDICATION_NAME: Eliquis
+  SEE_CONDITION: Stroke
+
+MEDICATION_NAME: Escitalopram
+  SEE_CONDITION: Depression
+
+MEDICATION_NAME: Fluticasone
+  SEE_CONDITION: Asthma/COPD
+
+MEDICATION_NAME: Glucophage
+  SEE_CONDITION: Diabetes
+
+MEDICATION_NAME: Humalog
+  SEE_CONDITION: Diabetes (insulin)
+
+MEDICATION_NAME: Ibuprofen
+  SEE_CONDITION: Major Surgeries
+
+MEDICATION_NAME: Insulin
+  SEE_CONDITION: Diabetes
+
+MEDICATION_NAME: Jardiance
+  SEE_CONDITION: Diabetes
+
+MEDICATION_NAME: Keflex
+  SEE_CONDITION: Major Surgeries
+
+MEDICATION_NAME: Lamictal
+  SEE_CONDITION: Bipolar Disorder
+
+MEDICATION_NAME: Lamotrigine
+  SEE_CONDITION: Bipolar Disorder
+
+MEDICATION_NAME: Lantus
+  SEE_CONDITION: Diabetes (insulin)
+
+MEDICATION_NAME: Levothyroxine
+  SEE_CONDITION: Thyroid Conditions
+
+MEDICATION_NAME: Lexapro
+  SEE_CONDITION: Depression
+
+MEDICATION_NAME: Liothyronine
+  SEE_CONDITION: Thyroid Conditions
+
+MEDICATION_NAME: Lipitor
+  SEE_CONDITION: High Cholesterol, Heart Attack, Stroke
+
+MEDICATION_NAME: Lisinopril
+  SEE_CONDITION: High Blood Pressure
+
+MEDICATION_NAME: Lithium
+  SEE_CONDITION: Bipolar Disorder
+
+MEDICATION_NAME: Lopressor
+  SEE_CONDITION: Heart Attack
+
+MEDICATION_NAME: Losartan
+  SEE_CONDITION: High Blood Pressure
+
+MEDICATION_NAME: Metformin
+  SEE_CONDITION: Diabetes
+
+MEDICATION_NAME: Methimazole
+  SEE_CONDITION: Thyroid Conditions
+
+MEDICATION_NAME: Metoprolol
+  SEE_CONDITION: Heart Attack
+
+MEDICATION_NAME: Motrin
+  SEE_CONDITION: Major Surgeries
+
+MEDICATION_NAME: Norvasc
+  SEE_CONDITION: High Blood Pressure
+
+MEDICATION_NAME: Novolog
+  SEE_CONDITION: Diabetes (insulin)
+
+MEDICATION_NAME: Ozempic
+  SEE_CONDITION: Diabetes
+
+MEDICATION_NAME: Oxycodone
+  SEE_CONDITION: Major Surgeries
+
+MEDICATION_NAME: Percocet
+  SEE_CONDITION: Major Surgeries
+
+MEDICATION_NAME: Plavix
+  SEE_CONDITION: Stroke
+
+MEDICATION_NAME: ProAir
+  SEE_CONDITION: Asthma/COPD
+
+MEDICATION_NAME: Quetiapine
+  SEE_CONDITION: Bipolar Disorder
+
+MEDICATION_NAME: Rosuvastatin
+  SEE_CONDITION: High Cholesterol
+
+MEDICATION_NAME: Salmeterol
+  SEE_CONDITION: Asthma/COPD
+
+MEDICATION_NAME: Seroquel
+  SEE_CONDITION: Bipolar Disorder
+
+MEDICATION_NAME: Sertraline
+  SEE_CONDITION: Anxiety, Depression
+
+MEDICATION_NAME: Simvastatin
+  SEE_CONDITION: High Cholesterol
+
+MEDICATION_NAME: Spiriva
+  SEE_CONDITION: Asthma/COPD
+
+MEDICATION_NAME: Synthroid
+  SEE_CONDITION: Thyroid Conditions
+
+MEDICATION_NAME: Tapazole
+  SEE_CONDITION: Thyroid Conditions
+
+MEDICATION_NAME: Tiotropium
+  SEE_CONDITION: Asthma/COPD
+
+MEDICATION_NAME: Ventolin
+  SEE_CONDITION: Asthma/COPD
+
+MEDICATION_NAME: Warfarin
+  SEE_CONDITION: Stroke
+
+MEDICATION_NAME: Wellbutrin
+  SEE_CONDITION: Depression
+
+MEDICATION_NAME: Xanax
+  SEE_CONDITION: Anxiety
+
+MEDICATION_NAME: Zocor
+  SEE_CONDITION: High Cholesterol
+
+MEDICATION_NAME: Zoloft
+  SEE_CONDITION: Anxiety, Depression
+
+===QUICK_CARRIER_SELECTOR_GUIDE===
+PURPOSE: Fast reference for medication-based carrier positioning
+
+SCENARIO: Client on single BP or cholesterol medication, controlled
+RECOMMENDED_CARRIERS:
+  - Box 1: LGA, SBLI, Kansas City Life (best rates)
+  - Box 2: Mutual of Omaha (good rates, mild health accepted)
+
+SCENARIO: Client on diabetes medication (metformin or similar), controlled
+RECOMMENDED_CARRIERS:
+  - Box 2: Mutual of Omaha (specifically accepts controlled diabetes)
+  - Box 3: UHL (lenient)
+  - Box 4: ELCO (best rates approve everyone)
+
+SCENARIO: Client on diabetes medication PLUS BP medication
+RECOMMENDED_CARRIERS:
+  - Box 2: Mutual of Omaha (accepts controlled diabetes BP cholesterol)
+  - Box 3: UHL (very lenient)
+  - Box 4: ELCO (best rates approve everyone)
+
+SCENARIO: Client on insulin for diabetes
+RECOMMENDED_CARRIERS:
+  - Box 3: UHL (accepts diabetes and health issues)
+  - Box 4: ELCO (best rates approve everyone)
+  - Consider: ELCO guaranteed issue products
+
+SCENARIO: Client on heart attack medications (aspirin, statin, beta blocker)
+RECOMMENDED_CARRIERS:
+  - Time critical: Need 2-5+ years post-event
+  - Box 4: ELCO (possible with rating)
+  - Traditional: Corebridge, Transamerica (5+ years, table rating)
+
+SCENARIO: Client on stroke medications (Plavix, blood thinners)
+RECOMMENDED_CARRIERS:
+  - Very limited options
+  - TIA only with 5+ years: Some carriers may consider
+  - Full stroke: Extremely limited, consider final expense
+
+SCENARIO: Client on psychiatric medications (SSRI, antidepressants)
+RECOMMENDED_CARRIERS:
+  - Mild, single medication, stable: Box 2 and up
+  - Box 2: Mutual of Omaha
+  - Box 3: UHL
+  - Box 4: ELCO
+
+SCENARIO: Client on bipolar medications (Lithium, Seroquel)
+RECOMMENDED_CARRIERS:
+  - Very limited options
+  - Box 4: ELCO guaranteed issue (Presidio IFT/IET)
+  - Most carriers: Decline
+
+SCENARIO: Client on asthma medications (inhalers)
+RECOMMENDED_CARRIERS:
+  - Mild/occasional use: Box 1 possible
+  - Daily maintenance inhalers: Box 2 and up
+  - Severe: Box 4 ELCO
+
+SCENARIO: Client on thyroid medication (Synthroid/Levothyroxine)
+RECOMMENDED_CARRIERS:
+  - All boxes acceptable
+  - Minimal underwriting impact
+  - Works everywhere if controlled
+
+===AGENT_WORKFLOW===
+STEP_1_MEDICATION_DISCOVERY:
+  ASK: "What medications are you currently taking?"
+  RECORD: All medications including dosage and frequency
+
+STEP_2_CONDITION_IDENTIFICATION:
+  USE: Medication Lookup Index in this file
+  IDENTIFY: Underlying health conditions
+  CROSS_REFERENCE: Multiple medications for same condition indicate severity
+
+STEP_3_SEVERITY_ASSESSMENT:
+  SINGLE_CONDITION_SINGLE_MED: Likely Box 1 or 2
+  SINGLE_CONDITION_MULTIPLE_MEDS: Likely Box 2 or 3
+  MULTIPLE_CONDITIONS: Likely Box 3 or 4
+  CRITICAL_CONDITIONS: Heart attack, stroke, bipolar - very limited options
+
+STEP_4_ADDITIONAL_QUESTIONS:
+  TIME_FACTORS: When diagnosed, how long on medication, stability
+  COMPLICATIONS: Hospitalizations, disability, suicide attempts (if mental health)
+  CONTROL: Recent test results, dosage changes, symptoms
+
+STEP_5_CARRIER_POSITIONING:
+  USE: Quick Carrier Selector Guide above
+  MATCH: Client profile to appropriate sales box
+  REFERENCE: Individual carrier files for specific underwriting criteria
+
+STEP_6_DOCUMENTATION:
+  PREPARE: List of needed medical records
+  INFORM: Client about underwriting requirements
+  SET_EXPECTATIONS: Likely rate class and approval timeline
+
+===COMMON_MEDICATION_COMBINATIONS===
+COMBINATION: Metformin + Lisinopril + Atorvastatin
+INDICATES: Type 2 Diabetes + High Blood Pressure + High Cholesterol (Metabolic Syndrome)
+SEVERITY: Moderate - multiple conditions but commonly managed together
+RECOMMENDED_BOX: Box 2 (Mutual of Omaha specifically accepts "controlled diabetes BP cholesterol")
+ALTERNATE: Box 3 (UHL) or Box 4 (ELCO)
+
+COMBINATION: Aspirin + Atorvastatin + Metoprolol + Lisinopril
+INDICATES: Post-Heart Attack with ongoing cardiac care
+SEVERITY: Critical - major cardiac history
+RECOMMENDED_BOX: Very limited options, likely decline at most carriers
+TIME_CRITICAL: Need 2-5+ years since event
+POSSIBLE_CARRIERS: ELCO with rating, Corebridge/Transamerica if 5+ years
+
+COMBINATION: Levothyroxine + Sertraline
+INDICATES: Hypothyroidism + Depression or Anxiety
+SEVERITY: Mild to Moderate - both conditions commonly managed
+RECOMMENDED_BOX: Box 2 or above
+NOTES: Thyroid minimal impact, focus on depression/anxiety history
+
+COMBINATION: Albuterol + Fluticasone/Advair
+INDICATES: Asthma requiring daily maintenance medication
+SEVERITY: Moderate - daily medication indicates chronic condition
+RECOMMENDED_BOX: Box 2 if stable, Box 3 if moderate severity
+QUESTIONS: Hospitalization history critical
+
+COMBINATION: Ozempic + Metformin + Jardiance
+INDICATES: Type 2 Diabetes requiring multiple medications for control
+SEVERITY: Moderate to Severe - three medications suggests difficulty controlling
+RECOMMENDED_BOX: Box 3 (UHL) or Box 4 (ELCO)
+AVOID: Box 1 carriers will decline
+
+COMBINATION: Insulin (any type)
+INDICATES: Type 1 Diabetes OR poorly controlled Type 2 Diabetes
+SEVERITY: Severe
+RECOMMENDED_BOX: Box 3 (UHL) or Box 4 (ELCO) only
+NOTES: Insulin use is major underwriting concern, Box 1 and 2 likely decline
+
+COMBINATION: Lithium + Quetiapine (Seroquel)
+INDICATES: Bipolar Disorder
+SEVERITY: Critical
+RECOMMENDED_BOX: Box 4 guaranteed issue only (ELCO Presidio IFT/IET)
+NOTES: Most carriers will decline, very limited options
+
+COMBINATION: Warfarin or Eliquis (Apixaban)
+INDICATES: Atrial Fibrillation, Stroke history, or other clotting disorder
+SEVERITY: Moderate to Critical depending on underlying condition
+RECOMMENDED_BOX: Depends on reason for anticoagulation
+NOTES: Need to determine WHY on blood thinners - critical question

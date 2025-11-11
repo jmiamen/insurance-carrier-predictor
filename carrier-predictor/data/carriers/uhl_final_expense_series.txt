@@ -1,0 +1,292 @@
+===METADATA===
+CARRIER: United Home Life Insurance Company
+PRODUCT_NAME: Final Expense Series
+PRODUCT_CATEGORY: Final Expense Whole Life Insurance
+ISSUE_TYPE: Simplified Issue and Guaranteed Issue variants
+FORM_NUMBERS: Multiple forms for different benefit structures
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 20 to 80, higher build or moderate health issues
+HEALTH_PROFILE: Higher build or moderate health issues, lenient underwriting
+UNDERWRITING_SELECTIVITY: Very lenient on build charts
+COMPETITIVE_ADVANTAGE: FOR FAT PEOPLE, lenient build requirements, final expense focused
+MAXIMUM_COVERAGE: Check product specifications by variant
+LIVING_BENEFITS: Check product specifications
+APPLICATION_PROCESS: Simplified issue and guaranteed issue options
+APPROVAL_SPEED: Moderate
+SALES_BOX: Box 3 Young and Unhealthy, Box 4 for guaranteed issue
+BEST_FOR: Heavier build clients, moderate health issues, final expense needs, burial coverage
+UNIQUE_STRENGTH: Very lenient on build charts
+AVOID_IF: Looking for best rates, perfect health, need higher coverage amounts
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Whole Life Final Expense
+PREMIUM_STRUCTURE: Level
+DEATH_BENEFIT: Level or Modified depending on variant
+CASH_VALUE: Limited cash value accumulation
+
+===PRODUCT_VARIANTS===
+VARIANT: Final_Expense_Level_Benefit
+  DEATH_BENEFIT_TYPE: Level from day one
+  UNDERWRITING: Simplified issue with health questions
+  ISSUE_AGES: 50 to 80
+  FACE_AMOUNTS: 5000 to 35000
+
+VARIANT: Final_Expense_Modified_Benefit
+  DEATH_BENEFIT_TYPE: Modified first 2 years
+  UNDERWRITING: Simplified issue with more liberal health questions
+  ISSUE_AGES: 50 to 85
+  FACE_AMOUNTS: 5000 to 25000
+  YEAR_1_BENEFIT: 30 percent of face amount plus return of premium
+  YEAR_2_BENEFIT: 70 percent of face amount plus return of premium
+  YEAR_3_AND_BEYOND: 100 percent of face amount
+
+VARIANT: Final_Expense_Guaranteed_Issue
+  DEATH_BENEFIT_TYPE: Graded first 2 years
+  UNDERWRITING: No health questions guaranteed acceptance
+  ISSUE_AGES: 50 to 80
+  FACE_AMOUNTS: 5000 to 25000
+  YEAR_1_BENEFIT: Return of premium plus 10 percent
+  YEAR_2_BENEFIT: Return of premium plus 10 percent
+  YEAR_3_AND_BEYOND: 100 percent of face amount
+  ACCIDENTAL_DEATH: Full face amount from day one
+
+===CORE_SPECIFICATIONS_LEVEL_BENEFIT===
+ISSUE_AGES:
+  MIN_AGE: 50
+  MAX_AGE: 80
+
+FACE_AMOUNTS:
+  MINIMUM: 5000
+  MAXIMUM: 35000
+  INCREMENTS: 1000
+
+POLICY_FEE:
+  AMOUNT: 35
+  FREQUENCY: Annual
+
+MATURITY_AGE: 100
+
+===CORE_SPECIFICATIONS_MODIFIED_BENEFIT===
+ISSUE_AGES:
+  MIN_AGE: 50
+  MAX_AGE: 85
+
+FACE_AMOUNTS:
+  MINIMUM: 5000
+  MAXIMUM: 25000
+  INCREMENTS: 1000
+
+POLICY_FEE:
+  AMOUNT: 35
+  FREQUENCY: Annual
+
+MATURITY_AGE: 100
+
+MODIFIED_DEATH_BENEFIT:
+  YEAR_1: 30 percent of face amount plus return of all premiums paid
+  YEAR_2: 70 percent of face amount plus return of all premiums paid
+  YEAR_3_AND_BEYOND: 100 percent of face amount
+  ACCIDENTAL_DEATH: Full face amount from day one
+
+===CORE_SPECIFICATIONS_GUARANTEED_ISSUE===
+ISSUE_AGES:
+  MIN_AGE: 50
+  MAX_AGE: 80
+
+FACE_AMOUNTS:
+  MINIMUM: 5000
+  MAXIMUM: 25000
+  INCREMENTS: 1000
+
+POLICY_FEE:
+  AMOUNT: 35
+  FREQUENCY: Annual
+
+MATURITY_AGE: 95
+
+GRADED_DEATH_BENEFIT:
+  YEAR_1: Return of all premiums paid plus 10 percent
+  YEAR_2: Return of all premiums paid plus 10 percent
+  YEAR_3_AND_BEYOND: 100 percent of face amount
+  ACCIDENTAL_DEATH: Full face amount from day one
+
+===UNDERWRITING_REQUIREMENTS_LEVEL_BENEFIT===
+UNDERWRITING_TYPE: Simplified Issue
+MEDICAL_EXAM: Not required
+HEALTH_QUESTIONS: Yes on application
+PHI_REQUIRED: No
+PRESCRIPTION_CHECK: No
+
+HEALTH_CONDITIONS_ACCEPTED:
+  - Diabetes Type 2 controlled
+  - High blood pressure controlled
+  - High cholesterol
+  - Asthma
+  - Arthritis
+  - GERD
+
+HEALTH_CONDITIONS_DECLINED:
+  - Cancer within 24 months
+  - Heart attack or stroke within 24 months
+  - COPD with oxygen use
+  - Cirrhosis
+  - Dialysis
+  - AIDS with complications
+  - Congestive heart failure
+
+===UNDERWRITING_REQUIREMENTS_MODIFIED_BENEFIT===
+UNDERWRITING_TYPE: Simplified Issue
+MEDICAL_EXAM: Not required
+HEALTH_QUESTIONS: Yes on application fewer knockout questions than Level Benefit
+PHI_REQUIRED: No
+PRESCRIPTION_CHECK: No
+
+HEALTH_CONDITIONS_ACCEPTED:
+  - Diabetes with complications
+  - High blood pressure controlled or uncontrolled
+  - High cholesterol
+  - Asthma or COPD without oxygen
+  - Heart disease history over 12 months
+  - Cancer history over 12 months
+  - Kidney disease not on dialysis
+  - Neuropathy
+  - Prior stroke over 12 months
+
+HEALTH_CONDITIONS_DECLINED:
+  - COPD with oxygen use
+  - Currently on dialysis
+  - AIDS with active complications
+  - Cirrhosis requiring current treatment
+  - Cancer diagnosis or treatment within last 12 months
+  - Heart attack or stroke within last 12 months
+
+===UNDERWRITING_REQUIREMENTS_GUARANTEED_ISSUE===
+UNDERWRITING_TYPE: Guaranteed Issue
+MEDICAL_EXAM: Not required
+HEALTH_QUESTIONS: None
+PHI_REQUIRED: No
+PRESCRIPTION_CHECK: No
+ACCEPTANCE: Guaranteed no health questions asked
+
+===INCLUDED_RIDERS_LEVEL_BENEFIT===
+RIDER: Accelerated Death Benefit for Terminal Illness
+  INCLUDED: true
+  COST: No additional charge
+  BENEFIT: Up to 50 percent of death benefit or 15000 whichever is less
+  QUALIFICATION: Terminal illness with life expectancy 12 months or less
+
+===INCLUDED_RIDERS_GUARANTEED_ISSUE===
+RIDER: Accidental Death Benefit
+  INCLUDED: true
+  COST: No additional charge
+  BENEFIT: Full face amount paid from day one if death is accidental
+  QUALIFICATION: Death must result directly from accident
+
+===OPTIONAL_RIDERS===
+RIDER: None available
+  NOTE: Final expense products typically do not offer optional riders
+
+===PRODUCT_FEATURES===
+CASH_VALUE:
+  ACCUMULATION: Limited cash value accumulation
+  LOAN_PROVISION: Policy loans may be available after several years
+  LOAN_INTEREST_RATE: Fixed rate specified in policy
+  PRIMARY_PURPOSE: Death benefit not cash accumulation
+
+NONFORFEITURE_OPTIONS:
+  CASH_SURRENDER: Full cash value if any less outstanding loans
+  REDUCED_PAID_UP: Reduced death benefit no further premiums required
+  EXTENDED_TERM: May not be available on all variants
+
+GRACE_PERIOD: 31 days
+REINSTATEMENT_PERIOD: 2 years from lapse date
+
+===RATE_CLASSES===
+LEVEL_BENEFIT_CLASSES: Standard Tobacco
+MODIFIED_BENEFIT_CLASSES: Standard Tobacco
+GUARANTEED_ISSUE_CLASSES: Guaranteed Issue rate only
+
+TOBACCO_DEFINITION: Use of cigarettes cigars pipes chewing tobacco or nicotine products within last 12 months
+
+===STATE_AVAILABILITY===
+STATES_AVAILABLE: TX FL GA AL MS LA AR TN KY SC NC VA WV OH IN IL MO OK KS NE IA
+
+STATES_NOT_AVAILABLE: NY CA AK HI
+
+===DECISION_RULES_LEVEL_BENEFIT===
+ELIGIBILITY_REQUIREMENTS:
+  AGE: Between 50 and 80 years
+  STATE: Must reside in approved state
+  HEALTH: Must meet simplified issue health questions
+  FACE_AMOUNT: Between 5000 and 35000
+
+APPROVAL_FACTORS:
+  - Answers to health questions on application
+  - Controlled chronic conditions acceptable
+  - No recent serious health events
+
+DECLINE_FACTORS:
+  - Cancer within last 24 months
+  - Heart attack or stroke within last 24 months
+  - COPD requiring oxygen
+  - Dialysis
+  - Cirrhosis
+  - AIDS with complications
+  - Congestive heart failure
+
+===DECISION_RULES_MODIFIED_BENEFIT===
+ELIGIBILITY_REQUIREMENTS:
+  AGE: Between 50 and 85 years
+  STATE: Must reside in approved state
+  HEALTH: Must meet simplified issue health questions
+  FACE_AMOUNT: Between 5000 and 25000
+
+APPROVAL_FACTORS:
+  - More liberal health underwriting than Level Benefit
+  - Accepts conditions with complications
+  - Accepts uncontrolled conditions
+  - Modified benefit structure allows broader acceptance
+
+DECLINE_FACTORS:
+  - Currently requiring oxygen for COPD
+  - Currently on dialysis
+  - AIDS with active complications
+  - Cirrhosis requiring current treatment
+  - Cancer within last 12 months
+  - Heart attack or stroke within last 12 months
+
+===DECISION_RULES_GUARANTEED_ISSUE===
+ELIGIBILITY_REQUIREMENTS:
+  AGE: Between 50 and 80 years
+  STATE: Must reside in approved state
+  FACE_AMOUNT: Between 5000 and 25000
+
+APPROVAL_FACTORS:
+  - Guaranteed acceptance no health questions
+  - No medical underwriting
+  - Automatic approval for all applicants
+
+DECLINE_FACTORS:
+  - None all applicants accepted
+
+===COMMISSION_STRUCTURE===
+COMPENSATION_TYPE: Standard agent commission schedule
+FIRST_YEAR: Higher commission percentage typically 90 to 110 percent of premium
+RENEWAL: Lower commission percentage years 2 and beyond
+GUARANTEED_ISSUE_COMMISSION: Highest first year commission due to graded benefit
+
+===CONTACT_INFORMATION===
+AGENT_PORTAL: https://uhlic.com/agent-portal
+HOME_OFFICE: Indianapolis IN
+
+===NOTES===
+PRODUCT_POSITIONING: Three tier final expense product line from level benefit to guaranteed issue
+TARGET_MARKET: Seniors ages 50 to 85 seeking burial and funeral expense coverage
+TARGET_MARKET_LEVEL_BENEFIT: Healthier seniors who can qualify for immediate full coverage
+TARGET_MARKET_MODIFIED_BENEFIT: Seniors with health impairments who cannot qualify for level benefit
+TARGET_MARKET_GUARANTEED_ISSUE: Seniors with serious health conditions or who prefer no health questions
+PRIMARY_PURPOSE: Cover final expenses including funeral burial debts and medical bills
+COMPETITIVE_ADVANTAGES: Three products allow placement across all health conditions in senior market
+SALES_APPROACH: Start with Level Benefit and move to Modified or Guaranteed Issue if health questions are issue
+TYPICAL_COVERAGE_AMOUNT: 10000 to 15000 sufficient for average funeral and burial costs

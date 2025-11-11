@@ -1,0 +1,327 @@
+===METADATA===
+CARRIER: ELCO Mutual Life & Annuity
+PRODUCT_NAME: Silver Eagle
+PRODUCT_CATEGORY: Final Expense Life Insurance
+ISSUE_TYPE: Simplified Issue and Guaranteed Issue
+PRODUCT_CODE: Silver Eagle
+COMPANY_TYPE: Mutual Company
+ESTABLISHED: 1946
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 18 to 85, decent health
+HEALTH_PROFILE: Decent health to poor health options, multiple underwriting tiers
+UNDERWRITING_SELECTIVITY: Simplified issue and guaranteed issue available
+COMPETITIVE_ADVANTAGE: BEST RATE APPROVE EVERYONE, builds cash value quickly, multiple health tiers
+MAXIMUM_COVERAGE: Check product specifications by variant
+LIVING_BENEFITS: Check product specifications
+APPLICATION_PROCESS: Easy approval process, multiple options
+APPROVAL_SPEED: Easy approval
+SALES_BOX: Box 4 Old and Unhealthy, accepts wide range of health
+STATE_RESTRICTIONS: Not offered in California, Florida does not have e-app
+COMMISSION_STRUCTURE: No advance cap
+BEST_FOR: Final expense, ages 18 to 85, wide health acceptance, builds equity early
+UNIQUE_STRENGTH: Builds cash value quickly, multiple underwriting tiers, easy approval
+AVOID_IF: California Florida residents needing e-app
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Whole Life Final Expense
+PERMANENT_COVERAGE: Yes
+PREMIUM_STRUCTURE: Level ongoing premiums
+CASH_VALUE_ACCUMULATION: Yes
+PARTICIPATING: Yes on Immediate Graded and Modified classes
+DIVIDENDS: Eligible not guaranteed on participating classes
+COVERAGE_DURATION: Lifetime or until age 121
+
+===PRODUCT_VARIANTS===
+VARIANT: Immediate_Coverage
+  PREMIUM_CLASSES: Premier Plus Standard
+  DEATH_BENEFIT_TYPE: Immediate full benefit day one
+  PARTICIPATING: Yes
+  UNDERWRITING: Health questions and telephone interview or e application
+
+VARIANT: Graded_Benefit
+  PREMIUM_CLASS: Graded
+  DEATH_BENEFIT_TYPE: Graded benefit
+  YEAR_1_BENEFIT: 30 percent of face amount
+  YEAR_2_BENEFIT: 70 percent of face amount
+  YEAR_3_PLUS_BENEFIT: 100 percent full benefit
+  DEATH_YEARS_1_2_NON_ACCIDENT: Return of premium plus interest
+  PARTICIPATING: Yes
+  UNDERWRITING: Health questions and telephone interview or e application
+
+VARIANT: Modified
+  PREMIUM_CLASS: Modified
+  DEATH_BENEFIT_TYPE: Modified benefit
+  YEARS_1_2_BENEFIT: Return of premium plus interest
+  YEAR_3_PLUS_BENEFIT: 100 percent full benefit
+  PARTICIPATING: Yes
+  UNDERWRITING: Health questions and telephone interview or e application
+
+VARIANT: Guaranteed_Issue
+  PREMIUM_CLASS: GI
+  DEATH_BENEFIT_TYPE: Modified benefit
+  YEARS_1_2_BENEFIT: Return of premium plus interest
+  YEAR_3_PLUS_BENEFIT: 100 percent full benefit
+  PARTICIPATING: No
+  UNDERWRITING: No health questions guaranteed acceptance
+
+===CORE_SPECIFICATIONS===
+ISSUE_AGES:
+  Immediate_Coverage:
+    MIN_AGE: 50
+    MAX_AGE: 85
+  Graded_Benefit:
+    MIN_AGE: 50
+    MAX_AGE: 80
+  Modified:
+    MIN_AGE: 50
+    MAX_AGE: 80
+  Guaranteed_Issue:
+    MIN_AGE: 50
+    MAX_AGE: 80
+
+FACE_AMOUNTS:
+  Immediate_Coverage:
+    MINIMUM: 2500
+    MAXIMUM: 35000
+  Graded_Benefit:
+    MINIMUM: 2500
+    MAXIMUM: 25000
+  Modified:
+    MINIMUM: 2500
+    MAXIMUM: 25000
+  Guaranteed_Issue:
+    MINIMUM: 2500
+    MAXIMUM: 25000
+
+PREMIUM_STRUCTURE:
+  LEVEL_PREMIUMS: Yes
+  PREMIUM_GUARANTEE: Guaranteed to remain level
+  NO_INCREASES: Premiums do not increase over time
+
+===UNDERWRITING_REQUIREMENTS===
+IMMEDIATE_COVERAGE:
+  PROCESS_TYPE: Simplified Issue
+  MEDICAL_EXAM_REQUIRED: false
+  HEALTH_QUESTIONS: Yes basic health questions
+  TELEPHONE_INTERVIEW: May be required
+  E_APPLICATION: Available if applicable
+  DECISION: Instant
+  CLASSES: Premier Plus Standard
+
+GRADED_BENEFIT:
+  PROCESS_TYPE: Simplified Issue
+  MEDICAL_EXAM_REQUIRED: false
+  HEALTH_QUESTIONS: Yes basic health questions
+  TELEPHONE_INTERVIEW: May be required
+  E_APPLICATION: Available if applicable
+  DECISION: Instant
+  CLASS: Graded
+
+MODIFIED:
+  PROCESS_TYPE: Simplified Issue
+  MEDICAL_EXAM_REQUIRED: false
+  HEALTH_QUESTIONS: Yes basic health questions
+  TELEPHONE_INTERVIEW: May be required
+  E_APPLICATION: Available if applicable
+  DECISION: Instant
+  CLASS: Modified
+
+GUARANTEED_ISSUE:
+  PROCESS_TYPE: Guaranteed Issue
+  MEDICAL_EXAM_REQUIRED: false
+  HEALTH_QUESTIONS: None
+  ACCEPTANCE: Guaranteed
+  CLASS: GI
+
+===PRODUCT_FEATURES===
+GUARANTEED_BENEFITS:
+  DEATH_BENEFIT: Guaranteed immediate or graded based on class
+  CASH_VALUE: Guaranteed on all classes
+  LEVEL_PREMIUMS: Yes guaranteed not to increase
+
+DIVIDEND_PARTICIPATION:
+  IMMEDIATE_COVERAGE: Yes participating
+  GRADED_BENEFIT: Yes participating
+  MODIFIED: Yes participating
+  GUARANTEED_ISSUE: No not participating
+
+===USE_CASES===
+PRIMARY_PURPOSES:
+  - Final expense coverage
+  - Funeral cost preparation
+  - Outstanding debt payment
+  - Medical bill coverage
+  - Leaving gift to loved ones
+  - Protecting family from financial burdens
+
+END_OF_LIFE_COSTS:
+  FUNERAL_MEDIAN_COST: 7848 with viewing and burial (2021 NFDA)
+  MONTHLY_DEBT_AVERAGE: 1233 per month (Lending Tree)
+  OUTSTANDING_LOANS: Can be paid off with death benefit
+  GIFT_TO_LOVED_ONES: Death benefit delivered income tax free
+
+TAX_ADVANTAGES:
+  - Income tax free death benefit to beneficiaries
+  - Tax deferred cash value growth
+  - No income tax on wealth transfer to beneficiaries
+
+IDEAL_FOR:
+  - Ages 50 to 85
+  - Final expense planning
+  - Funeral cost coverage
+  - Debt payoff at death
+  - Leaving legacy to family
+  - Those who cannot qualify for traditional coverage (GI option)
+  - Quick approval preference
+  - No medical exam preference
+
+===OPTIONAL_RIDERS===
+RIDER: Single Premium Life Rider
+  AVAILABLE_ON: All immediate coverage policies (Premier Plus Standard)
+  COST: Single lump sum payment
+  ISSUE_AGES:
+    MIN_AGE: 50
+    MAX_AGE: 80
+  FACE_AMOUNTS:
+    MINIMUM: 1000
+    MAXIMUM: 35000
+  DEATH_BENEFIT_TYPE: Immediate
+  PARTICIPATING: Yes
+  POLICY_FEE: None
+  PAID_UP_STATUS: Immediate at issue
+  DESCRIPTION: Separate participating policy purchased with lump sum
+  INDEPENDENCE: Remains in force even if base policy surrendered
+
+===GRADED_AND_MODIFIED_BENEFIT_DETAILS===
+GRADED_BENEFIT_STRUCTURE:
+  YEAR_1:
+    DEATH_BENEFIT_PERCENTAGE: 30
+    NON_ACCIDENT_DEATH: Return of premium plus interest
+  YEAR_2:
+    DEATH_BENEFIT_PERCENTAGE: 70
+    NON_ACCIDENT_DEATH: Return of premium plus interest
+  YEAR_3_PLUS:
+    DEATH_BENEFIT_PERCENTAGE: 100
+  ACCIDENTAL_DEATH: Full benefit all years
+
+MODIFIED_BENEFIT_STRUCTURE:
+  YEARS_1_2:
+    DEATH_BENEFIT: Return of premium plus interest
+  YEAR_3_PLUS:
+    DEATH_BENEFIT_PERCENTAGE: 100
+  ACCIDENTAL_DEATH: Full benefit all years
+
+GUARANTEED_ISSUE_BENEFIT_STRUCTURE:
+  YEARS_1_2:
+    DEATH_BENEFIT: Return of premium plus interest
+  YEAR_3_PLUS:
+    DEATH_BENEFIT_PERCENTAGE: 100
+  ACCIDENTAL_DEATH: Full benefit all years
+
+===ADMINISTRATIVE_INFORMATION===
+POLICY_FEES: Not specified
+GRACE_PERIOD: Typically 31 days
+CONTESTABILITY_PERIOD: Typically 2 years
+SUICIDE_CLAUSE: Typically 2 years
+COVERAGE_TERM: Lifetime or until age 121
+
+POLICY_FORMS:
+  APPLICATION: ICC21 FEAPP21
+  GRADED_BENEFIT: ICC21 GBWL21
+  GUARANTEED_ISSUE: ICC21 GIWL 21
+
+APPLICATION_PROCESS:
+  METHOD: Health questions and telephone interview or e application
+  DECISION_TIME: Instant decisions
+  MEDICAL_EXAMS: Never required
+  MEDICAL_TESTS: Never required
+
+===CONTACT_INFORMATION===
+CARRIER_NAME: ELCO Mutual Life & Annuity
+WEBSITE: elcomutual.com
+POLICY_SERVICES_PHONE: 800 321 3526
+POLICY_SERVICES_FAX: 847 295 6043
+POLICY_SERVICES_EMAIL: phs@elcomutual.com
+CLAIMS_PHONE: 800 962 8610
+CLAIMS_FAX: 847 295 1145
+CLAIMS_EMAIL: claims@elcomutual.com
+
+===DECISION_RULES===
+APPROVE_IMMEDIATE_COVERAGE_IF:
+  - Age 50 to 85
+  - Face amount 2500 to 35000
+  - Answers basic health questions favorably
+  - Completes telephone interview or e application
+  - Qualifies for Premier Plus or Standard class
+  - Meets simplified underwriting requirements
+
+APPROVE_GRADED_BENEFIT_IF:
+  - Age 50 to 80
+  - Face amount 2500 to 25000
+  - Answers basic health questions
+  - Completes telephone interview or e application
+  - Does not qualify for immediate coverage
+  - Qualifies for Graded class
+
+APPROVE_MODIFIED_IF:
+  - Age 50 to 80
+  - Face amount 2500 to 25000
+  - Answers basic health questions
+  - Completes telephone interview or e application
+  - Does not qualify for immediate or graded
+  - Qualifies for Modified class
+
+APPROVE_GUARANTEED_ISSUE_IF:
+  - Age 50 to 80
+  - Face amount 2500 to 25000
+  - No health questions required
+  - Guaranteed acceptance
+  - Does not qualify for other classes or prefers guaranteed acceptance
+
+APPROVE_SINGLE_PREMIUM_RIDER_IF:
+  - Age 50 to 80
+  - Has immediate coverage base policy (Premier Plus Standard)
+  - Face amount 1000 to 35000
+  - Can pay single lump sum
+  - Wants additional paid up coverage
+
+IDEAL_CANDIDATE:
+  - Age 50 to 85
+  - Needs final expense coverage
+  - Wants to cover funeral costs
+  - Has outstanding debts to pay off
+  - Wants to leave gift to family
+  - Prefers no medical exams
+  - Wants instant decision
+  - Can afford level premiums
+  - May have health issues (GI option available)
+
+===COMPETITIVE_ADVANTAGES===
+KEY_FEATURES:
+  - Four coverage options immediate graded modified guaranteed issue
+  - Instant decisions
+  - No medical exams ever
+  - No medical tests ever
+  - Guaranteed level premiums
+  - Ages 50 to 85 on immediate coverage
+  - Face amounts as low as 2500
+  - Participating policies on most classes
+  - Mutual company policyholder owned
+  - Over 75 years in business since 1946
+  - Real person answers every call
+  - Single premium life rider option
+
+UNIQUE_BENEFITS:
+  - Guaranteed issue option available
+  - Multiple underwriting classes for various health levels
+  - Graded benefit for those who cannot qualify for immediate
+  - Modified benefit option
+  - Quick approval process
+  - Small face amounts available
+  - Designed specifically for final expense
+  - Return of premium plus interest on waiting periods
+  - Participating policies eligible for dividends
+
+===PRODUCT_DESCRIPTION===
+Silver Eagle is ELCO Mutual's final expense whole life insurance product designed to help individuals ages 50 to 85 prepare for end of life costs and protect their families from financial burdens. Offers four coverage options immediate coverage (Premier Plus Standard classes) with full benefit day one for healthier applicants graded benefit (30 percent year 1 70 percent year 2 full benefit year 3) for those with some health issues modified benefit (return of premium plus interest years 1 to 2 full benefit year 3) and guaranteed issue (no health questions guaranteed acceptance return of premium plus interest years 1 to 2 full benefit year 3). All classes provide guaranteed level premiums and cash value. Immediate graded and modified classes are participating and eligible for dividends. No medical exams or tests ever required. Instant decisions. Face amounts from 2500 to 35000. Single premium life rider available on immediate coverage policies. Ideal for funeral cost coverage debt payoff and leaving a legacy. Backed by ELCO Mutual policyholder owned mutual company in business since 1946.

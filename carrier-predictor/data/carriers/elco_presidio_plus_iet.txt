@@ -1,0 +1,237 @@
+===METADATA===
+CARRIER: ELCO Mutual Life & Annuity
+PRODUCT_NAME: Presidio Plus with Irrevocable Estate Trust
+PRODUCT_CATEGORY: Single Premium Whole Life with Estate Trust
+ISSUE_TYPE: Guaranteed Issue
+PRODUCT_CODE: Presidio Plus IET
+COMPANY_TYPE: Mutual Company
+ESTABLISHED: 1946
+UNIQUE_FEATURE: Irrevocable Estate Trust for estate settlement and wealth transfer
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 0 to 99, estate planning needs
+HEALTH_PROFILE: Guaranteed issue, no health questions
+UNDERWRITING_SELECTIVITY: Guaranteed issue, everyone qualifies
+COMPETITIVE_ADVANTAGE: BEST RATE APPROVE EVERYONE, guaranteed issue, estate liquidity solution, funds within 48 hours
+MAXIMUM_COVERAGE: 15000 to 100000 for estate needs
+LIVING_BENEFITS: Not applicable estate planning focused
+APPLICATION_PROCESS: Guaranteed issue, no underwriting
+APPROVAL_SPEED: Guaranteed acceptance
+SALES_BOX: Box 4 Old and Unhealthy, guaranteed issue for estate planning
+STATE_RESTRICTIONS: Not offered in California, Florida does not have e-app
+COMMISSION_STRUCTURE: No advance cap
+BEST_FOR: Estate planning, ages 0 to 99, probate liquidity concerns, larger lump sum available 15000 to 100000, wants funds to family during settlement, wealth transfer
+UNIQUE_STRENGTH: Irrevocable Estate Trust included no cost, funds within 48 hours, avoids probate, pays funeral then beneficiaries, estate liquidity solution
+AVOID_IF: California Florida residents, looking for Medicaid planning (use IFT instead), need less than 15000, need more than 100000
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Single Premium Whole Life with Irrevocable Estate Trust
+PERMANENT_COVERAGE: Yes
+PREMIUM_STRUCTURE: Single payment only
+CASH_VALUE_ACCUMULATION: Yes
+TRUST_TYPE: Irrevocable Estate Trust
+TRUST_COST: No additional cost to policyholders
+
+===CORE_SPECIFICATIONS===
+ISSUE_AGES:
+  MIN_AGE: 0
+  MAX_AGE: 99
+  NOTES: Available to wide age range for estate planning
+
+FACE_AMOUNTS:
+  MINIMUM: 15000
+  MAXIMUM: 100000
+  PURPOSE: Estate liquidity funeral expenses wealth transfer
+
+UNDERWRITING:
+  TYPE: Guaranteed Issue
+  QUALIFICATION: Everyone qualifies guaranteed
+  MEDICAL_EXAMS: None required
+  HEALTH_QUESTIONS: None required
+  ACCEPTANCE: Guaranteed
+
+===IRREVOCABLE_ESTATE_TRUST_FEATURES===
+TRUST_NAME: ELCO Mutual Irrevocable Estate Trust (IET)
+TRUST_COST: No additional cost to ELCO policyholders
+TRUST_PURPOSE: Create liquidity plan cover immediate expenses transfer wealth
+
+ESTATE_PLANNING_BENEFITS:
+  LIQUIDITY_CREATION: Provide immediate funds while estate settles
+  PROBATE_AVOIDANCE: Life insurance not subject to probate
+  INCOME_TAX_FREE: Death benefit paid income tax free to beneficiaries
+  QUICK_ACCESS: Funds available within 48 hours of claim filing
+  ESTATE_SETTLEMENT: Cover expenses while assets tied up in probate
+
+BENEFIT_PAYMENT_PROCESS:
+  STEP_1: Company pays funeral home up to their interest to cover expenses when instructed
+  STEP_2: Remaining benefits delivered to beneficiaries shortly after
+  TIMELINE: Usually within 48 hours of claim being filed
+  PROBATE: Not subject to probate ensuring quick receipt
+
+===USE_CASES===
+PRIMARY_PURPOSES:
+  - Create estate liquidity during probate
+  - Cover funeral expenses
+  - Pay immediate outstanding expenses at death
+  - Transfer wealth income tax free
+  - Ensure family has money while assets tied up
+  - Secure asset transfer to loved ones
+  - Provide financial certainty to family
+
+ESTATE_SETTLEMENT_CHALLENGES:
+  PROBATE_DURATION: Can take weeks and sometimes months
+  ASSET_FREEZE: Assets tied up and unavailable
+  IMMEDIATE_NEEDS: Funeral costs outstanding bills need immediate payment
+  FAMILY_BURDEN: May have to fund expenses out of pocket
+  SOLUTION: Presidio Plus IET provides immediate liquidity
+
+WEALTH_TRANSFER_BENEFITS:
+  - Income tax free death benefit
+  - Avoids probate delays
+  - Seamless transfer to beneficiaries
+  - Immediate availability
+  - Protected intentions fulfilled
+  - Family financial security
+
+===CUSTOMIZATION_OPTIONS===
+PLANNING_PROCESS:
+  - Work with licensed insurance professional
+  - Plan for final expenses
+  - Determine liquidity needs during probate
+  - Calculate outstanding expenses to cover
+  - Ensure spouse or children have funds during settlement
+  - Secure wealth transfer to loved ones
+  - Determine appropriate face amount 15000 to 100000
+
+COVERAGE_FLEXIBILITY:
+  - Customized solution based on wishes
+  - Covers funeral costs
+  - Covers immediate outstanding expenses
+  - Ensures family liquidity during probate
+  - Secures asset transfer
+
+===HOW_ESTATE_TRUST_WORKS===
+STEP_1: Purchase product with face amount 15000 to 100000
+STEP_2: Assign the product to the IET
+STEP_3: Company pays funeral home up to their interest to cover expenses
+STEP_4: Remaining benefits delivered to beneficiaries shortly after
+
+PROCESS_DETAILS:
+  - Determine how much to set aside with agent
+  - Agent uses funds to purchase guaranteed issue single premium whole life
+  - No additional payments required
+  - Assign policy to ELCO Mutual IET
+  - Policy protected to assure intentions fulfilled
+  - At death company pays funeral home when instructed
+  - Beneficiaries receive remaining benefits within 48 hours
+
+===TAX_AND_PROBATE_ADVANTAGES===
+PROBATE_AVOIDANCE:
+  BENEFIT: Life insurance not subject to probate
+  RESULT: Family receives funds quickly
+  ADVANTAGE: Avoids weeks or months of delays
+
+INCOME_TAX_FREE:
+  BENEFIT: Death benefit paid income tax free
+  RESULT: Full amount available to beneficiaries
+  ADVANTAGE: Not only covers funeral but transfers wealth seamlessly
+
+ESTATE_TAX_NOTE: Estate taxes may apply consult tax advisor
+
+===ADMINISTRATIVE_INFORMATION===
+POLICY_FORM: ICC21 TSPL 21
+FORM_NOTE: Policy forms may vary by state
+POLICY_FEES: Single premium only
+GRACE_PERIOD: Not applicable single premium
+CONTESTABILITY_PERIOD: Typically 2 years
+SUICIDE_CLAUSE: Typically 2 years
+
+CLAIM_PROCESSING:
+  TIMELINE: Usually within 48 hours of claim filing
+  PAYMENT_METHOD: Funeral home first then beneficiaries
+  PROBATE_AVOIDANCE: Yes
+  CUSTOMER_SERVICE: Real person answers every call
+  PROCESSING_TIME: Under 48 hours average
+
+===CONTACT_INFORMATION===
+CARRIER_NAME: ELCO Mutual Life & Annuity
+WEBSITE: elcomutual.com
+POLICY_SERVICES_PHONE: 800 321 3526
+POLICY_SERVICES_FAX: 847 295 6043
+POLICY_SERVICES_EMAIL: phs@elcomutual.com
+CLAIMS_PHONE: 800 962 8610
+CLAIMS_FAX: 847 295 1145
+CLAIMS_EMAIL: claims@elcomutual.com
+PROCESSING_TIME: Under 48 hours average
+
+===DECISION_RULES===
+APPROVE_IF:
+  - Age 0 to 99
+  - Face amount 15000 to 100000
+  - Needs estate liquidity solution
+  - Wants to cover funeral and immediate expenses
+  - Concerned about probate delays
+  - Wants income tax free wealth transfer
+  - Wants guaranteed issue no underwriting
+  - Has lump sum 15000 to 100000 available
+  - Wants beneficiaries to receive funds quickly
+  - Wants to ensure family has money during estate settlement
+
+IDEAL_CANDIDATE:
+  - Ages 0 to 99
+  - Planning for estate settlement
+  - Concerned about probate duration
+  - Wants immediate liquidity for family
+  - Needs to cover funeral costs
+  - Has outstanding expenses to cover at death
+  - Wants seamless wealth transfer
+  - Wants guaranteed acceptance
+  - Has larger lump sum available than funeral only
+  - Wants to leave legacy while covering expenses
+  - Values income tax free transfer
+  - Wants to avoid family funding expenses out of pocket
+
+===COMPETITIVE_ADVANTAGES===
+KEY_FEATURES:
+  - Guaranteed issue ages 0 to 99
+  - Irrevocable Estate Trust included no cost
+  - Face amounts 15000 to 100000 for larger needs
+  - Funds within 48 hours
+  - Pays funeral home first then beneficiaries
+  - Avoids probate
+  - Income tax free death benefit
+  - Creates immediate estate liquidity
+  - Single premium no ongoing payments
+  - Customizable solution
+  - Mutual company policyholder owned
+  - Over 75 years in business
+
+UNIQUE_BENEFITS:
+  - Broader age range 0 to 99 vs funeral only
+  - Higher face amounts for estate needs
+  - Solves probate liquidity problem
+  - Two step payment funeral then beneficiaries
+  - Comprehensive estate planning tool
+  - Not just funeral focused
+  - Covers immediate outstanding expenses
+  - Ensures family has funds during settlement
+  - Income tax advantage for wealth transfer
+  - No additional trust fees
+
+===COMPARISON_TO_IFT===
+PRESIDIO_PLUS_IFT:
+  - Face amounts 2500 to 15000
+  - Focused on funeral expenses
+  - Asset protection from creditors nursing homes
+  - May help qualify for Medicaid
+  - Designed for Medicaid planning
+
+PRESIDIO_PLUS_IET:
+  - Face amounts 15000 to 100000
+  - Focused on estate liquidity and wealth transfer
+  - Covers funeral plus additional expenses
+  - Ensures family has funds during probate
+  - Designed for estate planning not Medicaid
+
+===PRODUCT_DESCRIPTION===
+Presidio Plus with Irrevocable Estate Trust is ELCO Mutual's guaranteed issue single premium whole life insurance designed for comprehensive estate planning and wealth transfer. Face amounts from 15000 to 100000 cover funeral expenses immediate outstanding costs and provide liquidity to family during estate settlement. Ages 0 to 99 qualify with no medical exams or health questions. The key feature is ELCO's Irrevocable Estate Trust (IET) available at no additional cost. Policy is assigned to IET to protect and fulfill intentions. At death company pays funeral home when instructed for expenses then delivers remaining benefits to beneficiaries within 48 hours. Avoids probate ensuring quick access. Death benefit is income tax free enabling seamless wealth transfer. Solves the problem of assets being tied up in probate for weeks or months by providing immediate liquidity. Customizable solution planned with licensed professional to determine appropriate coverage for final expenses outstanding obligations and family financial needs during settlement. Ideal for those wanting comprehensive estate planning guaranteed acceptance and income tax advantaged wealth transfer. Policy form ICC21 TSPL 21 may vary by state. Backed by ELCO Mutual policyholder owned company in business over 75 years.

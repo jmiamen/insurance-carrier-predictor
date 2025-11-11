@@ -1,0 +1,497 @@
+===METADATA===
+CARRIER_NAME: Kansas City Life Insurance Company
+CARRIER_FOUNDED: 1895
+HOME_OFFICE: Kansas City Missouri
+PRODUCT_TYPE: Term Life Insurance
+PRODUCT_NAMES: Signature Term Express 10, Signature Term Express 15, Signature Term Express 20, Signature Term Express 30, Signature Term Express ROP 20, Signature Term Express ROP 25, Signature Term Express ROP 30
+UNDERWRITING_TYPE: Simplified Issue, Rapid Issue, Adjustable Premium Renewable and Convertible Term
+DOCUMENT_CODE: 12186 8.25S, 12187 6.20C
+DOCUMENT_UPDATED: September 19 2025 (Specifications), June 2020 (Agent Guide)
+SLOGAN: Security Assured
+COMPETITIVE_POSITIONING: Priced to compete against major carriers in term market
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 20 to 69, clean to moderate health
+HEALTH_PROFILE: Clean to moderate health, accepts some health conditions
+UNDERWRITING_SELECTIVITY: Simplified issue, moderate acceptance
+COMPETITIVE_ADVANTAGE: Great balance of affordability and flexibility, Easy application process
+MAXIMUM_COVERAGE: Up to 400000
+LIVING_BENEFITS: Yes included
+APPLICATION_PROCESS: Easy app, Must be 15 year quote minimum
+APPROVAL_SPEED: Rapid issue, fast approval
+SALES_BOX: Box 1 Young and Healthy, also suitable for average health with living benefits
+BEST_FOR: Mortgage protection, average health profiles, clients wanting living benefits, return of premium seekers
+SPECIAL_FEATURE: Return of Premium options available (higher premium but acts like savings)
+AVOID_IF: Over age 70, severe health conditions, California maximums lower
+
+===PRODUCT_OVERVIEW===
+DESCRIPTION: Level premium term life insurance designed to protect family and mortgage
+TARGET_MARKET: Families with mortgage protection needs and income replacement
+SIMPLIFIED_UNDERWRITING: Does not require lengthy health inquiry
+RAPID_ISSUE: Policy approval is fast
+POLICY_FORMS_BASE: ICC18J198 or J198, ICC21J212 or J212
+NOTE: Form numbers may differ by state, Coverage may not be available in all states
+
+===AVAILABLE_DURATIONS===
+DURATION_10_YEAR: Signature Term Express 10
+DURATION_15_YEAR: Signature Term Express 15
+DURATION_20_YEAR: Signature Term Express 20, Signature Term Express ROP 20
+DURATION_25_YEAR: Signature Term Express ROP 25
+DURATION_30_YEAR: Signature Term Express 30, Signature Term Express ROP 30
+
+===FACE_AMOUNTS===
+MINIMUM: 50000
+
+MAXIMUM_ALL_STATES_EXCEPT_CALIFORNIA:
+  AGE_18_TO_50: 400000
+  AGE_51_TO_65: 300000
+  AGE_66_TO_70: 150000
+
+MAXIMUM_CALIFORNIA:
+  AGE_18_TO_65: 300000
+  AGE_66_TO_70: 150000
+
+===PREMIUM_STRUCTURE===
+LEVEL_PREMIUM_GUARANTEE: Guaranteed to remain level for duration of term (10, 15, 20, 25, or 30 years)
+PAYMENT_MODES: Annual, Semi-annual, Quarterly, Monthly
+
+===RETURN_OF_PREMIUM_ROP===
+AVAILABLE_DURATIONS: 20 year, 25 year, 30 year
+DESCRIPTION: If insured still living at end of level period 100 percent of eligible premiums guaranteed to be returned upon surrender
+PREMIUMS_INCLUDED: Base coverage only
+PREMIUMS_EXCLUDED: Rider benefits not included in return of premium calculation
+CASH_VALUE_AT_END: Equals premiums paid for base coverage only
+ASSUMPTION: No policy changes
+TAX_TREATMENT: Return of premium is tax free
+
+ROP_EXAMPLE_30_YEAR:
+  STANDARD_TERM_MONTHLY_PREMIUM: 100
+  STANDARD_TERM_BENEFIT_IF_LIVING_30_YEARS: 0
+  ROP_TERM_MONTHLY_PREMIUM: 150
+  ROP_TERM_BENEFIT_IF_LIVING_30_YEARS: 54000 tax free
+  NOTE: Example illustrative only, Varies by age sex risk class length of guarantee face amount
+
+ROP_NONFORFEITURE_OPTIONS:
+  PAID_UP_POLICY: Available in lieu of cash surrender to maintain life insurance protection
+  EXTENDED_TERM: Available in lieu of cash surrender to maintain life insurance protection
+
+ROP_LOAN_FEATURE: Ability to borrow against cash value for other expenses
+
+===CONVERSION_PRIVILEGE===
+CONVERSION_AVAILABLE: After policy Year 2 through lesser of Year 12 and age 65
+CONVERSION_10_YEAR_DURATION: After policy year 2 through lesser of year 10 and age 65
+CONVERSION_AGE_63_AND_ABOVE: Not available for issue ages 63 and above
+CONVERSION_TO: Value Assured, Value Certain 20 (Kansas City Life permanent life insurance products)
+EVIDENCE_OF_INSURABILITY: Not required regardless of health at time of conversion
+AMOUNT_LIMIT: Cannot exceed death benefit of term policy payable at time of conversion
+PREMIUM_NOT_WAIVED: Premium for term policy must not currently be waived under waiver of premium rider
+PARTIAL_CONVERSIONS: Not allowed, Signature Term Express policy terminates at time of conversion even if entire face amount not converted
+NEW_POLICY_RISK_CLASS: Same risk class as Signature Term Express policy with table D rating
+CONVERSION_CREDIT: No conversion credit available
+ADVANTAGE: No evidence of insurability required compared to purchasing new permanent policy
+
+===INCLUDED_RIDERS===
+NOTE: Automatically added at issue at no extra cost
+
+ACCELERATED_DEATH_BENEFIT_CHRONIC_CONDITION_ADBRCC:
+  COST: No extra cost
+  AUTOMATICALLY_ADDED: Yes
+  ISSUE_AGES: All
+  TRIGGER_ADL: Cannot perform 2 of 6 ADLs for 90 consecutive days as certified by physician
+  TRIGGER_COGNITIVE: Requires substantial supervision to protect from threats to health and safety due to severe cognitive impairment
+  MINIMUM_ELECTION: Lesser of 10000 or 10 percent of policy face amount
+  MAXIMUM_ELECTION: 80 percent of policy face amount but never exceeds 250000
+  MAXIMUM_TOTAL_ADB_ALL_RIDERS: 250000
+  BENEFIT_CALCULATION: Actuarial present value of requested election minus present value of expected future unpaid premiums minus 100 administrative charge
+  MAXIMUM_ANNUAL_BENEFIT: Per diem allowance under IRC 101(g)(3) times days in current calendar year insured expected to be chronically ill
+  UTILIZATION: Can be utilized more than once but no more than once each 12 months
+  TERMINATION: When policy terminates, maximum benefit paid, or benefit paid under Terminal Illness rider
+  POLICY_FORMS: ICC17R231 or R231
+
+ACCELERATED_DEATH_BENEFIT_CRITICAL_ILLNESS_ADBRCI:
+  COST: No extra cost
+  AUTOMATICALLY_ADDED: Yes
+  ISSUE_AGES: All
+  QUALIFYING_CONDITIONS: Cancer, Heart attack, Stroke, Major organ failure, Kidney failure
+  MINIMUM_ELECTION: Lesser of 10000 or 10 percent of policy face amount
+  MAXIMUM_ELECTION: 80 percent of policy face amount but never exceeds 250000
+  MAXIMUM_TOTAL_ADB_ALL_RIDERS: 250000
+  BENEFIT_CALCULATION: Actuarial present value of requested election minus present value of expected future unpaid premiums minus 100 administrative charge
+  UTILIZATION: Can be utilized more than once but only once for given trigger and no more than once each 12 months
+  TERMINATION: When policy terminates, maximum benefit paid, or benefit paid under Terminal Illness rider
+  POLICY_FORMS: ICC17R232 or R232
+
+ACCELERATED_DEATH_BENEFIT_TERMINAL_ILLNESS_ADBRTI:
+  COST: No extra cost
+  AUTOMATICALLY_ADDED: Yes
+  ISSUE_AGES: All
+  TRIGGER: Insured diagnosed with terminal illness by physician resulting in death within 12 months
+  MINIMUM_ELECTION: Lesser of 10000 or 10 percent of policy face amount
+  MAXIMUM_ELECTION: 80 percent of policy face amount but never exceeds 250000
+  MAXIMUM_TOTAL_ADB_ALL_RIDERS: 250000
+  BENEFIT_CALCULATION: Accelerated Death Benefit Interest Rate multiplied by Requested Acceleration minus 100 administrative charge
+  UTILIZATION: Can only be utilized once
+  TERMINATION: When policy terminates or terminal illness benefit amount is paid
+  POLICY_FORMS: ICC17R233 or R233
+
+RESIDENTIAL_DAMAGE_WAIVER_OF_PREMIUM_RDWP:
+  COST: No extra cost
+  AUTOMATICALLY_ADDED: Yes
+  ISSUE_AGES: All
+  TRIGGER: Insured primary residence sustains 25000 or more in damages
+  BENEFIT: Waive all policy and rider premiums for 6 month period
+  PROOF_REQUIRED: Proof of damage required at time of claim
+  UTILIZATION: Can only be utilized once
+  TERMINATION: When policy terminates or rider is utilized
+  POLICY_FORMS: ICC17R236 or R236
+
+UNEMPLOYMENT_WAIVER_OF_PREMIUM_UWP:
+  COST: No extra cost
+  AUTOMATICALLY_ADDED: Yes
+  ISSUE_AGES: All
+  TRIGGER: Insured becomes unemployed
+  BENEFIT: Waive all policy and rider premiums for up to 6 month period
+  PROOF_REQUIRED: Proof of unemployment required at time of claim
+  AVAILABILITY: Beginning 24 months after issue date of policy
+  QUALIFICATION_1: Insured must be receiving state or federal unemployment benefits for 4 consecutive weeks
+  QUALIFICATION_2: Insured must provide proof of receiving such benefits within 90 days after end of 4 week period
+  UTILIZATION: Can only be utilized once
+  TERMINATION: When policy terminates or rider is utilized
+  POLICY_FORMS: ICC17R237 or R237
+
+INCOME_ASSURED_OPTION_IAO:
+  COST: No extra cost
+  ISSUE_AGES: All
+  DESCRIPTION: Enhancement allows owner to choose how death benefit is paid out
+  LUMP_SUM_BENEFIT: Amount selected at issue payable upon proof of death
+  INSTALLMENT_BENEFIT_AMOUNT_MINIMUM: 500
+  INSTALLMENT_BENEFIT_PERIOD: 5 to 30 years
+  INSTALLMENT_BENEFIT_MODE: Annual, Semi-annual, Quarterly, or Monthly
+  INTEREST_RATE_APPLIED: 3 percent (subject to change for new issues)
+  INSTALLMENT_PAYMENTS_BEGIN: One modal period after Lump Sum Benefit is paid
+  ADJUSTMENTS: First applied to Lump Sum Benefit, Remaining adjustment applied to present value of Installment Benefit
+  OWNER_MAY_CHANGE: Allocation of Lump Sum and Installment Benefit without underwriting as long as specified amount remains same
+  CAN_BE_ADDED: At issue or any time after issue
+  POLICY_FORMS: ICC17R238 or R238
+
+===OPTIONAL_RIDERS===
+NOTE: Available at competitive price, May not be available in all states
+
+ACCIDENTAL_DEATH_BENEFIT_ADB:
+  ISSUE_AGES: 18 to 60
+  DESCRIPTION: Provides payment of additional amount of insurance in event of accidental death
+  MINIMUM_ADB_AMOUNT: 1000
+  MAXIMUM_ADB_AMOUNT: Cannot exceed initial specified amount
+  MAXIMUM_ADB_INFORCE_ALL_COMPANIES: 200000
+  TERMINATION: Policy anniversary on which insured attained age is 70
+  POLICY_FORMS: R102
+
+CHILDRENS_TERM_INSURANCE_CTI:
+  ISSUE_AGES: 14 days to 17 years (child age)
+  DESCRIPTION: Provides level term insurance on each Insured Child
+  RIDER_EXPIRATION: Policy anniversary on which Primary Insured is age 65 (if living) otherwise anniversary Primary Insured would have been 65
+  CHILD_COVERAGE_CONTINUES_UNTIL: Earlier of policy anniversary Insured Child is age 25 OR expiration date of rider
+  COVERAGE_AMOUNT: For each 5000 of initial specified amount of base policy one unit equal to 1000 coverage may be purchased for each Insured Child
+  MAXIMUM_UNITS: 25 units or 25000
+  COST: Same regardless of number or ages of children
+  NOT_AVAILABLE: If Insured over age 60
+
+  INSURED_CHILD_DEFINITION:
+    - Natural child stepchild or legally adopted child of Insured named in application not 18 years or older living in Insured household at date of application
+    - Any child born of marriage of Insured or legally adopted by Insured prior to child 18th birthday after application date
+
+  CONVERSION_AVAILABLE: May be converted to permanent life policy without evidence of insurability any time policy is inforce
+  CONVERSION_DEADLINE: Before earlier of policy anniversary Insured Child is age 25 OR 31 days after expiration date of rider
+  CONVERSION_CREDIT: None
+  CONVERSION_AMOUNT_STANDARD: May not be more than amount of insurance provided by Insured Child rider
+  CONVERSION_AMOUNT_IF_CHILD_MARRIES_BEFORE_25_OR_AGE_25_AT_CONVERSION: Lesser of 25000 or five times amount of CTI rider
+
+  PRIMARY_INSURED_DEATH_BENEFIT: If Primary Insured dies while CTI rider inforce rider becomes fully paid up without further premiums
+  PAID_UP_INSURANCE: Nonparticipating paid up policy with cash value but no loan value
+  PAID_UP_TERMINATION: Policy anniversary on which Primary Insured age would have been 65
+
+  WP_REQUIREMENT: If base policy has WP rider this rider must also include WP rider
+  POLICY_FORMS: R207
+
+WAIVER_OF_PREMIUM_WP:
+  ISSUE_AGES: 18 to 55
+  DESCRIPTION: Waives premium during period of total disability of Primary Insured
+  TERMINATION: Policy anniversary on which Primary Insured is 60
+
+  PREMIUMS_WAIVED_IF:
+    - Disability has existed for 6 consecutive months
+    - Disability occurred before expiration date of rider
+    - Disability occurred prior to expiration date of base policy
+
+  CANCELLATION: May be cancelled any time
+  CANCELLATION_NOTE: Rider termination will not affect eligible claim for disability occurring before age 60
+  POLICY_FORMS: M652, R234, R235, R100, R214
+
+===PRODUCT_SPECIFICATIONS===
+SIGNATURE_TERM_EXPRESS_10:
+  ISSUE_AGE: 18 to 70 age last birthday
+  TYPE: Level death benefit 30 Year Renewable Convertible Term
+  RENEWABLE_TO: Age 95
+  POLICY_FEE: 60 non-commissionable
+  APPLICATION: ICC25A205 or A205
+
+SIGNATURE_TERM_EXPRESS_15:
+  ISSUE_AGE: 18 to 65 age last birthday
+  TYPE: Level death benefit 15 Year Renewable Convertible Term
+  RENEWABLE_TO: Age 95
+  POLICY_FEE: 60 non-commissionable
+  APPLICATION_ALL_STATES_EXCEPT_CA: ICC25A205 or A205
+  APPLICATION_CALIFORNIA: ICC17A193 or A193
+
+SIGNATURE_TERM_EXPRESS_20:
+  ISSUE_AGE: 18 to 60 age last birthday
+  TYPE: Level death benefit 20 Year Renewable Convertible Term
+  RENEWABLE_TO: Age 95
+  POLICY_FEE: 60 non-commissionable
+  APPLICATION_ALL_STATES_EXCEPT_CA: ICC25A205 or A205
+  APPLICATION_CALIFORNIA: ICC17A193 or A193
+
+SIGNATURE_TERM_EXPRESS_30:
+  ISSUE_AGE: 18 to 50 age last birthday
+  TYPE: Level death benefit 30 Year Renewable Convertible Term
+  RENEWABLE_TO: Age 95
+  POLICY_FEE: 60 non-commissionable
+  APPLICATION_ALL_STATES_EXCEPT_CA: ICC25A205 or A205
+  APPLICATION_CALIFORNIA: ICC17A193 or A193
+
+SIGNATURE_TERM_EXPRESS_ROP_20:
+  ISSUE_AGE_SNT: 20 to 55 age last birthday
+  ISSUE_AGE_ST: 20 to 50 age last birthday
+  TYPE: Level death benefit 20 Year Renewable Convertible Term with ROP
+  RENEWABLE_TO: Age 95
+  POLICY_FEE: None
+  PREMIUM_BANDING: B50 B100
+  APPLICATION: ICC17A193 or A193
+
+SIGNATURE_TERM_EXPRESS_ROP_25:
+  ISSUE_AGE: 20 to 50 age last birthday
+  TYPE: Level death benefit 25 Year Renewable Convertible Term with ROP
+  RENEWABLE_TO: Age 95
+  POLICY_FEE: None
+  PREMIUM_BANDING: B50 B100
+  APPLICATION: ICC17J193 or J193
+
+SIGNATURE_TERM_EXPRESS_ROP_30:
+  ISSUE_AGE: 20 to 50 age last birthday
+  TYPE: Level death benefit 30 Year Renewable Convertible Term with ROP
+  RENEWABLE_TO: Age 95
+  POLICY_FEE: None
+  PREMIUM_BANDING: B50 B100
+  APPLICATION: ICC17A193 or A193
+
+===RISK_CLASSIFICATIONS===
+AVAILABLE_CLASSES: Standard Nontobacco, Standard Tobacco
+SEX_DISTINCT_RATES: Yes
+
+===RENEWAL_PROVISIONS===
+YRT_PREMIUM_AFTER_LEVEL_PERIOD: Policy renewed annually at current year premium rate based on attained age and policy duration
+CURRENT_YRT_RATES_VARY_BY: Attained age, Policy duration, Sex, Risk class, Initial term period chosen
+GUARANTEED_YRT_RATES_VARY_BY: Attained age, Sex, Risk class
+MAXIMUM_RENEWAL_AGE: 95
+
+===UNDERWRITING===
+UNDERWRITING_TYPE: Simplified underwriting
+HEALTH_INQUIRY: Does not require lengthy health inquiry
+ISSUE_SPEED: Rapid issue, Policy approval is fast
+OBJECTIVE_RULES: Objective underwriting rules and requirements for all applications
+
+UNDERWRITING_REQUIREMENTS:
+  BUILD_CHART: Yes
+  MIB: Yes
+  PHARMACEUTICAL_CHECK: Yes
+  MVR_AGE_18_TO_45: Mandatory
+  MVR_AGE_46_TO_65: As needed
+
+  PHONE_INTERVIEW_50K_TO_250K:
+    RANDOM: Yes
+    MANDATORY_AGE_61_TO_65: Yes
+
+  PHONE_INTERVIEW_250001_TO_300K:
+    MANDATORY: Yes
+
+  APS_AGE_61_TO_65: As needed
+
+MORTGAGE_REQUIREMENT:
+  MUST_HAVE_PURCHASED_OR_REFINANCED: Within last 2 years
+  APPLICATION_QUESTION: Has proposed insured purchased home or refinanced home within last 2 years
+  DETAILS_REQUIRED: Approximate mortgage loan amount, Mortgage loan financial institution name
+
+DIABETES_RULES:
+  DIAGNOSED_PRIOR_TO_AGE_50: Decline
+  TAKING_INSULIN_ANY_AGE: Decline
+  DIABETIC_WITH_ANY_COMPLICATION: Decline
+  DIAGNOSED_AGE_50_PLUS_NO_INSULIN_NO_COMPLICATION: Question 8a Yes, Questions 8b and 8c must be No
+
+VISA_REQUIREMENTS:
+  ACCEPTABLE_VISAS: Permanent residency visa, H1B visa, L1 visa
+  H1B_L1_MINIMUM_US_RESIDENCE: 1 year
+  H1B_L1_DOCUMENTATION_REQUIRED: Copy of visa, I-94 Form, I-797A Notice of Action form
+  FOREIGN_TRAVEL: Contact Underwriting with questions
+
+===COMPANY_BACKGROUND===
+FOUNDED: 1895
+HISTORY: Assisted policyholders through world wars, Great Depression, various periods of recession and inflation
+REPUTATION: Built on integrity, sound investment strategies, honest business practices
+BACKING: Over 130 years of quality service and financial security
+FINANCIAL_STRENGTH: Over a century of quality service and financial security
+
+===CONTACT_INFORMATION===
+HOME_OFFICE_ADDRESS: 3520 Broadway Kansas City MO 64111
+HOME_OFFICE_PHONE: 816-753-7000
+WEBSITE: www.kclife.com
+
+DISTRIBUTION_CONTACT: Peoples Protection Group
+DISTRIBUTION_ADDRESS: 1340 Shermer Road #220 Northbrook IL 60062
+DISTRIBUTION_PHONE: 847-559-9121
+
+===POLICY_FEATURES===
+MORTGAGE_PROTECTION: Designed to help protect mortgage payments
+INCOME_REPLACEMENT: Designed to replace income for family financial needs
+DEATH_BENEFIT: Level death benefit for duration of term
+GUARANTEED_PREMIUM: Level premium guaranteed for duration
+CONVERSION_AVAILABLE: Can convert to permanent life insurance
+FLEXIBLE_PAYMENT: Multiple premium payment modes available
+
+===COMPETITIVE_ADVANTAGES===
+SIMPLIFIED_UNDERWRITING: Does not require lengthy health inquiry
+RAPID_ISSUE: Fast policy approval
+INCLUDED_BENEFITS: Multiple accelerated death benefit riders at no extra cost
+ROP_OPTION: Return of premium feature available on 20, 25, 30 year terms
+CONVERSION_PRIVILEGE: Can convert to permanent without evidence of insurability
+WAIVER_RIDERS: Unique residential damage and unemployment waiver riders included
+INCOME_ASSURED: Flexible death benefit payment options
+COMPANY_STRENGTH: Over 130 years of financial stability
+
+===POLICY_PROVISIONS===
+DEATH_BENEFIT:
+  DECREASES_ALLOWED: No decreases in face amount allowed except for decreases due to Accelerated Death Benefit Riders
+
+  MISSTATEMENT_AGE_SEX:
+    ADJUSTMENT: Death benefit adjusted if age or sex not correct
+    ADJUSTED_BENEFIT: Face amount that most recent premium paid would have purchased for correct age and sex
+
+  MISSTATEMENT_TOBACCO_STATUS:
+    TIMEFRAME: During first 2 policy years
+    ADJUSTMENT: Death benefit adjusted if risk classification not stated correctly
+    ADJUSTED_BENEFIT: Face amount that premium would have purchased for correct risk classification
+
+  INTEREST_ON_DEATH_BENEFIT:
+    BASE_INTEREST: At least 1.0 percent annually from date of insured death until date of payment
+    ADDITIONAL_INTEREST: 10 percent annually beginning 31 days from latest of:
+      - Date proof of death received
+      - Date sufficient information to determine liability received
+      - Date legal impediments to payment depending on action of other parties resolved
+
+PREPAID_PREMIUMS:
+  DISCOUNT: 4 percent compound interest applied to prepaid annual premiums received one or more years in advance
+  ALLOWED_ON: Annual premiums only
+  MAXIMUM_PREPAYMENT_PERIOD: Life of policy
+  UNUSED_PREMIUM_REFUND: If policyholder surrenders before all prepaid renewal premiums applied owner receives refund of unused portion
+  FORM_REQUIRED: Request to discount premiums Form 7577 should be completed and sent with advance premiums
+
+BILLING:
+  PERIODIC_PREMIUM_PAYMENTS: Available
+  MINIMUM_PREMIUM_PAPER_BILLING: 25
+  MINIMUM_PREMIUM_PREAUTHORIZED_CHECK: 10
+  MINIMUM_PREMIUM_COMBINED_BILLING: 10
+
+REINSTATEMENT:
+  TIMEFRAME: Within 3 years after date of any past due premium
+  REQUIREMENTS:
+    - Receipt of evidence of insurability of Insured satisfactory to company
+    - During initial term period payment of all past due premiums with 6 percent interest from due date of each premium including amount from beginning of policy month in which reinstatement occurs to next premium due date
+    - After initial term period payment of one month premium with 6 percent interest from due date of premium
+
+  SIGNATURE_TERM_EXPRESS_ROP_ADDITIONAL:
+    - Payment or reinstatement of any indebtedness existing when policy terminated with interest from that date
+
+EXPIRATION_OF_UNDERWRITING_REQUIREMENTS:
+  AGE_0_TO_70:
+    APPLICATION: 1 year
+    EXAM: 1 year
+    BLOOD_AND_URINE: 1 year
+    EKG_INSPECTION_MVR: 1 year
+    71_PLUS_INSPECTION_COGNITIVE_TEST: 1 year
+    FUNCTIONAL_TEST: N/A
+
+  AGE_71_PLUS:
+    APPLICATION: 1 year
+    EXAM: 6 months
+    BLOOD_AND_URINE: 6 months
+    EKG_INSPECTION_MVR: 1 year
+    71_PLUS_INSPECTION_COGNITIVE_TEST: 1 year
+    FUNCTIONAL_TEST: 6 months
+
+===HEIGHT_WEIGHT_CHART===
+NOTE: Build chart requirements for underwriting
+
+HEIGHT_4_8: Minimum 78, Maximum 195, Table Maximum Diabetic Multiple Impairments 182
+HEIGHT_4_9: Minimum 80, Maximum 200, Table Maximum Diabetic Multiple Impairments 187
+HEIGHT_4_10: Minimum 83, Maximum 206, Table Maximum Diabetic Multiple Impairments 192
+HEIGHT_4_11: Minimum 86, Maximum 213, Table Maximum Diabetic Multiple Impairments 197
+HEIGHT_5_0: Minimum 89, Maximum 218, Table Maximum Diabetic Multiple Impairments 203
+HEIGHT_5_1: Minimum 92, Maximum 225, Table Maximum Diabetic Multiple Impairments 208
+HEIGHT_5_2: Minimum 95, Maximum 231, Table Maximum Diabetic Multiple Impairments 213
+HEIGHT_5_3: Minimum 97, Maximum 237, Table Maximum Diabetic Multiple Impairments 218
+HEIGHT_5_4: Minimum 100, Maximum 243, Table Maximum Diabetic Multiple Impairments 223
+HEIGHT_5_5: Minimum 104, Maximum 250, Table Maximum Diabetic Multiple Impairments 229
+HEIGHT_5_6: Minimum 107, Maximum 257, Table Maximum Diabetic Multiple Impairments 236
+HEIGHT_5_7: Minimum 109, Maximum 264, Table Maximum Diabetic Multiple Impairments 242
+HEIGHT_5_8: Minimum 113, Maximum 272, Table Maximum Diabetic Multiple Impairments 248
+HEIGHT_5_9: Minimum 116, Maximum 280, Table Maximum Diabetic Multiple Impairments 256
+HEIGHT_5_10: Minimum 119, Maximum 288, Table Maximum Diabetic Multiple Impairments 263
+HEIGHT_5_11: Minimum 123, Maximum 296, Table Maximum Diabetic Multiple Impairments 271
+HEIGHT_6_0: Minimum 127, Maximum 304, Table Maximum Diabetic Multiple Impairments 279
+HEIGHT_6_1: Minimum 131, Maximum 312, Table Maximum Diabetic Multiple Impairments 287
+HEIGHT_6_2: Minimum 135, Maximum 320, Table Maximum Diabetic Multiple Impairments 294
+HEIGHT_6_3: Minimum 139, Maximum 328, Table Maximum Diabetic Multiple Impairments 301
+HEIGHT_6_4: Minimum 143, Maximum 336, Table Maximum Diabetic Multiple Impairments 310
+HEIGHT_6_5: Minimum 146, Maximum 345, Table Maximum Diabetic Multiple Impairments 318
+HEIGHT_6_6: Minimum 150, Maximum 354, Table Maximum Diabetic Multiple Impairments 326
+HEIGHT_6_7: Minimum 154, Maximum 364, Table Maximum Diabetic Multiple Impairments 334
+HEIGHT_6_8: Minimum 159, Maximum 374, Table Maximum Diabetic Multiple Impairments 343
+HEIGHT_6_9: Minimum 164, Maximum 384, Table Maximum Diabetic Multiple Impairments 350
+HEIGHT_6_10: Minimum 169, Maximum 394, Table Maximum Diabetic Multiple Impairments 357
+
+===PRESCRIPTION_DRUG_EXCLUSIONS===
+NOTE: Proposed insured currently taking any of listed prescription medications not eligible for Signature Term Express Series
+NOTE: Kansas City Life reserves right to ask additional questions or pursue additional information and take final action on any medication or combination of medications listed and not listed
+
+AUTOMATIC_DECLINE_MEDICATIONS:
+  - Abacavir, Abilify, Adcirca, Aggrenox, Alkeran, Amiodarone, Ampyra, Antabuse, Anoro Ellipta, Aricept, Arimidex, Atripla, Avonex, Azilect
+  - Baraclude, Betaseron, Breo Ellipta, Buprenorphine (Subutex)
+  - Calcium Acetate, Campath, Campral, Caprelsa, Carbidopa/Levodopa, Casodex, Cayston, Cellcept, Chlorpromazine Hcl, Clozapine, Cognex, Combivir, Comtan, Copaxone, Crixivan, Cyclosporine, Cytoxan
+  - Daklinza, Daliresp, Descovy, Digitek, Digoxin, Dobutamine Hcl, Donepezil, Droxia
+  - Eldepryl, Eligard, Eliquis, Eminase, Enbrel, Entresto, Epivir Hbv, Ergoloid Mesylates, Erythropoietin, Exelon
+  - Fanapt, Femara, Flecainide, Fluorouracil
+  - Galantamine Hydrobromide, Gammagard, Gamunex, Gengraf, Genvoya, Geodon
+  - Haldol, Haloperidol, Harvoni, Hepsera, Humira, Hydrea, Hydroxyurea
+  - Infergen, Inspra, Insulin, Invega, Invirase, Isentress
+  - Kaletra, Kalydeco, Keytruda
+  - Lamictal, Lanoxin, Latuda, Leucovorin Calcium, Lexiva, Limbitrol, Lithium
+  - Megestrol Acetate (Megace), Mercaptopurine, Methadone, Methotrexate, Mitomycin, Morphine Sulfate, Mycophenolate Mofetil, Myfortic
+  - Nabi-Hb, Naloxone Hcl, Naltrexone Hcl, Namenda, Neupogen, Nitroglycerin
+  - Odefsey, Olysio, Opdivo
+  - Panretin, Pegasys, Peg-Intron, Perphenazine, Pradaxa, Prograf
+  - Quinidine
+  - Ranexa, Razadyne, Rebif, Retrovir, Revia, Revlimid, Rexulti, Rhythmol, Ribavirin, Rilutek, Risperdal, Rituxan
+  - Sandimmune, Saphris, Seroquel, Serzone, Sinemet, Sotalol, Sovaldi, Spiriva, Stalevo, Stribild, Suboxone, Sustiva, Symbyax
+  - Tamoxifen, Targretin, Temodar, Teslac, Tikosyn, Tolcapone, Truvada, Tudorza, Tysabri
+  - Viracept, Viramune, Viread, Vraylor
+  - Xarelto, Xeljanz
+  - Yervoy
+  - Zenapax, Zemplar, Zerit, Ziagen, Zidovudine, Zoladex, Zyprexa
+
+INDIVIDUAL_CONSIDERATION_MEDICATIONS:
+  NOTE: Provide reason for medication on application
+  MEDICATIONS: Carvedilol, Clopidogrel, Coreg, Coumadin, Enoxaparin Sodium, Lovenox, Plavix, Prednisone, Warfarin
+
+===STATE_AVAILABILITY===
+NOTE: Coverage may not be available in all states
+NOTE: Form numbers may differ by state
+NOTE: Benefits and riders may not be available in all states

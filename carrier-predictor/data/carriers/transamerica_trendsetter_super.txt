@@ -1,0 +1,778 @@
+===METADATA===
+CARRIER: Transamerica Life Insurance Company
+PRODUCT_NAME: Trendsetter Super
+PRODUCT_CATEGORY: Term Life Insurance
+ISSUE_TYPE: Fully Underwritten
+PRODUCT_CODE: TR
+ACCELERATED_UNDERWRITING: iGO (Instant Issue Available)
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 18 to 75, clean to moderate health
+HEALTH_PROFILE: Clean to moderate health, fully underwritten or iGO instant issue
+UNDERWRITING_SELECTIVITY: Fully underwritten or iGO streamlined up to 1 million
+COMPETITIVE_ADVANTAGE: iGO instant issue up to 1 million, return of premium options available, level term 10 15 20 30 year options, comprehensive rider options
+MAXIMUM_COVERAGE: Up to 10000000
+LIVING_BENEFITS: Comprehensive rider options including chronic illness, critical illness, accelerated death benefit
+APPLICATION_PROCESS: Fully underwritten or iGO instant issue
+APPROVAL_SPEED: iGO instant issue available for ages 18 to 60 up to 1 million
+SALES_BOX: Not categorized in 4 box system, traditional level term carrier with instant issue option
+BEST_FOR: Traditional level term coverage, return of premium seekers, instant issue up to 1 million ages 18 to 60, comprehensive living benefit rider needs, competitive term rates
+UNIQUE_STRENGTH: iGO instant issue point of sale decision, return of premium variants, flexible term lengths 10 15 20 30 years, comprehensive rider suite, convertible and renewable
+AVOID_IF: Looking for simplified issue only, prefer specialized niche carriers, need guaranteed issue
+
+===PRODUCT_VARIANTS===
+VARIANT: Level_10
+  TERM_LENGTH: 10
+  RENEWABLE: true
+  CONVERTIBLE: true
+  RETURN_OF_PREMIUM: Available as separate product variant
+
+VARIANT: Level_15
+  TERM_LENGTH: 15
+  RENEWABLE: true
+  CONVERTIBLE: true
+  RETURN_OF_PREMIUM: Available as separate product variant
+
+VARIANT: Level_20
+  TERM_LENGTH: 20
+  RENEWABLE: true
+  CONVERTIBLE: true
+  RETURN_OF_PREMIUM: Available as separate product variant
+
+VARIANT: Level_30
+  TERM_LENGTH: 30
+  RENEWABLE: true
+  CONVERTIBLE: true
+  RETURN_OF_PREMIUM: Available as separate product variant
+
+VARIANT: ROP_10
+  TERM_LENGTH: 10
+  RENEWABLE: true
+  CONVERTIBLE: true
+  RETURN_OF_PREMIUM: true
+  PREMIUM_RETURN_PERCENTAGE: 100
+
+VARIANT: ROP_15
+  TERM_LENGTH: 15
+  RENEWABLE: true
+  CONVERTIBLE: true
+  RETURN_OF_PREMIUM: true
+  PREMIUM_RETURN_PERCENTAGE: 100
+
+VARIANT: ROP_20
+  TERM_LENGTH: 20
+  RENEWABLE: true
+  CONVERTIBLE: true
+  RETURN_OF_PREMIUM: true
+  PREMIUM_RETURN_PERCENTAGE: 100
+
+VARIANT: ROP_30
+  TERM_LENGTH: 30
+  RENEWABLE: true
+  CONVERTIBLE: true
+  RETURN_OF_PREMIUM: true
+  PREMIUM_RETURN_PERCENTAGE: 100
+
+===CORE_SPECIFICATIONS===
+ISSUE_AGES:
+  Level_10:
+    MIN_AGE: 18
+    MAX_AGE: 75
+    AGE_TYPE: nearest_birthday
+  Level_15:
+    MIN_AGE: 18
+    MAX_AGE: 70
+    AGE_TYPE: nearest_birthday
+  Level_20:
+    MIN_AGE: 18
+    MAX_AGE: 70
+    AGE_TYPE: nearest_birthday
+  Level_30:
+    MIN_AGE: 18
+    MAX_AGE: 60
+    AGE_TYPE: nearest_birthday
+  ROP_10:
+    MIN_AGE: 18
+    MAX_AGE: 70
+    AGE_TYPE: nearest_birthday
+  ROP_15:
+    MIN_AGE: 18
+    MAX_AGE: 65
+    AGE_TYPE: nearest_birthday
+  ROP_20:
+    MIN_AGE: 18
+    MAX_AGE: 65
+    AGE_TYPE: nearest_birthday
+  ROP_30:
+    MIN_AGE: 18
+    MAX_AGE: 55
+    AGE_TYPE: nearest_birthday
+
+FACE_AMOUNTS:
+  MINIMUM: 100000
+  MAXIMUM: 10000000
+  NOTES: Maximum may vary by age and underwriting class
+
+===RISK_CLASSIFICATIONS===
+AVAILABLE_CLASSES:
+  - Preferred_Plus_Nontobacco
+  - Preferred_Nontobacco
+  - Standard_Plus_Nontobacco
+  - Standard_Nontobacco
+  - Preferred_Tobacco
+  - Standard_Tobacco
+  - Table_Ratings_1_through_8
+
+SUBSTANDARD_TABLE_RATINGS:
+  Table_1_A:
+    PERCENTAGE: 125
+  Table_2_B:
+    PERCENTAGE: 150
+  Table_3_C:
+    PERCENTAGE: 175
+  Table_4_D:
+    PERCENTAGE: 200
+  Table_5_E:
+    PERCENTAGE: 225
+  Table_6_F:
+    PERCENTAGE: 250
+  Table_7_G:
+    PERCENTAGE: 275
+  Table_8_H:
+    PERCENTAGE: 300
+
+===UNDERWRITING_REQUIREMENTS===
+PROCESS_TYPE: Fully_Underwritten_or_iGO_Instant_Issue
+MEDICAL_EXAM_TYPES: Nonmed, Paramed, Medical_Exam
+BUILD_CHART_USED: true
+MIB_CHECK: true
+PRESCRIPTION_CHECK: true
+MOTOR_VEHICLE_REPORT: Conditional
+ATTENDING_PHYSICIAN_STATEMENT: Conditional
+RISK_SCORE: May_be_required
+
+IGO_INSTANT_ISSUE:
+  AVAILABLE: true
+  MAX_FACE_AMOUNT: 1000000
+  POINT_OF_SALE_DECISION: true
+  REQUIREMENTS: Nonmed application with instant underwriting decision
+  ELIGIBLE_AGES: 18_to_60
+  ELIGIBLE_AMOUNTS: 100000_to_1000000
+
+UNDERWRITING_REQUIREMENT_DEFINITIONS:
+  Nonmed:
+    DESCRIPTION: Application only, no paramed or medical exam
+    COMPONENTS: Application, phone interview if needed
+
+  Paramed:
+    DESCRIPTION: Application plus paramedical exam
+    COMPONENTS: Application, blood, urine, height, weight, blood pressure, pulse, medical history
+    VALIDITY_PERIOD: 6_months
+
+  BCP:
+    DESCRIPTION: Blood Chemistry Profile
+    VALIDITY_PERIOD: 12_months
+
+  HOS:
+    DESCRIPTION: HIV Oral Swab
+    VALIDITY_PERIOD: 12_months
+
+  ECG:
+    DESCRIPTION: Electrocardiogram
+    VALIDITY_PERIOD: 12_months
+
+  MVR:
+    DESCRIPTION: Motor Vehicle Report
+    VALIDITY_PERIOD: 12_months
+
+  APS:
+    DESCRIPTION: Attending Physician Statement
+    VALIDITY_PERIOD: Varies_by_condition
+
+PARAMED_COMPANIES:
+  - ExamOne
+  - EMSI
+  - Portamedic
+
+INITIAL_REQUIREMENTS_BY_AGE_AND_AMOUNT:
+  Ages_18_40:
+    Amount_100000_499999: Nonmed
+    Amount_500000_999999: Paramed
+    Amount_1000000_2499999: Paramed_BCP_HOS
+    Amount_2500000_4999999: Paramed_BCP_HOS_ECG
+    Amount_5000000_plus: Paramed_BCP_HOS_ECG_APS
+
+  Ages_41_50:
+    Amount_100000_249999: Nonmed
+    Amount_250000_999999: Paramed
+    Amount_1000000_2499999: Paramed_BCP_HOS_ECG
+    Amount_2500000_4999999: Paramed_BCP_HOS_ECG
+    Amount_5000000_plus: Paramed_BCP_HOS_ECG_APS
+
+  Ages_51_60:
+    Amount_100000_249999: Paramed
+    Amount_250000_999999: Paramed_BCP_HOS
+    Amount_1000000_2499999: Paramed_BCP_HOS_ECG
+    Amount_2500000_4999999: Paramed_BCP_HOS_ECG
+    Amount_5000000_plus: Paramed_BCP_HOS_ECG_APS
+
+  Ages_61_70:
+    Amount_100000_249999: Paramed
+    Amount_250000_999999: Paramed_BCP_HOS_ECG
+    Amount_1000000_plus: Paramed_BCP_HOS_ECG_APS
+
+  Ages_71_75:
+    Amount_100000_249999: Paramed_BCP_HOS_ECG
+    Amount_250000_plus: Paramed_BCP_HOS_ECG_APS
+
+===HEIGHT_WEIGHT_CHART===
+BUILD_CHART_TYPE: Standard_Preferred_Plus_build_requirements
+
+PREFERRED_PLUS_BUILD_CHART:
+  5_0:
+    MIN_WEIGHT: 95
+    MAX_WEIGHT: 150
+  5_1:
+    MIN_WEIGHT: 98
+    MAX_WEIGHT: 155
+  5_2:
+    MIN_WEIGHT: 101
+    MAX_WEIGHT: 161
+  5_3:
+    MIN_WEIGHT: 104
+    MAX_WEIGHT: 166
+  5_4:
+    MIN_WEIGHT: 107
+    MAX_WEIGHT: 172
+  5_5:
+    MIN_WEIGHT: 111
+    MAX_WEIGHT: 177
+  5_6:
+    MIN_WEIGHT: 114
+    MAX_WEIGHT: 183
+  5_7:
+    MIN_WEIGHT: 118
+    MAX_WEIGHT: 189
+  5_8:
+    MIN_WEIGHT: 122
+    MAX_WEIGHT: 195
+  5_9:
+    MIN_WEIGHT: 125
+    MAX_WEIGHT: 202
+  5_10:
+    MIN_WEIGHT: 129
+    MAX_WEIGHT: 208
+  5_11:
+    MIN_WEIGHT: 133
+    MAX_WEIGHT: 215
+  6_0:
+    MIN_WEIGHT: 137
+    MAX_WEIGHT: 221
+  6_1:
+    MIN_WEIGHT: 141
+    MAX_WEIGHT: 228
+  6_2:
+    MIN_WEIGHT: 145
+    MAX_WEIGHT: 235
+  6_3:
+    MIN_WEIGHT: 149
+    MAX_WEIGHT: 242
+  6_4:
+    MIN_WEIGHT: 153
+    MAX_WEIGHT: 249
+  6_5:
+    MIN_WEIGHT: 157
+    MAX_WEIGHT: 256
+  6_6:
+    MIN_WEIGHT: 162
+    MAX_WEIGHT: 264
+  6_7:
+    MIN_WEIGHT: 166
+    MAX_WEIGHT: 271
+
+STANDARD_BUILD_CHART:
+  5_0:
+    MIN_WEIGHT: 85
+    MAX_WEIGHT: 174
+  5_1:
+    MIN_WEIGHT: 87
+    MAX_WEIGHT: 179
+  5_2:
+    MIN_WEIGHT: 90
+    MAX_WEIGHT: 185
+  5_3:
+    MIN_WEIGHT: 93
+    MAX_WEIGHT: 191
+  5_4:
+    MIN_WEIGHT: 96
+    MAX_WEIGHT: 197
+  5_5:
+    MIN_WEIGHT: 99
+    MAX_WEIGHT: 204
+  5_6:
+    MIN_WEIGHT: 102
+    MAX_WEIGHT: 210
+  5_7:
+    MIN_WEIGHT: 105
+    MAX_WEIGHT: 217
+  5_8:
+    MIN_WEIGHT: 109
+    MAX_WEIGHT: 224
+  5_9:
+    MIN_WEIGHT: 112
+    MAX_WEIGHT: 231
+  5_10:
+    MIN_WEIGHT: 115
+    MAX_WEIGHT: 239
+  5_11:
+    MIN_WEIGHT: 119
+    MAX_WEIGHT: 246
+  6_0:
+    MIN_WEIGHT: 123
+    MAX_WEIGHT: 254
+  6_1:
+    MIN_WEIGHT: 126
+    MAX_WEIGHT: 262
+  6_2:
+    MIN_WEIGHT: 130
+    MAX_WEIGHT: 270
+  6_3:
+    MIN_WEIGHT: 134
+    MAX_WEIGHT: 278
+  6_4:
+    MIN_WEIGHT: 137
+    MAX_WEIGHT: 287
+  6_5:
+    MIN_WEIGHT: 141
+    MAX_WEIGHT: 295
+  6_6:
+    MIN_WEIGHT: 145
+    MAX_WEIGHT: 304
+  6_7:
+    MIN_WEIGHT: 149
+    MAX_WEIGHT: 313
+
+===RISK_CLASS_FACTORS===
+PREFERRED_PLUS_NONTOBACCO:
+  BUILD: Must_meet_Preferred_Plus_build_chart
+  TOBACCO: None_in_last_5_years
+  BLOOD_PRESSURE: 140_90_or_lower_untreated
+  CHOLESTEROL: Total_240_or_lower_HDL_40_or_higher
+  FAMILY_HISTORY: No_cardiovascular_disease_before_age_60_in_parents_siblings
+  DRIVING: No_DUI_in_last_5_years_no_more_than_1_moving_violation_in_3_years
+  HEALTH: No_significant_medical_conditions
+
+PREFERRED_NONTOBACCO:
+  BUILD: Must_meet_Standard_build_chart
+  TOBACCO: None_in_last_3_years
+  BLOOD_PRESSURE: 145_95_or_lower_treated_or_untreated
+  CHOLESTEROL: Total_260_or_lower
+  FAMILY_HISTORY: More_lenient_than_Preferred_Plus
+  DRIVING: No_DUI_in_last_3_years
+  HEALTH: Minor_controlled_conditions_acceptable
+
+STANDARD_PLUS_NONTOBACCO:
+  BUILD: Must_meet_Standard_build_chart
+  TOBACCO: None_in_last_12_months
+  BLOOD_PRESSURE: 150_100_or_lower_treated_or_untreated
+  CHOLESTEROL: Total_300_or_lower
+  DRIVING: No_DUI_in_last_3_years
+  HEALTH: Controlled_conditions_acceptable
+
+STANDARD_NONTOBACCO:
+  BUILD: Must_meet_Standard_build_chart_or_slightly_above
+  TOBACCO: None_in_last_12_months
+  HEALTH: Various_controlled_conditions_acceptable
+
+TOBACCO_CLASSES:
+  DEFINITION: Nicotine_or_tobacco_use_in_last_12_months
+  PRODUCTS_INCLUDED: Cigarettes_cigars_pipes_chewing_tobacco_nicotine_replacement
+  PREFERRED_TOBACCO: Better_health_profile_tobacco_user
+  STANDARD_TOBACCO: Standard_health_profile_tobacco_user
+
+===MEDICAL_IMPAIRMENTS===
+CONDITION: Alcohol_Abuse
+  PREFERRED_PLUS: Decline
+  PREFERRED: Decline
+  STANDARD_PLUS: Decline_if_current_or_recent
+  STANDARD: Possible_if_remote_history_with_recovery
+  TABLE_RATING: Likely_if_approved
+
+CONDITION: Anxiety
+  PREFERRED_PLUS: Decline_if_medicated
+  PREFERRED: Possible_if_mild_well_controlled
+  STANDARD_PLUS: Possible_if_controlled
+  STANDARD: Acceptable_if_stable
+  TABLE_RATING: Depends_on_severity
+
+CONDITION: Asthma
+  PREFERRED_PLUS: Decline_if_medicated
+  PREFERRED: Possible_if_mild_childhood_only
+  STANDARD_PLUS: Possible_if_controlled_no_hospitalizations
+  STANDARD: Acceptable_if_controlled
+  TABLE_RATING: Possible_if_severe_or_hospitalizations
+
+CONDITION: Atrial_Fibrillation
+  PREFERRED_PLUS: Decline
+  PREFERRED: Decline
+  STANDARD_PLUS: Decline
+  STANDARD: Possible_if_controlled_no_other_cardiac_issues
+  TABLE_RATING: Likely
+
+CONDITION: Cancer
+  PREFERRED_PLUS: Decline_unless_certain_skin_cancers_remote
+  PREFERRED: Possible_if_certain_early_stage_cancers_5_plus_years_remission
+  STANDARD_PLUS: Possible_if_3_plus_years_remission_favorable_type
+  STANDARD: Possible_if_2_plus_years_remission
+  TABLE_RATING: Depends_on_type_stage_remission_time
+
+CONDITION: Coronary_Artery_Disease
+  PREFERRED_PLUS: Decline
+  PREFERRED: Decline
+  STANDARD_PLUS: Decline
+  STANDARD: Decline_unless_mild_stable
+  TABLE_RATING: Likely_if_approved
+
+CONDITION: Depression
+  PREFERRED_PLUS: Decline_if_medicated
+  PREFERRED: Possible_if_mild_single_episode_remote
+  STANDARD_PLUS: Possible_if_controlled_on_single_medication
+  STANDARD: Acceptable_if_stable_controlled
+  TABLE_RATING: Possible_if_multiple_episodes_or_medications
+
+CONDITION: Diabetes_Type_1
+  PREFERRED_PLUS: Decline
+  PREFERRED: Decline
+  STANDARD_PLUS: Decline
+  STANDARD: Decline
+  TABLE_RATING: Always_if_approved
+
+CONDITION: Diabetes_Type_2
+  PREFERRED_PLUS: Decline
+  PREFERRED: Decline
+  STANDARD_PLUS: Possible_if_diet_controlled_or_single_oral_medication_A1C_under_7
+  STANDARD: Possible_if_controlled_A1C_under_8
+  TABLE_RATING: Likely_if_insulin_or_poor_control
+
+CONDITION: Heart_Attack
+  PREFERRED_PLUS: Decline
+  PREFERRED: Decline
+  STANDARD_PLUS: Decline
+  STANDARD: Decline
+  TABLE_RATING: Possible_if_5_plus_years_no_complications
+
+CONDITION: High_Blood_Pressure
+  PREFERRED_PLUS: Possible_if_140_90_or_lower_no_medication
+  PREFERRED: Possible_if_145_95_or_lower_with_or_without_medication
+  STANDARD_PLUS: Possible_if_150_100_or_lower
+  STANDARD: Possible_if_controlled_under_160_105
+  TABLE_RATING: Possible_if_higher_or_multiple_medications
+
+CONDITION: High_Cholesterol
+  PREFERRED_PLUS: Total_240_or_lower_HDL_40_or_higher
+  PREFERRED: Total_260_or_lower
+  STANDARD_PLUS: Total_300_or_lower
+  STANDARD: Acceptable_if_controlled
+  TABLE_RATING: Rare_for_cholesterol_alone
+
+CONDITION: Obesity
+  PREFERRED_PLUS: Must_meet_Preferred_Plus_build_chart
+  PREFERRED: Must_meet_Standard_build_chart
+  STANDARD_PLUS: Must_meet_Standard_build_chart
+  STANDARD: Slightly_above_Standard_build_acceptable
+  TABLE_RATING: Significantly_above_build_chart
+
+CONDITION: Sleep_Apnea
+  PREFERRED_PLUS: Decline_if_diagnosed
+  PREFERRED: Possible_if_mild_compliant_with_CPAP
+  STANDARD_PLUS: Possible_if_controlled_with_CPAP
+  STANDARD: Acceptable_if_treated
+  TABLE_RATING: Possible_if_severe_or_noncompliant
+
+CONDITION: Stroke
+  PREFERRED_PLUS: Decline
+  PREFERRED: Decline
+  STANDARD_PLUS: Decline
+  STANDARD: Decline
+  TABLE_RATING: Possible_if_5_plus_years_TIA_only_no_recurrence
+
+===OPTIONAL_RIDERS===
+RIDER: Accelerated_Death_Benefit
+  CODE: ADB
+  DESCRIPTION: Accelerates death benefit if diagnosed with terminal illness
+  COST: Included_no_charge
+  AVAILABLE_ON: All_Trendsetter_Super_variants
+  TERMINAL_ILLNESS_DEFINITION: 12_months_or_less_to_live
+  ACCELERATION_PERCENTAGE: Up_to_100_percent
+  MINIMUM_ACCELERATION: 5000
+  MAXIMUM_ACCELERATION: Lesser_of_500000_or_face_amount
+
+RIDER: Accidental_Death_Benefit
+  CODE: AIR
+  DESCRIPTION: Pays additional benefit if death is due to accident
+  COST: Additional_premium
+  AVAILABLE_ON: Trendsetter_Super_Level_and_ROP
+  ISSUE_AGES: 18_to_65
+  BENEFIT_AMOUNT: Equal_to_base_face_amount_up_to_1000000_maximum
+  TERMINATION_AGE: 70
+
+RIDER: Children_Benefit_Rider
+  CODE: CBR
+  DESCRIPTION: Provides term life insurance on children
+  COST: Additional_premium
+  AVAILABLE_ON: Trendsetter_Super_Level_and_ROP
+  ELIGIBLE_CHILDREN: Ages_15_days_to_18_years
+  BENEFIT_AMOUNT: 10000_25000_or_50000_per_child
+  CONVERTS_TO: Whole_life_at_age_25_without_evidence_of_insurability
+  ALL_CHILDREN_COVERED: Yes_one_premium_covers_all_eligible_children
+
+RIDER: Chronic_Illness_Accelerated_Benefit
+  CODE: Chronic_Illness
+  DESCRIPTION: Accelerates death benefit if chronically ill and unable to perform ADLs
+  COST: Additional_premium
+  AVAILABLE_ON: Trendsetter_Super_Level_10_15_20_30
+  ISSUE_AGES: 18_to_70
+  CHRONIC_ILLNESS_DEFINITION: Unable_to_perform_2_of_6_ADLs_for_90_days
+  ACCELERATION_PERCENTAGE: Up_to_75_percent
+  MAXIMUM_ACCELERATION: 250000
+
+RIDER: Critical_Illness_Accelerated_Benefit
+  CODE: Critical_Illness
+  DESCRIPTION: Accelerates death benefit if diagnosed with covered critical illness
+  COST: Additional_premium
+  AVAILABLE_ON: Trendsetter_Super_Level_10_15_20_30
+  ISSUE_AGES: 18_to_65
+  COVERED_CONDITIONS: Heart_attack_stroke_major_organ_transplant_end_stage_renal_failure_ALS_invasive_cancer
+  ACCELERATION_PERCENTAGE: 25_50_75_or_100_percent
+  MAXIMUM_ACCELERATION: 100000
+
+RIDER: Disability_Waiver_of_Premium
+  CODE: DWP
+  DESCRIPTION: Waives premiums if insured becomes totally disabled
+  COST: Additional_premium
+  AVAILABLE_ON: All_Trendsetter_Super_variants
+  ISSUE_AGES: 18_to_60
+  ELIMINATION_PERIOD: 6_months
+  DISABILITY_DEFINITION: Unable_to_perform_duties_of_own_occupation
+  TERMINATION_AGE: 65
+
+RIDER: Guaranteed_Insurability_Rider
+  CODE: GIR
+  DESCRIPTION: Allows purchase of additional insurance at specified ages without evidence of insurability
+  COST: Additional_premium
+  AVAILABLE_ON: Trendsetter_Super_Level_10_15_20_30
+  ISSUE_AGES: 18_to_40
+  OPTION_AGES: 25_28_31_34_37_40_43_46
+  OPTION_AMOUNT: Lesser_of_original_face_amount_or_250000_per_option
+  SPECIAL_EVENTS: Marriage_birth_adoption_within_90_days
+
+RIDER: Income_Provider_Option
+  CODE: IPO
+  DESCRIPTION: Pays death benefit in monthly installments instead of lump sum
+  COST: Included_no_charge
+  AVAILABLE_ON: All_Trendsetter_Super_variants
+  PAYOUT_PERIOD: 10_15_20_or_30_years
+  MINIMUM_DEATH_BENEFIT: 100000
+
+===FOREIGN_NATIONAL_REQUIREMENTS===
+US_CITIZENSHIP:
+  REQUIREMENTS: None_beyond_standard_underwriting
+  DOCUMENTATION: Proof_of_citizenship_if_born_outside_US
+
+PERMANENT_RESIDENT:
+  STATUS: Green_Card_holder
+  REQUIREMENTS: Must_have_valid_Green_Card
+  DOCUMENTATION: Copy_of_Green_Card_front_and_back
+  UNDERWRITING: Standard_process_applies
+
+VISA_HOLDERS:
+  A1_A2_Diplomatic:
+    ELIGIBLE: Yes
+    REQUIREMENTS: Valid_visa_and_passport
+    FACE_AMOUNT_LIMIT: 1000000
+    UNDERWRITING: Standard_with_visa_documentation
+
+  E1_E2_Treaty_Trader_Investor:
+    ELIGIBLE: Yes
+    REQUIREMENTS: Valid_E1_E2_visa_established_business_presence
+    FACE_AMOUNT_LIMIT: 5000000
+    UNDERWRITING: Standard_with_business_documentation
+
+  F1_Student:
+    ELIGIBLE: Limited
+    REQUIREMENTS: Valid_F1_visa_enrolled_in_US_institution_US_based_financial_interest
+    FACE_AMOUNT_LIMIT: 250000
+    UNDERWRITING: Additional_documentation_required
+
+  H1B_Specialty_Occupation:
+    ELIGIBLE: Yes
+    REQUIREMENTS: Valid_H1B_visa_employed_by_US_company
+    FACE_AMOUNT_LIMIT: 3000000
+    UNDERWRITING: Standard_with_employment_documentation
+
+  J1_Exchange_Visitor:
+    ELIGIBLE: Limited
+    REQUIREMENTS: Valid_J1_visa_US_based_financial_interest
+    FACE_AMOUNT_LIMIT: 250000
+    UNDERWRITING: Additional_documentation_required
+
+  L1_Intracompany_Transfer:
+    ELIGIBLE: Yes
+    REQUIREMENTS: Valid_L1_visa_employed_by_US_company
+    FACE_AMOUNT_LIMIT: 3000000
+    UNDERWRITING: Standard_with_employment_documentation
+
+  O1_Extraordinary_Ability:
+    ELIGIBLE: Yes
+    REQUIREMENTS: Valid_O1_visa
+    FACE_AMOUNT_LIMIT: 2000000
+    UNDERWRITING: Standard_with_visa_documentation
+
+  TN_NAFTA:
+    ELIGIBLE: Yes
+    REQUIREMENTS: Valid_TN_visa_employed_in_US
+    FACE_AMOUNT_LIMIT: 2000000
+    UNDERWRITING: Standard_with_employment_documentation
+
+  B1_B2_Tourist_Business:
+    ELIGIBLE: No
+    REQUIREMENTS: Not_eligible_for_coverage
+
+  Other_Visas:
+    ELIGIBLE: Case_by_case
+    REQUIREMENTS: Review_by_underwriting
+
+DOCUMENTATION_REQUIRED:
+  All_Foreign_Nationals:
+    - Copy_of_passport_photo_page
+    - Copy_of_visa_or_Green_Card
+    - Proof_of_US_address
+    - US_based_financial_interest_documentation
+
+  Employment_Based_Visas:
+    - Employment_verification_letter
+    - Proof_of_income
+    - Length_of_employment
+
+  Student_Visas:
+    - Enrollment_verification
+    - I20_form
+    - Financial_need_justification
+
+===STATE_AVAILABILITY===
+AVAILABLE_STATES: All_50_states_plus_DC
+EXCEPTIONS: Check_state_specific_requirements_and_forms
+NEW_YORK: Additional_regulations_apply_use_NY_specific_forms
+
+===ADMINISTRATIVE_INFORMATION===
+PREMIUM_MODE: Annual_Semiannual_Quarterly_Monthly
+POLICY_FEE: May_apply_varies_by_state
+GRACE_PERIOD: 31_days
+CONTESTABILITY_PERIOD: 2_years
+SUICIDE_CLAUSE: 2_years
+
+CONVERSION_PRIVILEGE:
+  AVAILABLE: Yes_on_all_variants
+  CONVERSION_PERIOD: Anytime_during_level_term_period_or_within_5_years_of_issue_if_earlier
+  CONVERSION_PRODUCTS: TransACE_TransACE_Flex_TransSolution_Life
+  EVIDENCE_OF_INSURABILITY: Not_required
+
+RENEWABLE_TERM:
+  AVAILABLE: Yes_after_level_term_period_expires
+  RENEWABLE_TO_AGE: 95
+  PREMIUM: Increases_annually_based_on_attained_age
+  EVIDENCE_OF_INSURABILITY: Not_required
+
+CONDITIONAL_RECEIPT:
+  TEMPORARY_INSURANCE: May_be_available_if_paramed_completed_premium_paid
+  EFFECTIVE_DATE: Date_of_paramed_or_application_whichever_later
+  MAXIMUM_AMOUNT: 1000000
+  DURATION: Until_policy_issued_or_declined_maximum_90_days
+
+COVER_LETTER_REQUIREMENTS:
+  Large_Face_Amounts: Financial_questionnaire_required_for_amounts_over_2000000
+  Business_Insurance: Business_supplement_required
+  Foreign_Travel: Foreign_travel_questionnaire_if_significant_travel
+  Aviation: Aviation_questionnaire_if_private_pilot_or_crew
+  Hazardous_Occupation: Occupational_questionnaire_if_hazardous_duties
+
+===CONTACT_INFORMATION===
+CARRIER_NAME: Transamerica Life Insurance Company
+CARRIER_ADDRESS: Cedar Rapids IA
+AGENT_PORTAL: https://www.transamerica.com/agent
+UNDERWRITING_SUPPORT: 800_797_2643
+NEW_BUSINESS_SUPPORT: Available_through_agent_portal
+
+===DECISION_RULES===
+APPROVE_PREFERRED_PLUS_IF:
+  - Age_within_product_limits
+  - Face_amount_within_limits
+  - Meets_Preferred_Plus_build_chart
+  - No_tobacco_5_years
+  - Blood_pressure_140_90_or_lower_untreated
+  - Total_cholesterol_240_or_lower_HDL_40_or_higher
+  - No_family_history_cardiovascular_disease_before_60
+  - No_DUI_5_years_no_more_than_1_moving_violation_3_years
+  - No_significant_medical_conditions
+  - No_prescription_medications_for_serious_conditions
+  - Meets_all_underwriting_requirements
+
+APPROVE_PREFERRED_IF:
+  - Age_within_product_limits
+  - Face_amount_within_limits
+  - Meets_Standard_build_chart
+  - No_tobacco_3_years
+  - Blood_pressure_145_95_or_lower
+  - Total_cholesterol_260_or_lower
+  - Minor_controlled_conditions_acceptable
+  - No_DUI_3_years
+  - Meets_all_underwriting_requirements
+
+APPROVE_STANDARD_PLUS_IF:
+  - Age_within_product_limits
+  - Face_amount_within_limits
+  - Meets_Standard_build_chart
+  - No_tobacco_12_months
+  - Blood_pressure_150_100_or_lower
+  - Total_cholesterol_300_or_lower
+  - Controlled_conditions_acceptable
+  - No_DUI_3_years
+  - Meets_all_underwriting_requirements
+
+APPROVE_STANDARD_IF:
+  - Age_within_product_limits
+  - Face_amount_within_limits
+  - Meets_or_slightly_above_Standard_build_chart
+  - No_tobacco_12_months
+  - Various_controlled_conditions_acceptable
+  - Meets_all_underwriting_requirements
+
+APPROVE_TABLE_RATING_IF:
+  - Age_within_product_limits
+  - Face_amount_within_limits
+  - Condition_warrants_substandard_rating_but_not_decline
+  - Above_Standard_build_chart_but_insurable
+  - Significant_medical_history_but_stable
+  - Meets_all_underwriting_requirements
+
+DECLINE_IF:
+  - Age_outside_product_limits
+  - Face_amount_exceeds_limits
+  - Below_minimum_build_chart_or_significantly_above_maximum
+  - Recent_major_cardiac_event
+  - Active_cancer_or_recent_cancer_treatment
+  - Uncontrolled_diabetes_Type_1_diabetes
+  - Recent_stroke_or_TIA
+  - Active_substance_abuse
+  - DUI_within_timeframe_limits
+  - Does_not_meet_underwriting_requirements
+  - Foreign_national_with_ineligible_visa_status
+
+IGO_INSTANT_ISSUE_ELIGIBLE_IF:
+  - Age_18_to_60
+  - Face_amount_100000_to_1000000
+  - Meets_build_requirements
+  - No_tobacco_12_months
+  - No_significant_medical_conditions
+  - Answers_health_questions_favorably
+  - US_citizen_or_permanent_resident

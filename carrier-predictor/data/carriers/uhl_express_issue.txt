@@ -1,0 +1,256 @@
+===METADATA===
+CARRIER: United Home Life Insurance Company
+PRODUCT_NAME: Express Issue
+PRODUCT_CATEGORY: Simplified Issue Whole Life Insurance
+ISSUE_TYPE: Simplified Issue
+FORM_NUMBERS: Multiple forms for Deluxe Premier and Guaranteed Issue variants
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 20 to 80, higher build or moderate health issues
+HEALTH_PROFILE: Higher build or moderate health issues, lenient underwriting
+UNDERWRITING_SELECTIVITY: Very lenient on build charts, guaranteed issue available
+COMPETITIVE_ADVANTAGE: FOR FAT PEOPLE, lenient build requirements, multiple plan options
+MAXIMUM_COVERAGE: Check product specifications by variant
+LIVING_BENEFITS: Check product specifications
+APPLICATION_PROCESS: Simplified issue and guaranteed issue options
+APPROVAL_SPEED: Express issue
+SALES_BOX: Box 3 Young and Unhealthy
+BEST_FOR: Heavier build clients, moderate health issues, permanent coverage, guaranteed issue needs
+UNIQUE_STRENGTH: Very lenient on build charts, multiple health tiers available
+AVOID_IF: Looking for best rates, perfect health
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Whole Life
+PREMIUM_STRUCTURE: Level
+DEATH_BENEFIT: Level or Graded depending on variant
+CASH_VALUE: Yes builds over time
+
+===PRODUCT_VARIANTS===
+VARIANT: Express_Issue_Deluxe
+  DEATH_BENEFIT_TYPE: Level from day one
+  UNDERWRITING: Simplified issue with health questions
+  ISSUE_AGES: 20 to 75
+  FACE_AMOUNTS: 5000 to 50000
+
+VARIANT: Express_Issue_Premier
+  DEATH_BENEFIT_TYPE: Level from day one
+  UNDERWRITING: Simplified issue with health questions
+  ISSUE_AGES: 20 to 80
+  FACE_AMOUNTS: 5000 to 35000
+  HEALTH_ACCEPTANCE: More liberal health underwriting than Deluxe
+
+VARIANT: Express_Issue_Guaranteed_Issue
+  DEATH_BENEFIT_TYPE: Graded first 2 years
+  UNDERWRITING: No health questions guaranteed acceptance
+  ISSUE_AGES: 50 to 80
+  FACE_AMOUNTS: 5000 to 25000
+  GRADED_BENEFIT: Return of premium plus 10 percent year 1 then full benefit year 3 and beyond
+
+===CORE_SPECIFICATIONS_DELUXE===
+ISSUE_AGES:
+  MIN_AGE: 20
+  MAX_AGE: 75
+
+FACE_AMOUNTS:
+  MINIMUM: 5000
+  MAXIMUM: 50000
+
+POLICY_FEE:
+  AMOUNT: 35
+  FREQUENCY: Annual
+
+MATURITY_AGE: 121
+
+===CORE_SPECIFICATIONS_PREMIER===
+ISSUE_AGES:
+  MIN_AGE: 20
+  MAX_AGE: 80
+
+FACE_AMOUNTS:
+  MINIMUM: 5000
+  MAXIMUM: 35000
+
+POLICY_FEE:
+  AMOUNT: 35
+  FREQUENCY: Annual
+
+MATURITY_AGE: 121
+
+===CORE_SPECIFICATIONS_GUARANTEED_ISSUE===
+ISSUE_AGES:
+  MIN_AGE: 50
+  MAX_AGE: 80
+
+FACE_AMOUNTS:
+  MINIMUM: 5000
+  MAXIMUM: 25000
+
+POLICY_FEE:
+  AMOUNT: 35
+  FREQUENCY: Annual
+
+MATURITY_AGE: 95
+
+GRADED_DEATH_BENEFIT:
+  YEAR_1: Return of premium plus 10 percent
+  YEAR_2: Return of premium plus 10 percent
+  YEAR_3_AND_BEYOND: Full face amount
+  ACCIDENTAL_DEATH: Full face amount from day one
+
+===UNDERWRITING_REQUIREMENTS_DELUXE===
+UNDERWRITING_TYPE: Simplified Issue
+MEDICAL_EXAM: Not required
+HEALTH_QUESTIONS: Yes on application
+PHI_REQUIRED: No
+PRESCRIPTION_CHECK: No
+
+HEALTH_CONDITIONS_ACCEPTED:
+  - Diabetes Type 2 controlled with medication
+  - High blood pressure controlled
+  - High cholesterol controlled
+  - Asthma controlled
+
+===UNDERWRITING_REQUIREMENTS_PREMIER===
+UNDERWRITING_TYPE: Simplified Issue
+MEDICAL_EXAM: Not required
+HEALTH_QUESTIONS: Yes on application
+PHI_REQUIRED: No
+PRESCRIPTION_CHECK: No
+
+HEALTH_CONDITIONS_ACCEPTED:
+  - Diabetes Type 2 with some complications
+  - High blood pressure controlled or uncontrolled
+  - High cholesterol
+  - Asthma or COPD
+  - Heart disease history over 12 months
+  - Cancer history over 24 months
+  - Neuropathy
+  - Kidney disease not on dialysis
+
+===UNDERWRITING_REQUIREMENTS_GUARANTEED_ISSUE===
+UNDERWRITING_TYPE: Guaranteed Issue
+MEDICAL_EXAM: Not required
+HEALTH_QUESTIONS: None
+PHI_REQUIRED: No
+PRESCRIPTION_CHECK: No
+ACCEPTANCE: Guaranteed no health questions
+
+===INCLUDED_RIDERS_DELUXE_PREMIER===
+RIDER: Accelerated Death Benefit for Terminal Illness
+  INCLUDED: true
+  COST: No additional charge
+  BENEFIT: Up to 50 percent of death benefit or 150000 whichever is less
+  QUALIFICATION: Terminal illness with life expectancy 12 months or less
+
+===INCLUDED_RIDERS_GUARANTEED_ISSUE===
+RIDER: Accidental Death Benefit
+  INCLUDED: true
+  COST: No additional charge
+  BENEFIT: Full face amount paid from day one if death is accidental
+  QUALIFICATION: Death must result from accident
+
+===OPTIONAL_RIDERS===
+RIDER: Child Term Rider
+  COST: Additional premium
+  BENEFIT: Term insurance on children age 15 days to 17 years
+  FACE_AMOUNTS: 5000 10000
+  CONVERSION: Can convert to permanent policy without evidence of insurability
+  AVAILABLE_ON: Deluxe and Premier only
+
+===PRODUCT_FEATURES===
+CASH_VALUE:
+  ACCUMULATION: Guaranteed cash value accumulation
+  LOAN_PROVISION: Policy loans available after cash value accumulates
+  LOAN_INTEREST_RATE: Fixed rate specified in policy
+  WITHDRAWAL: Partial withdrawals may reduce death benefit
+
+NONFORFEITURE_OPTIONS:
+  CASH_SURRENDER: Full cash value less any outstanding loans
+  REDUCED_PAID_UP: Reduced death benefit no further premiums required
+  EXTENDED_TERM: Original death benefit for limited time period
+
+GRACE_PERIOD: 31 days
+REINSTATEMENT_PERIOD: 2 years from lapse date
+
+===RATE_CLASSES===
+DELUXE_CLASSES: Standard Tobacco
+PREMIER_CLASSES: Standard Tobacco
+GUARANTEED_ISSUE_CLASSES: Guaranteed Issue rate only
+
+===STATE_AVAILABILITY===
+STATES_AVAILABLE: TX FL GA AL MS LA AR TN KY SC NC VA WV OH IN IL MO OK KS NE IA WI MI
+
+STATES_NOT_AVAILABLE: NY CA
+
+===DECISION_RULES_DELUXE===
+ELIGIBILITY_REQUIREMENTS:
+  AGE: Between 20 and 75 years
+  STATE: Must reside in approved state
+  HEALTH: Must meet simplified issue health questions
+  FACE_AMOUNT: Between 5000 and 50000
+
+APPROVAL_FACTORS:
+  - Answers to health questions on application
+  - No recent serious health events
+  - Controlled chronic conditions
+
+DECLINE_FACTORS:
+  - Cancer diagnosis or treatment within last 24 months
+  - Heart attack or stroke within last 24 months
+  - Uncontrolled diabetes with complications
+  - Oxygen use
+  - AIDS or HIV
+  - Cirrhosis
+  - Dialysis
+
+===DECISION_RULES_PREMIER===
+ELIGIBILITY_REQUIREMENTS:
+  AGE: Between 20 and 80 years
+  STATE: Must reside in approved state
+  HEALTH: Must meet simplified issue health questions
+  FACE_AMOUNT: Between 5000 and 35000
+
+APPROVAL_FACTORS:
+  - More liberal health underwriting than Deluxe
+  - Accepts impaired risks that Deluxe would decline
+  - Chronic conditions with complications accepted
+
+DECLINE_FACTORS:
+  - Cancer diagnosis or treatment within last 12 months
+  - Heart attack or stroke within last 6 months
+  - Oxygen use for lung condition
+  - AIDS with complications
+  - Cirrhosis requiring treatment
+  - Currently on dialysis
+
+===DECISION_RULES_GUARANTEED_ISSUE===
+ELIGIBILITY_REQUIREMENTS:
+  AGE: Between 50 and 80 years
+  STATE: Must reside in approved state
+  FACE_AMOUNT: Between 5000 and 25000
+
+APPROVAL_FACTORS:
+  - Guaranteed acceptance no health questions
+  - No medical underwriting
+  - Automatic approval
+
+DECLINE_FACTORS:
+  - None all applicants accepted
+
+===COMMISSION_STRUCTURE===
+COMPENSATION_TYPE: Standard agent commission schedule
+FIRST_YEAR: Higher commission percentage
+RENEWAL: Lower commission percentage years 2 and beyond
+GUARANTEED_ISSUE_COMMISSION: Typically higher first year commission
+
+===CONTACT_INFORMATION===
+AGENT_PORTAL: https://uhlic.com/agent-portal
+HOME_OFFICE: Indianapolis IN
+
+===NOTES===
+PRODUCT_POSITIONING: Three tier product line from underwritten to guaranteed issue
+TARGET_MARKET_DELUXE: Individuals with good to average health ages 20 to 75
+TARGET_MARKET_PREMIER: Individuals with health impairments who cannot qualify for Deluxe
+TARGET_MARKET_GUARANTEED_ISSUE: Individuals with serious health conditions or who prefer no health questions
+COMPETITIVE_ADVANTAGES: Three products allow placement across wide range of health conditions and ages
+FINAL_EXPENSE_FOCUS: Designed for final expense burial and funeral cost planning

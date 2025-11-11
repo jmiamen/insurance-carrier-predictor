@@ -1,0 +1,516 @@
+===METADATA===
+CARRIER: United of Omaha Life Insurance Company
+PARENT_COMPANY: Mutual of Omaha
+PRODUCT_NAME: Living Promise
+PRODUCT_CATEGORY: Final Expense Whole Life Insurance
+ISSUE_TYPE: Simplified Issue and Guaranteed Issue
+DOCUMENT_DATE: January 2024
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 45 to 85, mild health conditions
+HEALTH_PROFILE: Mild health conditions, accepts controlled diabetes BP cholesterol
+UNDERWRITING_SELECTIVITY: Simplified issue and guaranteed issue options
+COMPETITIVE_ADVANTAGE: Instant approval, competitive rates, living benefits, strong brand
+MAXIMUM_COVERAGE: Up to 50000 (Level), up to 20000 (Graded)
+LIVING_BENEFITS: Yes has living benefits
+APPLICATION_PROCESS: Fast e-app, instant approval
+APPROVAL_SPEED: Instant approval
+SALES_BOX: Box 2 Old and Healthy, accepts mild conditions
+BEST_FOR: Final expense, controlled diabetes BP cholesterol, older applicants 45 to 85, instant decision, brand recognition
+BRAND_STRENGTH: Strong brand recognition
+AVOID_IF: Major heart or cancer history in last 2 years requiring level benefit
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Whole Life Final Expense
+PREMIUM_STRUCTURE: Level
+DEATH_BENEFIT: Level or Graded depending on variant
+CASH_VALUE: Yes limited accumulation
+
+===PRODUCT_VARIANTS===
+VARIANT: Level_Benefit_Plan
+  DEATH_BENEFIT_TYPE: Level from day one
+  UNDERWRITING: Simplified issue with health questions Part One and Part Two
+  ISSUE_AGES: 45 to 85 may vary by state
+  FACE_AMOUNTS: 2000 to 50000 may vary by state
+  QUALIFICATION: Answer NO to all underwriting questions in Part One and Part Two
+
+VARIANT: Graded_Benefit_Plan
+  DEATH_BENEFIT_TYPE: Graded first two years
+  UNDERWRITING: Simplified issue answer YES to any Part Two question
+  ISSUE_AGES: 45 to 80 may vary by state
+  FACE_AMOUNTS: 2000 to 20000 may vary by state
+  QUALIFICATION: Answer NO to Part One but YES to any Part Two question
+
+VARIANT: Guaranteed_Issue
+  NOTE: Not explicitly mentioned as separate variant but graded benefit may function as guaranteed issue for some health conditions
+
+===CORE_SPECIFICATIONS_LEVEL_BENEFIT===
+ISSUE_AGES:
+  MIN_AGE: 45
+  MAX_AGE: 85
+  NOTE: May vary by state
+
+FACE_AMOUNTS:
+  MINIMUM: 2000
+  MAXIMUM: 40000
+  WASHINGTON_MINIMUM: 5000
+  WASHINGTON_MAXIMUM: 40000
+  NOTE: In WA 5000 to 40000
+
+POLICY_FEE:
+  AMOUNT: 36
+  FREQUENCY: Annual
+
+UNDERWRITING_CLASSES: Standard Tobacco Standard Nontobacco
+
+MAXIMUM_COMBINED_LEVEL_BENEFIT: 40000
+MAXIMUM_COMBINED_SIMPLIFIED_WHOLE_LIFE: 50000
+
+===CORE_SPECIFICATIONS_GRADED_BENEFIT===
+ISSUE_AGES:
+  MIN_AGE: 45
+  MAX_AGE: 80
+  NOTE: May vary by state
+
+FACE_AMOUNTS:
+  MINIMUM: 2000
+  MAXIMUM: 20000
+  WASHINGTON_MINIMUM: 5000
+  WASHINGTON_MAXIMUM: 20000
+  NOTE: In WA 5000 to 20000
+
+GRADED_DEATH_BENEFIT_SCHEDULE:
+  NATURAL_CAUSES_YEAR_1: Return of all premiums paid plus 10 percent
+  NATURAL_CAUSES_YEAR_2: Return of all premiums paid plus 10 percent
+  YEAR_3_AND_BEYOND: 100 percent of face amount
+  ACCIDENTAL_DEATH_ALL_YEARS: 100 percent of face amount from day one
+
+POLICY_FEE:
+  AMOUNT: 12
+  FREQUENCY: Annual
+
+UNDERWRITING_CLASS: Standard no tobacco distinction
+
+MAXIMUM_COMBINED_GRADED_BENEFIT: 20000
+MAXIMUM_COMBINED_ALL_GRADED_BENEFIT: 25000
+
+STATE_AVAILABILITY_NOTE: Not available in AR MT NC
+
+===UNDERWRITING_REQUIREMENTS===
+UNDERWRITING_TYPE: Simplified Issue
+MEDICAL_EXAM: Not required
+HEALTH_QUESTIONS: Yes on application
+
+REQUIREMENTS:
+  SIMPLIFIED_UNDERWRITING: Yes
+  BUILD_CHART: Yes
+  MIB: Yes
+  PHARMACEUTICAL_CHECK: Yes
+  MEDICAL_DATA_CHECK: Yes
+  RANDOM_PHONE_INTERVIEW: Yes
+  MVR: As needed
+
+HEALTH_QUESTION_STRUCTURE:
+  PART_ONE: If YES to any question may not be eligible for any coverage
+  PART_TWO: If YES to any question eligible only for Graded Benefit Product
+  ALL_NO_ANSWERS: Eligible for Level Benefit Product
+
+===BUILD_CHART===
+NOTE: See Express Life and DI Rider Build Chart for height and weight requirements
+
+BUILD_CHART_COLUMNS:
+  - Living Promise Level Benefit Maximum Weight
+  - Living Promise Graded Benefit Maximum Weight
+  - TLE IULE Living Promise Minimum Weight
+
+===COMMON_IMPAIRMENTS===
+IMPAIRMENTS_MAY_RESULT_IN_ADJUSTED_BENEFIT_OR_DECLINE:
+  - Abnormal Irregular Heart Rhythm
+  - Alcohol or drug treatment history
+  - ALS Lou Gehrig's Disease
+  - Amputation caused by disease
+  - Asthma Chronic or Severe
+  - Bipolar Schizophrenia major depression
+  - Cardiomyopathy
+  - Cerebral Palsy
+  - Chronic Kidney Disease
+  - Congestive Heart Failure CHF
+  - Crohn's Disease Ulcerative Colitis
+  - Coronary disease including heart attack or heart surgery
+  - COPD including Chronic Bronchitis Emphysema Cystic Fibrosis
+  - Cancer
+  - Defibrillator
+  - Diabetes prior to specified age
+  - Diabetes with complications including Retinopathy Nephropathy Neuropathy
+  - Heart disease or surgery
+  - Hepatitis B or C
+  - Hodgkin's Disease
+  - Liver Disease including Cirrhosis
+  - Leukemia
+  - Lymphoma
+  - Melanoma
+  - Mental incapacity
+  - Metastatic Cancer or recurrent cancer
+  - Neurological disorders including Muscular Dystrophy Multiple Sclerosis Parkinson's Disease
+  - Pacemaker
+  - Pancreatitis Chronic or Alcohol related
+  - Paralysis
+  - Organ or bone marrow transplants
+  - Peripheral Vascular Disease PVD or PAD
+  - Renal insufficiency failure
+  - Rheumatoid Arthritis Moderate Severe
+  - Scleroderma
+  - Sickle Cell Anemia
+  - Stroke or mini stroke TIA
+  - Systemic Lupus
+
+===PRESCRIPTION_DRUG_EXCLUSIONS===
+NOTE: Proposed insureds currently taking following medications not eligible for Living Promise
+
+EXCLUDED_MEDICATIONS_ALL_PRODUCTS:
+  - Abacavir
+  - Alkeran
+  - Atripla
+  - Campath
+  - Caprelsa
+  - Casodex
+  - Cellcept
+  - Combivir
+  - Crixivan
+  - Cyclosporine
+  - Cytoxan
+  - Droxia
+  - Eligard
+  - Epivir Hbv
+  - Ergoloid Mesylates
+  - Exelon
+  - Floxuridine
+  - Fluorouracil
+  - Galantamine Hydrobromide
+  - Gammagard
+  - Gamunex
+  - Gengraf
+  - Hydrea
+  - Hydroxyurea
+  - Invirase
+  - Isentress
+  - Keytruda
+  - Leucovorin Calcium
+  - Lexiva
+  - Megace
+  - Megestrol Acetate Megace
+  - Mitomycin
+  - Mycophenolate Mofetil
+  - Myfortic
+  - Namenda
+  - Neupogen
+  - Opdivo
+  - Panretin
+  - Prograf
+  - Razadyne
+  - Retrovir
+  - Revlimid
+  - Rituxan
+  - Sandimmune
+  - Stribild
+  - Sustiva
+  - Targretin
+  - Teslac
+  - Viracept
+  - Viramune
+  - Viread
+  - Zenapax
+  - Zerit
+  - Ziagen
+  - Zidovudine
+  - Zoladex
+
+MEDICATIONS_MAY_QUALIFY_FOR_GRADED_BENEFIT:
+  NOTE: Medications marked with asterisk may qualify for graded benefit product
+  - Amiodarone
+  - Ampyra
+  - Anoro Ellipta
+  - Antabuse
+  - Aricept
+  - Avonex
+  - Azilect
+  - Betaseron
+  - Calcium Acetate
+  - Campral
+  - Carbidopa Levodopa
+  - Chlorpromazine Hcl
+  - Clozapine
+  - Cognex
+  - Copaxone
+  - Daliresp
+  - Donepezil
+  - Geodon
+  - Haldol
+  - Haloperidol
+  - Invega
+  - Latuda
+  - Lithium
+  - Naloxone Hcl
+  - Naltrexone Hcl
+  - Perphenazine
+  - Ranexa
+  - Rebif
+  - Revia
+  - Ribavirin
+  - Risperdal
+  - Saphris
+  - Sinemet
+  - Spiriva
+  - Stalevo
+  - Suboxone
+  - Symbyax
+  - Tudorza
+
+MEDICATIONS_REQUIRING_ADDITIONAL_INFORMATION:
+  NOTE: Must include reason for medication on application
+  - Abilify
+  - Aggrenox
+  - Arimidex
+  - Baraclude
+  - Carvedilol
+  - Clopidogrel
+  - Coreg
+  - Coumadin
+  - Digitek
+  - Digoxin
+  - Eliquis
+  - Enoxaparin Sodium
+  - Femara
+  - Infergen
+  - Lanoxin
+  - Lovenox
+  - Pegasys
+  - Peg Intron
+  - Plavix
+  - Pradaxa
+  - Seroquel
+  - Tamoxifen
+  - Truvada
+  - Warfarin
+  - Xarelto
+
+===INCLUDED_RIDERS===
+RIDER: Accelerated_Death_Benefit_for_Terminal_Illness_or_Nursing_Home_Confinement
+  INCLUDED: true on Level Benefit Plan only
+  COST: No additional charge
+  BENEFIT: One time election to receive Accelerated Benefit
+  RIDER_NAME_FL: Accelerated Death Benefit for Terminal Illness or Chronic Illness Rider
+  RIDER_NAME_CT: Accelerated Death Benefit for Terminal Illness Rider
+
+  QUALIFICATION_A_TERMINAL_ILLNESS:
+    CONDITION: Diagnosed with terminal illness
+    LIFE_EXPECTANCY: Will result in death within 12 months or less
+    CERTIFICATION: Reasonable degree of certainty from date physician signs statement
+
+  QUALIFICATION_B_NURSING_HOME:
+    CONDITION: Confined to nursing home for 90 consecutive days or more
+    EXPECTED_DURATION: Expected to remain confined for duration of insured's life
+    STATE: FL only
+
+  QUALIFICATION_C_CHRONIC_ILLNESS:
+    CONDITION: Unable to perform without substantial assistance from another person at least two activities of daily living
+    CAUSE: Due to chronic illness
+    CERTIFICATION: Certified by physician
+
+===OPTIONAL_RIDERS===
+RIDER: Accidental_Death_Benefit
+  AVAILABLE: Yes optional on both Level Benefit and Graded Benefit
+  COST: Additional premium
+  BENEFIT: Additional death benefit equal to policy face amount
+  QUALIFICATION: Death results from accidental bodily injury independently of sickness and all other causes
+  MAXIMUM_COMBINED_LIMIT_AGES_18_TO_25: 100000
+  MAXIMUM_COMBINED_LIMIT_AGES_26_TO_60: 250000
+
+===PRODUCT_FEATURES===
+CASH_VALUE:
+  ACCUMULATION: Limited cash value accumulation
+  LOAN_PROVISION: Policy loans may be available
+  PRIMARY_PURPOSE: Death benefit not cash accumulation
+
+NONFORFEITURE_OPTIONS:
+  CASH_SURRENDER: Available
+  REDUCED_PAID_UP: Available
+  EXTENDED_TERM: May be available
+
+PREMIUM_MODES:
+  ANNUAL: 1.00 modal factor
+  SEMIANNUAL: 0.52 modal factor
+  QUARTERLY: 0.275 modal factor
+  MONTHLY_BSP: 0.089 modal factor
+
+POLICY_EXCLUSION:
+  SUICIDE_CONTESTABILITY_PERIOD: 2 years from contestability date
+  SUICIDE_CONTESTABILITY_PERIOD_ND: 1 year in North Dakota
+  SUICIDE_WITHIN_PERIOD: Death benefit not paid return all premiums paid minus any loan
+  REINSTATEMENT_SUICIDE_PERIOD: 2 years from date of reinstatement
+  REINSTATEMENT_SUICIDE_WITHIN_PERIOD: Return all premiums paid minus any loan
+
+===CONDITIONAL_RECEIPT===
+CONDITIONAL_COVERAGE_MAXIMUM_LEVEL_BENEFIT: 40000
+CONDITIONAL_COVERAGE_MAXIMUM_GRADED_BENEFIT: 20000
+CONDITIONAL_COVERAGE_EFFECTIVE: If all conditions met
+CONDITIONS:
+  1: Amount received sufficient to pay first premium at mode applied for
+  2: Proposed insured is as of application date eligible for exact policy applied for according to underwriting standards without modification of plan premium rate benefits class and amount of coverage applied for
+  3: To best knowledge and belief of those signing application all statements and answers in application are true and complete when made
+  4: All parts of application and if required supplements questionnaires and amendments completed and received by home office
+
+CONDITIONAL_COVERAGE_AMOUNT: Shall not exceed maximum face amount of plan applied for and shall not exceed death benefit paid under terms of policy
+
+CONDITIONAL_COVERAGE_DURATION: 60 days from effective date of receipt
+TERMINATION: Company may terminate by mailing refund of premium paid
+
+NOTE: Amount of conditional insurance coverage shall not exceed death benefit paid under terms of policy
+NOTE: If not approved within 60 days conditional coverage ceases liability limited to return of premium
+
+===FINANCIAL_UNDERWRITING===
+USE: Final expense burial and funeral cost planning
+CHARITABLE_GIVING: Limited to Living Promise product
+FOUNDATION_AS_OWNER: Not permitted foundation or charitable institution cannot be owner
+BENEFICIARY: Foundation or charitable institution acceptable as beneficiary only
+
+===OCCUPATIONS===
+HAZARDOUS_OCCUPATIONS_DECLINED:
+  LAW_ENFORCEMENT: Narcotics unit vice squad bomb squad undercover work
+  MILITARY: Aircraft pilot or crew hazardous activities diving parachuting explosives hazardous material exposure
+  FEDERAL_GOVERNMENT: Hazardous activities explosives bomb disposal hazardous material exposure
+  HAZARDOUS_WORK: Steeplejack tower erector structural steel explosives work at heights greater than 49 feet
+  OCCUPATIONAL_TRAVEL: Outside US to regions of active war political unrest or terrorism
+
+ACCEPTED_WITH_RESTRICTIONS:
+  HEALTH_CARE: Private duty nurse outside hospital CNA elderly caregiver home health aide
+    LIFE_INSURANCE: Accept
+    DISABILITY_RIDER: Not applicable to Living Promise
+
+===AVOCATIONS===
+NOT_ALLOWABLE:
+  - Motor Sports Racing
+  - Boat Racing
+  - Parachuting
+  - Skydiving
+  - Hang Gliding
+  - Base Jumping
+  - Rock or Mountain Climbing
+
+===FOREIGN_NATIONALS===
+PERMANENT_RESIDENTS:
+  REQUIREMENT_1: Valid Permanent Resident Card Green Card or Alien Registration Receipt Card
+  REQUIREMENT_2: Lived in US for minimum 12 continuous months
+  REQUIREMENT_3: Minimum annual income 20000 from US based assets entitlement benefits or US based employment not including government assistance SSI or SSDI
+  REQUIREMENT_4: Complete Foreign National and Foreign Travel Questionnaire L5719_0107
+
+TEMPORARY_VISA_HOLDERS:
+  ACCEPTABLE_VISAS: E-1 E-2 H-1B H-4 L-1 L-2
+  E_2_VISA: Spouse and children under age 21 also qualify
+  H_4_VISA: For spouse and children under age 21 of H-1B visa holders
+  L_2_VISA: For spouse and children under age 21 of L-1 visa holders
+
+===OWNERSHIP_BENEFICIARY===
+ACCEPTABLE_OWNER_BENEFICIARY:
+  - Spouse fiancée domestic partner
+  - Parent
+  - Adult child
+  - Life insurance Trust requires Trust Certification form with trustee name tax ID and date
+  - Estate beneficiary only
+
+ACCEPTABLE_BENEFICIARY_ONLY:
+  - Siblings
+  - Grandparents and grandchildren
+  - Close relatives by marriage in laws step relations
+  - Ex spouse
+
+ACCEPTABLE_CONTINGENT_BENEFICIARY:
+  - Other distant relatives Aunts Uncles Niece Nephew Cousins
+  - Friends
+
+NOT_ACCEPTABLE: Any other Owner Beneficiary relationships
+
+POWER_OF_ATTORNEY: Not acceptable authorization for life insurance policy
+
+CHARITABLE_BENEFICIARY: Acceptable as beneficiary only not as owner
+
+===AUTOMATED_UNDERWRITING===
+AVAILABLE: Yes via iGO e App
+PRODUCTS: Living Promise Final Expense Term Life Express IUL Express
+OUTCOMES: Approved Referred to Underwriting Declined
+POINT_OF_SALE_DECISIONS: Yes instant underwriting decisions possible
+DEVICES: Desktop laptop or mobile device
+
+===APPLICATION_REQUIREMENTS===
+REQUIRED_FORMS:
+  - Application complete all sections including plan amount of insurance Accidental Death Benefit Rider if applicable payment mode and premium amount
+  - Producer Statement
+  - MIB Group Inc Pre Notice
+  - Notice of Information Practices
+  - Life Insurance Buyer's Guide
+  - Conditional Receipt Form if initial premium collected
+  - State replacement forms if applicable
+
+HEALTH_QUESTIONS:
+  PART_ONE: If YES to any questions proposed insured may not be eligible for any coverage
+  PART_TWO: If YES to any questions proposed insured eligible only for Graded Benefit Product
+  ALL_NO: Proposed insured eligible for Level Benefit Product
+
+PLAN_INFO: Select plan Accidental Death Benefit Rider if applicable payment mode and amount
+
+ALL_CHANGES: Must be initialed by Applicant Owner
+
+NO_CONDITIONAL_RECEIPT_FOR_CHILDREN: Children's Whole Life does not require conditional receipt
+
+===TELEPHONE_INTERVIEW===
+RANDOM_PHONE_INTERVIEW: Client may be contacted for confidential telephone interview
+DURATION: Approximately 20 minutes
+RECORDING: Telephone dialogue recorded and relied upon for risk analysis
+PREPARATION: Client should be prepared to answer questions accurately
+PURPOSE: To complete application process
+
+===CONTACT_INFORMATION===
+UNDERWRITING_SUPPORT: 1-800-715-4376
+GENERAL_PHONE: 1-800-775-6000
+IGO_E_APP_SUPPORT: 1-800-641-6557
+SALES_SUPPORT: 1-800-693-6083
+
+APPLICATIONS_MAIL_REGULAR:
+  ADDRESS: United of Omaha Life Insurance Company
+  ATTN: Individual Life Underwriting
+  PO_BOX: P.O. Box 2476
+  CITY_STATE_ZIP: Omaha NE 68103-2476
+
+APPLICATIONS_MAIL_OVERNIGHT:
+  ATTN: Individual Life Underwriting
+  ADDRESS: 9330 State Hwy 133
+  CITY_STATE_ZIP: Blair NE 68008
+
+APPLICATIONS_FAX:
+  FAX: 1-402-997-1800
+  NOTE: Verify correct fax number to protect privacy use maximum resolution for readability
+
+EMAIL_NEW_APPLICATIONS: lifeapps@mutualofomaha.com
+EMAIL_REQUIREMENTS: liferequirements@mutualofomaha.com
+
+AGENT_PORTAL: Sales Professional Access online
+WEBSITE: mutualofomaha.com
+
+===PRODUCT_FEATURES===
+UNDERWRITING_STRENGTHS:
+  - Age last birthday advantage for policy rates
+  - Simplified products covering ages 14 days to 85
+  - Occasional marijuana use may qualify for level benefit
+  - Point of sale underwriting decisions with electronic applications
+  - Access to underwriters for case discussion and risk assessments
+  - Industry leading service times
+  - Two benefit structures level and graded for different health profiles
+
+===NOTES===
+PRODUCT_POSITIONING: Final expense whole life with level benefit and graded benefit options
+TARGET_MARKET: Individuals ages 45 to 85 seeking burial and funeral expense coverage
+TARGET_MARKET_LEVEL_BENEFIT: Healthier seniors who can answer NO to all health questions
+TARGET_MARKET_GRADED_BENEFIT: Seniors with health conditions who answer YES to Part Two questions but NO to Part One
+PRIMARY_PURPOSE: Cover final expenses including funeral burial debts and medical bills
+COMPETITIVE_ADVANTAGES: Automated underwriting two benefit options simplified process age last birthday advantage
+TYPICAL_COVERAGE_AMOUNT: 10000 to 15000 for average funeral and burial costs

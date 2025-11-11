@@ -1,0 +1,75 @@
+# Sample carrier eligibility rules
+# Add more carriers and products as needed
+
+Americo:
+  states: ["TX", "FL", "GA", "IL", "CA", "OH", "PA", "NC", "MI", "AZ"]
+  portal_url: "https://agent.americo.com/login"
+  products:
+    Term30:
+      type: "Term"
+      min_age: 18
+      max_age: 75
+      smoker: true
+      health_tolerance: []
+    WholeLife:
+      type: "Whole Life"
+      min_age: 18
+      max_age: 80
+      smoker: true
+      health_tolerance: ["diabetes controlled", "high blood pressure controlled"]
+
+Elco:
+  states: ["TX", "CO", "MI", "MO", "KS", "OK", "NE", "AR", "LA"]
+  portal_url: "https://elcomutual.com/agent-portal"
+  products:
+    GoldenEagle:
+      type: "Whole Life"
+      min_age: 50
+      max_age: 85
+      smoker: true
+      health_tolerance: ["diabetes", "neuropathy", "high blood pressure", "high cholesterol"]
+
+MutualOfOmaha:
+  states: ["TX", "FL", "GA", "CA", "NY", "IL", "OH", "PA", "NC", "VA", "AZ", "TN", "IN", "MO", "WI"]
+  portal_url: "https://sales.mutualofomaha.com/agent/login"
+  products:
+    LivingPromise:
+      type: "Whole Life"
+      min_age: 45
+      max_age: 85
+      smoker: true
+      health_tolerance: ["diabetes controlled", "high blood pressure", "high cholesterol"]
+
+UnitedHomeLife:
+  states: ["TX", "FL", "GA", "AL", "MS", "LA", "AR", "TN", "KY", "SC", "NC", "VA", "WV", "OH", "IN", "IL", "MO", "OK", "KS"]
+  portal_url: "https://uhlic.com/agent-portal"
+  products:
+    ExpressIssuePremier:
+      type: "Final Expense"
+      min_age: 20
+      max_age: 80
+      smoker: true
+      health_tolerance: ["diabetes", "high blood pressure", "copd", "asthma"]
+    ExpressIssueDeluxe:
+      type: "Whole Life"
+      min_age: 20
+      max_age: 75
+      smoker: true
+      health_tolerance: ["diabetes controlled", "high blood pressure controlled"]
+
+KansasCityLife:
+  states: ["TX", "MO", "KS", "OK", "AR", "LA", "NE", "IA", "IL", "TN", "MS", "AL"]
+  portal_url: "https://www.kclife.com/agent-login"
+  products:
+    SignatureTermExpress20:
+      type: "Term"
+      min_age: 18
+      max_age: 60
+      smoker: true
+      health_tolerance: ["high blood pressure controlled"]
+    SignatureWholeLife:
+      type: "Whole Life"
+      min_age: 18
+      max_age: 75
+      smoker: true
+      health_tolerance: ["diabetes controlled", "high blood pressure controlled", "high cholesterol"]

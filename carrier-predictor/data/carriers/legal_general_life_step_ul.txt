@@ -1,0 +1,230 @@
+===METADATA===
+CARRIER: Legal & General America
+ISSUING_COMPANIES: Banner Life Insurance Company and William Penn Life Insurance Company of New York
+PRODUCT_NAME: Life Step UL
+PRODUCT_CATEGORY: Universal Life Insurance
+ISSUE_TYPE: Fully Underwritten
+COMPANY_LOCATIONS: Banner Life Urbana MD, William Penn Valley Stream NY
+DISTRIBUTION: Banner in 49 states and DC, William Penn exclusively in New York
+PARENT_COMPANY: Legal & General Group worldwide
+UNIQUE_FOCUS: Death benefit guarantees
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 20 to 85, term conversions or low face amounts
+HEALTH_PROFILE: Fully underwritten, healthy to moderate health
+UNDERWRITING_SELECTIVITY: Fully underwritten traditional carrier
+COMPETITIVE_ADVANTAGE: Exclusive conversion product for A List Term, low minimum face amount 50000, death benefit guarantee to 121
+MAXIMUM_COVERAGE: Minimum 50000 designed for conversions
+LIVING_BENEFITS: Accelerated death benefit included
+APPLICATION_PROCESS: Fully underwritten
+APPROVAL_SPEED: Fully underwritten process
+SALES_BOX: Not categorized in 4 box system, specialized conversion product
+BEST_FOR: Term policy conversions, A List Term exclusive conversion, low face amounts starting at 50000, permanent coverage after term, death benefit guarantee focus
+UNIQUE_STRENGTH: Purpose built for term conversions, low entry point 50000, family cancer history does not prevent preferred classes, Standard Plus class for rated cases
+AVOID_IF: Looking for simplified issue, new high face amount permanent coverage, cash value accumulation focus
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Flexible Premium Universal Life
+PERMANENT_COVERAGE: Yes
+PREMIUM_STRUCTURE: Flexible premiums
+CASH_VALUE_ACCUMULATION: Yes
+DEATH_BENEFIT_GUARANTEE: Coverage guarantee to maturity at age 121
+PRIMARY_FOCUS: Providing death benefit guarantees
+
+===POLICY_FORMS===
+BANNER_LIFE: ICC19 ULS20 and state variations
+WILLIAM_PENN: ULS20 NY
+
+===CORE_SPECIFICATIONS===
+FACE_AMOUNTS:
+  MINIMUM: 50000
+  NOTES: Designed for term conversions or new sales with low face amounts
+
+ISSUE_AGES:
+  AGE_TYPE: Nearest birthday
+  MIN_AGE: 20
+  MAX_AGE: 85
+  ALL_CLASSES: 20 to 85
+
+MATURITY_AGE: 121
+COVERAGE_GUARANTEE: To maturity at age 121 with on time premium payments
+
+===RISK_CLASSIFICATIONS===
+AVAILABLE_CLASSES:
+  - Preferred_Plus_Nontobacco
+  - Preferred_Nontobacco
+  - Standard_Plus_Nontobacco
+  - Standard_Nontobacco
+  - Preferred_Tobacco
+  - Standard_Tobacco
+  - Rated_classes_available
+
+STANDARD_PLUS_NONTOBACCO:
+  APPLICATION: Applied to most rated cases
+  AVAILABILITY: Yes on Life Step UL
+
+FAMILY_CANCER_HISTORY:
+  IMPACT: Does not prevent applicants from consideration for preferred underwriting classes
+
+===PRODUCT_FEATURES===
+DEATH_BENEFIT_GUARANTEE:
+  COVERAGE_TO: Maturity at age 121
+  REQUIREMENT: Appropriate premium paid on time according to policy terms
+  LAPSE_PROTECTION: Policy will not lapse if coverage guarantee requirement met
+  EXCEPTION: Policy loan exceeding cash surrender value will result in lapse
+
+PREMIUM_FLEXIBILITY:
+  TYPE: Flexible premium universal life
+  PAYMENT_OPTIONS: Flexible within policy guidelines
+  GUARANTEE_REQUIREMENT: On time premium payment guarantees coverage to age 121
+
+CASH_VALUE:
+  ACCUMULATION: Yes
+  LOANS: Available
+  LOAN_RISK: Loan exceeding cash surrender value results in lapse
+  SURRENDERS: Partial surrenders allowed in approved states
+
+SURRENDER_CHARGES:
+  DURATION: Decrease over 14 years
+  STRUCTURE: Declining surrender charge schedule
+
+WILLIAM_PENN_SPECIFIC:
+  MATURITY: Age 121 cannot be extended
+  NOTE: Universal life plans mature at age 121
+
+===CONVERSION_PRODUCT===
+PRIMARY_USE: Designed for term conversions or new policies with low face amounts
+EXCLUSIVE_FOR: A List Term policies exclusive conversion product
+FACE_AMOUNTS: As low as 50000
+NEW_SALES: Available for new policies not just conversions
+
+===INCLUDED_BENEFITS===
+BENEFIT: Accelerated Death Benefit
+  COST: Automatically included
+  POLICY_FORM: Included with all policies
+  BENEFIT_AMOUNT: Lesser of 75 percent of policy primary death benefit or 500000
+  TRIGGER: Life expectancy of 12 months or less
+  IMPACT: May affect policy cash value death benefit premium and policy loans or liens
+
+===UNDERWRITING_REQUIREMENTS===
+PROCESS_TYPE: Fully Underwritten
+MEDICAL_EXAMS: Required based on age and face amount
+UNDERWRITING_CLASSES: Multiple risk classes available
+RATED_CASES: Standard Plus Nontobacco applied to most rated cases
+
+===ADMINISTRATIVE_INFORMATION===
+CONTESTABILITY_PERIOD: 2 years
+SUICIDE_CLAUSE: 2 years
+POLICY_MATURITY: Age 121
+MATURITY_EXTENSION: William Penn cannot be extended
+
+PREMIUM_VARIATIONS:
+  - Vary by underwriting classification
+  - Vary by coverage amount
+  - Flexible within policy terms
+
+LAPSE_PREVENTION:
+  GUARANTEE: Policy will not lapse if coverage guarantee requirement met
+  REQUIREMENT: On time premium payments
+  EXCEPTION: Policy loan exceeding cash surrender value causes lapse
+
+===UNDERWRITING_COMPANIES===
+BANNER_LIFE_INSURANCE_COMPANY:
+  LOCATION: Urbana MD
+  DISTRIBUTION: 49 states and DC
+  NEW_YORK: Does not solicit business in New York
+
+WILLIAM_PENN_LIFE_INSURANCE_COMPANY:
+  LOCATION: Valley Stream NY
+  DISTRIBUTION: Exclusively in New York
+  OTHER_STATES: Not available
+  MATURITY: Plans mature at age 121 cannot be extended
+
+===DECISION_RULES===
+APPROVE_IF:
+  - Age 20 to 85
+  - Face amount minimum 50000
+  - Meets underwriting requirements
+  - Qualifies for risk classification
+  - Wants permanent coverage with death benefit guarantee
+  - Needs flexible premium structure
+  - Wants coverage to age 121
+
+CONVERSION_FROM_TERM_IF:
+  - Has A List Term policy or other convertible term
+  - Wants to convert to permanent coverage
+  - Needs face amounts as low as 50000
+  - Wants exclusive conversion product benefits
+  - Within conversion period of term policy
+
+NEW_SALE_APPROVE_IF:
+  - Wants permanent coverage not just conversion
+  - Face amount 50000 or higher
+  - Age 20 to 85
+  - Needs death benefit guarantee focus
+  - Values flexible premiums
+  - Wants coverage to age 121
+
+IDEAL_CANDIDATE:
+  - Ages 20 to 85
+  - Converting from term insurance
+  - Needs lower face amounts starting at 50000
+  - Wants permanent coverage
+  - Values death benefit guarantees
+  - Needs flexible premium payments
+  - Wants coverage to age 121
+  - Family cancer history not a barrier
+  - May need policy loans
+  - Wants lapse protection with on time premiums
+
+===COMPETITIVE_ADVANTAGES===
+KEY_FEATURES:
+  - Coverage guarantee to maturity at age 121
+  - On time premium payment guarantees coverage
+  - Low minimum face amount 50000
+  - Designed for term conversions
+  - Exclusive conversion product for A List Term
+  - Flexible premium structure
+  - Standard Plus Nontobacco class for rated cases
+  - Family cancer history does not prevent preferred classes
+  - Ages 20 to 85
+  - Strong company backing Legal & General Group
+
+UNIQUE_BENEFITS:
+  - Focused on death benefit guarantees not cash accumulation
+  - Low entry point 50000 minimum
+  - Purpose built for term conversions
+  - Lapse protection with premium compliance
+  - Flexible premiums within guarantee framework
+  - Partial surrenders allowed in approved states
+  - Standard Plus class accommodates more applicants
+
+===USE_CASES===
+IDEAL_FOR:
+  - Term policy conversions
+  - A List Term policy conversions exclusively
+  - Permanent coverage with lower face amounts
+  - Death benefit guarantee focus
+  - Flexible premium needs
+  - Long term coverage to age 121
+  - Those with family cancer history
+  - Applicants ages 20 to 85
+  - Those wanting lapse protection
+  - Estate planning with guaranteed death benefit
+
+CONVERSION_SCENARIOS:
+  - Converting term before expiration
+  - Maintaining coverage permanently
+  - Lower face amounts after term conversion
+  - Guaranteed death benefit preference
+  - No additional underwriting desired
+
+NEW_SALE_SCENARIOS:
+  - Initial permanent coverage purchase
+  - Lower face amount needs
+  - Death benefit guarantee priority
+  - Flexible premium preference
+  - Long term planning to age 121
+
+===PRODUCT_DESCRIPTION===
+Life Step UL is Legal & General America's flexible premium universal life insurance focused on providing death benefit guarantees. Available through Banner Life Insurance Company in 49 states and DC and William Penn Life Insurance Company exclusively in New York. Minimum face amount 50000 designed specifically for term conversions or new sales with lower face amounts. Serves as exclusive conversion product for A List Term policies. Issue ages 20 to 85 all classes. Key feature is coverage guarantee to maturity at age 121 when appropriate premium paid on time according to policy terms. On time premium payment guarantees coverage and policy will not lapse if requirement met. Exception policy loan exceeding cash surrender value results in lapse. Flexible premium structure within policy guidelines. Cash value accumulation with policy loans available. Partial surrenders allowed in approved states. Surrender charges decrease over 14 years. Multiple risk classifications including Standard Plus Nontobacco applied to most rated cases. Family cancer history does not prevent preferred class consideration. Accelerated death benefit automatically included lesser of 75 percent or 500000 for life expectancy 12 months or less. William Penn plans mature at age 121 cannot be extended. Two year contestability and suicide provisions. Premium rates vary by underwriting classification and coverage amount. Backed by worldwide Legal & General Group. Ideal for term conversions permanent coverage with death benefit guarantee focus flexible premium needs and long term planning to age 121.

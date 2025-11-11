@@ -1,0 +1,227 @@
+===METADATA===
+CARRIER: ELCO Mutual Life & Annuity
+PRODUCT_NAME: Platinum Eagle
+PRODUCT_CATEGORY: Single Premium Whole Life Insurance
+ISSUE_TYPE: Simplified Issue
+PRODUCT_CODE: SPWL
+COMPANY_TYPE: Mutual Company
+ESTABLISHED: 1946
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 0 to 85, lump sum available
+HEALTH_PROFILE: Decent health, simplified issue
+UNDERWRITING_SELECTIVITY: Moderate, simplified issue process
+COMPETITIVE_ADVANTAGE: BEST RATE APPROVE EVERYONE, single premium eliminates lapse risk, immediate coverage
+MAXIMUM_COVERAGE: Net amount at risk up to 300000
+LIVING_BENEFITS: Yes accelerated death benefit included
+APPLICATION_PROCESS: Easy approval process, 30 minute application
+APPROVAL_SPEED: Quick typically no exams
+SALES_BOX: Box 4 Old and Unhealthy, best rates for approval
+STATE_RESTRICTIONS: Not offered in California, Florida does not have e-app
+COMMISSION_STRUCTURE: No advance cap
+BEST_FOR: Lump sum available, ages 0 to 85, estate planning, gift for juveniles, no ongoing payments preference, builds equity immediately
+UNIQUE_STRENGTH: Single premium no ongoing payments, immediate death benefit and cash value, cannot lapse once paid, great for juveniles
+AVOID_IF: California Florida residents needing e-app, no lump sum available, prefer ongoing payment structure
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Single Premium Whole Life
+PERMANENT_COVERAGE: Yes
+PREMIUM_STRUCTURE: Single payment only
+CASH_VALUE_ACCUMULATION: Yes
+PARTICIPATING: Yes
+DIVIDENDS: Eligible not guaranteed
+
+===CORE_SPECIFICATIONS===
+ISSUE_AGES:
+  MIN_AGE: 0
+  MAX_AGE: 85
+  AGE_TYPE: Not specified
+
+FACE_AMOUNTS:
+  MINIMUM: Not specified
+  MAXIMUM_NET_AMOUNT_AT_RISK: 300000
+  NOTES: Face amount determined by single premium paid
+
+POLICY_DURATION:
+  COVERAGE_TERM: Lifetime
+  ENDOWMENT_AGE: 121
+  PREMIUM_PAYMENTS: Single payment only
+
+===UNDERWRITING_REQUIREMENTS===
+PROCESS_TYPE: Simplified Issue
+MEDICAL_EXAM_REQUIRED: false
+MEDICAL_EXAMS_NOTE: Additional underwriting may be required in certain situations
+APPLICATION_TIME: Approximately 30 minutes
+UNDERWRITING_DECISION: Quick typically no exams
+
+JUVENILE_POLICIES:
+  AVAILABLE: true
+  UNDERWRITING_UNDER_18: Typically not required
+  NOTES: Makes purchasing simple for minors by filling out application only
+
+===PRODUCT_FEATURES===
+SINGLE_PREMIUM_STRUCTURE:
+  PAYMENT_TYPE: One time lump sum payment
+  SUBSEQUENT_PAYMENTS: None required
+  PAID_UP_STATUS: Immediate
+  LAPSE_PROTECTION: Cannot lapse once premium paid
+  IMMEDIATE_BENEFITS: Guaranteed death benefit and cash value generated immediately
+
+GUARANTEED_BENEFITS:
+  DEATH_BENEFIT: Guaranteed based on claims paying ability
+  CASH_VALUE: Guaranteed based on claims paying ability
+  PREMIUM_LEVEL: Not applicable single payment
+
+POLICY_LOANS:
+  AVAILABLE: Yes
+  INTEREST_RATE: Not specified
+  MAXIMUM_LOAN: Based on cash value
+  REPAYMENT: Flexible
+
+DIVIDEND_PARTICIPATION:
+  PARTICIPATING: Yes
+  DIVIDENDS_GUARANTEED: No
+  DIVIDEND_OPTIONS:
+    - Cash payment
+    - Purchase paid up additional insurance
+    - Accumulate at interest
+  DIVIDEND_IMPACT: Can substantially increase cash value and death benefit over time
+
+===USE_CASES===
+PRIMARY_PURPOSES:
+  - Build estate and leave legacy
+  - Safeguard against policy lapsing
+  - Tax free wealth transfer
+  - Final expense planning
+  - Gift for children or grandchildren
+  - Immediate estate creation
+
+IDEAL_FOR:
+  - Individuals with lump sum to invest
+  - Estate planning needs
+  - Guaranteed lifetime coverage
+  - Gift giving to minors
+  - Simplified no ongoing payment preference
+  - Tax advantaged wealth transfer
+
+TAX_ADVANTAGES:
+  - Income tax free death benefit to beneficiaries
+  - Tax deferred cash value growth
+  - Estate planning benefits
+  - Note: Estate taxes may apply consult tax advisor
+
+===INCLUDED_RIDERS===
+RIDER: Accelerated Death Benefit
+  CODE: ADB
+  COST: No additional cost included
+  MAXIMUM_BENEFIT: 300000
+  AVAILABLE_ON: Standard issue policies only
+  RECEIPT_NOTE: May be taxable
+  ASSISTANCE_IMPACT: May disqualify individual from state or federal assistance
+
+TRIGGER: Terminal Illness
+  DEFINITION: Less than 1 year to live
+  BENEFIT_PERCENTAGE: 90 percent of death benefit
+  PAYOUT: Advance lump sum
+
+TRIGGER: Nursing Home Confinement
+  DEFINITION: Confined to nursing facility
+  BENEFIT_PERCENTAGE: Up to 75 percent of death benefit
+  PAYOUT: Lump sum
+
+TRIGGER: Home Health Care
+  DEFINITION: Cannot perform 2 of 6 ADLs or severe permanent cognitive impairment
+  BENEFIT_PERCENTAGE: Up to 50 percent of death benefit
+  PAYOUT: Lump sum
+  QUALIFICATION: Physician must attest to condition
+
+TRIGGER: Chronic Illness
+  DEFINITION: Incurred chronic illness
+  BENEFIT_PERCENTAGE: 50 percent of death benefit
+  PAYOUT: For medical expenses and other costs
+
+===MUTUAL COMPANY_BENEFITS===
+OWNERSHIP_STRUCTURE: Policyholders own company entirely
+PROFIT_DISTRIBUTION: Excess profits retained as surplus and returned as dividends
+DIVIDEND_DECLARATION: Annual by board of directors
+DIVIDEND_DELIVERY: Cash or additional coverage
+POLICYHOLDER_FOCUS: Long term relationships and stability
+
+===JUVENILE_POLICIES===
+AVAILABLE: Yes
+BENEFITS:
+  - Great gift for child or grandchild
+  - Guaranteed coverage for entire life
+  - Typically no underwriting under age 18
+  - Simple application process
+TARGET_AGES: 0 to 17
+
+===ADMINISTRATIVE_INFORMATION===
+POLICY_FEES: Not specified
+GRACE_PERIOD: Not applicable single premium
+CONTESTABILITY_PERIOD: Typically 2 years
+SUICIDE_CLAUSE: Typically 2 years
+POLICY_FORM: ICC16 AccDBR16
+
+NONFORFEITURE_OPTIONS:
+  - Cash surrender
+  - Policy loan access
+
+===CONTACT_INFORMATION===
+CARRIER_NAME: ELCO Mutual Life & Annuity
+WEBSITE: elcomutual.com
+POLICY_SERVICES_PHONE: 800 321 3526
+POLICY_SERVICES_FAX: 847 295 6043
+POLICY_SERVICES_EMAIL: phs@elcomutual.com
+CLAIMS_PHONE: 800 962 8610
+CLAIMS_FAX: 847 295 1145
+CLAIMS_EMAIL: claims@elcomutual.com
+
+===DECISION_RULES===
+APPROVE_IF:
+  - Age 0 to 85
+  - Can pay single premium
+  - Meets simplified underwriting requirements
+  - Net amount at risk does not exceed 300000
+  - Application completed
+  - Juvenile applicants typically approved without underwriting
+
+ADDITIONAL_UNDERWRITING_IF:
+  - Certain health situations present
+  - Large face amounts requested
+  - Specific risk factors identified
+
+IDEAL_CANDIDATE:
+  - Has lump sum available
+  - Wants guaranteed lifetime coverage
+  - Prefers no ongoing premium payments
+  - Seeking estate planning solution
+  - Wants to leave legacy
+  - Purchasing gift for child or grandchild
+  - Age 0 to 85
+  - Wants participating policy with dividend potential
+
+===COMPETITIVE_ADVANTAGES===
+KEY_FEATURES:
+  - Single premium eliminates lapse risk
+  - Immediate death benefit and cash value
+  - No ongoing payment obligations
+  - Participating eligible for dividends
+  - Mutual company policyholder owned
+  - Accelerated death benefit included no cost
+  - Available to juveniles
+  - Simplified underwriting typically no medical exams
+  - Over 75 years in business since 1946
+  - Real person answers every call
+  - Issue ages 0 to 85
+
+UNIQUE_BENEFITS:
+  - Simplicity one payment forever
+  - Estate creation immediate
+  - Tax free wealth transfer
+  - Cannot lapse once paid
+  - Four accelerated benefit triggers
+  - Juvenile friendly great gift option
+
+===PRODUCT_DESCRIPTION===
+Platinum Eagle is ELCO Mutual's single premium whole life insurance product designed to provide permanent coverage with a one time lump sum payment. This payment immediately generates a guaranteed death benefit and cash value with no additional payments ever needed. The policy remains in force for life or until age 121. Ideal for estate planning wealth transfer and gift giving especially to children and grandchildren. As a participating policy it is eligible for annual dividends that can increase cash value and death benefit. Includes accelerated death benefit rider at no cost covering terminal illness nursing home confinement home health care and chronic illness. Simplified underwriting with typically no medical exams required. Available for ages 0 to 85 with maximum net amount at risk of 300000. Backed by mutual company owned by policyholders in business since 1946.

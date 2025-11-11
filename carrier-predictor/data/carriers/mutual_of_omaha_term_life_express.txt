@@ -1,0 +1,545 @@
+===METADATA===
+CARRIER: United of Omaha Life Insurance Company
+PARENT_COMPANY: Mutual of Omaha
+PRODUCT_NAME: Term Life Express
+PRODUCT_CATEGORY: Simplified Issue Term Life Insurance
+ISSUE_TYPE: Simplified Issue
+DOCUMENT_DATE: January 2024
+FORM_NUMBER: TLE
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 18 to 80, mild health conditions, takes older people
+HEALTH_PROFILE: Mild health conditions, accepts controlled diabetes BP cholesterol
+UNDERWRITING_SELECTIVITY: Simplified issue, no major heart or cancer in last 2 years
+COMPETITIVE_ADVANTAGE: Strong brand recognition, fast e-app, living benefits
+MAXIMUM_COVERAGE: Up to 300000 (varies by age)
+LIVING_BENEFITS: Yes included
+APPLICATION_PROCESS: Fast e-app, simplified issue
+APPROVAL_SPEED: Fast
+SALES_BOX: Box 2 Old and Healthy, accepts mild conditions
+BEST_FOR: Ages 18 to 80 with mild health, controlled diabetes BP cholesterol, older applicants, brand name seekers
+BRAND_STRENGTH: Strong brand recognition, trusted name
+AVOID_IF: Major heart or cancer history in last 2 years, severe health conditions
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Term Life
+PREMIUM_STRUCTURE: Level
+DEATH_BENEFIT: Level during term period
+CASH_VALUE: None
+
+===CORE_SPECIFICATIONS===
+ISSUE_AGES:
+  AGES_18_TO_50:
+    MIN_AGE: 18
+    MAX_AGE: 50
+    MIN_FACE_AMOUNT: 25000
+    MAX_FACE_AMOUNT: 300000
+  AGES_51_TO_60:
+    MIN_AGE: 51
+    MAX_AGE: 60
+    MIN_FACE_AMOUNT: 25000
+    MAX_FACE_AMOUNT: 250000
+  AGES_61_TO_75:
+    MIN_AGE: 61
+    MAX_AGE: 75
+    MIN_FACE_AMOUNT: 25000
+    MAX_FACE_AMOUNT: 150000
+
+MAXIMUM_COMBINED_SIMPLIFIED_COVERAGE:
+  AGES_18_TO_50: 300000
+  AGES_51_TO_60: 250000
+  AGES_61_TO_75: 150000
+  NOTE: Includes Term Life Express IUL Express Living Promise and Children's Whole Life
+
+AGE_CALCULATION: Age last birthday advantage
+
+===UNDERWRITING_REQUIREMENTS===
+UNDERWRITING_TYPE: Simplified Issue
+MEDICAL_EXAM: Not required
+HEALTH_QUESTIONS: Yes on application
+
+REQUIREMENTS_BY_AGE:
+  AGES_18_TO_50:
+    BUILD_CHART: Yes
+    MIB: Yes
+    PHARMACEUTICAL_CHECK: Yes
+    MEDICAL_DATA_CHECK: Yes
+    MVR: Mandatory ages 18 to 35
+    MVR_AS_NEEDED: Ages 36 to 50
+    PHONE_INTERVIEW: As needed
+
+  AGES_51_TO_60:
+    BUILD_CHART: Yes
+    MIB: Yes
+    PHARMACEUTICAL_CHECK: Yes
+    MEDICAL_DATA_CHECK: Yes
+    MVR: As needed
+    PHONE_INTERVIEW: As needed
+
+  AGES_61_TO_75:
+    BUILD_CHART: Yes
+    MIB: Yes
+    PHARMACEUTICAL_CHECK: Yes
+    MEDICAL_DATA_CHECK: Yes
+    MVR: As needed
+    PHONE_INTERVIEW: As needed
+
+ADDITIONAL_REQUIREMENTS:
+  PHONE_INTERVIEW_NOTE: Telephone dialogue recorded and used for risk analysis
+  MEDICAL_QUESTIONNAIRE: May be requested at underwriter discretion
+  APS: Occasional APS may be requested to clarify information
+
+PRIOR_DECLINATION_RULE: Not eligible if previous offer from United of Omaha with risk class greater than Table 4 or declined
+
+===RATE_CLASSES===
+RATE_CLASS: Non_Nicotine_Non_Tobacco
+  TOBACCO_USE: No tobacco or nicotine products within 12 months
+  MARIJUANA: Marijuana use allowable for non tobacco rates
+  OCCASIONAL_CIGAR: Not allowed for non tobacco rates with simplified issue
+  BLOOD_PRESSURE: Treatment allowable no hospitalization for high blood pressure in past 5 years
+  ALCOHOL_DRUG_HISTORY: No use treatment or convictions in past 10 years
+  DRIVING_RECORD: No DWI DUI or reckless driving within 5 years no 4 or more moving violations
+  AVOCATION_OCCUPATION: No hazardous occupation avocation or sport
+  AVIATION: Not allowable
+  CRIMINAL_RECORD: No felony convictions in past 10 years
+  BUILD: Must be within build chart
+
+RATE_CLASS: Nicotine_Tobacco
+  TOBACCO_USE: Tobacco or nicotine use within past 12 months
+  INCLUDES: Cigarettes cigars pipes chewing tobacco vaping electronic cigarettes hookah nicotine gum nicotine patch
+  OTHER_REQUIREMENTS: Same as non nicotine class
+
+TABLE_RATINGS: Available up to Table 4
+TABLE_RATING_BEYOND_4: Decline
+
+===BUILD_CHART===
+NOTE: See Express Life and DI Rider Build Chart for height and weight requirements
+MAXIMUM_WEIGHT_COLUMNS:
+  - TLE IULE Maximum Weight
+  - Table 2 Maximum Weight for multiple impairments
+MINIMUM_WEIGHT: By height
+
+===MULTIPLE_IMPAIRMENTS_RULES===
+RULE: Multiple impairments resulting in rating greater than Table 4 will be declined
+
+DIABETES_EXAMPLES:
+  CONDITION: Diabetes over age 45 with Table 2 or higher build
+    DECISION: Decline
+  CONDITION: Diabetes over age 45 with tobacco or nicotine use
+    DECISION: Decline
+  CONDITION: Diabetes over age 45 with Peripheral Vascular Disease
+    DECISION: Decline
+  CONDITION: Diabetes with any complications
+    DECISION: Decline
+  NOTE: For CA and VI age threshold is 50
+
+TABLE_2_BUILD_EXAMPLES:
+  CONDITION: Table 2 or higher build with hypertension
+    DECISION: Decline
+  CONDITION: Table 2 or higher build with asthma and tobacco or nicotine use
+    DECISION: Decline
+  CONDITION: Table 2 or higher build with Peripheral Vascular Disease
+    DECISION: Decline
+
+===AUTOMATIC_DECLINE_IMPAIRMENTS===
+NOTE: The following single impairments result in automatic decline
+
+AUTOMATIC_DECLINES:
+  CONDITION: Diabetes diagnosed before age 45
+    DECISION: Decline
+    NOTE: For CA and VI age 50
+
+  CONDITION: Amputation caused by disease
+    DECISION: Decline
+
+  CONDITION: Chronic or Alcohol related Pancreatitis
+    DECISION: Decline
+
+  CONDITION: Chronic Severe Asthma
+    DECISION: Decline
+
+  CONDITION: Hodgkin's Disease
+    DECISION: Decline
+
+  CONDITION: Moderate Severe rheumatoid arthritis treated with Humira Enbrel Methotrexate or Xeljanz
+    DECISION: Decline
+
+  CONDITION: Muscular Dystrophy
+    DECISION: Decline
+
+  CONDITION: Sickle Cell Anemia
+    DECISION: Decline
+
+  CONDITION: Pacemaker
+    DECISION: Decline
+
+===COMMON_IMPAIRMENTS===
+IMPAIRMENTS_MAY_RESULT_IN_ADJUSTED_BENEFIT_OR_DECLINE:
+  - Abnormal Irregular Heart Rhythm
+  - Alcohol or drug treatment history
+  - ALS Lou Gehrig's Disease
+  - Asthma not chronic severe
+  - Bipolar Schizophrenia major depression
+  - Cardiomyopathy
+  - Cerebral Palsy
+  - Chronic Kidney Disease
+  - Congestive Heart Failure CHF
+  - Crohn's Disease Ulcerative Colitis
+  - Coronary disease including heart attack or heart surgery
+  - COPD including Chronic Bronchitis Emphysema Cystic Fibrosis
+  - Cancer
+  - Defibrillator
+  - Diabetes diagnosed age 45 or later with complications
+  - Diabetes with complications including Retinopathy Nephropathy Neuropathy
+  - Heart disease or surgery
+  - Hepatitis B or C
+  - Liver Disease including Cirrhosis
+  - Leukemia
+  - Lymphoma
+  - Melanoma
+  - Mental incapacity
+  - Metastatic Cancer or recurrent cancer
+  - Neurological disorders including Multiple Sclerosis Parkinson's Disease
+  - Pancreatitis not chronic or alcohol related
+  - Paralysis
+  - Organ or bone marrow transplants
+  - Peripheral Vascular Disease PVD or PAD
+  - Renal insufficiency failure
+  - Rheumatoid Arthritis not moderate severe or not treated with excluded medications
+  - Scleroderma
+  - Stroke or mini stroke TIA
+  - Systemic Lupus
+
+===PRESCRIPTION_DRUG_EXCLUSIONS===
+NOTE: Proposed insureds currently taking following medications not eligible for Term Life Express
+REASON_FOR_USE: Must be included on application if taking these medications
+
+EXCLUDED_MEDICATIONS:
+  - Abacavir
+  - Adcirca
+  - Aggrenox
+  - Alkeran
+  - Amiodarone
+  - Ampyra
+  - Anoro Ellipta
+  - Antabuse
+  - Aricept
+  - Arimidex
+  - Atripla
+  - Avonex
+  - Azilect
+  - Baraclude
+  - Betaseron
+  - Calcium Acetate
+  - Campath
+  - Campral
+  - Caprelsa
+  - Carbidopa Levodopa
+  - Casodex
+  - Cellcept
+  - Chlorpromazine Hcl
+  - Clozapine
+  - Cognex
+  - Combivir
+  - Copaxone
+  - Crixivan
+  - Cyclosporine
+  - Cytoxan
+  - Daliresp
+  - Digitek
+  - Digoxin
+  - Dobutamine Hcl
+  - Donepezil
+  - Droxia
+  - Eligard
+  - Eliquis
+  - Enbrel
+  - Epivir Hbv
+  - Ergoloid Mesylates
+  - Exelon
+  - Femara
+  - Floxuridine
+  - Fluorouracil
+  - Galantamine Hydrobromide
+  - Gammagard
+  - Gamunex
+  - Gengraf
+  - Geodon
+  - Haldol
+  - Haloperidol
+  - Hepsera
+  - Humira
+  - Hydrea
+  - Hydroxyurea
+  - Infergen
+  - Invega
+  - Invirase
+  - Isentress
+  - Kalydeco
+  - Keytruda
+  - Lanoxin
+  - Latuda
+  - Leucovorin Calcium
+  - Lexiva
+  - Lithium
+  - Megestrol Acetate Megace
+  - Methadone
+  - Methotrexate
+  - Mitomycin
+  - Morphine Sulfate
+  - Mycophenolate Mofetil
+  - Myfortic
+  - Nabi Hb
+  - Naloxone Hcl
+  - Naltrexone Hcl
+  - Namenda
+  - Neupogen
+  - Opdivo
+  - Panretin
+  - Pegasys
+  - Peg Intron
+  - Perphenazine
+  - Prograf
+  - Ranexa
+  - Razadyne
+  - Rebif
+  - Retrovir
+  - Revia
+  - Revlimid
+  - Ribavirin
+  - Risperdal
+  - Rituxan
+  - Sandimmune
+  - Saphris
+  - Sinemet
+  - Spiriva
+  - Stalevo
+  - Stribild
+  - Suboxone
+  - Sustiva
+  - Symbyax
+  - Tamoxifen
+  - Targretin
+  - Teslac
+  - Tudorza
+  - Tysabri
+  - Viracept
+  - Viramune
+  - Viread
+  - Xarelto
+  - Xeljanz
+  - Zenapax
+  - Zerit
+  - Ziagen
+  - Zidovudine
+  - Zoladex
+  - Zyprexa
+
+===OPTIONAL_RIDERS===
+RIDER: Accidental_Death_Benefit
+  COST: Additional premium
+  BENEFIT: Additional death benefit if death results from accident
+  MAXIMUM: Equal to base policy face amount
+  TERMINATION_AGE: 70
+  MAXIMUM_COMBINED_LIMIT_AGES_18_TO_25: 100000
+  MAXIMUM_COMBINED_LIMIT_AGES_26_TO_60: 250000
+
+RIDER: Disability_Benefits_Rider
+  REQUIRES: Disability Supplemental Application
+  COST: Additional premium
+  BENEFIT: Waives premium if insured becomes totally disabled
+  QUALIFICATION: Total disability before age 60 lasting 6 consecutive months
+  DURATION: Waiver continues while disabled before age 65
+  BUILD_CHART: Separate DI Rider Maximum Weight column applies
+  NOT_GUARANTEED_CONVERTIBLE: Requires signed statement at term conversion that not disabled and performing normal duties
+
+RIDER: Children's_Rider
+  REQUIRES: Children's Rider Supplemental Application
+  COST: Additional premium
+  BENEFIT: Term insurance on children
+  ELIGIBLE_CHILDREN: Age 15 days to 18 years
+  FACE_AMOUNTS: Varies by product
+  CONVERSION: Can convert to permanent policy at age 25 without evidence of insurability
+  MAXIMUM_COMBINED_LIMIT: 10000 per child all products
+  GUARANTEED_CONVERTIBLE: Yes if available on new permanent product
+
+RIDER: Other_Insured_Rider
+  COST: Additional premium
+  BENEFIT: Term insurance on spouse or other person
+  CONVERSION: Can be converted into separate permanent policy at insured's current attained age
+
+===CONVERSION_PRIVILEGE===
+CONVERSION_AVAILABLE: Yes
+CONVERSION_PERIOD: Anytime during level term period through last conversion date on policy data page
+CONVERSION_AGE_LIMIT: Up to age 70
+EVIDENCE_OF_INSURABILITY: Not required
+CONVERSION_PRODUCTS: IUL Express Whole Life conversion only product
+PARTIAL_CONVERSIONS: Available if minimum face amount requirements met
+ATTAINED_AGE: Converted at current attained age
+NOT_ELIGIBLE: Term Life Express policies issued prior to May 1 2014
+
+CONVERSION_TO_IUL_EXPRESS:
+  MINIMUM_FACE_AMOUNT: 25000
+  SUBSTANDARD: Not available for substandard conversions must use AccumUL Answers Income Advantage IUL or Life Protection Advantage IUL
+
+CONVERSION_TO_WHOLE_LIFE:
+  MINIMUM_FACE_AMOUNT: 5000
+  PRODUCT_TYPE: Conversion only product
+
+===CONDITIONAL_RECEIPT===
+CONDITIONAL_COVERAGE_MAXIMUM: 100000
+CONDITIONAL_COVERAGE_EFFECTIVE: If all conditions met
+CONDITIONS:
+  1: Amount received sufficient to pay first premium at mode applied for
+  2: All required medical examinations completed within 60 days from application date
+  3: Person eligible for exact policy applied for according to underwriting standards without modification
+  4: All statements and answers in application true and complete when made
+  5: All parts of application exams supplements questionnaires and amendments completed and received by home office
+
+CONDITIONAL_COVERAGE_DURATION: 60 days from effective date of receipt
+TERMINATION: Company may terminate by mailing refund of premium paid
+
+NOTE: Kansas uses Temporary Insurance Agreement TIA instead of conditional receipt with same conditions
+
+===FINANCIAL_UNDERWRITING===
+INCOME_REPLACEMENT_AMOUNTS:
+  AGES_UNDER_30: 40X annual earned income
+  AGES_30_TO_39: 35X annual earned income
+  AGES_40_TO_49: 30X annual earned income
+  AGES_50_TO_59: 20X annual earned income
+  AGES_60_TO_64: 10X annual earned income
+  AGES_65_PLUS: 7X annual earned income if actively at work or surviving spouse benefit consideration
+  MINIMUM_ANNUAL_INCOME: 25000 or higher
+
+NON_WORKING_SPOUSE:
+  AMOUNT: Equal to amount in force and applied for on breadwinner
+  IF_NO_COVERAGE: Maximum 100000 total combined in force coverage
+
+BUSINESS_INSURANCE:
+  AVAILABLE: Yes for business insurance coverage purposes
+  EXPLANATION_REQUIRED: Yes
+  OVER_100000: Additional information via short phone interview
+  EMPLOYER_OWNED_FORM: Required when business is owner or beneficiary
+
+KEY_PERSON:
+  CALCULATION: 5 to 10X earned income plus bonuses if paid regularly
+  OWNERSHIP_INTEREST: Appropriate percentage of company net income can be added
+  STATE_REQUIREMENTS: Some states have specific key person qualifications
+
+BUY_SELL:
+  COVERAGE: Should be applied for or in force on all major active partners
+  OWNERSHIP_PERCENTAGE: Should be included coverage proportional to ownership
+  DOCUMENTATION: Company financial statements and buy sell agreement may be requested
+
+===OCCUPATIONS===
+HAZARDOUS_OCCUPATIONS_DECLINED:
+  LAW_ENFORCEMENT: Narcotics unit vice squad bomb squad undercover work
+  MILITARY: Aircraft pilot or crew hazardous activities diving parachuting explosives hazardous material exposure
+  FEDERAL_GOVERNMENT: Hazardous activities explosives bomb disposal hazardous material exposure
+  HAZARDOUS_WORK: Steeplejack tower erector structural steel explosives work at heights greater than 49 feet
+  OCCUPATIONAL_TRAVEL: Outside US to regions of active war political unrest or terrorism
+
+ACCEPTED_WITH_RESTRICTIONS:
+  HEALTH_CARE: Private duty nurse outside hospital CNA elderly caregiver home health aide
+    LIFE_INSURANCE: Accept
+    DISABILITY_RIDER: Decline
+
+===AVOCATIONS===
+NOT_ALLOWABLE:
+  - Motor Sports Racing
+  - Boat Racing
+  - Parachuting
+  - Skydiving
+  - Hang Gliding
+  - Base Jumping
+  - Rock or Mountain Climbing
+
+===FOREIGN_NATIONALS===
+PERMANENT_RESIDENTS:
+  REQUIREMENT_1: Valid Permanent Resident Card Green Card or Alien Registration Receipt Card
+  REQUIREMENT_2: Lived in US for minimum 12 continuous months
+  REQUIREMENT_3: Minimum annual income 20000 from US based assets entitlement benefits or US based employment not including government assistance SSI or SSDI
+  REQUIREMENT_4: Complete Foreign National and Foreign Travel Questionnaire L5719_0107
+
+TEMPORARY_VISA_HOLDERS:
+  ACCEPTABLE_VISAS: E-1 E-2 H-1B H-4 L-1 L-2
+  E_2_VISA: Spouse and children under age 21 also qualify
+  H_4_VISA: For spouse and children under age 21 of H-1B visa holders
+  L_2_VISA: For spouse and children under age 21 of L-1 visa holders
+
+===OWNERSHIP_BENEFICIARY===
+ACCEPTABLE_OWNER_BENEFICIARY:
+  - Spouse fiancée domestic partner
+  - Parent
+  - Adult child
+  - Life insurance Trust requires Trust Certification form with trustee name tax ID and date
+  - Business or Business Partner see Business Insurance Guidelines
+  - Estate beneficiary only
+
+ACCEPTABLE_BENEFICIARY_ONLY:
+  - Siblings
+  - Grandparents and grandchildren
+  - Close relatives by marriage in laws step relations
+  - Ex spouse
+
+ACCEPTABLE_CONTINGENT_BENEFICIARY:
+  - Other distant relatives Aunts Uncles Niece Nephew Cousins
+  - Friends
+
+NOT_ACCEPTABLE: Any other Owner Beneficiary relationships
+
+POWER_OF_ATTORNEY: Not acceptable authorization for life insurance policy
+
+===AUTOMATED_UNDERWRITING===
+AVAILABLE: Yes via iGO e App
+PRODUCTS: Living Promise Final Expense Term Life Express IUL Express
+OUTCOMES: Approved Referred to Underwriting Declined
+POINT_OF_SALE_DECISIONS: Yes instant underwriting decisions possible
+DEVICES: Desktop laptop or mobile device
+
+===APPLICATION_REQUIREMENTS===
+REQUIRED_FORMS:
+  - Application complete all sections
+  - Producer Statement
+  - MIB Group Inc Pre Notice
+  - Notice of Information Practices
+  - Life Insurance Buyer's Guide
+  - Conditional Receipt Form if initial premium collected
+  - Accelerated Death Benefit Disclosure Form signed
+  - State replacement forms if applicable
+  - Financial Institution Consumer Disclosure if applicable
+
+ILLUSTRATION_REQUIREMENTS: Not required for term product
+
+ALL_CHANGES: Must be initialed by Applicant Owner
+
+===CONTACT_INFORMATION===
+UNDERWRITING_SUPPORT: 1-800-775-7896
+IGO_E_APP_SUPPORT: 1-800-641-6557
+SALES_SUPPORT: 1-800-693-6083
+
+APPLICATIONS_MAIL:
+  ADDRESS: Mutual of Omaha 3300 Mutual of Omaha Plaza Omaha NE 68175
+  FAX: 402-997-1804
+
+EMAIL_NEW_APPLICATIONS: lifeapps@mutualofomaha.com
+EMAIL_REQUIREMENTS: liferequirements@mutualofomaha.com
+EMAIL_RISK_ASSESSMENTS: ExpressRiskAssessment@mutualofomaha.com
+PHONE_RISK_ASSESSMENTS: 888-624-1173
+
+AGENT_PORTAL: Sales Professional Access online
+
+===PRODUCT_FEATURES===
+UNDERWRITING_STRENGTHS:
+  - Age last birthday advantage for policy rates
+  - Simplified products covering ages 14 days to 85
+  - Occasional marijuana use may qualify
+  - Point of sale underwriting decisions with electronic applications
+  - Access to underwriters for case discussion and risk assessments
+  - Industry leading service times
+
+===NOTES===
+PRODUCT_POSITIONING: Simplified issue term life insurance with automated underwriting and instant decisions
+TARGET_MARKET: Individuals ages 18 to 75 seeking term coverage without medical exam
+COMPETITIVE_ADVANTAGES: Automated underwriting simplified process age last birthday advantage marijuana use allowable
+USE_CASES: Income replacement mortgage protection family protection business protection

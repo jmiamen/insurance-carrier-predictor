@@ -1,0 +1,381 @@
+===METADATA===
+CARRIER: The Savings Bank Mutual Life Insurance Company of Massachusetts
+CARRIER_SHORT_NAME: SBLI
+PRODUCT_NAME: SBLI Level Term Life Insurance
+PRODUCT_CATEGORY: Simplified Issue Guaranteed Level Premium Term Life Insurance
+ISSUE_TYPE: Simplified Issue
+DOCUMENT_DATE: May 2022
+FORM_SERIES: 21-P-SIT 18-R-AXRDB BN-8 19-R-CaGCLTI 21-R-CGB
+NAIC_NUMBER: 70435
+HOME_OFFICE: Woburn MA
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 18 to 55, healthy clients only
+HEALTH_PROFILE: Healthy clients only, similar to LGA
+UNDERWRITING_SELECTIVITY: Simplified issue but selective on health
+COMPETITIVE_ADVANTAGE: Very good rates similar to LGA, 90 percent instant decision
+MAXIMUM_COVERAGE: Up to 2000000 (varies by age and income)
+LIVING_BENEFITS: No does not offer living benefits
+APPLICATION_PROCESS: Quick e-app, quote on Quility
+APPROVAL_SPEED: 90 percent instant decision
+SALES_BOX: Box 1 Young and Healthy
+BEST_FOR: Clean health profiles, younger applicants, clients who don't need living benefits, competitive rate seekers
+COMPETITIVE_COMPARISON: Similar rates to LGA/Banner Life
+AVOID_IF: Need living benefits, health issues, over age 55
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Term Life
+PREMIUM_STRUCTURE: Guaranteed Level Premium
+DEATH_BENEFIT: Level during term period
+CASH_VALUE: None
+
+===CORE_SPECIFICATIONS===
+ISSUE_AGES:
+  AGES_18_TO_50:
+    MIN_AGE: 18
+    MAX_AGE: 50
+    TERM_OPTIONS: 10 15 or 20 years
+    MIN_FACE_AMOUNT: 25000
+    MAX_FACE_AMOUNT: Lesser of 1000000 or 20 times income
+
+  AGES_51_TO_55:
+    MIN_AGE: 51
+    MAX_AGE: 55
+    TERM_OPTIONS: 10 years only
+    MIN_FACE_AMOUNT: 25000
+    MAX_FACE_AMOUNT: Lesser of 500000 or 10 times income
+
+FACE_AMOUNT_INCREMENTS: 1000
+
+RENEWABILITY:
+  RENEWABLE: Yes
+  RENEWABLE_TO_AGE: 85
+  RENEWABLE_PREMIUMS: Annual renewable term rates increase each year
+  EVIDENCE_OF_INSURABILITY: Not required for renewal
+  AUTOMATIC_RENEWAL: Yes policy automatically renews on anniversary date
+  POST_LEVEL_PERIOD: Premiums increase annually after level term period ends
+
+POLICY_FEE:
+  AMOUNT: 50
+  FREQUENCY: Annual
+  COMMISSIONABLE: false
+  MODALIZED: Yes for premiums not paid annually
+
+===FACE_AMOUNT_BANDING===
+BAND_1: 25000 to 99999
+BAND_2: 100000 to 249999
+BAND_3: 250000 to 499999
+BAND_4: 500000 to 1000000
+
+===TARGET_MARKET_SUITABILITY===
+APPLICANTS_MUST_BE:
+  AGE: Between 18 and 55
+  EMPLOYMENT_STATUS: Actively employed or homemaker
+  CITIZENSHIP: US citizen or permanent resident
+  NOT_REPLACING: Existing life insurance cannot be replaced
+
+SPECIAL_ELIGIBILITY:
+  STUDENTS_UNDER_26: Maximum 100000 coverage
+  RETIREES_OVER_50: Maximum 100000 coverage
+
+MORTGAGE_COVERAGE_NOTE: For mortgage coverage only quoting should not exceed 1.5 times mortgage amount
+
+===RATE_CLASSES===
+NON_NICOTINE_CLASSES:
+  - Preferred Plus
+  - Preferred
+  - Select
+  - Standard
+  SUBSTANDARD: Up to Table D
+
+NICOTINE_CLASSES:
+  - All nicotine risks
+  SUBSTANDARD: Up to Table D
+
+===PREMIUM_MODES===
+MODE: Annual
+  FACTOR: 1.00
+
+MODE: Semi_Annually
+  FACTOR: 0.51
+
+MODE: Quarterly
+  FACTOR: 0.26
+
+MODE: Monthly
+  FACTOR: 0.087
+
+PAYMENT_METHODS:
+  ELECTRONIC_FUNDS_TRANSFER: Available for all payment modes
+  CREDIT_CARD: Mastercard and Visa accepted
+  CREDIT_CARD_REQUIREMENT: Policy owner must be cardholder
+  CREDIT_CARD_FEE: No additional charge
+
+BILLING_DATE: Same day of month as policy effective date if weekend or holiday next business day
+
+===UNDERWRITING===
+UNDERWRITING_TYPE: Simplified Issue
+MEDICAL_EXAM: Not required
+DECISION_TIME: Within minutes
+UNDERWRITING_PROCESS: Fast and convenient with decision in minutes
+
+UNDERWRITING_REQUIREMENTS:
+  NO_PHI: true
+  NO_APS: true
+  NO_HOS: true
+  NO_MEDICAL_EXAM: true
+
+===IDEAL_TARGET_MARKET===
+GOOD_FIT_CHARACTERISTICS:
+  - Clients who are good historians of overall medical history
+  - Not highly sub standard medical risk
+  - No indication of heavy shopping activity with poor disclosure
+  - Not recently declined by another carrier without knowledge of details
+  - No history of criminal activity
+  - No adverse financial profiles bankruptcy heavy lien judgment heavy collection or bad debt activity
+  - Employed clients exception homemakers and retired
+  - Clients with adequate household earnings
+
+===UNACCEPTABLE_RISKS===
+AUTOMATIC_DECLINES:
+  CONDITION: Diabetics requiring insulin
+    DECISION: Decline
+
+  CONDITION: Cancer in last 10 years
+    DECISION: Decline
+    EXCEPTION: Basal Cell or Squamous Cell Carcinoma acceptable
+
+  CONDITION: Convicted of or plead guilty to felony in last 10 years OR currently charged with felony
+    DECISION: Decline
+
+  CONDITION: Treated for drug or alcohol abuse in last 7 years
+    DECISION: Decline
+
+  CONDITION: Heart Liver Pancreas Kidney or neurological disease within last 5 years
+    DECISION: Decline
+
+  CONDITION: HIV AIDS
+    DECISION: Decline
+
+  CONDITION: TIA Stroke in last 5 years
+    DECISION: Decline
+
+  CONDITION: Emphysema or COPD
+    DECISION: Decline
+
+  CONDITION: DUI or DWI reckless driving conviction or license suspension revocation in last 5 years
+    DECISION: Decline
+
+  CONDITION: Major depression requiring 3 or more meds or led to loss of work in last 5 years
+    DECISION: Decline
+
+  CONDITION: Rheumatoid arthritis lupus or connective tissue disease in last 5 years
+    DECISION: Decline
+
+  CONDITION: Awaiting results of medical test OR recommended surgery in last 2 years
+    DECISION: Decline
+    EXCEPTIONS: Acceptable surgeries bone joint ligament tendon cosmetic C section D and C dental gallbladder hemorrhoid tonsil adenoid removal vision hearing varicose veins vasectomy
+
+  CONDITION: Hospitalized in last year
+    DECISION: Decline
+    EXCEPTION: Childbirth acceptable
+
+  CONDITION: On active duty in Military
+    DECISION: Decline
+
+  CONDITION: Covid 19 within last 30 days or under active treatment
+    DECISION: Decline
+
+  CONDITION: Cirrhosis of liver
+    DECISION: Decline
+
+  CONDITION: Use of defibrillator or pacemaker
+    DECISION: Decline
+
+===INCLUDED_RIDERS===
+RIDER: Accelerated_Death_Benefit
+  INCLUDED: true automatically on all policies
+  COST: No premium charge
+  BENEFIT_TRIGGER: Terminal illness that will result in death within 12 months verified by physician statement
+  BENEFIT_AMOUNT: Maximum 50 percent of base policy death benefit excluding riders
+  MAXIMUM_BENEFIT: 250000
+  BENEFIT_PAYABLE_TO: Policy owner
+  LIEN_METHOD: Treated as interest bearing lien against base policy death benefit
+  LIEN_INTEREST_RATE: Lesser of policy loan interest rate and adjustable loan interest rate allowable by law
+  DEATH_BENEFIT_AFTER_ACCELERATION: Reduced by accelerated benefit amount plus accrued interest and any outstanding policy loans
+  TERMINATION: Upon death benefit acceleration or base policy termination
+  REINSTATEMENT: May be reinstated if base policy reinstated
+  FEE: Nominal fee assessed upon death benefit acceleration
+
+===SERVICES===
+SERVICE: LegacyShield
+  PROVIDED_BY: LegacyShield subsidiary of SBLI
+  COST: Complimentary subscription at no cost
+  FEATURES:
+    - Safely store documents final wishes family photos
+    - Consolidate all financial accounts and insurance policies in one dashboard
+    - Create estate plan documents will power of attorney advance directive
+  NOTE: Additional LegacyShield products may be available for purchase
+  SEPARATE_RELATIONSHIP: Client relationship with LegacyShield separate from SBLI
+  NOT_LEGAL_ADVICE: Kits not intended to be legal tax or investment advice
+
+===CONVERSION_PRIVILEGE===
+CONVERSION_AVAILABLE: No
+NOTE: There is no conversion option available with this product
+
+===COMMISSIONS===
+METHOD: As earned basis
+FREQUENCY: Weekly via Electronic Funds Transfer EFT
+PAYMENT_TIMING: Next scheduled commission cycle after premium payment received
+STATEMENTS: Accessible on portal after Friday commission run
+PORTAL_REGISTRATION: Required to access commission information
+
+CHARGEBACKS:
+  MONTHS_1_TO_6: 100 percent chargeback
+  MONTHS_7_TO_12: 50 percent chargeback
+
+===POLICYHOLDER_SERVICES===
+ADDRESS_CHANGES:
+  ONLINE: www.my.sbli.com
+  IN_WRITING: Name and Address Change Form
+  BY_PHONE: 800-694-7254
+  CONFIRMATION: Email confirmation sent if updated online
+
+BENEFICIARY_CHANGES:
+  METHOD: Written request using Beneficiary Change Form
+  FORM_AVAILABLE: www.my.sbli.com
+  REQUIRED_INFORMATION: Full name address SSN relationship of proposed beneficiary
+  DISTRIBUTION: Percentages in whole numbers not dollar amounts must equal 100 percent
+  MINOR_BENEFICIARIES: May require court approval consult attorney for state requirements
+  IRREVOCABLE_BENEFICIARY: Must be of legal age in state of residence
+
+DUPLICATE_POLICY:
+  ONLINE: www.my.sbli.com
+  IN_WRITING: Duplicate Policy Request Form
+  BY_PHONE: 800-694-7254
+  ELECTRONIC_DELIVERY: Via secure email free of charge
+  PAPER_COPY_FEE: 25 per policy if mailed
+
+NAME_CHANGES:
+  METHOD: In writing using Change of Name Form
+  REQUIRED: Reason for change and legal documentation
+  FORM_AVAILABLE: www.my.sbli.com or 800-694-7254
+  POLICY_RETURN: Not necessary endorsement mailed to owner
+
+POLICY_CHANGES:
+  REDUCTION_OF_FACE_AMOUNT: After first policy year if minimum requirements met
+  REMOVING_RIDERS: By clearly stating wishes
+  RISK_CLASS_IMPROVEMENT: If satisfactory evidence shows health improved owner may pay for evidence
+  FORM: Policy Change Request Form at www.my.sbli.com
+  PHONE: 800-694-7254
+
+REINSTATEMENTS:
+  AVAILABLE: Within guidelines stated in policy
+  EVIDENCE_OF_INSURABILITY: May be requested by underwriting
+  PAYMENT_REQUIRED: All premiums in arrears
+  APPLICATION_REQUIRED: State specific Reinstatement Application
+  PHONE: 800-694-7254
+  NOTE: Surrendered policy cannot be reinstated
+
+SURRENDERS:
+  METHOD: In writing using Policy Surrender Request Form
+  SURRENDER_CHARGES: May apply see policy schedule
+  POLICY_RETURN: Must be returned with request
+  LOST_POLICY: Initial lost policy statement on form
+  EFT_NOTICE: Request must be received 10 business days prior to scheduled payment
+  TAX_INFORMATION: TIN required per IRS guidelines
+
+===CLAIMS===
+NOTIFICATION:
+  PHONE: 800-694-7254
+  ONLINE: www.my.sbli.com
+  FAX: 781-994-4240
+  EMAIL: records@sbli.com
+
+REQUIRED_INFORMATION:
+  - Contact person name and phone
+  - Name and address of deceased
+  - Policy number
+  - Date of death
+  - Manner of death
+  - Beneficiary names and addresses if available
+
+REQUIRED_DOCUMENTATION:
+  - Completed Claimant Statement
+  - Copy of certified death certificate with cause and manner of death
+  - Original policy if available
+  - Copy of Memorial Card or Obituary Notice if available
+
+CONTESTABLE_PERIOD: 2 years from issue date
+
+PRODUCER_CLAIMS_NOTE: Producer may assist but beneficiary responsible for furnishing proof of loss producer should not make statements regarding claim validity or SBLI position
+
+===APPLICATION_PROCESS===
+STEPS:
+  STEP_1: Pre screen
+  STEP_2: Quote
+  STEP_3: Application
+    - Consent
+    - Beneficiaries
+    - Offer Payment
+    - Signatures
+
+DISCLOSURES_AUTHORIZATION_SCREEN:
+  - HIPAA Authorization 19 A CAD
+  - Notice of Information A 91 D
+  - Privacy N 51
+  - Policy E App 19 N EAD
+  - Customer Notice
+
+DISCLOSURES_SIGNATURE_SECTION:
+  - Application
+  - HIPAA Authorization 19 A CAD
+  - Policy E App 19 N EAD
+  - N NOREP
+  - F 104
+
+===CONTACT_INFORMATION===
+SALES_SUPPORT:
+  CONTACT: Jonathan Jendrzejewski or Micheal Muench
+  PHONE: 781-994-4235 or 781-994-5444
+  EMAIL: brokerage@sbli.com
+
+POST_ISSUE_NEW_BUSINESS_POLICYHOLDER_SERVICES:
+  PHONE: 888-224-7254 option 3
+  EMAIL: records@sbli.com
+
+CUSTOMER_SERVICE:
+  PHONE: 800-694-7254
+  WEBSITE: www.my.sbli.com
+
+COMMISSIONS:
+  PHONE: 888-224-7254 option 5
+  EMAIL: sblicommissions@sbli.com
+
+CLAIMS:
+  PHONE: 800-694-7254
+  WEBSITE: www.my.sbli.com
+  FAX: 781-994-4240
+  EMAIL: records@sbli.com
+
+===STATE_AVAILABILITY===
+NOTE: Products and features may not be available in all states
+STATE_OF_DOMICILE: Massachusetts
+
+===COMPANY_INFORMATION===
+FOUNDED_BY: Future Supreme Court Justice Louis Brandeis
+COMPANY_VISION:
+  - Make high quality life insurance accessible affordable and reliable for all who need it
+  - Operate according to uncompromising values and act in best interests of customers
+  - Commit to values of communities served
+  - Be readily available to customers
+
+COMPANY_TYPE: Mutual company
+HISTORY: Over 100 years in business
+
+===NOTES===
+PRODUCT_POSITIONING: Simplified issue low cost level premium term protection with range of features and riders
+TARGET_MARKET: Individuals ages 18 to 55 looking for straightforward affordable easy to understand protection
+USE_CASES: Income protection mortgage protection replace lost income fund college expenses cover daycare expenses pay off financial obligations
+COMPETITIVE_ADVANTAGES: Fast decision in minutes no medical exam simplified issue process LegacyShield digital vault service
+NO_REPLACEMENT: Product not suitable for replacing existing life insurance

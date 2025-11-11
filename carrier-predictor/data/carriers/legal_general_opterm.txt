@@ -1,0 +1,263 @@
+===METADATA===
+CARRIER: Legal & General America
+ISSUING_COMPANIES: Banner Life Insurance Company and William Penn Life Insurance Company of New York
+PRODUCT_NAME: OPTerm
+PRODUCT_CATEGORY: Level Premium Term Life Insurance with Decreasing Benefit
+ISSUE_TYPE: Fully Underwritten
+COMPANY_LOCATIONS: Banner Life Urbana MD, William Penn Valley Stream NY
+DISTRIBUTION: Banner in 49 states and DC, William Penn exclusively in New York
+PARENT_COMPANY: Legal & General Group worldwide
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Young and Healthy clients ages 20 to 60
+HEALTH_PROFILE: Healthy clients only, best rates for clean health
+UNDERWRITING_SELECTIVITY: Declines major health issues, requires fully underwritten process
+COMPETITIVE_ADVANTAGE: Best rates for simplified issue term, very competitive pricing
+MAXIMUM_COVERAGE: Up to 2000000
+LIVING_BENEFITS: Yes except California
+APPLICATION_PROCESS: Quick e-app
+APPROVAL_SPEED: Fast
+SALES_BOX: Box 1 Young and Healthy
+BEST_FOR: Clean health profiles, younger applicants under 60, competitive rate seekers
+AVOID_IF: Major health issues, California residents needing living benefits, older than 60
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Level Premium Term with Decreasing Death Benefit
+COVERAGE_STRUCTURE: Level death benefit during initial term period then decreases after
+PREMIUM_STRUCTURE: Level premiums during initial term period then changes after
+TERM_OPTIONS: 10 15 20 25 30 35 and 40 year plans
+RENEWABLE: Yes
+CONVERTIBLE: Yes
+
+===POLICY_FORMS===
+BANNER_LIFE: ICC21 DTCV and state variations
+WILLIAM_PENN: DTCV21 NY
+
+===CORE_SPECIFICATIONS===
+FACE_AMOUNTS:
+  MINIMUM: 100000
+
+ISSUE_AGES:
+  AGE_TYPE: Nearest birthday
+
+  BANNER_LIFE:
+    Term_10:
+      ALL_CLASSES: 20 to 75
+    Term_15:
+      ALL_CLASSES: 20 to 75
+    Term_20:
+      NONTOBACCO: 20 to 70
+      TOBACCO: 20 to 65
+    Term_25:
+      NONTOBACCO: 20 to 60
+      TOBACCO: 20 to 55
+    Term_30:
+      NONTOBACCO: 20 to 55
+      TOBACCO: 20 to 50
+    Term_35:
+      NONTOBACCO: 20 to 50
+      TOBACCO: 20 to 45
+    Term_40:
+      NONTOBACCO: 20 to 45
+      TOBACCO: 20 to 40
+
+  WILLIAM_PENN_NY:
+    Term_10:
+      ALL_CLASSES: 20 to 75
+    Term_15:
+      ALL_CLASSES: 20 to 71
+    Term_20:
+      NONTOBACCO: 20 to 65
+      TOBACCO: 20 to 64
+    Term_25:
+      NONTOBACCO: 20 to 58
+      TOBACCO: 20 to 55
+    Term_30:
+      NONTOBACCO: 20 to 51
+      TOBACCO: 20 to 50
+    Term_35:
+      NONTOBACCO: 20 to 50
+      TOBACCO: 20 to 45
+    Term_40:
+      NONTOBACCO: 20 to 45
+      TOBACCO: 20 to 40
+
+===RISK_CLASSIFICATIONS===
+AVAILABLE_CLASSES:
+  - Preferred_Plus_Nontobacco
+  - Preferred_Nontobacco
+  - Standard_Plus_Nontobacco
+  - Standard_Nontobacco
+  - Preferred_Tobacco
+  - Standard_Tobacco
+  - Rated_classes_available
+
+STANDARD_PLUS_NONTOBACCO:
+  APPLICATION: Applied to most rated cases
+  AVAILABILITY: Yes on OPTerm
+
+FAMILY_CANCER_HISTORY:
+  IMPACT: Does not prevent applicants from consideration for preferred underwriting classes
+
+===PRODUCT_FEATURES===
+LEVEL_PREMIUM_PERIOD:
+  DURATION: Initial term period 10 15 20 25 30 35 or 40 years
+  PREMIUMS: Guaranteed level during initial period
+  DEATH_BENEFIT: Level during initial period
+  MARKET_POSITION: Market leading guaranteed level premiums
+
+POST_LEVEL_PERIOD:
+  DEATH_BENEFIT: Decreases after level term period
+  PREMIUMS: Change after level period expires
+  RENEWABLE: Yes
+  NOTE: Coverage decreases after level term period
+
+MAXIMUM_ISSUE_AGES:
+  FEATURE: High maximum issue ages
+  BENEFIT: Extended coverage availability for older applicants
+
+===POLICY_FEES===
+BANNER_LIFE: 90 annual
+WILLIAM_PENN: 80 annual
+
+===CONVERSION_PRIVILEGE===
+CONVERTIBLE_PERIOD:
+  STANDARD: Level premium period or up to attained age 70 whichever comes first
+  AGES_66_PLUS: Convertible during first 5 policy years if issued at age 66 or over
+  EVIDENCE_REQUIRED: No evidence of insurability required
+
+===INCLUDED_BENEFITS===
+BENEFIT: Accelerated Death Benefit
+  COST: Automatically included
+  POLICY_FORM: ICC10 ADB and state variations, William Penn ADB 07 10
+  BENEFIT_AMOUNT: Lesser of 75 percent of policy primary death benefit or 500000
+  TRIGGER: Life expectancy of 12 months or less
+  IMPACT: May affect policy cash value death benefit premium and policy loans or liens
+
+===OPTIONAL_RIDERS===
+RIDER: Waiver of Premium
+  COST: Optional additional premium
+  POLICY_FORM: ICC09 WPTR and state variations, William Penn WPTR
+  BENEFIT: Waives premiums if insured becomes disabled
+  DISABILITY_REQUIREMENTS: As defined in rider
+
+RIDER: Term Rider 10 15 and 20
+  COST: Optional additional premium
+  POLICY_FORM: ICC11 AIR and state variations, William Penn AIR 1 1
+  BENEFIT: Temporary life insurance coverage
+  DURATIONS: 10 15 or 20 years
+  TERMINATION: Coverage ceases after term period
+  ISSUE_AGES: Vary from base plan
+  NOTE: Additional insurance riders provide temporary coverage
+
+RIDER: Childrens Rider
+  COST: Optional additional premium
+  POLICY_FORM: ICC16 CLIR and state variations
+  AVAILABILITY: Not available in NY or MD
+  COVERAGE: Life insurance on eligible children
+  PREMIUMS: Guaranteed to stay level
+  TERMINATION: Earlier of insured child 25th birthday base policy insured 65th birthday or base policy termination
+  RESTRICTION: Not available on base plans with Term Riders
+
+===UNDERWRITING_REQUIREMENTS===
+PROCESS_TYPE: Fully Underwritten
+MEDICAL_EXAMS: Required based on age and face amount
+UNDERWRITING_CLASSES: Multiple risk classes available
+RATED_CASES: Standard Plus Nontobacco applied to most rated cases
+
+===ADMINISTRATIVE_INFORMATION===
+CONTESTABILITY_PERIOD: 2 years
+SUICIDE_CLAUSE: 2 years
+SURRENDER_CHARGES: Not applicable term insurance
+CASH_VALUE: None term insurance
+POLICY_LOANS: Not applicable term insurance
+
+PREMIUM_VARIATIONS:
+  - Vary by underwriting classification
+  - Vary by coverage amount
+  - Level during initial term period
+  - Change after level period
+
+===UNDERWRITING_COMPANIES===
+BANNER_LIFE_INSURANCE_COMPANY:
+  LOCATION: Urbana MD
+  DISTRIBUTION: 49 states and DC
+  NEW_YORK: Does not solicit business in New York
+
+WILLIAM_PENN_LIFE_INSURANCE_COMPANY:
+  LOCATION: Valley Stream NY
+  DISTRIBUTION: Exclusively in New York
+  OTHER_STATES: Not available
+
+===DECISION_RULES===
+APPROVE_IF:
+  - Age within term plan limits
+  - Meets underwriting requirements
+  - Face amount minimum 100000
+  - Qualifies for risk classification
+  - Appropriate term length selected for age and tobacco status
+
+BANNER_LIFE_APPROVE_IF:
+  - Applicant not in New York
+  - Age and tobacco status within term limits
+  - 90 annual policy fee acceptable
+
+WILLIAM_PENN_APPROVE_IF:
+  - Applicant in New York
+  - Age and tobacco status within NY term limits
+  - 80 annual policy fee acceptable
+
+CONVERSION_ELIGIBLE_IF:
+  - Within level premium period OR under age 70 whichever first
+  - If issued age 66 plus within first 5 policy years
+  - Wants permanent coverage without evidence of insurability
+
+IDEAL_CANDIDATE:
+  - Ages 20 to 75 depending on term and tobacco status
+  - Needs temporary coverage
+  - Wants guaranteed level premiums initially
+  - Accepts decreasing benefit after level period
+  - May need conversion option to permanent later
+  - Wants high maximum issue ages
+  - Family cancer history not a barrier
+  - Wants competitive guaranteed premiums
+
+===COMPETITIVE_ADVANTAGES===
+KEY_FEATURES:
+  - Market leading guaranteed level premiums
+  - High maximum issue ages up to 75 on some terms
+  - Multiple term length options 10 through 40 years
+  - Renewable and convertible
+  - Standard Plus Nontobacco class for rated cases
+  - Family cancer history does not prevent preferred classes
+  - Decreasing benefit after level period keeps coverage in force
+  - Strong company backing Legal & General Group
+
+UNIQUE_BENEFITS:
+  - High issue ages competitive advantage
+  - 7 term length options for flexibility
+  - Decreasing benefit structure reduces premium after initial period
+  - Standard Plus class accommodates more applicants
+  - Family cancer not automatic preferred decline
+  - Conversion flexibility to age 70 or during level period
+
+===USE_CASES===
+IDEAL_FOR:
+  - Temporary coverage needs
+  - Income replacement during working years
+  - Mortgage protection
+  - Debt coverage
+  - Business protection
+  - Older applicants needing term coverage
+  - Those with family cancer history
+  - Applicants who may want conversion option
+  - Those seeking market leading guaranteed premiums
+
+POST_LEVEL_PERIOD_BENEFIT:
+  - Coverage continues after initial term
+  - Death benefit decreases
+  - Premiums change
+  - Provides extended protection at lower cost
+
+===PRODUCT_DESCRIPTION===
+OPTerm is Legal & General America's level premium term life insurance with a decreasing death benefit structure. Available through Banner Life Insurance Company in 49 states and DC and William Penn Life Insurance Company exclusively in New York. Offers 7 term length options 10 15 20 25 30 35 and 40 years with market leading guaranteed level premiums during the initial term period. Minimum face amount 100000. Issue ages 20 to 75 depending on term length and tobacco status with high maximum issue ages as competitive advantage. After the initial level term period death benefits decrease and premiums change providing extended coverage. Renewable and convertible for level premium period or up to attained age 70 whichever first. Policies issued age 66 plus convertible during first 5 years. Multiple risk classifications including Standard Plus Nontobacco applied to most rated cases. Family cancer history does not prevent preferred class consideration. Accelerated death benefit automatically included. Optional riders include waiver of premium term riders 10 15 20 and childrens rider not available NY or MD. Annual policy fees 90 Banner Life 80 William Penn. Backed by worldwide Legal & General Group. Ideal for temporary coverage needs income replacement mortgage protection and older applicants seeking term insurance with conversion options.

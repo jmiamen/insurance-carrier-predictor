@@ -1,0 +1,327 @@
+===METADATA===
+CARRIER: ELCO Mutual Life & Annuity
+PRODUCT_NAME: Golden Eagle
+PRODUCT_CATEGORY: Whole Life Insurance
+ISSUE_TYPE: Simplified Issue
+PRODUCT_CODE: Golden Eagle
+COMPANY_TYPE: Mutual Company
+ESTABLISHED: 1946
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 18 to 85, decent health
+HEALTH_PROFILE: Decent health, simplified issue
+UNDERWRITING_SELECTIVITY: Moderate, simplified issue process
+COMPETITIVE_ADVANTAGE: BEST RATE APPROVE EVERYONE, builds cash value quickly, affordable
+MAXIMUM_COVERAGE: Up to 300000 whole life
+LIVING_BENEFITS: Check product specifications
+APPLICATION_PROCESS: Easy approval process
+APPROVAL_SPEED: Easy approval
+SALES_BOX: Box 4 Old and Unhealthy, best rates for approval
+STATE_RESTRICTIONS: Not offered in California, Florida does not have e-app
+COMMISSION_STRUCTURE: No advance cap
+BEST_FOR: Ages 18 to 85 decent health, builds equity early, affordable permanent coverage, easy approval
+UNIQUE_STRENGTH: Builds cash value quickly, easy approval process, best rates for wide acceptance
+AVOID_IF: California Florida residents needing e-app, looking for term insurance
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Whole Life
+PERMANENT_COVERAGE: Yes
+PREMIUM_STRUCTURE: Flexible Life Pay or Limited Pay options
+CASH_VALUE_ACCUMULATION: Yes
+PARTICIPATING: Yes
+DIVIDENDS: Eligible not guaranteed
+COVERAGE_DURATION: Lifetime or until age 121
+
+===PRODUCT_VARIANTS===
+VARIANT: Life_Pay_LP100
+  PAYMENT_TERM: Through insured's 100th birthday
+  PREMIUM_FREQUENCY: Regular ongoing payments
+  DESCRIPTION: Traditional whole life payments for life
+
+VARIANT: Limited_Pay_10_Year
+  PAYMENT_TERM: 10 years
+  PREMIUM_FREQUENCY: Higher premiums for 10 years
+  PAID_UP_AFTER: 10 years
+  DESCRIPTION: Paid up after 10 annual payments
+
+VARIANT: Limited_Pay_20_Year
+  PAYMENT_TERM: 20 years
+  PREMIUM_FREQUENCY: Higher premiums for 20 years
+  PAID_UP_AFTER: 20 years
+  DESCRIPTION: Paid up after 20 annual payments
+
+VARIANT: Limited_Pay_30_Year
+  PAYMENT_TERM: 30 years
+  PREMIUM_FREQUENCY: Higher premiums for 30 years
+  PAID_UP_AFTER: 30 years
+  DESCRIPTION: Paid up after 30 annual payments
+
+VARIANT: Limited_Pay_Paid_Up_Age_65
+  PAYMENT_TERM: Until insured reaches age 65
+  PREMIUM_FREQUENCY: Premiums until age 65
+  PAID_UP_AFTER: Age 65
+  DESCRIPTION: Paid up when insured attains age 65
+  NOTE: Premiums paid through specified age do not cease until insured attains next age
+
+===CORE_SPECIFICATIONS===
+ISSUE_AGES:
+  Life_Pay:
+    MIN_AGE: 0
+    MAX_AGE: 85
+  Ten_Pay:
+    MIN_AGE: 0
+    MAX_AGE: 80
+  Twenty_Pay:
+    MIN_AGE: 0
+    MAX_AGE: 70
+  Thirty_Pay:
+    MIN_AGE: 0
+    MAX_AGE: 60
+  LP65_Paid_Up_65:
+    MIN_AGE: 0
+    MAX_AGE: 60
+
+FACE_AMOUNTS:
+  ALL_VARIANTS:
+    MAXIMUM: 300000
+    MINIMUM: Not specified in brochure
+
+PREMIUM_STRUCTURE:
+  LEVEL_PREMIUMS: Yes
+  PREMIUM_GUARANTEE: Guaranteed to remain level once active
+  NO_INCREASES: Premiums do not increase over time
+
+===UNDERWRITING_REQUIREMENTS===
+PROCESS_TYPE: Simplified Issue
+MEDICAL_EXAM_REQUIRED: false
+MEDICAL_EXAMS_NOTE: Additional underwriting may be required in certain situations
+UNDERWRITING_DECISION: Quick typically no exams
+
+===PRODUCT_FEATURES===
+GUARANTEED_BENEFITS:
+  DEATH_BENEFIT: Guaranteed based on claims paying ability
+  CASH_VALUE: Guaranteed based on claims paying ability
+  LEVEL_PREMIUMS: Yes guaranteed not to increase
+
+DIVIDEND_PARTICIPATION:
+  PARTICIPATING: Yes
+  DIVIDENDS_GUARANTEED: No
+  DIVIDEND_OPTIONS:
+    - Cash payment
+    - Purchase paid up additional insurance
+    - Accumulate at interest
+  DIVIDEND_IMPACT: Can substantially increase cash value and death benefit over time
+
+POLICY_LOANS:
+  AVAILABLE: Yes
+  BASED_ON: Cash value
+  INTEREST_RATE: Not specified
+  REPAYMENT: Flexible
+
+PAID_UP_OPTIONS:
+  LIMITED_PAY_BENEFIT: Once payment term ends coverage becomes paid up
+  PAID_UP_DEFINITION: No future payments required
+  VERSATILITY: Unique and creative ways to plan for future
+
+===USE_CASES===
+PRIMARY_PURPOSES:
+  - Prepare for end of life expenses
+  - Build an estate
+  - Protect family's financial interest
+  - Income tax free wealth transfer
+  - Final expense coverage
+  - Legacy planning
+  - Safeguard family lifestyle
+  - Secure children's education
+
+IDEAL_FOR:
+  - Final expense planning
+  - Estate building
+  - Family income protection
+  - Combining with term for comprehensive coverage
+  - Education funding
+  - Legacy leaving
+  - Permanent lifetime coverage
+
+END_OF_LIFE_COSTS:
+  FUNERAL_MEDIAN_COST: 7848 (2021 NFDA data)
+  FUNERAL_INCLUDES: Viewing and burial
+  OUTSTANDING_LOANS: Can be paid off
+  GIFT_TO_LOVED_ONES: Death benefit for beneficiaries
+
+TAX_ADVANTAGES:
+  - Income tax free death benefit
+  - Tax deferred cash value growth
+  - Income tax free wealth transfer
+  - Note: Estate taxes may apply consult tax advisor
+
+===OPTIONAL_RIDERS===
+RIDER: Waiver of Premium
+  COST: Additional premium
+  ISSUE_AGES:
+    MIN_AGE: 18
+    MAX_AGE: 55
+  BENEFIT: Waives premiums if disabled before age 60
+  ELIMINATION_PERIOD: Not specified
+  TERMINATION_AGE: 65
+  DISABILITY_MUST_OCCUR: Before age 60
+
+RIDER: Accidental Death Benefit
+  CODE: ADB
+  COST: Additional premium
+  ISSUE_AGES:
+    MIN_AGE: 18
+    MAX_AGE: 65
+  BENEFIT: Second death benefit equal to base policy if death due to accident
+  TERMINATION_AGE: 70
+  BENEFIT_AMOUNT: Equal to base policy
+
+RIDER: Single Premium Life
+  COST: Single lump sum payment
+  DESCRIPTION: Separate policy created as rider
+  PAID_UP_STATUS: Immediate at issue
+  DEATH_BENEFIT: Immediate
+  CASH_VALUE: Guaranteed immediate
+  INDEPENDENCE: Remains in force even if base coverage surrendered
+  NOTE: Created as separate policy
+
+===INCLUDED_RIDERS===
+RIDER: Accelerated Death Benefit
+  COST: No additional cost included on all policies
+  MAXIMUM_BENEFIT: 300000
+  AVAILABLE_ON: All policies
+  RECEIPT_NOTE: May be taxable
+  ASSISTANCE_IMPACT: May disqualify individual from state or federal assistance
+  POLICY_FORM: ICC16 AccDBR16
+
+TRIGGER: Terminal Illness
+  DEFINITION: Less than 1 year to live
+  BENEFIT_PERCENTAGE: 90 percent of death benefit
+  PAYOUT: Advance lump sum
+
+TRIGGER: Nursing Home Confinement
+  DEFINITION: Confined to nursing facility
+  BENEFIT_PERCENTAGE: Up to 75 percent of death benefit
+  PAYOUT: Lump sum
+
+TRIGGER: Home Health Care
+  DEFINITION: Requires home health care cannot perform 2 of 6 ADLs or severe permanent cognitive impairment
+  BENEFIT_PERCENTAGE: Up to 50 percent of death benefit
+  PAYOUT: For medical expenses
+  QUALIFICATION: Physician must attest
+  FLEXIBILITY: Additional layer of financial flexibility
+
+TRIGGER: Chronic Illness
+  DEFINITION: Incurred chronic illness
+  BENEFIT_PERCENTAGE: 50 percent of death benefit
+  PAYOUT: For medical expenses and other costs
+
+===MUTUAL_COMPANY_BENEFITS===
+OWNERSHIP_STRUCTURE: Policyholders own company entirely
+PROFIT_DISTRIBUTION: Excess profits retained as surplus and returned as dividends
+DIVIDEND_DECLARATION: Annual by board of directors
+DIVIDEND_DELIVERY: Cash or additional coverage
+POLICYHOLDER_FOCUS: Long term relationships and stability
+
+===ADMINISTRATIVE_INFORMATION===
+POLICY_FEES: Not specified
+GRACE_PERIOD: Typically 31 days
+CONTESTABILITY_PERIOD: Typically 2 years
+SUICIDE_CLAUSE: Typically 2 years
+POLICY_FORM: ICC19 WLP19
+ACCELERATED_BENEFIT_FORM: ICC16 AccDBR16
+
+COVERAGE_TERM: Lifetime or until age 121
+ENDOWMENT_AGE: 121
+
+PREMIUM_PAYMENT_NOTES:
+  - Premiums paid through specified age
+  - Premiums do not cease until insured attains next age
+  - Example: LP65 requires premiums through age 65 meaning until 65th birthday passes
+
+===CONTACT_INFORMATION===
+CARRIER_NAME: ELCO Mutual Life & Annuity
+WEBSITE: elcomutual.com
+POLICY_SERVICES_PHONE: 800 321 3526
+POLICY_SERVICES_FAX: 847 295 6043
+POLICY_SERVICES_EMAIL: phs@elcomutual.com
+CLAIMS_PHONE: 800 962 8610
+CLAIMS_FAX: 847 295 1145
+CLAIMS_EMAIL: claims@elcomutual.com
+
+===DECISION_RULES===
+APPROVE_LIFE_PAY_IF:
+  - Age 0 to 85
+  - Meets simplified underwriting requirements
+  - Face amount within limits up to 300000
+  - Can afford ongoing premiums
+
+APPROVE_10_PAY_IF:
+  - Age 0 to 80
+  - Meets simplified underwriting requirements
+  - Face amount within limits up to 300000
+  - Can afford higher premiums for 10 years
+  - Wants paid up coverage after 10 years
+
+APPROVE_20_PAY_IF:
+  - Age 0 to 70
+  - Meets simplified underwriting requirements
+  - Face amount within limits up to 300000
+  - Can afford higher premiums for 20 years
+  - Wants paid up coverage after 20 years
+
+APPROVE_30_PAY_IF:
+  - Age 0 to 60
+  - Meets simplified underwriting requirements
+  - Face amount within limits up to 300000
+  - Can afford higher premiums for 30 years
+  - Wants paid up coverage after 30 years
+
+APPROVE_LP65_IF:
+  - Age 0 to 60
+  - Meets simplified underwriting requirements
+  - Face amount within limits up to 300000
+  - Can afford premiums until age 65
+  - Wants paid up coverage at retirement age
+
+ADDITIONAL_UNDERWRITING_IF:
+  - Certain health situations present
+  - Large face amounts requested
+  - Specific risk factors identified
+
+IDEAL_CANDIDATE:
+  - Wants permanent lifetime coverage
+  - Age 0 to 85 depending on payment plan
+  - Seeking guaranteed level premiums
+  - Wants participating policy with dividend potential
+  - Needs final expense or estate planning coverage
+  - Values flexibility in payment options
+  - Wants cash value accumulation
+  - Prefers mutual company structure
+
+===COMPETITIVE_ADVANTAGES===
+KEY_FEATURES:
+  - Multiple payment plan options
+  - Guaranteed level premiums
+  - Participating eligible for dividends
+  - Mutual company policyholder owned
+  - Accelerated death benefit included no cost
+  - Issue ages 0 to 85 on Life Pay
+  - Simplified underwriting typically no medical exams
+  - Over 75 years in business since 1946
+  - Real person answers every call
+  - Maximum face amount 300000
+
+UNIQUE_BENEFITS:
+  - Flexibility in payment term selection
+  - Limited pay options create paid up policies
+  - Four accelerated benefit triggers
+  - Single premium life rider option
+  - Versatile estate and final expense planning
+  - Combines well with term coverage
+  - Guaranteed cash value growth
+  - Waiver of premium available
+  - Accidental death benefit available
+
+===PRODUCT_DESCRIPTION===
+Golden Eagle is ELCO Mutual's traditional whole life insurance product offering permanent lifetime coverage with flexible premium payment options. Policyholders can choose Life Pay (payments through age 100) or Limited Pay options (10 year 20 year 30 year or paid up at age 65). All variants provide guaranteed level premiums that never increase guaranteed death benefit and guaranteed cash value accumulation. As a participating policy eligible for annual dividends from mutual company. Includes accelerated death benefit rider at no cost covering terminal illness nursing home confinement home health care and chronic illness. Simplified underwriting with typically no medical exams. Optional riders include waiver of premium accidental death benefit and single premium life. Maximum face amount 300000. Issue ages vary by payment plan from 0 to 85. Ideal for final expense planning estate building family protection and leaving a legacy. Backed by ELCO Mutual policyholder owned company in business since 1946.

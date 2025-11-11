@@ -1,0 +1,280 @@
+===METADATA===
+CARRIER: United Home Life Insurance Company
+PRODUCT_NAME: Simple Term
+PRODUCT_CATEGORY: Term Life Insurance
+ISSUE_TYPE: Simplified Issue
+FORM_NUMBERS: Multiple forms for 20 year 30 year ROP and DLX variants
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 20 to 80, higher build or moderate health issues
+HEALTH_PROFILE: Higher build or moderate health issues, accepts diabetes heart issues
+UNDERWRITING_SELECTIVITY: Very lenient on build charts, great for heavier clients
+COMPETITIVE_ADVANTAGE: FOR FAT PEOPLE, lenient build requirements, accepts moderate health
+MAXIMUM_COVERAGE: Up to 500000 term
+LIVING_BENEFITS: Check product specifications
+APPLICATION_PROCESS: Simplified issue
+APPROVAL_SPEED: Moderate
+SALES_BOX: Box 3 Young and Unhealthy
+BEST_FOR: Heavier build clients, moderate health issues, diabetes, heart issues, older age ranges up to 80
+UNIQUE_STRENGTH: Very lenient on build charts
+AVOID_IF: Looking for best rates (health permitting), need higher coverage amounts
+
+===PRODUCT_TYPE===
+INSURANCE_TYPE: Term Life
+PREMIUM_STRUCTURE: Level during term period
+DEATH_BENEFIT: Level during term period
+CASH_VALUE: No except ROP variant has return of premium feature
+
+===PRODUCT_VARIANTS===
+VARIANT: Simple_Term_20
+  TERM_LENGTH: 20 years
+  PREMIUM_TYPE: Level for 20 years
+  CONVERSION: Available
+  ISSUE_AGES: 18 to 65
+
+VARIANT: Simple_Term_30
+  TERM_LENGTH: 30 years
+  PREMIUM_TYPE: Level for 30 years
+  CONVERSION: Available
+  ISSUE_AGES: 18 to 55
+
+VARIANT: Simple_Term_20_ROP
+  TERM_LENGTH: 20 years
+  PREMIUM_TYPE: Level for 20 years
+  RETURN_OF_PREMIUM: Return of all premiums paid if insured survives 20 years
+  CONVERSION: Available
+  ISSUE_AGES: 18 to 60
+
+VARIANT: Simple_Term_20_DLX
+  TERM_LENGTH: 20 years
+  PREMIUM_TYPE: Level for 20 years
+  ENHANCED_FEATURES: Better rates for preferred health
+  CONVERSION: Available
+  ISSUE_AGES: 18 to 65
+
+===CORE_SPECIFICATIONS_SIMPLE_TERM_20===
+ISSUE_AGES:
+  MIN_AGE: 18
+  MAX_AGE: 65
+
+FACE_AMOUNTS:
+  MINIMUM: 25000
+  MAXIMUM: 500000
+
+TERM_LENGTH: 20 years
+
+POLICY_FEE:
+  AMOUNT: 50
+  FREQUENCY: Annual
+
+===CORE_SPECIFICATIONS_SIMPLE_TERM_30===
+ISSUE_AGES:
+  MIN_AGE: 18
+  MAX_AGE: 55
+
+FACE_AMOUNTS:
+  MINIMUM: 25000
+  MAXIMUM: 500000
+
+TERM_LENGTH: 30 years
+
+POLICY_FEE:
+  AMOUNT: 50
+  FREQUENCY: Annual
+
+===CORE_SPECIFICATIONS_SIMPLE_TERM_20_ROP===
+ISSUE_AGES:
+  MIN_AGE: 18
+  MAX_AGE: 60
+
+FACE_AMOUNTS:
+  MINIMUM: 25000
+  MAXIMUM: 500000
+
+TERM_LENGTH: 20 years
+
+RETURN_OF_PREMIUM_FEATURE:
+  BENEFIT: Return of all premiums paid if insured survives 20 year term
+  DEATH_DURING_TERM: Full death benefit paid premiums not returned
+  SURRENDER_BEFORE_END: Graduated return of premium based on years in force
+
+POLICY_FEE:
+  AMOUNT: 50
+  FREQUENCY: Annual
+
+===CORE_SPECIFICATIONS_SIMPLE_TERM_20_DLX===
+ISSUE_AGES:
+  MIN_AGE: 18
+  MAX_AGE: 65
+
+FACE_AMOUNTS:
+  MINIMUM: 50000
+  MAXIMUM: 1000000
+
+TERM_LENGTH: 20 years
+
+POLICY_FEE:
+  AMOUNT: 50
+  FREQUENCY: Annual
+
+===UNDERWRITING_REQUIREMENTS===
+UNDERWRITING_TYPE: Simplified Issue
+MEDICAL_EXAM: Not required for most face amounts
+HEALTH_QUESTIONS: Yes on application
+PHI_REQUIRED: May be required for larger face amounts
+PRESCRIPTION_CHECK: Yes via underwriting services
+MVR: May be ordered
+
+PARAMEDICAL_EXAM:
+  REQUIRED_IF: Face amount over 250000 or health questions trigger
+  INCLUDES: Height weight blood pressure urinalysis blood profile
+
+===RATE_CLASSES===
+RATE_CLASS: Preferred_Plus
+  HEALTH_STANDARDS: Excellent health no impairments
+  TOBACCO_USE: No tobacco use in last 60 months
+  BUILD: Within preferred build chart
+  AVAILABLE_ON: Simple Term 20 DLX only
+
+RATE_CLASS: Preferred
+  HEALTH_STANDARDS: Very good health minimal impairments
+  TOBACCO_USE: No tobacco use in last 36 months
+  BUILD: Within preferred build chart
+  AVAILABLE_ON: Simple Term 20 DLX only
+
+RATE_CLASS: Standard_Plus
+  HEALTH_STANDARDS: Good health some minor impairments
+  TOBACCO_USE: No tobacco use in last 12 months
+  BUILD: Within standard build chart
+
+RATE_CLASS: Standard
+  HEALTH_STANDARDS: Average health some impairments allowed
+  TOBACCO_USE: No tobacco use in last 12 months
+  BUILD: Within standard build chart
+
+RATE_CLASS: Tobacco
+  HEALTH_STANDARDS: Any health standard
+  TOBACCO_USE: Tobacco use within last 12 months
+  BUILD: Within standard build chart
+
+===CONVERSION_PRIVILEGE===
+CONVERSION_AVAILABLE: Yes on all variants
+CONVERSION_PERIOD: Anytime during level term period
+CONVERSION_AGE_LIMIT: Up to age 70
+CONVERSION_PRODUCTS: Provider Whole Life or other permanent products offered by UHL
+EVIDENCE_OF_INSURABILITY: Not required
+CONVERSION_AMOUNT: Up to current face amount
+
+===INCLUDED_RIDERS===
+RIDER: Accelerated Death Benefit for Terminal Illness
+  INCLUDED: true
+  COST: No additional charge
+  BENEFIT: Up to 50 percent of death benefit or 250000 whichever is less
+  QUALIFICATION: Terminal illness with life expectancy 12 months or less
+
+RIDER: Waiver of Premium for Disability
+  INCLUDED: true on DLX variant optional on others
+  COST: No additional charge on DLX additional premium on others
+  BENEFIT: Waives premium if insured becomes totally disabled
+  QUALIFICATION: Total disability before age 60 lasting 6 consecutive months
+  DURATION: Waiver continues while disabled before age 65
+
+===OPTIONAL_RIDERS===
+RIDER: Accidental Death Benefit
+  COST: Additional premium
+  BENEFIT: Additional death benefit if death results from accident
+  MAXIMUM: Equal to base policy face amount
+  TERMINATION_AGE: 70
+
+RIDER: Child Term Rider
+  COST: Additional premium
+  BENEFIT: Term insurance on children
+  ELIGIBLE_CHILDREN: Age 15 days to 18 years
+  FACE_AMOUNTS: 10000 25000
+  CONVERSION: Can convert to permanent policy at age 25 without evidence of insurability
+
+RIDER: Disability Income Rider
+  COST: Additional premium
+  BENEFIT: Monthly income if insured becomes totally disabled
+  MONTHLY_AMOUNTS: 500 1000 1500 2000
+  ELIMINATION_PERIOD: 90 days
+  BENEFIT_PERIOD: To age 65
+  AVAILABLE_ON: Simple Term 20 DLX only
+
+===PRODUCT_FEATURES===
+RENEWABLE: Yes at end of term period
+RENEWABLE_TO_AGE: 95
+RENEWABLE_PREMIUM: Significantly higher based on attained age
+RENEWABLE_EVIDENCE: Not required
+
+LEVEL_TERM_PERIOD:
+  PREMIUM: Level and guaranteed
+  DEATH_BENEFIT: Level and guaranteed
+  NO_INCREASES: Premium and death benefit do not change
+
+POST_LEVEL_TERM:
+  PREMIUM: Annual renewable term rates increase each year
+  DEATH_BENEFIT: Remains level
+  CONVERSION: Still available up to age 70
+
+GRACE_PERIOD: 31 days
+REINSTATEMENT_PERIOD: 3 years from lapse date
+
+===STATE_AVAILABILITY===
+STATES_AVAILABLE: TX FL GA AL MS LA AR TN KY SC NC VA WV OH IN IL MO OK KS NE IA WI MI MN
+
+STATES_NOT_AVAILABLE: NY CA
+
+===DECISION_RULES===
+ELIGIBILITY_REQUIREMENTS:
+  AGE: Within issue age range for selected term length
+  STATE: Must reside in approved state
+  HEALTH: Must meet simplified issue health questions
+  FACE_AMOUNT: Must be within allowable range
+
+APPROVAL_FACTORS:
+  - Answers to health questions on application
+  - Prescription drug history review
+  - PHI results if required
+  - MVR results if ordered
+  - Paramedical exam results if required
+  - Rate class assignment based on health tobacco use and build
+
+DECLINE_FACTORS:
+  - Recent cancer diagnosis or active treatment within 24 months
+  - Recent heart attack or stroke within 24 months
+  - Uncontrolled diabetes with complications
+  - Oxygen use for lung condition
+  - AIDS or HIV with complications
+  - Cirrhosis of liver
+  - End stage renal disease on dialysis
+  - Pending surgery or tests for serious condition
+  - Decline on other life insurance within last 12 months
+  - Hazardous occupation or avocation
+
+PREFERRED_PLUS_QUALIFICATION:
+  - No tobacco use 60 months
+  - Excellent health no medications except vitamins
+  - Perfect build within preferred plus chart
+  - No family history of heart disease or cancer before age 60
+  - No aviation or hazardous activities
+  - Available Simple Term 20 DLX only
+
+===COMMISSION_STRUCTURE===
+COMPENSATION_TYPE: Standard agent commission schedule
+FIRST_YEAR: Higher commission percentage typically 80 to 100 percent of premium
+RENEWAL: Lower commission percentage typically 2 to 5 percent years 2 and beyond
+ROP_COMMISSION: Higher premium results in higher commission dollars
+
+===CONTACT_INFORMATION===
+AGENT_PORTAL: https://uhlic.com/agent-portal
+UNDERWRITING_PHONE: Check agent portal for current number
+HOME_OFFICE: Indianapolis IN
+
+===NOTES===
+PRODUCT_POSITIONING: Simplified issue term life with multiple options including ROP and DLX variants
+TARGET_MARKET: Individuals seeking affordable term coverage without medical exam
+TARGET_MARKET_ROP: Individuals who want term protection but prefer return of premium if they outlive term
+TARGET_MARKET_DLX: Individuals in better health who qualify for preferred rates and want enhanced features
+COMPETITIVE_ADVANTAGES: Simplified issue process with no exam for most cases conversion privilege and ROP option
+USE_CASES: Income replacement mortgage protection business protection family protection

@@ -1,0 +1,658 @@
+===METADATA===
+CARRIER_NAME: Corebridge Financial
+CARRIER_LEGAL_ENTITIES: American General Life Insurance Company (AGL) Houston TX, The United States Life Insurance Company in the City of New York (US Life)
+PRODUCT_TYPE: Term Life Insurance
+PRODUCT_NAMES: Select-a-Term, QoL Flex Term
+DOCUMENT_VERSION: September 19 2025
+DOCUMENT_CODE: AGLC101638 REV0925
+UNDERWRITING_TYPE: Fully Underwritten, Agile Underwriting Plus (AU+)
+PROCESSING_APPROACH: Automation foundation, Agile Underwriting AU+ enhanced, Consistent process
+
+===AGENT_POSITIONING===
+TARGET_MARKET: Ages 0 to 80, fully underwritten
+HEALTH_PROFILE: Clean to moderate health, fully underwritten traditional carrier
+UNDERWRITING_SELECTIVITY: Fully underwritten with holistic evaluation, flexible underwriting with Flex Points
+COMPETITIVE_ADVANTAGE: Comprehensive coverage up to 65 million jumbo, holistic underwriting philosophy, Flex Points upgrades, Agile Underwriting AU+ streamlined option
+MAXIMUM_COVERAGE: Up to 65 million jumbo limit
+LIVING_BENEFITS: Accelerated Access Solution available on certain products
+APPLICATION_PROCESS: Fully underwritten or Agile Underwriting AU+ streamlined (up to 1 million)
+APPROVAL_SPEED: Fully underwritten process, AU+ streamlined option available
+SALES_BOX: Not categorized in 4 box system, traditional fully underwritten carrier for larger amounts and comprehensive needs
+BEST_FOR: Larger coverage amounts, fully underwritten traditional process, high net worth clients, business insurance, comprehensive underwriting with holistic evaluation, Flex Points rating upgrades
+UNIQUE_STRENGTH: Holistic underwriting debit credit approach, Flex Points for rating upgrades, Expanded Standard program, very high limits up to 65 million, comprehensive rate class options
+AVOID_IF: Looking for simplified issue or guaranteed issue, need instant approval, prefer no exam process
+
+===PRODUCT_OVERVIEW===
+ISSUER_AGL: American General Life Insurance Company Houston TX
+ISSUER_US_LIFE: The United States Life Insurance Company in the City of New York
+NOTE: AGL does not solicit issue or deliver policies in New York
+DISTRIBUTION_CHANNELS: Life Brokerage, Partners Group
+UNDERWRITING_PHILOSOPHY: View applicants holistically considering finance profession background not solely medical history, Debit credit approach for risk evaluation
+
+===AGE_LIMITS===
+MINIMUM_AGE: 0
+MAXIMUM_AGE_TERM: 80
+AGILE_UNDERWRITING_MAX_AGE: 66
+NOTE: Not all products available at all ages amounts or rate classes
+
+===AMOUNT_LIMITS===
+RETENTION_TERM: 3500000
+RETENTION_PERMANENT: 10000000
+AUTO_BIND_CAPACITY_TERM: 41000000
+AUTO_BIND_CAPACITY_PERMANENT: 60000000
+JUMBO_LIMIT: 65000000
+NOTE_AGE_71_PLUS: Must qualify for Standard or better, contact underwriting team
+NOTE_AGE_81_PLUS: Must qualify for Standard or better to be considered
+
+===AGILE_UNDERWRITING_PLUS===
+DESCRIPTION: Streamlined underwriting providing path to policy approval without in-person paramedical examination
+AVAILABILITY: US citizens or permanent resident green-card holders only
+MAXIMUM_AMOUNT: 1000000
+TOTAL_LINE_REQUIREMENT: Total inforce and applied with Corebridge within past 12 months must be within range
+
+ELIGIBLE_PRODUCTS_TERM:
+  SELECT_A_TERM: true
+    SUBMISSION_METHODS: AG Quick Ticket, iGO Drop Ticket, Express Complete Ticket
+    NOT_AVAILABLE: Paper application
+
+  QOL_FLEX_TERM: true
+    SUBMISSION_METHODS: iGO full eApp
+    NOT_AVAILABLE: Paper application
+
+PIVOT_TO_FULL_UNDERWRITING:
+  TRIGGER: Unable to make underwriting decision based on AU+
+  PROCESS: Client pivots to full underwriting for physical measurements and labs ordered by Corebridge
+  DETERMINATION: Corebridge underwriting rules determine final process based on medical prescription history insurance history other factors
+
+AGE_REQUIREMENTS_AU_PLUS:
+  AGES_0_TO_19: TI
+  AGES_20_TO_39: TI, MVR
+  AGES_40_TO_44: TI, MVR
+  AGES_45_TO_49: TI, MVR
+  AGES_50_TO_55: TI, MVR
+  AGES_56_TO_59: TI, MVR
+  AGES_60_TO_66: See Fully Underwritten
+  AGES_67_TO_70: See Fully Underwritten
+  AGES_71_PLUS: See Fully Underwritten
+
+===UNDERWRITING_REQUIREMENTS_TERM===
+NOTE: HIPAA authorization required for all ages and amounts
+NOTE: Face amount based on total coverage issued and placed inforce by AGL and US Life in past 12 months
+NOTE: Financial requirements based on total line of coverage inforce with AGL and US Life
+NOTE: Home Office may order additional database checks
+
+REQUIREMENTS_KEY:
+  AC: Agent Certification form
+  B_U: Full blood profile and urinalysis
+  CR: Credit Report (Home Office ordered)
+  EKG: Resting EKG
+  EIR: Electronic Inspection Report (Home Office ordered)
+  FQ: Financial questionnaire
+  FT: Functional Tests with paramedical exam (gait test, seated position test)
+  IC: Individual consideration
+  IR: Inspection report (Home Office ordered)
+  MVR: Motor vehicle report (Home Office ordered)
+  PM: Paramedical exam including height weight blood pressure pulse
+  TI: Agent-Completed Part A and Vendor-Completed Part B interview required
+  TPF: Third-party financials by CPA (Statement of Assets Liabilities, Profit Loss Statement, Cash Flow Statement, Balance Sheet)
+  TT: Tax Transcript via form 4506-C (Home Office ordered, TPF may substitute depending on circumstances)
+  71IR: Expanded Inspection Report with Cognitive Tests EMST (Home Office ordered, approximately 15 minutes)
+
+AGES_0_TO_19:
+  AMOUNTS_100000_TO_249999: CR
+  AMOUNT_250000: CR
+  AMOUNTS_250001_TO_500000: CR
+  AMOUNTS_500001_TO_1000000: CR
+  AMOUNTS_1000001_TO_1500000: CR
+  AMOUNTS_1500001_TO_3000000: CR
+  AMOUNTS_3000001_TO_5000000: CR
+  AMOUNTS_5000001_TO_10000000: CR
+  AMOUNTS_OVER_10000000: CR
+
+AGES_20_TO_39:
+  AMOUNTS_100000_TO_249999: PM, B_U, MVR, CR
+  AMOUNT_250000: PM, B_U, MVR, CR
+  AMOUNTS_250001_TO_500000: PM, B_U, MVR, CR
+  AMOUNTS_500001_TO_1000000: PM, B_U, MVR, CR
+  AMOUNTS_1000001_TO_1500000: PM, B_U, MVR, CR
+  AMOUNTS_1500001_TO_3000000: PM, B_U, CR, MVR
+  AMOUNTS_3000001_TO_5000000: PM, B_U, MVR, EIR, CR
+  AMOUNTS_5000001_TO_10000000: PM, B_U, MVR, FQ, EIR, TPF, CR
+  AMOUNTS_OVER_10000000: PM, B_U, EKG, MVR, FQ, TPF, EIR, TT, CR
+  NOTE_NON_RESIDENT_ALIEN: Inspection Report required for non-resident alien living outside United States applying over 1500000
+
+AGES_40_TO_44:
+  AMOUNTS_100000_TO_249999: PM, B_U, MVR, CR
+  AMOUNT_250000: PM, B_U, MVR, CR
+  AMOUNTS_250001_TO_500000: PM, B_U, MVR, CR
+  AMOUNTS_500001_TO_1000000: PM, B_U, MVR, CR
+  AMOUNTS_1000001_TO_1500000: PM, B_U, MVR, CR
+  AMOUNTS_1500001_TO_3000000: PM, B_U, CR, MVR
+  AMOUNTS_3000001_TO_5000000: PM, B_U, MVR, EIR, CR
+  AMOUNTS_5000001_TO_10000000: PM, B_U, MVR, FQ, EIR, TPF, CR
+  AMOUNTS_OVER_10000000: PM, B_U, EKG, MVR, FQ, TPF, EIR, TT, CR
+
+AGES_45_TO_49:
+  AMOUNTS_100000_TO_249999: PM, B_U, MVR, CR
+  AMOUNT_250000: PM, B_U, MVR, CR
+  AMOUNTS_250001_TO_500000: PM, B_U, MVR, CR
+  AMOUNTS_500001_TO_1000000: PM, B_U, MVR, CR
+  AMOUNTS_1000001_TO_1500000: PM, B_U, MVR, CR
+  AMOUNTS_1500001_TO_3000000: PM, B_U, CR, MVR
+  AMOUNTS_3000001_TO_5000000: PM, B_U, MVR, EIR, CR
+  AMOUNTS_5000001_TO_10000000: PM, B_U, MVR, FQ, EIR, TPF, CR
+  AMOUNTS_OVER_10000000: PM, B_U, CR, EKG, MVR, FQ, TPF, EIR, TT
+
+AGES_50_TO_55:
+  AMOUNTS_100000_TO_249999: PM, B_U, MVR, CR
+  AMOUNT_250000: PM, B_U, MVR, CR
+  AMOUNTS_250001_TO_500000: PM, B_U, MVR, CR
+  AMOUNTS_500001_TO_1000000: PM, B_U, MVR, CR
+  AMOUNTS_1000001_TO_1500000: PM, B_U, MVR, CR
+  AMOUNTS_1500001_TO_3000000: PM, B_U, CR, MVR
+  AMOUNTS_3000001_TO_5000000: PM, B_U, MVR, EIR, CR
+  AMOUNTS_5000001_TO_10000000: PM, B_U, MVR, FQ, TPF, EIR, CR
+  AMOUNTS_OVER_10000000: PM, B_U, CR, EKG, MVR, FQ, TPF, EIR, TT
+  NOTE: Lab testing includes NT pro-BNP at these ages and amounts
+
+AGES_56_TO_59:
+  AMOUNTS_100000_TO_249999: PM, B_U, MVR, CR
+  AMOUNT_250000: PM, B_U, MVR, CR
+  AMOUNTS_250001_TO_500000: PM, B_U, MVR, CR
+  AMOUNTS_500001_TO_1000000: PM, B_U, MVR, CR
+  AMOUNTS_1000001_TO_1500000: PM, B_U, MVR, CR
+  AMOUNTS_1500001_TO_3000000: PM, B_U, CR, MVR
+  AMOUNTS_3000001_TO_5000000: PM, B_U, MVR, EIR, CR
+  AMOUNTS_5000001_TO_10000000: PM, B_U, MVR, FQ, TPF, EIR, CR
+  AMOUNTS_OVER_10000000: PM, B_U, CR, EKG, MVR, FQ, TPF, EIR, TT
+  NOTE: Lab testing includes NT pro-BNP at these ages and amounts
+
+AGES_60_TO_66:
+  AMOUNTS_100000_TO_249999: PM, B_U, MVR, AC, CR
+  AMOUNT_250000: PM, B_U, MVR, AC, CR
+  AMOUNTS_250001_TO_500000: PM, B_U, MVR, AC, CR
+  AMOUNTS_500001_TO_1000000: PM, B_U, FQ, MVR, AC, CR
+  AMOUNTS_1000001_TO_1500000: PM, B_U, MVR, FQ, AC, CR
+  AMOUNTS_1500001_TO_3000000: PM, B_U, CR, MVR, FQ, AC
+  AMOUNTS_3000001_TO_5000000: PM, B_U, MVR, FQ, TPF, AC, EIR, CR
+  AMOUNTS_5000001_TO_10000000: PM, B_U, MVR, FQ, CR, TPF, AC, EIR
+  AMOUNTS_OVER_10000000: PM, B_U, EKG, MVR, FQ, CR, TPF, AC, EIR, TT
+  NOTE: Lab testing includes NT pro-BNP at these ages and amounts
+
+AGES_67_TO_70:
+  AMOUNTS_100000_TO_249999: PM, B_U, FT, EKG, MVR, 71IR, AC, CR
+  AMOUNT_250000: PM, B_U, FT, EKG, MVR, 71IR, AC, EIR, CR
+  AMOUNTS_250001_TO_500000: PM, B_U, FT, EKG, MVR, 71IR, AC, EIR, CR
+  AMOUNTS_500001_TO_1000000: PM, B_U, FT, EKG, MVR, FQ, 71IR, AC, EIR, CR
+  AMOUNTS_1000001_TO_1500000: PM, B_U, FT, EKG, MVR, FQ, 71IR, AC, EIR, CR
+  AMOUNTS_1500001_TO_3000000: PM, B_U, FT, EKG, MVR, FQ, 71IR, AC, EIR, CR
+  AMOUNTS_3000001_TO_5000000: PM, B_U, FT, EKG, MVR, FQ, TPF, 71IR, AC, EIR, CR
+  AMOUNTS_5000001_TO_10000000: PM, B_U, FT, EKG, MVR, FQ, TPF, 71IR, AC, EIR, CR
+  AMOUNTS_OVER_10000000: PM, B_U, FT, EKG, MVR, FQ, TPF, 71IR, AC, EIR, TT, CR
+  NOTE: Lab testing includes NT pro-BNP at these ages and amounts
+
+AGES_71_PLUS:
+  AMOUNTS_100000_TO_249999: PM, B_U, FT, EKG, MVR, 71IR, AC, CR
+  AMOUNT_250000: PM, B_U, FT, EKG, MVR, 71IR, AC, EIR, CR
+  AMOUNTS_250001_TO_500000: PM, B_U, FT, EKG, MVR, 71IR, AC, EIR, CR
+  AMOUNTS_500001_TO_1000000: PM, B_U, FT, EKG, MVR, FQ, 71IR, AC, EIR, CR
+  AMOUNTS_1000001_TO_1500000: PM, B_U, FT, EKG, MVR, FQ, 71IR, AC, EIR, CR
+  AMOUNTS_1500001_TO_3000000: PM, B_U, FT, EKG, MVR, FQ, 71IR, AC, EIR, CR
+  AMOUNTS_3000001_TO_5000000: PM, B_U, FT, EKG, MVR, FQ, TPF, 71IR, AC, EIR, CR
+  AMOUNTS_5000001_TO_10000000: PM, B_U, FT, EKG, MVR, FQ, TPF, 71IR, AC, EIR, CR
+  AMOUNTS_OVER_10000000: PM, B_U, FT, EKG, MVR, FQ, TPF, 71IR, AC, EIR, TT, CR
+  NOTE: Lab testing includes NT pro-BNP at these ages and amounts
+
+===RATE_CLASSES===
+AVAILABLE_CLASSES: Preferred Plus Non-Tobacco, Preferred Non-Tobacco, Standard Plus Non-Tobacco, Standard Non-Tobacco, Preferred Tobacco, Standard Tobacco, Table Ratings
+
+PREFERRED_PLUS_NON_TOBACCO:
+  AVIATION_AVOCATION_OCCUPATION: No ratable aviation avocations occupations or foreign travel, Allow recreational scuba diving
+  CHOLESTEROL: 300 mg/dL or less
+  CHOLESTEROL_AGE_UNDER_45: HDL Ratio 4.5 or less
+  CHOLESTEROL_AGE_45_TO_69: HDL ratio 5.0 or less
+  CHOLESTEROL_AGE_70_PLUS: Cholesterol greater than 130 and HDL ratio 5.0 or less
+  BMI: 18.5 to 29.5
+  BLOOD_PRESSURE_AGE_59_OR_LESS: 135/85 or less
+  BLOOD_PRESSURE_AGE_60_TO_69: 140/85 or less
+  BLOOD_PRESSURE_AGE_70_PLUS: 150/90 or less
+  TOBACCO_FREE_YEARS: 5
+  MVR: No DUI convictions reckless or non-administrative suspension in past 7 years, Rating may apply due to overall driving history
+  MEDICAL_FLAT_EXTRA: No medical flat extra premium
+  DEBITS: No debits for build cholesterol blood pressure or other medical impairment
+  CANCER_HISTORY: No personal history of cancer, May disregard non-rated history of non-melanoma skin cancer cervical cancer Stage 1 Seminoma papillary thyroid cancer remote history melanoma in situ
+  FAMILY_HISTORY_AGE_65_PLUS: Ignore family history for age 65 and up
+  FAMILY_HISTORY_ADOPTED: Disregard family history adopted or unknown
+  FAMILY_HISTORY_DISREGARD: Cervical cancer and non-melanoma skin cancer
+  FAMILY_HISTORY_CARDIOVASCULAR: No death from cardiovascular disease or cancer (colon lung melanoma pancreatic) in either parent prior to age 60
+  FAMILY_HISTORY_SEX_SPECIFIC: No death from breast ovarian prostate cancer in parent of same sex prior to age 60
+
+PREFERRED_NON_TOBACCO:
+  AVIATION_AVOCATION_OCCUPATION: No ratable aviation avocations occupations or foreign travel, Allow recreational scuba diving
+  CHOLESTEROL: 300 mg/dL or less
+  CHOLESTEROL_AGE_UNDER_45: HDL Ratio 5.5 or less
+  CHOLESTEROL_AGE_45_TO_69: HDL ratio 6.0 or less
+  CHOLESTEROL_AGE_70_PLUS: Cholesterol greater than 130 and HDL ratio 6.0 or less
+  BMI: 18.5 to 31.5
+  BLOOD_PRESSURE_AGE_UNDER_45: 140/85 or less
+  BLOOD_PRESSURE_AGE_45_TO_69: 140/90 or less
+  BLOOD_PRESSURE_AGE_70_PLUS: 155/90 or less
+  TOBACCO_FREE_YEARS: 3
+  MVR: No DUI convictions reckless or non-administrative suspension in past 6 years, Rating may apply due to overall driving history
+  MEDICAL_FLAT_EXTRA: No medical flat extra premium
+  DEBITS: No debits for build cholesterol blood pressure or other medical impairment
+  CANCER_HISTORY: No personal history of cancer, May disregard non-rated history of non-melanoma skin cancer cervical cancer Stage 1 Seminoma papillary thyroid cancer remote history melanoma in situ
+  FAMILY_HISTORY_AGE_65_PLUS: Ignore family history for age 65 and up
+  FAMILY_HISTORY_ADOPTED: Disregard family history adopted or unknown
+  FAMILY_HISTORY_DISREGARD: Cervical cancer and non-melanoma skin cancer
+  FAMILY_HISTORY_CARDIOVASCULAR: No death from cardiovascular disease or cancer (colon lung melanoma pancreatic) in either parent prior to age 60
+  FAMILY_HISTORY_SEX_SPECIFIC: No death from breast ovarian prostate cancer in parent of same sex prior to age 60
+
+STANDARD_PLUS_NON_TOBACCO:
+  AVAILABILITY: Term only, Where applicable by plan and state approval
+  NOTE: If Standard Plus not available must meet PNT guidelines for better than Standard
+  AVIATION_AVOCATION_OCCUPATION: Aviation Avocation Occupation flat extras, Foreign Travel flat extras, Aviation Exclusion Rider acceptable, Will be considered with appropriate rating
+  CHOLESTEROL: 300 mg/dL or less
+  CHOLESTEROL_AGE_UNDER_45: HDL Ratio 6.5 or less
+  CHOLESTEROL_AGE_45_TO_69: HDL ratio 7.0 or less
+  CHOLESTEROL_AGE_70_PLUS: Cholesterol greater than 130 and HDL ratio 7.0 or less
+  BMI: 18.5 to 33
+  BLOOD_PRESSURE_AGE_UNDER_45: 145/90 or less
+  BLOOD_PRESSURE_AGE_45_TO_69: 150/90 or less
+  BLOOD_PRESSURE_AGE_70_PLUS: 160/90 or less
+  TOBACCO_FREE_YEARS: 1
+  MVR: No DUI convictions reckless or non-administrative suspension in past 5 years, Rating may apply due to overall driving history
+  MEDICAL_FLAT_EXTRA: No medical flat extra premium
+  DEBITS: No debits for build cholesterol blood pressure or other medical impairment
+  CANCER_HISTORY: No personal history of cancer, May disregard non-rated history of non-melanoma skin cancer cervical cancer Stage 1 Seminoma papillary thyroid cancer remote history melanoma in situ
+  FAMILY_HISTORY_AGE_65_PLUS: Ignore family history for age 65 and up
+  FAMILY_HISTORY_ADOPTED: Disregard family history adopted or unknown
+  FAMILY_HISTORY_DISREGARD: Cervical cancer and non-melanoma skin cancer
+  FAMILY_HISTORY_CANCER: 1 death from cancer (colon lung melanoma pancreatic) or cardiovascular disease in either parent under 60
+  FAMILY_HISTORY_SEX_SPECIFIC: 1 death from breast ovarian prostate cancer in parent of same sex prior to age 60
+
+PREFERRED_TOBACCO:
+  AVIATION_AVOCATION_OCCUPATION: No ratable aviation avocations occupations or foreign travel, Allow recreational scuba diving
+  CHOLESTEROL: 300 mg/dL or less
+  CHOLESTEROL_AGE_UNDER_45: HDL Ratio 5.5 or less
+  CHOLESTEROL_AGE_45_TO_69: HDL ratio 6.0 or less
+  CHOLESTEROL_AGE_70_PLUS: Cholesterol greater than 130 and HDL ratio 6.0 or less
+  BMI: 18.5 to 31.5
+  BLOOD_PRESSURE_AGE_59_OR_LESS: 145/90 or less
+  BLOOD_PRESSURE_AGE_60_TO_69: 150/90 or less
+  BLOOD_PRESSURE_AGE_70_PLUS: 155/90 or less
+  MVR: No DUI convictions reckless or non-administrative suspension in past 6 years, Rating may apply due to overall driving history
+  MEDICAL_FLAT_EXTRA: No medical flat extra premium
+  DEBITS: No debits for build cholesterol blood pressure or other medical impairment
+  CANCER_HISTORY: No personal history of cancer, May disregard non-rated history of non-melanoma skin cancer cervical cancer Stage 1 Seminoma papillary thyroid cancer remote history melanoma in situ
+  FAMILY_HISTORY_AGE_65_PLUS: Ignore family history for age 65 and up
+  FAMILY_HISTORY_ADOPTED: Disregard family history adopted or unknown
+  FAMILY_HISTORY_DISREGARD: Cervical cancer and non-melanoma skin cancer
+  FAMILY_HISTORY_CARDIOVASCULAR: No death from cardiovascular disease or cancer (colon lung melanoma pancreatic) in either parent prior to age 60
+  FAMILY_HISTORY_SEX_SPECIFIC: No death from breast ovarian prostate cancer in parent of same sex prior to age 60
+
+===UNDERWRITING_CREDITING_PROGRAMS===
+EXPANDED_STANDARD:
+  AVAILABILITY: Permanent products where state approved
+  AGES: 18 to 70
+  DESCRIPTION: Allows product pricing to encompass Table 1 and 2 under Standard class
+  FLAT_EXTRAS: Cannot be used with flat extra ratings
+
+FLEX_POINTS:
+  DESCRIPTION: Utilizes latest medical research to achieve best rating possible
+  APPLICATION: Applied by Underwriting to every case age 18 to 70
+  REQUEST_NEEDED: No special request necessary
+  UPGRADE_POSSIBILITY: May qualify for one Preferred class upgrade OR one Substandard class improvement (on cases originally assessed at Table D or less)
+  FACTORS_NEEDED: Meet any 4 of factors listed
+  COMBINATION: Flex Points and Expanded Standard can be combined but best possible offer using both can be no better than Standard rates
+
+FLEX_POINTS_FACTORS:
+  FACTOR_1: Normal stress EKG thallium stress echo Sestamibi EBCT or other perfusion or imaging test within 2 years
+  FACTOR_2: Normal chest or abdominal CT scan within 2 years
+  FACTOR_3: Hemoglobin A1C less than 5.5
+  FACTOR_4: LDL less than 100 within 6 months and Cholesterol HDL ratio 5.0 or less without medication
+  FACTOR_5: BMI 23 to 25
+  FACTOR_6: Untreated blood pressure 120/80 or better (age 40 to 70) maintained for past 6 months
+  FACTOR_7: Normal mammogram within 2 years
+  FACTOR_8: Good exercise capacity testing (age 40 to 70)
+  FACTOR_9: Normal cardiac cath or Cardiac CT Angiogram (age 40 to 70) within 3 years
+  FACTOR_10: Normal colonoscopy within 3 years
+  FACTOR_11: NT Pro-BNP 100 or less (age 60 to 70)
+  FACTOR_12: Normal CBC within 12 months (age 60 to 70)
+  FACTOR_13: Normal Carotid Ultrasound
+  FACTOR_14: Normal LFTs AND triglycerides less than 200 mg/dL
+  FACTOR_15: Normal Prostate exam within 2 years
+  FACTOR_16: Favorable Lab Risk Score on cases standard or better
+  NOTE: Special conditions may apply, Certain Flex Points vary by age, Credits may not be available for tests performed on younger individuals, All credits have additional requirements and time frame criteria
+
+===LAB_SCORING===
+METHODOLOGY: Lab scoring methodology used to determine preferred rate classes and overall acceptability
+APPLICATION: Applicants with favorable lab scoring results in addition to established preferred criteria eligible for best offers
+CONTINUITY: Vast majority of applicants who previously met Preferred Plus Preferred Non Tobacco Standard Plus or Preferred Tobacco rate class criteria continue to do so
+
+===APS_ORDERING_GUIDELINES===
+ROUTINE_PHYSICAL_EXAM_APS:
+  AGE_6_TO_17_OVER_3500000: PE within 5 years
+  AGE_18_TO_39_OVER_3000000: PE within 2 years
+  AGE_18_TO_39_OVER_3500000: PE within 5 years
+  AGE_40_TO_59_OVER_3000000: PE within 3 years
+  AGE_40_TO_59_OVER_3500000: PE within 5 years
+  AGE_60_TO_70_OVER_1000000: PE within 5 years plus see older age guidelines
+  AGE_71_TO_80_ALL_AMOUNTS: PE within 2 years plus see older age guidelines
+  AGE_81_PLUS_ALL_AMOUNTS: PE within 1 year plus see older age guidelines
+
+OLDER_AGE_GUIDELINES:
+  AGE_60_TO_70_NO_PE_2_YEARS: Standard if no complete PE within 2 years
+  AGE_71_TO_80_NO_PE_2_YEARS: Decline if no complete PE within 2 years
+  AGE_81_PLUS_NO_PE_1_YEAR: Decline if no complete PE within 1 year
+  AGE_OVER_80: Preferred Plus not available
+
+COMPLETE_PHYSICAL_EXAM_DEFINITION_AGE_60_PLUS: Full exam with personal physician including history physical and labs, Brief blood pressure check or prescription refill does not satisfy
+
+IMPAIRMENTS_REQUIRING_APS:
+  - Abnormal cardiac test or other abnormal testing
+  - Barrett's Esophagus
+  - Cancer or Malignant Tumor (not Basal Cell or Squamous Cell)
+  - Cardiomyopathy Congestive Heart Failure
+  - Carotid Artery Disease Stenosis
+  - Cerebrovascular Disease
+  - Cerebral Aneurysm
+  - Connective Tissue Disorder
+  - Coagulation Disorder
+  - Collagen Disease
+  - Congenital Heart Disease
+  - Coronary Artery Disease
+  - Depression Major
+  - Diabetes Type I
+  - Eating Disorder
+  - GI Hemorrhage
+  - Hemochromatosis
+  - Idiopathic Thrombocytopenic Purpura ITP
+  - Liver Disorder other than fatty liver
+  - Lupus SLE
+  - Lymph Node Disorder
+  - Medicinal Marijuana (assessment based on disorder requiring therapy)
+  - Multiple Sclerosis
+  - Muscular Dystrophy
+  - Narcolepsy
+  - Osteomyelitis
+  - Pancreatic Disorder
+  - Parkinson's Disease
+  - Polycystic Kidney Disease
+  - Polycythemia
+  - PSA Abnormality
+  - Psychiatric Illness significant (Bipolar disorder Psychotic disorder Schizophrenia)
+  - Renal Failure Chronic Kidney Disease
+  - Respiratory Disorder significant (COPD Pulmonary Embolism Pulmonary Nodules)
+  - Rheumatoid Disorders including Rheumatoid Arthritis and Lupus (underwriter may use PHI initially)
+  - Stroke or TIA
+  - Suicide Attempt
+  - Ulcerative Colitis and similar disorders (underwriter may use PHI initially)
+  - Valvular Heart Disease (Mitral Regurgitation Mitral Stenosis Aortic Regurgitation Aortic Stenosis Pulmonary Insufficiency Pulmonary Stenosis Tricuspid Insufficiency Tricuspid Stenosis)
+  - Vasculitis
+  - Any impairment rated Table D or greater
+  - Recent consultation within last 90 days for someone with no pattern of regular medical care
+
+NOTE_UNNECESSARY_APS: Ordering unnecessary APS may delay decision, No need to order APS for impairments automatically declined or not on list requiring APS
+
+===AUTOMATIC_DECLINES===
+DO_NOT_ROUTINELY_ORDER_APS_FOR_THESE:
+  - Abdominal Aortic Aneurysm surgically corrected in last 6 months
+  - Alcohol treatment in last 2 years
+  - Automatic Defibrillator ACID implanted with history of Cardiac Arrest
+  - Alzheimer's disease or Dementia
+  - Blood Pressure exceeding 185/100
+  - Cancer treatment current
+  - Cirrhosis of Liver
+  - COPD Emphysema severe (on oxygen or disabling)
+  - CVA stroke within 1 year
+  - Diabetes if significantly complicated (amputation etc) or very poor control
+  - Drug use other than marijuana in last 3 years
+  - Gastric Intestinal Bypass within 6 months
+  - Grand Mal Seizures within 1 year of diagnosis
+  - HIV Positive (subject to individual state regulation)
+  - Juvenile Onset Diabetes younger than age 20
+  - Kidney Dialysis
+  - Mental Disorder (including anxiety or depression requiring hospitalization or disability in last year)
+  - Medical testing advised but not yet completed
+  - MI heart attack in last 6 months
+  - Myelodysplastic Syndrome
+  - Organ Transplant (awaiting or recipient) (except kidney contact underwriter) (subject to state regulation)
+  - Pregnant current with toxemia eclampsia pre-eclampsia
+  - Quadriplegia
+  - Suicide attempt in last year
+  - Suicide attempts more than one if last one within last 2 years
+  - Surgery major advised but not yet completed
+  - Term Insurance age over 70 and rated over Table D or with flat extra
+  - Valve replacement within 6 months
+
+===HEALTH_STATEMENT===
+REQUIRED_AGE_0_TO_70: When exam is within 2 weeks of 90 days or older
+REQUIRED_AGE_71_PLUS: When exam is within 2 weeks of 60 days or older
+REQUIRED_WITHDRAWN_CASE: Withdrawn or incompleted case re-opened regardless of age of exam
+REQUIRED_FACE_INCREASE: Face amount increase requested after initial review regardless of age of exam
+
+===EXPIRATION_UNDERWRITING_REQUIREMENTS===
+TEST_AGE_0_TO_70:
+  APPLICATION: 1 year
+  EXAM: 1 year
+  BLOOD_URINE: 1 year
+  EKG_INSPECTION_MVR: 1 year
+  71_PLUS_INSPECTION_COGNITIVE: 1 year
+  FUNCTIONAL_TEST: N/A
+
+TEST_AGE_71_PLUS:
+  APPLICATION: 1 year
+  EXAM: 6 months
+  BLOOD_URINE: 6 months
+  EKG_INSPECTION_MVR: 1 year
+  71_PLUS_INSPECTION_COGNITIVE: 1 year
+  FUNCTIONAL_TEST: 6 months
+
+===NON_MEDICAL_RISKS===
+MOTOR_VEHICLE:
+  DUI_TWO_OR_MORE_LAST_5_YEARS: Decline
+  MORE_THAN_3_VIOLATIONS_LAST_3_YEARS_NO_DUI: Add 2.50 per 1000 or more
+  MORE_THAN_3_VIOLATIONS_LAST_3_YEARS_SINGLE_DUI_AGE_35_PLUS: Add 3.50 per 1000 or more, Decline if over age 65
+  SINGLE_DUI_OVER_3_YEARS_AGO_NO_OTHER: Possible standard with no other related history
+  SINGLE_DUI_OVER_7_YEARS_AGO_NO_OTHER: Possible preferred plus with no other related history
+  NOTE: Rating may apply based on age and overall driving history
+
+AVIATION:
+  PILOTS_MAJOR_AIRLINES_US_CANADA_ONLY: Preferred Plus
+  CORPORATE_PILOTS: Company-owned plane maintained at commercial standards, Pilot with ATR or commercial license with IFR, Flying US and Canada only, Preferred Plus
+  PRIVATE_PILOTS_US_CANADA_ONLY:
+    STUDENT_PILOTS: At best Standard Plus with additional 2.00 per 1000
+    LICENSED_OVER_100_HOURS_SOLO: Standard Plus
+    FLYING_OVER_200_HOURS_PER_YEAR: Likely 2.50 per 1000
+    FLYING_INTO_MEXICO: 2.50 per 1000
+    FLYING_OTHER_THAN_US_CANADA_MEXICO: AER or IC with facultative reinsurance (including Bermuda Bahamas)
+  AVIATION_EXCLUSION_RIDER_AER: Will apply if driving history is rated
+  BEST_RATES_WITH_AER_WITHIN_RETENTION: Best rates otherwise qualified
+  BEST_RATES_WITH_AER_OVER_RETENTION_PERMANENT: Standard Plus (Standard NT if Standard Plus not available)
+  BEST_RATES_WITH_AER_OVER_RETENTION_TERM: Standard Plus
+
+FOREIGN_RESIDENCE_TRAVEL:
+  NOTE: Constantly changing topic not applicable in all states
+  REFERENCE: Check producer website Connext for current guidelines
+
+CRIMINAL_ACTIVITY:
+  IN_JAIL_AWAITING_TRIAL_PROBATION_PAROLE: Postponed until out of jail and off probation or parole at least 12 months
+
+  MISDEMEANORS:
+    EXAMPLES: Disorderly conduct shoplifting white collar felonies (tax evasion political graft)
+    ONE_OR_TWO_CONVICTIONS_OFF_PROBATION_OVER_12_MONTHS: Best class if otherwise qualified
+    MORE_THAN_TWO_CONVICTIONS: Individual consideration
+    MORE_THAN_TWO_WITHIN_LAST_5_YEARS: Consider decline
+
+  SINGLE_FELONIES:
+    EXAMPLES: Grand theft larceny assault involuntary manslaughter
+    OFF_PROBATION_1_TO_5_YEARS: Standard with 2.50 per 1000 extra
+    OFF_PROBATION_5_TO_7_YEARS: Standard
+    OFF_PROBATION_7_PLUS_YEARS: Better than standard if otherwise qualified
+
+  MULTIPLE_OR_MAJOR_FELONIES:
+    EXAMPLES: Murder rape organized crime espionage terrorist acts possession with intent to deliver traffic or manufacture drugs
+    CONVICTED_ANY_TIME: Decline UNLESS overturned
+
+SCUBA:
+  RECREATIONAL_SCUBA_PREFERRED_PLUS_ELIGIBLE:
+    DEPTH: Not exceeding 100 feet
+    DIVES_PER_YEAR: 10 or less
+    OPEN_WATER: Yes, No wreck salvage cave or under-ice diving
+    CERTIFICATION: PADI NAUI or SSI certified OR all dives with divemaster or instructor
+  OTHERWISE:
+    OVER_100_FEET: Likely 2.50 per 1000
+    EXCLUSION_RIDER: Not available
+
+MILITARY:
+  COMPLIANCE: All applications must comply with NAIC regulations regarding military applicants
+
+  ACTIVE_MILITARY_ACCEPTABLE: Yes
+  GOVERNMENT_ALLOTMENT: No government allotment for initial submissions
+  TOTAL_LINE: Must meet income replacement guidelines
+  ALERT_ORDERS_OVERSEAS: Acceptable if not to hot spot, If applicant cannot disclose location case cannot be written (not applicable all states)
+  NOT_ACCEPTABLE: Special Forces Rangers SEALS Marine Force Recon Marine Raiders Delta Force Air Force Para Rescue PJs other similar units
+  MILITARY_PILOTS: May be rated, Will not consider for better with AER
+  FACE_AMOUNT: May be limited based on military rank
+
+===FINANCIAL_UNDERWRITING===
+INCOME_REPLACEMENT_MULTIPLES:
+  AGE_UNDER_40: 25
+  AGE_41_TO_50: 20
+  AGE_51_TO_55: 15
+  AGE_56_TO_65: 10
+  AGE_66_TO_70: 5
+  AGE_71_PLUS: Individual Consideration
+  NOTE: Income multiples are guidelines only, Maximum income factor may not be appropriate for all applicants in particular age range
+  NOTE_UNDER_40: Special consideration for additional amount for clients with special established occupations where income expected to increase substantially
+
+NON_WORKING_SPOUSE_AGE_59_OR_LESS:
+  USE_HOUSEHOLD_INCOME: Through 1500000 using income replacement multiples
+  OVER_1500000: Individually considered based on estate planning needs
+
+NON_WORKING_SPOUSE_AGE_60_TO_65:
+  HOUSEHOLD_INCOME_UNDER_25000: Allow up to 10 times income of working spouse
+
+NON_WORKING_SPOUSE_OVER_AGE_65:
+  JUSTIFICATION: Amount must be justified using estate planning needs
+
+SECONDARY_EARNER_AGE_59_OR_LESS:
+  MATCH_PRIMARY_EARNER: Match coverage available for secondary earner (spouse with lower earned income) to that applied and qualified for primary earner up to 1500000
+
+ADDITIONAL_PERSONAL_NOTES:
+  NOTE: All amounts referenced are total line (inforce and applied)
+  ADDITIONAL_AMOUNTS: May be considered if justified
+  ESTATE_CONSERVATION: Based on taxable value of estate, Provide estate conservation analysis with application, Maximum allowable growth rate 6 percent up to maximum limit double current gross estate
+  FINAL_EXPENSE: Maximum 50000 when limited financial justification demonstrated (includes total line all carriers), If no financial justification no coverage issued
+
+JUVENILES_DEFINITION: Age 0 to 17
+
+JUVENILES_AMOUNTS_0_TO_500000:
+  NOTE: Amounts requiring only non-medical Part B not completed by paramedical exam company
+  PARENT_REQUIREMENT: At least one parent guardian needs same amount being requested (unless state specific statutes apply)
+  OTHER_PARENT_LOWER_COVERAGE: If other parent has no coverage inforce or coverage inforce at lesser amount agent needs cover letter detailing circumstances (unless one uncovered due to un-insurability contact home office underwriter first)
+  SIBLINGS: All siblings require equal amounts of coverage
+  APS_INSPECTION: May be ordered for cause, Other requirements may be necessary based on underwriter judgment
+
+JUVENILES_AMOUNTS_OVER_500000:
+  CONSIDERATION: Individual consideration (contact home office underwriter first)
+
+BUSINESS_INSURANCE:
+  NOTE: Financial Questionnaire required for all business insurance applications
+
+  KEY_PERSON:
+    DESCRIPTION: Financially protects company from adverse financial impact if key employee dies, Provides funds to find recruit train replacement help replace lost profits strengthen balance sheet
+    MAXIMUM: 10 times total compensation
+    CIRCUMSTANCES: In some circumstances (age time to retirement industry location) 3 to 5 times compensation appropriate maximum
+
+  BUY_SELL_BUSINESS_SUCCESSION:
+    COVERAGE_LIMIT: Market value of proposed insured portion of business as detailed in Buy-Out or Buy-Sell agreement or third party financials
+
+  BUSINESS_LOAN:
+    MINIMUM_YEARS_REMAINING: 5
+    COVERAGE_LIMIT: 75 percent of loan prorated per each owner percent share
+    OWNER_BENEFICIARY: Business will be owner and beneficiary with collateral assignment to debtor
+    VENTURE_CAPITAL: Limited to 50 percent coverage prorated as above
+
+ACCIDENTAL_DEATH_BENEFIT:
+  MAXIMUM: 250000 per life subject to filed plan limitations
+
+WAIVER_OF_PREMIUM:
+  MAXIMUM: 5000000 per life subject to filed plan limitations
+
+===BANKRUPTCY===
+NOTE: Tax Return Transcript may be required at discretion of underwriter
+
+TERM_INSURANCE_CHAPTERS_7_11_12_13:
+  SINGLE_BANKRUPTCY:
+    REQUIREMENT: No coverage until bankruptcy discharged at least 24 months (2 years)
+    FINANCIAL_DATA: Financial data must support total line of coverage to be inforce
+
+  MULTIPLE_BANKRUPTCIES:
+    REQUIREMENT: No coverage until most recent bankruptcy discharged at least 60 months (5 years)
+    FINANCIAL_DATA: Financial data must support total line of coverage to be inforce
+
+PERMANENT_INSURANCE_CHAPTER_7:
+  IMMEDIATELY_UPON_DISCHARGE: Can consider coverage
+  DISCHARGE_LESS_THAN_12_MONTHS:
+    EMPLOYMENT: Must be employed full time
+    DOCUMENTATION: Provide current pay stub or tax return documenting income appropriate for amount inforce and applied
+  DISCHARGE_MORE_THAN_12_MONTHS:
+    PAY_STUB: No current pay stub or tax return required in most cases
+    FINANCIAL_JUSTIFICATION: Required for amounts inforce and applied
+
+PERMANENT_INSURANCE_CHAPTERS_11_12_13:
+  CURRENT_BANKRUPTCY: Will consider once applicant making regular debt payments and financial data supports total line inforce
+  INCOME_REDUCTION: Reduce amount of income by amount of debt payment per court direction
+  COURT_PAPERS: Copies of court papers directing repayment required for amounts 5 million and up
+
+PERMANENT_INSURANCE_MULTIPLE_BANKRUPTCIES:
+  REQUIREMENT: No offer until discharged from last bankruptcy at least 24 months
+  FINANCIAL_DATA: Financial data must support total line inforce
+
+===TOBACCO_MARIJUANA_OPIOIDS===
+CIGAR_SMOKERS:
+  APPLICATION: Only to occasional cigar users not other tobacco forms
+  CRITERIA_1: Use admitted at time of application inquiry and all case data coincides with admitted degree of usage
+  CRITERIA_2: No more than one cigar per week
+  CRITERIA_3: No nicotine metabolites cotinine present in urinalysis done for AGL US Life or any other company within past 12 months
+  CRITERIA_4: No use of tobacco products other than occasional cigars for at least 5 years prior to application or inquiry
+
+TOBACCO_USE:
+  DEFINITION: Anyone who used tobacco in any form in last 12 months
+  INCLUDES:
+    - Cigarettes
+    - Cigars (only limited cigar usage may be considered for non-tobacco rates)
+    - Pipes
+    - Smokeless tobacco
+    - Chewing tobacco Snuff
+    - Nicotine substitutes including patches and gum
+    - Electronic smokeless cigarettes
+    - Vaping
+
+MARIJUANA_USE:
+  ADULT_18_PLUS_8_OR_LESS_DAYS_PER_MONTH: May qualify for best class
+  USE_9_TO_16_DAYS_PER_MONTH: Standard Tobacco rates at best
+  USE_OVER_16_DAYS_PER_MONTH_OR_4_DAYS_PER_WEEK: Decline
+  MEDICINAL_USE: APS required, Decision based on history requiring prescription
+
+OPIOID_USE:
+  POSITION: Toughened underwriting position, Very conservative when reviewing cases involving ongoing use of prescription or non-prescription opioid medications
+
+===TRUST_CERTIFICATE===
+CERTIFICATE_OF_TRUST: Form AGLC2239COT must be submitted prior to underwriting approval whenever trust listed as policy owner
+ACKNOWLEDGEMENT_RELEASE: Form AGLC2239AR required whenever agent named as trustee
+
+===CONTACT_INFORMATION===
+PRODUCER_PORTAL: Connext
+UNDERWRITING_TEAM: Questions about Flex Points or specific cases directed to Underwriting Team
+QUICKQUOTE_DESK: Send quote request for situations not in guide
+
+===RIDERS===
+ACCELERATED_ACCESS_SOLUTION_AAS_CHRONIC_ILLNESS:
+  AVAILABILITY: Certain products at issue and may be added to certain term conversions
+  APPLICATION_REQUIRED: Chronic Illness Supplemental Application required at time of application (available on Forms Depot)
+  EXPANDED_INSPECTION_AGE_61_PLUS: Expanded Inspection Report 71IR required, Must be ordered from home office, Includes EMST Enhanced Mental Skills Test
+  NOT_AVAILABLE_RATED_TABLE_E_OR_HIGHER: true
+  NOT_AVAILABLE_FLAT_EXTRAS: true (medical or non-medical)
