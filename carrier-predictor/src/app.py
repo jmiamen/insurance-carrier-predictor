@@ -16,14 +16,11 @@ from .services import embedder_service, logger
 async def lifespan(app: FastAPI):
     """Lifespan context manager for startup/shutdown events."""
     # Startup
-    logger.info("Starting Carrier Predictor API")
+    logger.info("Starting Carrier Predictor API (Rules Engine)")
 
-    # Try to load existing index
-    if embedder_service.index_exists():
-        logger.info("Loading existing FAISS index...")
-        embedder_service.load_index()
-    else:
-        logger.warning("No existing index found. Use /kb/ingest to create one.")
+    # NOTE: Legacy RAG/FAISS system no longer loaded on startup
+    # The new rules-based engine (/recommend) doesn't require embeddings
+    # Legacy /recommend-carriers endpoint still available for backward compatibility
 
     yield
 
@@ -34,8 +31,8 @@ async def lifespan(app: FastAPI):
 # Create FastAPI app
 app = FastAPI(
     title="Carrier Predictor API",
-    description="Life insurance carrier recommendation API using RAG",
-    version="1.0.0",
+    description="Deterministic, rules-based life insurance carrier recommendation engine",
+    version="2.0.0",
     lifespan=lifespan,
 )
 
@@ -77,7 +74,7 @@ if frontend_path.exists():
     async def serve_frontend_routes(full_path: str):
         """Serve frontend for all routes (SPA routing)"""
         # Check if it's an API endpoint
-        if full_path.startswith(("health", "recommend-carriers", "kb/", "docs", "redoc", "openapi.json")):
+        if full_path.startswith(("health", "recommend", "recommend-carriers", "kb/", "docs", "redoc", "openapi.json")):
             return None
 
         # Try to serve the file if it exists
@@ -97,12 +94,15 @@ else:
         """
         return {
             "service": "Carrier Predictor API",
-            "version": "1.0.0",
+            "version": "2.0.0",
+            "description": "Deterministic, rules-based carrier recommendation engine",
+            "primary_endpoint": "/recommend",
             "endpoints": {
                 "health": "/health",
                 "docs": "/docs",
-                "recommend": "/recommend-carriers",
-                "ingest": "/kb/ingest",
-                "kb_status": "/kb/status",
+                "recommend": "/recommend (PRIMARY - rules-based)",
+                "recommend_legacy": "/recommend-carriers (DEPRECATED - RAG-based)",
+                "ingest": "/kb/ingest (legacy)",
+                "kb_status": "/kb/status (legacy)",
             },
         }
