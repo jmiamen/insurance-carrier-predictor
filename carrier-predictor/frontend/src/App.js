@@ -215,8 +215,12 @@ function App() {
         medications: medications
       };
 
-      const response = await axios.post('/recommend-carriers', payload);
-      setRecommendations(response.data.recommendations);
+      // Use new rules-based endpoint instead of legacy RAG
+      const response = await axios.post('/recommend', payload);
+
+      // New endpoint returns recommendations array directly
+      const recommendations = response.data.recommendations || [];
+      setRecommendations(recommendations);
     } catch (err) {
       setError(err.response?.data?.detail || 'Error getting recommendations. Please try again.');
       console.error('Error:', err);
@@ -972,13 +976,13 @@ function App() {
                                 <h3>{rec.carrier}</h3>
                                 <p className="product-name">{rec.product}</p>
                               </div>
-                              <span className={`confidence-badge ${getScoreBadgeClass(rec.confidence)}`}>
-                                {Math.round(rec.confidence * 100)}% Match
+                              <span className={`confidence-badge ${getScoreBadgeClass(rec.confidence || rec.score / 100)}`}>
+                                {Math.round((rec.confidence || rec.score / 100) * 100)}% Match
                               </span>
                             </div>
 
                             <div className="rec-body">
-                              <p className="reason">{rec.reason}</p>
+                              <p className="reason">{rec.reason || rec.rationale}</p>
 
                               {/* E-App and Portal Buttons */}
                               <div className="action-buttons">
@@ -1035,7 +1039,7 @@ function App() {
                             </div>
                             <div className="comparison-row">
                               <div className="comparison-label">Match Score</div>
-                              <div className="comparison-value">{Math.round(rec.confidence * 100)}%</div>
+                              <div className="comparison-value">{Math.round((rec.confidence || rec.score / 100) * 100)}%</div>
                             </div>
                             <div className="comparison-row">
                               <div className="comparison-label">Underwriting</div>
