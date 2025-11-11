@@ -735,3 +735,288 @@ h1, h2, h3, h4 {
     width: 100%;
   }
 }
+
+/* ========================================
+   UI IMPROVEMENTS - Logos, Badges, Buttons, Filters
+   ======================================== */
+
+/* Carrier Logo */
+.carrier-logo {
+  width: 100px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 12px;
+  background: #f9fafb;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.carrier-logo-fallback {
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  margin-bottom: 12px;
+}
+
+/* Match Score Badges */
+.confidence-badge {
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.confidence-badge.excellent {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.confidence-badge.good {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.confidence-badge.fair {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.confidence-badge.poor {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.btn-eapp {
+  background: #7c3aed;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-eapp:hover {
+  background: #6d28d9;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(124, 58, 237, 0.3);
+}
+
+.btn-portal {
+  background: #374151;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-portal:hover {
+  background: #1f2937;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Filter and Sort Controls */
+.filters-bar {
+  background: white;
+  padding: 16px 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 1px solid var(--border);
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+  min-width: 150px;
+}
+
+.filter-group label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.filter-group select {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 14px;
+  background: white;
+  cursor: pointer;
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.results-count {
+  font-size: 14px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* Comparison Feature */
+.comparison-checkbox {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.compare-button {
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: all 0.2s;
+}
+
+.compare-button:hover {
+  background: #059669;
+  transform: translateY(-1px);
+}
+
+.compare-button:disabled {
+  background: #d1d5db;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.comparison-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.comparison-content {
+  background: white;
+  border-radius: 12px;
+  max-width: 1200px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 30px;
+}
+
+.comparison-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.comparison-close {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--muted);
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.comparison-close:hover {
+  background: #f3f4f6;
+  color: var(--text);
+}
+
+.comparison-table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.comparison-col {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  background: #f9fafb;
+}
+
+.comparison-col h3 {
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: var(--primary);
+}
+
+.comparison-row {
+  padding: 8px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.comparison-row:last-child {
+  border-bottom: none;
+}
+
+.comparison-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.comparison-value {
+  font-size: 14px;
+  color: var(--text);
+}

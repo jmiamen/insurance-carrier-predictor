@@ -1,0 +1,67 @@
+carrier: "Elco Mutual"
+product: "Platinum Eagle SPWL"
+type: "Single Premium Whole Life"
+synopsis: "Single premium whole life with immediate cash value, ideal for estate planning and wealth transfer"
+
+face_amount:
+  min: 10000
+  max: 500000
+
+issue_ages:
+  min: 0
+  max: 85
+
+tobacco_classes:
+  - "Nontobacco"
+  - "Tobacco"
+
+underwriting_type: "Simplified"
+
+knockouts:
+  any:
+    - california_resident: true
+    - current_hospice_care: true
+    - aids_hiv_positive: true
+
+eligibility:
+  build:
+    source: "elco_platinum_eagle_spwl.txt"
+    rule: "elco_build_chart"
+    max_bmi:
+      standard: 42
+  nicotine_non_tobacco_allowed: false
+
+accepted:
+  - "Controlled diabetes"
+  - "Controlled hypertension"
+  - "Stable health conditions"
+
+unique_advantages:
+  - "Single premium payment - fully paid up immediately"
+  - "Immediate cash value accumulation"
+  - "Estate planning and wealth transfer tool"
+  - "No ongoing premium payments"
+  - "Participating policy with dividends"
+
+limitations:
+  - "Not available in California"
+  - "Requires lump sum payment"
+  - "Single premium may be substantial"
+
+notes:
+  - "Ideal for clients with lump sum available"
+  - "Coverage to age 121"
+
+sources:
+  - file: "elco_platinum_eagle_spwl.txt"
+
+state_availability:
+  all_states: true
+  except: ["CA"]
+
+riders:
+  - "Accidental Death Benefit"
+
+am_best_rating: "A"
+
+typical_premium_tier: "high"

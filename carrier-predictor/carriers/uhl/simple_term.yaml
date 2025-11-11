@@ -1,0 +1,87 @@
+carrier: "United Home Life"
+product: "Simple Term"
+type: "Term Life"
+synopsis: "Simplified issue term with lenient build requirements, available in 20/30 year and ROP variants"
+
+face_amount:
+  min: 25000
+  max: 1000000
+
+issue_ages:
+  min: 18
+  max: 65
+
+tobacco_classes:
+  - "Preferred Plus Nontobacco"
+  - "Preferred Nontobacco"
+  - "Standard Plus Nontobacco"
+  - "Standard Nontobacco"
+  - "Tobacco"
+
+underwriting_type: "Simplified"
+
+knockouts:
+  any:
+    - current_cancer_24_months: true
+    - recent_heart_attack_24_months: true
+    - oxygen_use: true
+    - aids_hiv_complications: true
+
+eligibility:
+  build:
+    source: "uhl_simple_term.txt"
+    rule: "uhl_build_chart"
+    max_bmi:
+      standard: 42
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 2
+  felony_lookback_years: 10
+  avocation_hazardous: true
+  aviation: false
+
+accepted:
+  - "Controlled diabetes"
+  - "Controlled hypertension"
+  - "Heart disease history over 24 months"
+  - "Cancer history over 24 months"
+  - "Asthma (no hospitalizations)"
+  - "Stable health conditions"
+
+unique_advantages:
+  - "FOR FAT PEOPLE - very lenient on build charts"
+  - "Simplified issue no exam for most cases"
+  - "20/30 year and ROP variants available"
+  - "DLX variant has Preferred Plus rates"
+  - "Conversion privilege included"
+  - "Higher builds accepted than most carriers"
+
+limitations:
+  - "Lower face amounts than fully underwritten"
+  - "Higher premiums than fully underwritten for clean health"
+  - "Not available in NY CA"
+
+notes:
+  - "Multiple variants: Simple Term 20/30, ROP, DLX"
+  - "ROP returns all premiums if survive term"
+  - "DLX has better rates for preferred health"
+  - "Ideal for heavier builds or moderate health issues"
+
+sources:
+  - file: "uhl_simple_term.txt"
+
+state_availability:
+  all_states: false
+  except: ["NY", "CA"]
+
+riders:
+  - "Accelerated Death Benefit for Terminal Illness (included)"
+  - "Waiver of Premium for Disability (included on DLX, optional on others)"
+  - "Accidental Death Benefit (optional)"
+  - "Child Term Rider (optional)"
+  - "Disability Income Rider (optional on DLX)"
+
+am_best_rating: "A-"
+
+typical_premium_tier: "medium"

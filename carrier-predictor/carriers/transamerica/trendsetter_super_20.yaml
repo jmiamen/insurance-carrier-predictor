@@ -1,0 +1,84 @@
+carrier: "Transamerica"
+product: "Trendsetter Super 20"
+type: "Term Life"
+synopsis: "Level 20-year term with iGO instant issue up to $1M, ROP options available"
+
+face_amount:
+  min: 100000
+  max: 10000000
+
+issue_ages:
+  min: 18
+  max: 70
+
+tobacco_classes:
+  - "Preferred Plus Nontobacco"
+  - "Preferred Nontobacco"
+  - "Standard Plus Nontobacco"
+  - "Standard Nontobacco"
+  - "Preferred Tobacco"
+  - "Standard Tobacco"
+
+underwriting_type: "Full Medical or iGO Instant"
+
+knockouts:
+  any:
+    - major_health_issues: true
+    - current_cancer: true
+    - recent_heart_attack: true
+
+eligibility:
+  build:
+    source: "transamerica_trendsetter_super.txt"
+    rule: "transamerica_build_chart"
+    max_bmi:
+      standard: 34
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 1
+  felony_lookback_years: 10
+  avocation_hazardous: true
+  aviation: true
+
+accepted:
+  - "Clean to moderate health profiles"
+  - "Controlled diabetes (Type 2)"
+  - "Controlled hypertension"
+  - "Stable health conditions"
+
+unique_advantages:
+  - "iGO instant issue up to $1M (ages 18-60)"
+  - "Point-of-sale underwriting decision"
+  - "Return of Premium (ROP) option available"
+  - "Comprehensive rider suite"
+  - "Convertible and renewable"
+  - "Very high face amounts up to $10M"
+
+limitations:
+  - "Requires full medical exam for higher amounts"
+  - "iGO limited to ages 18-60 and $1M max"
+
+notes:
+  - "Best for traditional level term with instant issue option"
+  - "Competitive for larger policies"
+  - "ROP variant available as separate product"
+
+sources:
+  - file: "transamerica_trendsetter_super.txt"
+
+state_availability:
+  all_states: true
+  except: []
+
+riders:
+  - "Chronic Illness Accelerated Benefit"
+  - "Critical Illness Accelerated Benefit"
+  - "Accelerated Death Benefit (Terminal)"
+  - "Waiver of Premium"
+  - "Children's Benefit Rider"
+  - "Accidental Death Benefit"
+
+am_best_rating: "A"
+
+typical_premium_tier: "medium"

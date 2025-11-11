@@ -1,0 +1,77 @@
+carrier: "Elco Mutual"
+product: "Golden Eagle Whole Life"
+type: "Whole Life"
+synopsis: "Simplified issue whole life with fast cash value accumulation, no medical exam required"
+
+face_amount:
+  min: 5000
+  max: 300000
+
+issue_ages:
+  min: 0
+  max: 85
+
+tobacco_classes:
+  - "Nontobacco"
+  - "Tobacco"
+
+underwriting_type: "Simplified"
+
+knockouts:
+  any:
+    - california_resident: true
+    - current_hospice_care: true
+    - aids_hiv_positive: true
+
+eligibility:
+  build:
+    source: "elco_golden_eagle_whole_life.txt"
+    rule: "elco_build_chart"
+    max_bmi:
+      standard: 42
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 1
+  felony_lookback_years: 10
+  avocation_hazardous: true
+  aviation: true
+
+accepted:
+  - "Controlled diabetes"
+  - "Controlled hypertension"
+  - "Past heart disease (5+ years)"
+  - "Asthma/COPD (controlled)"
+
+unique_advantages:
+  - "Builds cash value quickly"
+  - "Easy approval process - simplified issue"
+  - "Life Pay or Limited Pay options (10/20/30 year, to age 65)"
+  - "Participating policy (dividends eligible, not guaranteed)"
+  - "Ages 0-85 accepted"
+
+limitations:
+  - "Not available in California"
+  - "Florida does not have e-app"
+  - "Additional underwriting may be required in certain cases"
+
+notes:
+  - "BEST RATE APPROVE EVERYONE - competitive positioning"
+  - "Multiple payment options: Life Pay, 10/20/30 year, Paid Up at 65"
+  - "Coverage duration: Lifetime or until age 121"
+
+sources:
+  - file: "elco_golden_eagle_whole_life.txt"
+
+state_availability:
+  all_states: true
+  except: ["CA"]
+
+riders:
+  - "Accidental Death Benefit"
+  - "Waiver of Premium"
+  - "Guaranteed Insurability"
+
+am_best_rating: "A"
+
+typical_premium_tier: "medium"

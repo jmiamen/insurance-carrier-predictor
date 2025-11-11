@@ -1,0 +1,85 @@
+carrier: "Transamerica"
+product: "Trendsetter LB 20 (Ladder Benefit)"
+type: "Decreasing Term Life"
+synopsis: "20-year decreasing term with 10-30% premium savings vs level term, ideal for mortgage protection"
+
+face_amount:
+  min: 100000
+  max: 10000000
+
+issue_ages:
+  min: 18
+  max: 70
+
+tobacco_classes:
+  - "Preferred Plus Nontobacco"
+  - "Preferred Nontobacco"
+  - "Standard Plus Nontobacco"
+  - "Standard Nontobacco"
+  - "Preferred Tobacco"
+  - "Standard Tobacco"
+
+underwriting_type: "Full Medical or iGO Instant"
+
+knockouts:
+  any:
+    - major_health_issues: true
+    - current_cancer: true
+    - recent_heart_attack: true
+
+eligibility:
+  build:
+    source: "transamerica_trendsetter_lb.txt"
+    rule: "transamerica_build_chart"
+    max_bmi:
+      standard: 34
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 1
+  felony_lookback_years: 10
+  avocation_hazardous: true
+  aviation: true
+
+accepted:
+  - "Clean to moderate health profiles"
+  - "Controlled diabetes (Type 2)"
+  - "Controlled hypertension"
+  - "Stable health conditions"
+
+unique_advantages:
+  - "10-30% lower premium than level term"
+  - "iGO instant issue up to $1M (ages 18-60)"
+  - "Benefit decreases at years 11 and 16"
+  - "Perfect for mortgage protection"
+  - "Level premium despite decreasing benefit"
+  - "Comprehensive rider suite"
+
+limitations:
+  - "Benefit decreases (not level coverage)"
+  - "May not suit those needing constant coverage"
+  - "iGO limited to ages 18-60 and $1M max"
+
+notes:
+  - "Ladder structure: 100% (Yr 1-10) → 75% (Yr 11-15) → 50% (Yr 16-20)"
+  - "Premium stays the same even as benefit decreases"
+  - "Ideal for decreasing needs like mortgage or business loans"
+
+sources:
+  - file: "transamerica_trendsetter_lb.txt"
+
+state_availability:
+  all_states: true
+  except: []
+
+riders:
+  - "Chronic Illness Accelerated Benefit"
+  - "Critical Illness Accelerated Benefit"
+  - "Accelerated Death Benefit (Terminal)"
+  - "Waiver of Premium"
+  - "Children's Benefit Rider"
+  - "Accidental Death Benefit"
+
+am_best_rating: "A"
+
+typical_premium_tier: "low"

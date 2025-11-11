@@ -10,6 +10,7 @@ import yaml
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 from dataclasses import dataclass
+from .carrier_portals import get_portal_info
 
 
 @dataclass
@@ -515,6 +516,9 @@ def assign(profile: Dict[str, Any], rules: Optional[List[CarrierRule]] = None) -
         if rule.unique_advantages:
             rationale += f" • {rule.unique_advantages[0]}"
 
+        # Get portal information for carrier
+        portal_info = get_portal_info(rule.carrier)
+
         product_info = {
             'carrier': rule.carrier,
             'product': rule.product,
@@ -528,7 +532,11 @@ def assign(profile: Dict[str, Any], rules: Optional[List[CarrierRule]] = None) -
             'riders': rule.riders,
             'am_best_rating': rule.am_best_rating,
             'premium_tier': rule.typical_premium_tier,
-            'tier_structure': rule.tier_structure
+            'tier_structure': rule.tier_structure,
+            'portal_url': portal_info['portal_url'],
+            'eapp_url': portal_info['eapp_url'],
+            'phone': portal_info['phone'],
+            'logo_filename': portal_info['logo_filename']
         }
 
         all_scored.append(product_info)

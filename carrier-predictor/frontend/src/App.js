@@ -109,6 +109,16 @@ function App() {
   const [error, setError] = useState(null);
   const [savedCases, setSavedCases] = useState([]);
 
+  // Filter and sort state
+  const [filterCarrier, setFilterCarrier] = useState('all');
+  const [filterType, setFilterType] = useState('all');
+  const [filterUnderwriting, setFilterUnderwriting] = useState('all');
+  const [sortBy, setSortBy] = useState('score');
+
+  // Comparison state
+  const [selectedForComparison, setSelectedForComparison] = useState([]);
+  const [showComparison, setShowComparison] = useState(false);
+
   // Load saved cases on mount
   useEffect(() => {
     loadSavedCases();
@@ -396,6 +406,88 @@ function App() {
       years.push(currentYear - i);
     }
     return years;
+  };
+
+  // Get score badge class based on confidence
+  const getScoreBadgeClass = (confidence) => {
+    const percent = Math.round(confidence * 100);
+    if (percent >= 90) return 'excellent';
+    if (percent >= 80) return 'good';
+    if (percent >= 70) return 'fair';
+    return 'poor';
+  };
+
+  // Get logo filename from carrier name
+  const getLogoFilename = (carrierName) => {
+    const logoMap = {
+      'Elco Mutual': 'elco-mutual.svg',
+      'Mutual of Omaha': 'mutual-of-omaha.svg',
+      'Legal & General America': 'legal-general-america.svg',
+      'Transamerica': 'transamerica.svg',
+      'Corebridge Financial': 'corebridge-financial.svg',
+      'SBLI': 'sbli.svg',
+      'United Home Life': 'united-home-life.svg',
+      'Kansas City Life': 'kansas-city-life.svg'
+    };
+
+    for (const [key, value] of Object.entries(logoMap)) {
+      if (carrierName.includes(key) || key.includes(carrierName)) {
+        return value;
+      }
+    }
+    return null;
+  };
+
+  // Filter and sort recommendations
+  const getFilteredRecommendations = () => {
+    if (!recommendations) return [];
+
+    let filtered = [...recommendations];
+
+    // Apply filters
+    if (filterCarrier !== 'all') {
+      filtered = filtered.filter(rec => rec.carrier === filterCarrier);
+    }
+    if (filterType !== 'all') {
+      filtered = filtered.filter(rec => rec.product_type?.toLowerCase().includes(filterType.toLowerCase()));
+    }
+    if (filterUnderwriting !== 'all') {
+      filtered = filtered.filter(rec => rec.underwriting_type?.toLowerCase().includes(filterUnderwriting.toLowerCase()));
+    }
+
+    // Apply sorting
+    if (sortBy === 'score') {
+      filtered.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
+    } else if (sortBy === 'carrier') {
+      filtered.sort((a, b) => a.carrier.localeCompare(b.carrier));
+    } else if (sortBy === 'premium') {
+      // Sort by premium tier if available
+      const tierOrder = { 'low': 0, 'medium': 1, 'high': 2 };
+      filtered.sort((a, b) => (tierOrder[a.premium_tier] || 1) - (tierOrder[b.premium_tier] || 1));
+    }
+
+    return filtered;
+  };
+
+  // Get unique carriers from recommendations
+  const getUniqueCarriers = () => {
+    if (!recommendations) return [];
+    return [...new Set(recommendations.map(rec => rec.carrier))];
+  };
+
+  // Toggle product for comparison
+  const toggleComparison = (rec) => {
+    if (selectedForComparison.find(item => item.carrier === rec.carrier && item.product === rec.product)) {
+      setSelectedForComparison(selectedForComparison.filter(item =>
+        !(item.carrier === rec.carrier && item.product === rec.product)
+      ));
+    } else {
+      if (selectedForComparison.length < 3) {
+        setSelectedForComparison([...selectedForComparison, rec]);
+      } else {
+        alert('You can only compare up to 3 products at a time');
+      }
+    }
   };
 
   return (
@@ -781,33 +873,196 @@ function App() {
                       Profile: Age {formData.age}, {formData.smoker ? 'tobacco' : 'non-tobacco'},
                       {formData.coverage_type}, ${parseInt(formData.desired_coverage).toLocaleString()} coverage
                     </div>
+
+                    {/* Filter and Sort Controls */}
+                    <div className="filters-bar">
+                      <div className="filter-group">
+                        <label>Carrier</label>
+                        <select value={filterCarrier} onChange={(e) => setFilterCarrier(e.target.value)}>
+                          <option value="all">All Carriers</option>
+                          {getUniqueCarriers().map(carrier => (
+                            <option key={carrier} value={carrier}>{carrier}</option>
+                          ))}
+                        </select>
+                      </div>
+
+                      <div className="filter-group">
+                        <label>Product Type</label>
+                        <select value={filterType} onChange={(e) => setFilterType(e.target.value)}>
+                          <option value="all">All Types</option>
+                          <option value="term">Term Life</option>
+                          <option value="whole">Whole Life</option>
+                          <option value="iul">IUL</option>
+                          <option value="final">Final Expense</option>
+                          <option value="universal">Universal Life</option>
+                        </select>
+                      </div>
+
+                      <div className="filter-group">
+                        <label>Underwriting</label>
+                        <select value={filterUnderwriting} onChange={(e) => setFilterUnderwriting(e.target.value)}>
+                          <option value="all">All Types</option>
+                          <option value="full">Full Medical</option>
+                          <option value="simplified">Simplified Issue</option>
+                          <option value="guaranteed">Guaranteed Issue</option>
+                        </select>
+                      </div>
+
+                      <div className="filter-group">
+                        <label>Sort By</label>
+                        <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
+                          <option value="score">Best Match</option>
+                          <option value="carrier">Carrier Name</option>
+                          <option value="premium">Premium (Low to High)</option>
+                        </select>
+                      </div>
+
+                      <div className="results-count">
+                        {getFilteredRecommendations().length} of {recommendations.length} products
+                      </div>
+                    </div>
+
+                    {/* Comparison Button */}
+                    {selectedForComparison.length > 1 && (
+                      <button
+                        className="compare-button"
+                        onClick={() => setShowComparison(true)}
+                      >
+                        Compare {selectedForComparison.length} Products
+                      </button>
+                    )}
+
+                    {/* Product Cards */}
                     <div className="recommendations-grid">
-                      {recommendations.map((rec, index) => (
-                        <div key={index} className="recommendation-card">
-                          <div className="rec-header">
-                            <div>
-                              <h3>{rec.carrier}</h3>
-                              <p className="product-name">{rec.product}</p>
+                      {getFilteredRecommendations().map((rec, index) => {
+                        const logoFilename = getLogoFilename(rec.carrier);
+                        const isSelected = selectedForComparison.find(item =>
+                          item.carrier === rec.carrier && item.product === rec.product
+                        );
+
+                        return (
+                          <div key={index} className="recommendation-card" style={{ position: 'relative' }}>
+                            {/* Comparison Checkbox */}
+                            <input
+                              type="checkbox"
+                              className="comparison-checkbox"
+                              checked={!!isSelected}
+                              onChange={() => toggleComparison(rec)}
+                              title="Select for comparison"
+                            />
+
+                            {/* Carrier Logo */}
+                            {logoFilename ? (
+                              <img
+                                src={`/logos/${logoFilename}`}
+                                alt={rec.carrier}
+                                className="carrier-logo"
+                                onError={(e) => {
+                                  e.target.style.display = 'none';
+                                  e.target.nextSibling.style.display = 'flex';
+                                }}
+                              />
+                            ) : null}
+                            <div className="carrier-logo-fallback" style={{ display: logoFilename ? 'none' : 'flex' }}>
+                              {rec.carrier}
                             </div>
-                            <span className="confidence-badge">
-                              {Math.round(rec.confidence * 100)}% Match
-                            </span>
+
+                            <div className="rec-header">
+                              <div>
+                                <h3>{rec.carrier}</h3>
+                                <p className="product-name">{rec.product}</p>
+                              </div>
+                              <span className={`confidence-badge ${getScoreBadgeClass(rec.confidence)}`}>
+                                {Math.round(rec.confidence * 100)}% Match
+                              </span>
+                            </div>
+
+                            <div className="rec-body">
+                              <p className="reason">{rec.reason}</p>
+
+                              {/* E-App and Portal Buttons */}
+                              <div className="action-buttons">
+                                {rec.eapp_url && (
+                                  <a
+                                    href={rec.eapp_url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn-eapp"
+                                  >
+                                    <span>📝</span> E-App
+                                  </a>
+                                )}
+                                {rec.portal_url && (
+                                  <a
+                                    href={rec.portal_url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn-portal"
+                                  >
+                                    <span>🏢</span> Agent Portal
+                                  </a>
+                                )}
+                              </div>
+                            </div>
                           </div>
-                          <div className="rec-body">
-                            <p className="reason">{rec.reason}</p>
-                            {rec.portal_url && (
-                              <a
-                                href={rec.portal_url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="portal-link"
-                              >
-                                Go to Agent Portal →
-                              </a>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {/* Comparison Modal */}
+                {showComparison && selectedForComparison.length > 1 && (
+                  <div className="comparison-modal" onClick={() => setShowComparison(false)}>
+                    <div className="comparison-content" onClick={(e) => e.stopPropagation()}>
+                      <div className="comparison-header">
+                        <h2>Product Comparison</h2>
+                        <button
+                          className="comparison-close"
+                          onClick={() => setShowComparison(false)}
+                        >
+                          ×
+                        </button>
+                      </div>
+
+                      <div className="comparison-table">
+                        {selectedForComparison.map((rec, index) => (
+                          <div key={index} className="comparison-col">
+                            <h3>{rec.carrier}</h3>
+                            <div className="comparison-row">
+                              <div className="comparison-label">Product</div>
+                              <div className="comparison-value">{rec.product}</div>
+                            </div>
+                            <div className="comparison-row">
+                              <div className="comparison-label">Match Score</div>
+                              <div className="comparison-value">{Math.round(rec.confidence * 100)}%</div>
+                            </div>
+                            <div className="comparison-row">
+                              <div className="comparison-label">Underwriting</div>
+                              <div className="comparison-value">{rec.underwriting_type || 'N/A'}</div>
+                            </div>
+                            <div className="comparison-row">
+                              <div className="comparison-label">Premium Tier</div>
+                              <div className="comparison-value">{rec.premium_tier || 'N/A'}</div>
+                            </div>
+                            <div className="comparison-row">
+                              <div className="comparison-label">Face Amount Range</div>
+                              <div className="comparison-value">{rec.face_amount_range || 'N/A'}</div>
+                            </div>
+                            <div className="comparison-row">
+                              <div className="comparison-label">Issue Ages</div>
+                              <div className="comparison-value">{rec.issue_ages || 'N/A'}</div>
+                            </div>
+                            {rec.eapp_url && (
+                              <div style={{ marginTop: '12px' }}>
+                                <a href={rec.eapp_url} target="_blank" rel="noopener noreferrer" className="btn-eapp" style={{ width: '100%', justifyContent: 'center' }}>
+                                  Apply Now
+                                </a>
+                              </div>
                             )}
                           </div>
-                        </div>
-                      ))}
+                        ))}
+                      </div>
                     </div>
                   </div>
                 )}

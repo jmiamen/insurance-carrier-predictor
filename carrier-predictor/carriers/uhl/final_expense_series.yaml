@@ -1,0 +1,80 @@
+carrier: "United Home Life"
+product: "Final Expense Series"
+type: "Final Expense Whole Life"
+synopsis: "Three-tier final expense product line from level benefit to guaranteed issue with lenient build charts"
+
+face_amount:
+  min: 5000
+  max: 35000
+
+issue_ages:
+  min: 50
+  max: 85
+
+tobacco_classes:
+  - "Standard Nontobacco"
+  - "Standard Tobacco"
+
+underwriting_type: "Simplified / Guaranteed Issue"
+
+knockouts:
+  any:
+    - current_cancer_treatment: true
+    - recent_heart_attack_12_months: true
+    - dialysis: true
+
+eligibility:
+  build:
+    source: "uhl_final_expense_series.txt"
+    rule: "uhl_build_chart"
+    max_bmi:
+      standard: 42
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 2
+  felony_lookback_years: 10
+  avocation_hazardous: true
+  aviation: false
+
+accepted:
+  - "Controlled diabetes"
+  - "Controlled or uncontrolled hypertension"
+  - "Heart disease history over 12 months"
+  - "Cancer history over 12 months (Modified/GI)"
+  - "COPD without oxygen"
+  - "Kidney disease not on dialysis"
+
+unique_advantages:
+  - "FOR FAT PEOPLE - very lenient on build charts"
+  - "Three tiers: Level/Modified/Guaranteed Issue"
+  - "Guaranteed issue option available"
+  - "Modified benefit for impaired risks"
+  - "Accepts larger builds than most carriers"
+  - "Ages 50-85"
+
+limitations:
+  - "Guaranteed issue has 2-year graded benefit"
+  - "Modified benefit has reduced first 2 years"
+  - "Lower face amounts than traditional whole life"
+  - "Not available in NY CA AK HI"
+
+notes:
+  - "Start with Level Benefit, move to Modified or GI if needed"
+  - "Three products allow placement across all health conditions"
+  - "Typical coverage $10,000-$15,000 for funeral costs"
+
+sources:
+  - file: "uhl_final_expense_series.txt"
+
+state_availability:
+  all_states: false
+  except: ["NY", "CA", "AK", "HI"]
+
+riders:
+  - "Accelerated Death Benefit for Terminal Illness (Level Benefit)"
+  - "Accidental Death Benefit (Guaranteed Issue)"
+
+am_best_rating: "A-"
+
+typical_premium_tier: "medium"

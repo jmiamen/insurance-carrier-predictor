@@ -1,0 +1,95 @@
+carrier: "Transamerica"
+product: "Financial Foundation IUL (FFIUL)"
+type: "Indexed Universal Life"
+synopsis: "Fully underwritten IUL with market participation, 0% floor protection, and high coverage limits to $25M"
+
+face_amount:
+  min: 100000
+  max: 25000000
+
+issue_ages:
+  min: 0
+  max: 80
+
+tobacco_classes:
+  - "Preferred Plus Nontobacco"
+  - "Preferred Nontobacco"
+  - "Standard Plus Nontobacco"
+  - "Standard Nontobacco"
+  - "Preferred Tobacco"
+  - "Standard Tobacco"
+
+underwriting_type: "Full Medical"
+
+knockouts:
+  any:
+    - major_active_health_issues: true
+    - current_cancer_treatment: true
+    - recent_major_cardiac_event: true
+    - type_1_diabetes: true
+
+eligibility:
+  build:
+    source: "transamerica_ffiul.txt"
+    rule: "transamerica_build_chart"
+    max_bmi:
+      standard: 34
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 1
+  felony_lookback_years: 10
+  avocation_hazardous: true
+  aviation: true
+
+accepted:
+  - "Controlled Type 2 diabetes"
+  - "Controlled hypertension"
+  - "High cholesterol"
+  - "Past cardiac history (5+ years)"
+  - "Cancer remission (2+ years, depends on type)"
+  - "Sleep apnea (treated)"
+
+unique_advantages:
+  - "Market participation with 0% floor protection"
+  - "Multiple index strategies (S&P 500, Balanced, etc.)"
+  - "Gains locked in annually"
+  - "Very high face amounts up to $25M"
+  - "Comprehensive living benefit riders"
+  - "Tax-advantaged accumulation"
+  - "Flexible premiums and death benefit"
+  - "Foreign national options available"
+
+limitations:
+  - "Requires full medical underwriting"
+  - "No accelerated underwriting for IUL"
+  - "Illustrated rates not guaranteed"
+  - "May lapse if underfunded"
+
+notes:
+  - "Best for estate planning and retirement income"
+  - "Strong for high net worth clients"
+  - "Available in all 50 states including NY"
+  - "Comprehensive rider suite"
+
+sources:
+  - file: "transamerica_ffiul.txt"
+
+state_availability:
+  all_states: true
+  except: []
+
+riders:
+  - "Accelerated Death Benefit (Terminal - included)"
+  - "Chronic Illness Accelerated Benefit"
+  - "Critical Illness Accelerated Benefit"
+  - "Long-Term Care Accelerated Benefit"
+  - "Disability Waiver of Monthly Deductions"
+  - "Guaranteed Insurability Rider"
+  - "Children's Benefit Rider"
+  - "Accidental Death Benefit"
+  - "Overloan Protection"
+
+am_best_rating: "A"
+
+typical_premium_tier: "high"

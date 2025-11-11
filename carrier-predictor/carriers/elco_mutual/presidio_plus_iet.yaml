@@ -1,0 +1,67 @@
+carrier: "Elco Mutual"
+product: "Presidio Plus IET"
+type: "Single Premium Whole Life with Irrevocable Estate Trust"
+synopsis: "Guaranteed issue single premium whole life with estate trust for liquidity during probate"
+
+face_amount:
+  min: 15000
+  max: 100000
+
+issue_ages:
+  min: 0
+  max: 99
+
+tobacco_classes:
+  - "Nontobacco"
+  - "Tobacco"
+
+underwriting_type: "Guaranteed Issue"
+
+knockouts:
+  any:
+    - california_resident: true
+
+eligibility:
+  build:
+    source: "elco_presidio_plus_iet.txt"
+    rule: "elco_build_chart"
+    max_bmi:
+      standard: 42
+  nicotine_non_tobacco_allowed: false
+
+accepted:
+  - "Everyone qualifies - guaranteed issue"
+  - "All health conditions accepted"
+
+unique_advantages:
+  - "Guaranteed issue ages 0-99"
+  - "Irrevocable Estate Trust included no cost"
+  - "Funds within 48 hours of death"
+  - "Avoids probate for estate liquidity"
+  - "Pays funeral home first then beneficiaries"
+  - "Income tax free wealth transfer"
+  - "Single premium no ongoing payments"
+
+limitations:
+  - "Not available in California"
+  - "Florida does not have e-app"
+  - "Minimum face amount $15,000"
+
+notes:
+  - "BEST RATE APPROVE EVERYONE"
+  - "Estate liquidity solution during probate"
+  - "Higher face amounts than funeral-only products"
+
+sources:
+  - file: "elco_presidio_plus_iet.txt"
+
+state_availability:
+  all_states: true
+  except: ["CA"]
+
+riders:
+  - "Accidental Death Benefit"
+
+am_best_rating: "A"
+
+typical_premium_tier: "high"

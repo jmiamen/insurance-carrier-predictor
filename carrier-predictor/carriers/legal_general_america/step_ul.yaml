@@ -1,0 +1,80 @@
+carrier: "Legal & General America"
+product: "Life Step UL"
+type: "Universal Life"
+synopsis: "Flexible premium universal life with death benefit guarantee to age 121, designed for term conversions"
+
+face_amount:
+  min: 50000
+  max: 5000000
+
+issue_ages:
+  min: 20
+  max: 85
+
+tobacco_classes:
+  - "Preferred Plus Nontobacco"
+  - "Preferred Nontobacco"
+  - "Standard Plus Nontobacco"
+  - "Standard Nontobacco"
+  - "Preferred Tobacco"
+  - "Standard Tobacco"
+
+underwriting_type: "Full Medical"
+
+knockouts:
+  any:
+    - major_health_issues: true
+    - current_cancer: true
+    - recent_heart_attack: true
+
+eligibility:
+  build:
+    source: "legal_general_life_step_ul.txt"
+    rule: "lga_build_chart"
+    max_bmi:
+      standard: 34
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 0
+  felony_lookback_years: 10
+  avocation_hazardous: false
+  aviation: false
+
+accepted:
+  - "Clean to moderate health profiles"
+  - "Family cancer history does not prevent preferred class"
+
+unique_advantages:
+  - "Exclusive conversion product for A List Term"
+  - "Low minimum face amount $50,000"
+  - "Coverage guarantee to maturity at age 121"
+  - "On-time premium payment guarantees coverage"
+  - "Flexible premium structure"
+  - "Standard Plus class for rated cases"
+  - "Lapse protection with premium compliance"
+
+limitations:
+  - "Requires full medical underwriting"
+  - "Policy loan exceeding cash value causes lapse"
+  - "William Penn plans cannot be extended beyond 121"
+  - "$90 annual policy fee"
+
+notes:
+  - "Purpose-built for term conversions"
+  - "Available for new sales not just conversions"
+  - "Issued by Banner Life (49 states) or William Penn (NY only)"
+
+sources:
+  - file: "legal_general_life_step_ul.txt"
+
+state_availability:
+  all_states: true
+  except: []
+
+riders:
+  - "Accelerated Death Benefit (included)"
+
+am_best_rating: "A+"
+
+typical_premium_tier: "medium"

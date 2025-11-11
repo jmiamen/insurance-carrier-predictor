@@ -1,0 +1,81 @@
+carrier: "Corebridge Financial"
+product: "Select-a-Term"
+type: "Term Life"
+synopsis: "Flexible term life with living benefits and competitive underwriting for healthy to standard risks"
+
+face_amount:
+  min: 100000
+  max: 10000000
+
+issue_ages:
+  min: 18
+  max: 75
+
+tobacco_classes:
+  - "Preferred Elite Nontobacco"
+  - "Preferred Nontobacco"
+  - "Standard Plus Nontobacco"
+  - "Standard Nontobacco"
+  - "Preferred Tobacco"
+  - "Standard Tobacco"
+
+underwriting_type: "Full Medical"
+
+knockouts:
+  any:
+    - current_cancer_treatment: true
+    - aids_hiv_positive: true
+    - organ_transplant_waiting: true
+
+eligibility:
+  build:
+    source: "corebridge_term_products.txt"
+    rule: "corebridge_build_chart"
+    max_bmi:
+      standard: 36
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 1
+  felony_lookback_years: 10
+  avocation_hazardous: true
+  aviation: true
+
+accepted:
+  - "Controlled diabetes"
+  - "Controlled hypertension"
+  - "Cholesterol"
+  - "Past cardiac events (5+ years)"
+
+unique_advantages:
+  - "Very high face amounts up to $10M"
+  - "Multiple underwriting classes including Preferred Elite"
+  - "Living benefits included"
+  - "Conversion privilege to permanent insurance"
+  - "Flexible term durations (10/15/20/25/30)"
+
+limitations:
+  - "Requires full medical exam"
+  - "Higher face amounts need additional underwriting"
+
+notes:
+  - "Formerly AIG Life & Retirement"
+  - "Strong financial backing"
+  - "Competitive for larger policies"
+
+sources:
+  - file: "corebridge_term_products.txt"
+
+state_availability:
+  all_states: true
+  except: []
+
+riders:
+  - "Living Needs Benefit (Terminal, Chronic, Critical Illness)"
+  - "Waiver of Premium"
+  - "Children's Term Rider"
+  - "Accidental Death Benefit"
+
+am_best_rating: "A"
+
+typical_premium_tier: "medium"

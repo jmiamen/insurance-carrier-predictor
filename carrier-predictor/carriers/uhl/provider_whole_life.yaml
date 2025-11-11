@@ -1,0 +1,87 @@
+carrier: "United Home Life"
+product: "Provider Whole Life"
+type: "Whole Life"
+synopsis: "Simplified issue whole life with lenient build requirements and table rating flexibility"
+
+face_amount:
+  min: 10000
+  max: 150000
+
+issue_ages:
+  min: 0
+  max: 80
+
+tobacco_classes:
+  - "Preferred Nontobacco"
+  - "Standard Nontobacco"
+  - "Preferred Tobacco"
+  - "Standard Tobacco"
+
+underwriting_type: "Simplified"
+
+knockouts:
+  any:
+    - current_cancer_active_treatment: true
+    - recent_heart_attack_12_months: true
+    - dialysis: true
+    - aids_hiv_complications: true
+
+eligibility:
+  build:
+    source: "uhl_provider_whole_life.txt"
+    rule: "uhl_build_chart"
+    max_bmi:
+      standard: 42
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 2
+  felony_lookback_years: 10
+  avocation_hazardous: true
+  aviation: false
+
+accepted:
+  - "Diabetes with complications (table rated)"
+  - "Heart disease history (table rated)"
+  - "Cancer history (varies by type and time)"
+  - "COPD (table rated by severity)"
+  - "Stroke history (table rated)"
+  - "Controlled health conditions"
+
+unique_advantages:
+  - "FOR FAT PEOPLE - very lenient on build charts"
+  - "Built-in table ratings A through F"
+  - "Simplified issue no medical exam"
+  - "Ages 0-80"
+  - "Waiver of Premium included"
+  - "Guaranteed cash value accumulation"
+  - "Table ratings allow impaired risks"
+
+limitations:
+  - "Lower face amounts than fully underwritten"
+  - "Requires PHI and prescription check"
+  - "Not available in NY CA AK HI"
+
+notes:
+  - "Mid-market simplified issue whole life"
+  - "Table rating flexibility accommodates impaired risks"
+  - "Ideal for those who cannot qualify for preferred rates"
+
+sources:
+  - file: "uhl_provider_whole_life.txt"
+
+state_availability:
+  all_states: false
+  except: ["NY", "CA", "AK", "HI"]
+
+riders:
+  - "Accelerated Death Benefit for Terminal Illness (included)"
+  - "Waiver of Premium for Disability (included)"
+  - "Accidental Death Benefit (optional)"
+  - "Child Term Rider (optional)"
+  - "Guaranteed Insurability Rider (optional)"
+  - "Additional Insured Rider (optional)"
+
+am_best_rating: "A-"
+
+typical_premium_tier: "medium"

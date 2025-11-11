@@ -1,0 +1,81 @@
+carrier: "Legal & General America"
+product: "OPTerm 20"
+type: "Term Life"
+synopsis: "20-year level premium term with market-leading rates for healthy clients, fully underwritten"
+
+face_amount:
+  min: 100000
+  max: 2000000
+
+issue_ages:
+  min: 20
+  max: 70  # Nontobacco max
+
+tobacco_classes:
+  - "Preferred Plus Nontobacco"
+  - "Preferred Nontobacco"
+  - "Standard Plus Nontobacco"
+  - "Standard Nontobacco"
+  - "Preferred Tobacco"
+  - "Standard Tobacco"
+
+underwriting_type: "Full Medical"
+
+knockouts:
+  any:
+    - major_health_issues: true
+    - current_cancer: true
+    - recent_heart_attack: true
+
+eligibility:
+  build:
+    source: "legal_general_opterm.txt"
+    rule: "lga_build_chart"
+    max_bmi:
+      standard: 34  # Stricter for fully underwritten
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 0
+  felony_lookback_years: 10
+  avocation_hazardous: false
+  aviation: false
+
+accepted:
+  - "Clean health profiles preferred"
+  - "Family cancer history does not prevent preferred class"
+
+unique_advantages:
+  - "Market-leading guaranteed level premiums"
+  - "Multiple underwriting classes including Preferred Plus"
+  - "Living benefits available (except CA)"
+  - "Renewable and convertible"
+  - "Fast e-app process"
+
+limitations:
+  - "Declines major health issues"
+  - "Requires full medical underwriting"
+  - "Living benefits not available in California"
+  - "$90 annual policy fee"
+
+notes:
+  - "Best for Box 1: Young and Healthy"
+  - "Very competitive pricing for clean health"
+  - "Issued by Banner Life (49 states) or William Penn (NY only)"
+
+sources:
+  - file: "legal_general_opterm.txt"
+
+state_availability:
+  all_states: true
+  except: []
+
+riders:
+  - "Living Benefits (Terminal, Chronic, Critical Illness)"
+  - "Waiver of Premium"
+  - "Child Term Rider"
+  - "Accidental Death Benefit"
+
+am_best_rating: "A+"
+
+typical_premium_tier: "low"

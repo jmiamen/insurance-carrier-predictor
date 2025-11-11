@@ -1,0 +1,68 @@
+carrier: "Elco Mutual"
+product: "Presidio Plus IFT"
+type: "Single Premium Whole Life with Irrevocable Funeral Trust"
+synopsis: "Guaranteed issue funeral funding with asset protection from creditors and nursing homes"
+
+face_amount:
+  min: 2500
+  max: 15000
+
+issue_ages:
+  min: 0
+  max: 99
+
+tobacco_classes:
+  - "Nontobacco"
+  - "Tobacco"
+
+underwriting_type: "Guaranteed Issue"
+
+knockouts:
+  any:
+    - california_resident: true
+
+eligibility:
+  build:
+    source: "elco_presidio_plus_ift.txt"
+    rule: "elco_build_chart"
+    max_bmi:
+      standard: 42
+  nicotine_non_tobacco_allowed: false
+
+accepted:
+  - "Everyone qualifies - guaranteed issue"
+  - "All health conditions accepted"
+
+unique_advantages:
+  - "Guaranteed issue everyone qualifies"
+  - "Irrevocable Funeral Trust included no cost"
+  - "Protected from creditors nursing homes government programs"
+  - "May be exempt asset for Medicaid"
+  - "Pays funeral home directly in 48 hours"
+  - "Avoids probate"
+  - "Single premium no ongoing payments"
+
+limitations:
+  - "Not available in California"
+  - "Florida does not have e-app"
+  - "Must irrevocably assign to trust"
+
+notes:
+  - "BEST RATE APPROVE EVERYONE"
+  - "Medicaid planning tool - may help qualify"
+  - "Asset protection from nursing home costs"
+  - "Consult Elder Law Attorney for Medicaid eligibility"
+
+sources:
+  - file: "elco_presidio_plus_ift.txt"
+
+state_availability:
+  all_states: true
+  except: ["CA"]
+
+riders:
+  - "Accidental Death Benefit"
+
+am_best_rating: "A"
+
+typical_premium_tier: "medium"

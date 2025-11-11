@@ -1,0 +1,78 @@
+carrier: "SBLI"
+product: "SBLI Level Term"
+type: "Term Life"
+synopsis: "Competitive level term life with flexible durations and accelerated death benefits"
+
+face_amount:
+  min: 50000
+  max: 5000000
+
+issue_ages:
+  min: 18
+  max: 70
+
+tobacco_classes:
+  - "Preferred Plus Nontobacco"
+  - "Preferred Nontobacco"
+  - "Standard Nontobacco"
+  - "Preferred Tobacco"
+  - "Standard Tobacco"
+
+underwriting_type: "Full Medical"
+
+knockouts:
+  any:
+    - current_cancer: true
+    - aids_hiv_positive: true
+    - recent_major_surgery: true
+
+eligibility:
+  build:
+    source: "sbli_level_term.txt"
+    rule: "sbli_build_chart"
+    max_bmi:
+      standard: 35
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 1
+  felony_lookback_years: 10
+  avocation_hazardous: true
+  aviation: true
+
+accepted:
+  - "Controlled diabetes"
+  - "Controlled hypertension"
+  - "Past cardiac issues (5+ years)"
+
+unique_advantages:
+  - "High face amounts up to $5M"
+  - "Flexible term durations"
+  - "Accelerated death benefits included"
+  - "Conversion privilege"
+  - "Competitive rates for healthy applicants"
+
+limitations:
+  - "Requires full medical exam for larger amounts"
+  - "Stricter underwriting than simplified issue"
+
+notes:
+  - "SBLI = Savings Bank Life Insurance"
+  - "Strong financial ratings"
+  - "Multiple underwriting classes available"
+
+sources:
+  - file: "sbli_level_term.txt"
+
+state_availability:
+  all_states: true
+  except: []
+
+riders:
+  - "Accelerated Death Benefit"
+  - "Waiver of Premium"
+  - "Child Term Rider"
+
+am_best_rating: "A"
+
+typical_premium_tier: "medium"

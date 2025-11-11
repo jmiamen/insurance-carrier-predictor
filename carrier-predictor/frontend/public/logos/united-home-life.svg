@@ -1,0 +1,6 @@
+<svg width="120" height="60" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="60" fill="#2d5985" rx="4"/>
+  <text x="60" y="22" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">UNITED</text>
+  <text x="60" y="35" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">HOME LIFE</text>
+  <text x="60" y="48" font-family="Arial, sans-serif" font-size="8" fill="#60a5fa" text-anchor="middle">INSURANCE CO.</text>
+</svg>

@@ -1,0 +1,86 @@
+carrier: "Mutual of Omaha"
+product: "IUL Express"
+type: "Indexed Universal Life"
+synopsis: "Simplified issue IUL with instant approval, accepts mild health conditions and controlled diabetes"
+
+face_amount:
+  min: 25000
+  max: 350000
+
+issue_ages:
+  min: 18
+  max: 75
+
+tobacco_classes:
+  - "Non-Nicotine Non-Tobacco"
+  - "Nicotine Tobacco"
+
+underwriting_type: "Simplified"
+
+knockouts:
+  any:
+    - diabetes_before_age_45: true
+    - cancer_heart_attack_stroke_2_years: true
+    - amputation_from_disease: true
+    - chronic_severe_asthma: true
+    - pacemaker: true
+
+eligibility:
+  build:
+    source: "mutual_of_omaha_iul_express.txt"
+    rule: "moo_build_chart"
+    max_bmi:
+      standard: 35
+  nicotine_non_tobacco_allowed: true
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 3
+  felony_lookback_years: 10
+  avocation_hazardous: false
+  aviation: false
+
+accepted:
+  - "Controlled diabetes (diagnosed after 45)"
+  - "Controlled hypertension"
+  - "Controlled cholesterol"
+  - "Asthma (not chronic severe)"
+  - "Mild anxiety or depression"
+  - "Marijuana use allowable"
+
+unique_advantages:
+  - "Instant approval via automated underwriting"
+  - "Easy Solve for instant quotes"
+  - "Simplified issue no medical exam"
+  - "Age last birthday advantage"
+  - "Marijuana use qualifies for non-tobacco rates"
+  - "Strong brand recognition"
+  - "Cash value linked to market indices"
+  - "Living benefits included"
+
+limitations:
+  - "Declines diabetes before age 45"
+  - "Multiple impairments result in decline"
+  - "Lower face amounts than fully underwritten"
+  - "Table 2 build with other conditions declines"
+
+notes:
+  - "IUL easy solve product"
+  - "Box 1 for young healthy, Box 2 for older mild health"
+  - "Conditional coverage up to $100,000"
+  - "Signed illustration required"
+
+sources:
+  - file: "mutual_of_omaha_iul_express.txt"
+
+state_availability:
+  all_states: true
+  except: []
+
+riders:
+  - "Accidental Death Benefit (optional)"
+  - "Disability Benefits Rider (optional)"
+  - "Children's Rider (optional)"
+
+am_best_rating: "A+"
+
+typical_premium_tier: "medium"
