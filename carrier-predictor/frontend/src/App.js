@@ -215,12 +215,8 @@ function App() {
         medications: medications
       };
 
-      // Use new rules-based endpoint instead of legacy RAG
-      const response = await axios.post('/recommend', payload);
-
-      // New endpoint returns recommendations array directly
-      const recommendations = response.data.recommendations || [];
-      setRecommendations(recommendations);
+      const response = await axios.post('/recommend-carriers', payload);
+      setRecommendations(response.data.recommendations);
     } catch (err) {
       setError(err.response?.data?.detail || 'Error getting recommendations. Please try again.');
       console.error('Error:', err);

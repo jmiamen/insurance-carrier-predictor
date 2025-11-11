@@ -29,6 +29,7 @@ COPY .env.example .env
 
 # Copy carrier data files
 COPY data/ ./data/
+COPY carriers/ ./carriers/
 
 # Create index directory
 RUN mkdir -p data/index
