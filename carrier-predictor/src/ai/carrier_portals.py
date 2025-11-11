@@ -10,56 +10,56 @@ CARRIER_PORTALS = {
         "portal_url": "https://elcomutual.com/agent-portal",
         "eapp_url": "https://elcomutual.com/e-app",
         "phone": "800-323-4656",
-        "logo_filename": "elco-mutual.png"
+        "logo_filename": "elco-mutual.svg"
     },
     "Mutual of Omaha": {
         "name": "Mutual of Omaha",
         "portal_url": "https://www.mutualofomaha.com/agent",
         "eapp_url": "https://www.mutualofomaha.com/agent/apply",
         "phone": "800-775-6000",
-        "logo_filename": "mutual-of-omaha.png"
+        "logo_filename": "mutual-of-omaha.svg"
     },
     "Legal & General America": {
         "name": "Legal & General America",
         "portal_url": "https://www.lgamerica.com/agents",
         "eapp_url": "https://www.lgamerica.com/agents/eapp",
         "phone": "800-638-8428",
-        "logo_filename": "legal-general-america.png"
+        "logo_filename": "legal-general-america.svg"
     },
     "Transamerica": {
         "name": "Transamerica",
         "portal_url": "https://www.transamerica.com/individual/life-insurance/agent-center",
         "eapp_url": "https://www.transamerica.com/individual/life-insurance/agent-center/eapp",
         "phone": "800-797-2643",
-        "logo_filename": "transamerica.png"
+        "logo_filename": "transamerica.svg"
     },
     "Corebridge Financial": {
         "name": "Corebridge Financial",
         "portal_url": "https://www.corebridgefinancial.com/producers",
         "eapp_url": "https://www.corebridgefinancial.com/producers/eapp",
         "phone": "877-244-5263",
-        "logo_filename": "corebridge-financial.png"
+        "logo_filename": "corebridge-financial.svg"
     },
     "SBLI": {
         "name": "SBLI",
         "portal_url": "https://www.sbli.com/agents",
         "eapp_url": "https://www.sbli.com/agents/apply",
         "phone": "888-867-4662",
-        "logo_filename": "sbli.png"
+        "logo_filename": "sbli.svg"
     },
     "United Home Life": {
         "name": "United Home Life Insurance Company",
         "portal_url": "https://uhlic.com/agent-portal",
         "eapp_url": "https://uhlic.com/agent-portal/eapp",
         "phone": "877-894-5432",
-        "logo_filename": "united-home-life.png"
+        "logo_filename": "united-home-life.svg"
     },
     "Kansas City Life": {
         "name": "Kansas City Life Insurance Company",
         "portal_url": "https://www.kclife.com/agents",
         "eapp_url": "https://www.kclife.com/agents/eapp",
         "phone": "800-234-2KC",
-        "logo_filename": "kansas-city-life.png"
+        "logo_filename": "kansas-city-life.svg"
     }
 }
 

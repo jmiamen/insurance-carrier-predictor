@@ -15,10 +15,5 @@
   "Legal General America": "https://auth.lgamerica.com/Account/Login",
   "SBLI": "https://www.sbliusa.com/AgentCenter/login.do",
   "Corebridge": "https://www.connext.corebridgefinancial.com/life/connext-portal/public/login",
-  "Corebridge Financial": "https://www.connext.corebridgefinancial.com/life/connext-portal/public/login",
-  "AIG": "https://www.connext.corebridgefinancial.com/life/connext-portal/public/login",
-  "Foresters": "https://www.foresters.com/en/sales-tools",
-  "Gerber Life": "https://www.gerberlife.com/agents",
-  "Globe Life": "https://www.globelifeinsurance.com/agent-login",
-  "Liberty Bankers": "https://www.libertybankers.com/agent-portal"
+  "Corebridge Financial": "https://www.connext.corebridgefinancial.com/life/connext-portal/public/login"
 }

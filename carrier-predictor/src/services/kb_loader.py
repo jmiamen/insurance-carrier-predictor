@@ -194,17 +194,16 @@ class KBLoader:
         Returns:
             Tuple of (carrier_guess, product_guess)
         """
-        # Common carrier names
+        # Common carrier names - must match actual carriers in system
         carriers = [
             "Mutual of Omaha",
-            "Elco",
+            "Elco Mutual",
             "Kansas City Life",
             "United Home Life",
-            "Foresters",
-            "Gerber",
-            "Globe Life",
-            "Liberty Bankers",
             "Transamerica",
+            "Legal & General America",
+            "SBLI",
+            "Corebridge Financial",
         ]
 
         carrier_guess = ""

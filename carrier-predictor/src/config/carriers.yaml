@@ -1,58 +1,169 @@
-# Sample carrier eligibility rules
-# Add more carriers and products as needed
+# Carrier eligibility rules
+# This file must match carrier names in carriers/*.yaml product files
+# Carrier names MUST exactly match the "carrier:" field in product YAMLs
 
-Elco:
+"Elco Mutual":
   states: ["TX", "CO", "MI", "MO", "KS", "OK", "NE", "AR", "LA"]
   portal_url: "https://elcomutual.com/agent-portal"
   products:
-    GoldenEagle:
+    "Golden Eagle Whole Life":
       type: "Whole Life"
-      min_age: 50
+      min_age: 0
       max_age: 85
       smoker: true
       health_tolerance: ["diabetes", "neuropathy", "high blood pressure", "high cholesterol"]
+    "Silver Eagle":
+      type: "Whole Life"
+      min_age: 0
+      max_age: 85
+      smoker: true
+      health_tolerance: ["diabetes", "high blood pressure"]
+    "Platinum Eagle":
+      type: "Whole Life"
+      min_age: 0
+      max_age: 85
+      smoker: true
+      health_tolerance: ["diabetes", "high blood pressure"]
+    "Presidio Plus IET":
+      type: "Term"
+      min_age: 18
+      max_age: 70
+      smoker: true
+      health_tolerance: []
+    "Presidio Plus IFT":
+      type: "Term"
+      min_age: 18
+      max_age: 70
+      smoker: true
+      health_tolerance: []
 
-MutualOfOmaha:
+"Mutual of Omaha":
   states: ["TX", "FL", "GA", "CA", "NY", "IL", "OH", "PA", "NC", "VA", "AZ", "TN", "IN", "MO", "WI"]
-  portal_url: "https://sales.mutualofomaha.com/agent/login"
+  portal_url: "https://www.mutualofomaha.com/agent"
   products:
-    LivingPromise:
+    "Living Promise Level":
       type: "Whole Life"
       min_age: 45
       max_age: 85
       smoker: true
       health_tolerance: ["diabetes controlled", "high blood pressure", "high cholesterol"]
+    "Living Promise Graded":
+      type: "Whole Life"
+      min_age: 45
+      max_age: 85
+      smoker: true
+      health_tolerance: ["diabetes", "high blood pressure", "cancer history"]
+    "Term Life Express":
+      type: "Term"
+      min_age: 18
+      max_age: 65
+      smoker: true
+      health_tolerance: ["diabetes controlled", "high blood pressure controlled"]
+    "IUL Express":
+      type: "IUL"
+      min_age: 18
+      max_age: 80
+      smoker: true
+      health_tolerance: []
 
-UnitedHomeLife:
+"United Home Life":
   states: ["TX", "FL", "GA", "AL", "MS", "LA", "AR", "TN", "KY", "SC", "NC", "VA", "WV", "OH", "IN", "IL", "MO", "OK", "KS"]
   portal_url: "https://uhlic.com/agent-portal"
   products:
-    ExpressIssuePremier:
-      type: "Final Expense"
+    "Express Issue Premier (Immediate Benefit)":
+      type: "Final Expense WL"
       min_age: 20
       max_age: 80
       smoker: true
-      health_tolerance: ["diabetes", "high blood pressure", "copd", "asthma"]
-    ExpressIssueDeluxe:
+      health_tolerance: ["diabetes", "high blood pressure", "copd", "asthma", "heart disease", "stroke"]
+    "Final Expense Series":
+      type: "Final Expense Whole Life"
+      min_age: 50
+      max_age: 85
+      smoker: true
+      health_tolerance: ["diabetes", "high blood pressure", "copd", "kidney disease"]
+    "Provider Whole Life":
       type: "Whole Life"
-      min_age: 20
-      max_age: 75
+      min_age: 18
+      max_age: 80
       smoker: true
       health_tolerance: ["diabetes controlled", "high blood pressure controlled"]
+    "Simple Term":
+      type: "Term"
+      min_age: 18
+      max_age: 65
+      smoker: true
+      health_tolerance: []
 
-KansasCityLife:
+"Kansas City Life":
   states: ["TX", "MO", "KS", "OK", "AR", "LA", "NE", "IA", "IL", "TN", "MS", "AL"]
-  portal_url: "https://www.kclife.com/agent-login"
+  portal_url: "https://www.kclife.com/agents"
   products:
-    SignatureTermExpress20:
+    "Signature Term Express 20":
       type: "Term"
       min_age: 18
       max_age: 60
       smoker: true
       health_tolerance: ["high blood pressure controlled"]
-    SignatureWholeLife:
-      type: "Whole Life"
+
+"Legal & General America":
+  states: ["All states except NY"]
+  portal_url: "https://www.lgamerica.com/agents"
+  products:
+    "OPTerm 20":
+      type: "Term"
       min_age: 18
-      max_age: 75
+      max_age: 65
       smoker: true
-      health_tolerance: ["diabetes controlled", "high blood pressure controlled", "high cholesterol"]
+      health_tolerance: []
+    "Step UL":
+      type: "Universal Life"
+      min_age: 0
+      max_age: 85
+      smoker: true
+      health_tolerance: []
+
+"SBLI":
+  states: ["All states"]
+  portal_url: "https://www.sbli.com/agents"
+  products:
+    "Level Term":
+      type: "Term"
+      min_age: 18
+      max_age: 65
+      smoker: true
+      health_tolerance: []
+
+"Corebridge Financial":
+  states: ["All states"]
+  portal_url: "https://www.corebridgefinancial.com/producers"
+  products:
+    "Select-a-Term":
+      type: "Term"
+      min_age: 18
+      max_age: 80
+      smoker: true
+      health_tolerance: []
+
+"Transamerica":
+  states: ["All states"]
+  portal_url: "https://www.transamerica.com/individual/life-insurance/agent-center"
+  products:
+    "Trendsetter Super 20":
+      type: "Term"
+      min_age: 18
+      max_age: 70
+      smoker: true
+      health_tolerance: []
+    "Trendsetter LB 20":
+      type: "Term"
+      min_age: 18
+      max_age: 70
+      smoker: true
+      health_tolerance: []
+    "FFIUL":
+      type: "IUL"
+      min_age: 0
+      max_age: 85
+      smoker: true
+      health_tolerance: []
