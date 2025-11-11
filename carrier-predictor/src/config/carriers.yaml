@@ -1,23 +1,6 @@
 # Sample carrier eligibility rules
 # Add more carriers and products as needed
 
-Americo:
-  states: ["TX", "FL", "GA", "IL", "CA", "OH", "PA", "NC", "MI", "AZ"]
-  portal_url: "https://agent.americo.com/login"
-  products:
-    Term30:
-      type: "Term"
-      min_age: 18
-      max_age: 75
-      smoker: true
-      health_tolerance: []
-    WholeLife:
-      type: "Whole Life"
-      min_age: 18
-      max_age: 80
-      smoker: true
-      health_tolerance: ["diabetes controlled", "high blood pressure controlled"]
-
 Elco:
   states: ["TX", "CO", "MI", "MO", "KS", "OK", "NE", "AR", "LA"]
   portal_url: "https://elcomutual.com/agent-portal"

@@ -198,7 +198,6 @@ class KBLoader:
         carriers = [
             "Mutual of Omaha",
             "Elco",
-            "Americo",
             "Kansas City Life",
             "United Home Life",
             "Foresters",
