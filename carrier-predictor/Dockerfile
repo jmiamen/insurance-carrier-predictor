@@ -1,3 +1,13 @@
+# Stage 1: Build React frontend
+FROM node:18-alpine AS frontend-builder
+
+WORKDIR /frontend
+COPY frontend/package*.json ./
+RUN npm install
+COPY frontend/ ./
+RUN npm run build
+
+# Stage 2: Python backend
 FROM python:3.11-slim
 
 WORKDIR /app
@@ -28,6 +38,9 @@ RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTr
 
 # Build knowledge base
 RUN python scripts/update_kb.py --path data --rebuild
+
+# Copy frontend build from frontend-builder stage
+COPY --from=frontend-builder /frontend/build ./frontend/build
 
 # Expose port
 EXPOSE 8000
