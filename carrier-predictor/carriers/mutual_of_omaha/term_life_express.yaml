@@ -1,0 +1,87 @@
+carrier: "Mutual of Omaha"
+product: "Term Life Express"
+type: "Term Life"
+synopsis: "Simplified issue term life with 10, 15, 20, and 30 year level periods"
+
+face_amount:
+  min: 25000
+  max: 500000
+  bands:
+    - range: [25000, 99999]
+      underwriting: "simplified"
+    - range: [100000, 500000]
+      underwriting: "simplified_enhanced"
+
+issue_ages:
+  min: 18
+  max: 60
+  by_duration:
+    10_year: [18, 60]
+    15_year: [18, 60]
+    20_year: [18, 55]
+    30_year: [18, 50]
+
+tobacco_classes:
+  - "Preferred Nontobacco"
+  - "Standard Nontobacco"
+  - "Preferred Tobacco"
+  - "Standard Tobacco"
+
+underwriting_type: "Simplified"
+
+knockouts:
+  any:
+    - prior_offer_table_gt_4_or_decline: true
+    - hospice_care_current: true
+    - oxygen_therapy_current: true
+    - aids_hiv_positive: true
+    - organ_transplant_waiting: true
+    - insulin_dependent_diabetes_under_40: true
+
+eligibility:
+  build:
+    source: "618352-SI+Underwriting_0124.pdf:2"
+    rule: "express_build_chart"
+  nicotine_non_tobacco_allowed: true
+  nicotine_rule: "12 months nicotine-free OR occasional cigar (≤12/year)"
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 0
+  felony_lookback_years: 10
+  avocation_hazardous: false
+  aviation: false
+  multiple_impairments_max_table: 4
+
+accepted:
+  - "Controlled diabetes (oral meds, A1C ≤ 8.0)"
+  - "Controlled hypertension (≤ 2 meds)"
+  - "Controlled cholesterol"
+  - "Past heart attack (5+ years, no complications)"
+  - "Past cancer (5+ years, non-melanoma)"
+  - "Asthma/COPD (controlled)"
+
+unique_advantages:
+  - "Occasional cigar users qualify for nontobacco rates"
+  - "Multiple duration options (10/15/20/30 year)"
+  - "Conversion privilege to permanent insurance"
+  - "Living benefits included"
+  - "Fast underwriting (2-4 weeks typical)"
+
+limitations:
+  - "No insulin-dependent diabetes under age 40"
+  - "Multiple impairments must total ≤ Table 4"
+  - "MVR/MIB checks required"
+  - "Duration availability decreases with age"
+
+notes:
+  - "Preferred class available for healthier applicants"
+  - "Build chart must be consulted for height/weight requirements"
+  - "Multiple impairments table calculation required"
+
+sources:
+  - file: "618352-SI+Underwriting_0124.pdf"
+  - file: "express-uw-guide.pdf"
+
+state_availability:
+  all_states: true
+  except: ["NY"]

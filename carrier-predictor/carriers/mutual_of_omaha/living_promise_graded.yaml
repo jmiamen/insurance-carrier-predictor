@@ -1,0 +1,71 @@
+carrier: "Mutual of Omaha"
+product: "Living Promise Graded Benefit"
+type: "Final Expense WL (Graded)"
+synopsis: "Graded death benefit for first 2 policy years, better fit for moderate to higher impairment cases"
+
+face_amount:
+  min: 2000
+  max: 20000
+
+issue_ages:
+  min: 45
+  max: 80
+
+tobacco_classes:
+  - "Standard Nontobacco"
+  - "Standard Tobacco"
+
+underwriting_type: "Simplified"
+
+knockouts:
+  any:
+    - hospice_care_current: true
+    - oxygen_therapy_current: true
+    - aids_hiv_positive: true
+    - organ_transplant_waiting: true
+
+eligibility:
+  build:
+    source: "461606-living-promise-product-and-underwriting-guide.pdf"
+    rule: "more_lenient_than_level"
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 3
+    max_major_violations: 1
+  felony_lookback_years: 5
+  avocation_hazardous: false
+  aviation: false
+  multiple_impairments_max_table: 6
+
+accepted:
+  - "Diabetes with complications"
+  - "Multiple cardiovascular conditions"
+  - "Recent heart attack (1-2 years)"
+  - "Recent stroke (1-2 years)"
+  - "COPD with medications"
+  - "Multiple impairments up to Table 6"
+
+unique_advantages:
+  - "More lenient underwriting than Level option"
+  - "Accepts cases that wouldn't qualify for Level"
+  - "Graded benefit: 30% Year 1, 70% Year 2, 100% Year 3+"
+  - "Full benefit for accidental death from day one"
+
+limitations:
+  - "Lower face amount max ($20k vs $50k)"
+  - "Graded benefit period (2 years)"
+  - "Slightly higher premiums than Level"
+  - "Maximum issue age 80 (vs 85 for Level)"
+
+notes:
+  - "Best for clients who don't qualify for Level benefit"
+  - "Accidental death pays full benefit immediately"
+  - "Graded schedule: 30%/70%/100%"
+
+sources:
+  - file: "461606-living-promise-product-and-underwriting-guide.pdf"
+  - file: "express-uw-guide.pdf"
+
+state_availability:
+  all_states: true
+  except: []

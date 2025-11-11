@@ -1,0 +1,73 @@
+carrier: "Mutual of Omaha"
+product: "Living Promise Level Benefit"
+type: "Final Expense WL"
+synopsis: "Level death benefit from day one with terminal illness and nursing home accelerated benefits"
+
+face_amount:
+  min: 2000
+  max: 50000
+
+issue_ages:
+  min: 45
+  max: 85
+
+tobacco_classes:
+  - "Standard Nontobacco"
+  - "Standard Tobacco"
+
+underwriting_type: "Simplified"
+
+knockouts:
+  any:
+    - prior_offer_table_gt_4_or_decline: true
+    - hospice_care_current: true
+    - oxygen_therapy_current: true
+    - aids_hiv_positive: true
+    - organ_transplant_waiting: true
+
+eligibility:
+  build:
+    source: "618352-SI+Underwriting_0124.pdf:2"
+    rule: "use_express_build_chart"
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_major_violations: 0
+  felony_lookback_years: 10
+  avocation_hazardous: false
+  aviation: false
+  multiple_impairments_max_table: 4
+
+accepted:
+  - "Controlled diabetes (oral meds or insulin)"
+  - "Controlled hypertension"
+  - "Controlled cholesterol"
+  - "Past heart attack (2+ years)"
+  - "Past stroke (2+ years)"
+  - "Past cancer (5+ years, non-melanoma)"
+
+unique_advantages:
+  - "Accelerated Death Benefit for Terminal Illness"
+  - "Nursing Home/Chronic Illness rider (state-specific)"
+  - "Graded Premium option available"
+  - "Random phone interview (not guaranteed call)"
+
+limitations:
+  - "No occasional cigar exception for non-tobacco rating"
+  - "Multiple impairments must total ≤ Table 4"
+  - "Knockout questions are strict"
+  - "Face amount limited to $50k"
+
+notes:
+  - "Random phone interview possible but not guaranteed"
+  - "Graded benefit option available for higher-risk applicants"
+  - "ABR benefits vary by state"
+
+sources:
+  - file: "461606-living-promise-product-and-underwriting-guide.pdf"
+  - file: "618352-SI+Underwriting_0124.pdf"
+  - file: "express-uw-guide.pdf"
+
+state_availability:
+  all_states: true
+  except: []

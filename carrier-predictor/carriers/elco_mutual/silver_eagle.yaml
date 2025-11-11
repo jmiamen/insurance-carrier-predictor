@@ -1,0 +1,92 @@
+carrier: "Elco Mutual"
+product: "Silver Eagle Final Expense"
+type: "Final Expense WL"
+synopsis: "Multi-tier final expense (Premier/Plus/Standard/Graded/Modified/GI) for maximum flexibility"
+
+face_amount:
+  min: 2500
+  max: 35000
+
+issue_ages:
+  min: 50
+  max: 85
+
+tobacco_classes:
+  - "Nontobacco"
+  - "Tobacco"
+
+underwriting_type: "Simplified to Guaranteed Issue"
+
+knockouts:
+  premier_plus:
+    - hospice_care: true
+    - home_health_aide: true
+    - oxygen_therapy: true
+    - aids_hiv: true
+  standard_graded:
+    - hospice_care: true
+    - oxygen_therapy_continuous: true
+  gi_modified:
+    none: "No health questions"
+
+eligibility:
+  build:
+    source: "Silver Eagle Brochure (SEB-09-22).pdf"
+    rule: "tier_specific_build_charts"
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 3
+    max_dui_total: 2
+  felony_lookback_years: 5
+  avocation_hazardous: true
+  aviation: true
+  multi_tier_note: "Falls back to more lenient tier if health doesn't qualify for top tiers"
+
+accepted:
+  premier_plus:
+    - "Excellent to good health"
+    - "Controlled single conditions"
+  standard:
+    - "Moderate health conditions"
+    - "Multiple controlled conditions"
+  graded:
+    - "Significant health issues"
+    - "Recent hospitalizations"
+  modified_gi:
+    - "Any health condition"
+    - "No health questions asked"
+
+unique_advantages:
+  - "Six different underwriting tiers for maximum placement"
+  - "Automatic tier fallback if health doesn't qualify"
+  - "Guaranteed Issue option available (Modified)"
+  - "Accepts cases other carriers decline"
+  - "Flexible underwriting for agents"
+  - "Strong for high-risk clients"
+
+limitations:
+  - "Graded benefit periods vary by tier"
+  - "Modified (GI) has 2-year waiting period"
+  - "Lower face amounts than some competitors"
+  - "Premium varies significantly by tier"
+
+tier_structure:
+  premier: "Best health, immediate full benefit"
+  plus: "Good health, immediate full benefit"
+  standard: "Average health, immediate benefit"
+  graded: "Below average health, graded benefit (30%/60%/100%)"
+  modified: "Guaranteed Issue, 2-year waiting period"
+  simplified_gi: "Guaranteed Issue variant"
+
+notes:
+  - "Agent submits application; underwriting assigns tier"
+  - "Graded schedule: Year 1 = 30%, Year 2 = 60%, Year 3+ = 100%"
+  - "Modified (GI) pays premiums + 10% if death in first 2 years"
+  - "Excellent fallback option for difficult cases"
+
+sources:
+  - file: "Silver Eagle Brochure (SEB-09-22).pdf"
+
+state_availability:
+  all_states: true
+  except: []

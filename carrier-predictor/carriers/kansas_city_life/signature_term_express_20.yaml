@@ -1,0 +1,82 @@
+carrier: "Kansas City Life"
+product: "Signature Term Express Level 20"
+type: "Term Life"
+synopsis: "20-year level term with simplified underwriting, mortgage protection focus"
+
+face_amount:
+  min: 50000
+  max: 400000
+  by_age:
+    18_45: [50000, 400000]
+    46_55: [50000, 300000]
+    56_60: [50000, 200000]
+
+issue_ages:
+  min: 18
+  max: 60
+
+tobacco_classes:
+  - "Preferred Nontobacco"
+  - "Standard Nontobacco"
+  - "Tobacco"
+
+underwriting_type: "Simplified"
+
+knockouts:
+  any:
+    - prior_decline_or_postponement_12_months: true
+    - hospice_palliative_care: true
+    - oxygen_or_cpap_for_heart_lung: true
+    - aids_hiv_arc: true
+    - alcohol_drug_treatment_5_years: true
+    - diabetes_insulin_under_40: true
+
+eligibility:
+  build:
+    source: "GetPDFByFormNumber.pdf"
+    rule: "kcl_build_chart"
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_dui_lifetime: 2
+    max_moving_violations_3_years: 2
+  felony_lookback_years: 10
+  avocation_hazardous: true
+  avocation_note: "scuba, aviation pilot accepted with restrictions"
+  aviation: true
+  aviation_note: "private pilot with restrictions accepted"
+
+accepted:
+  - "Controlled Type 2 diabetes (oral meds only, over 40)"
+  - "Controlled hypertension"
+  - "Controlled high cholesterol"
+  - "Past heart attack (5+ years)"
+  - "Asthma (controlled, no hospitalization 2 years)"
+  - "Sleep apnea (CPAP compliant)"
+
+unique_advantages:
+  - "Living benefits included (terminal illness, chronic illness, critical illness)"
+  - "Waiver of Premium rider available"
+  - "Mortgage protection focus with level premiums"
+  - "Conversion privilege to permanent insurance"
+  - "Fast approval (often same day to 2 weeks)"
+
+limitations:
+  - "No insulin-dependent diabetes under age 40"
+  - "Face amount decreases with age"
+  - "No occasional tobacco exception"
+  - "Strict DUI and driving record requirements"
+
+notes:
+  - "Strong mortgage protection product"
+  - "Living benefits are built-in, not optional riders"
+  - "CPAP for sleep apnea is acceptable if compliant"
+
+sources:
+  - file: "GetPDFByFormNumber.pdf"
+  - file: "GetPDFByFormNumber (1).pdf"
+  - file: "GetFile.pdf"
+
+state_availability:
+  all_states: true
+  except: ["NY", "MT"]

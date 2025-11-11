@@ -1,0 +1,81 @@
+carrier: "United Home Life"
+product: "Express Issue Premier (Immediate Benefit)"
+type: "Final Expense WL"
+synopsis: "Immediate full death benefit final expense with simplified underwriting for controlled health conditions"
+
+face_amount:
+  min: 5000
+  max: 100000
+  by_age:
+    20_60: [5000, 100000]
+    61_70: [5000, 75000]
+    71_80: [5000, 50000]
+
+issue_ages:
+  min: 20
+  max: 80
+
+tobacco_classes:
+  - "Nontobacco"
+  - "Tobacco"
+
+underwriting_type: "Simplified"
+
+knockouts:
+  any:
+    - hospice_or_terminal_illness: true
+    - nursing_home_residence: true
+    - oxygen_therapy_except_sleep_apnea: true
+    - aids_hiv_positive: true
+    - organ_transplant_needed_or_received: true
+    - alzheimers_dementia_cognitive_impairment: true
+
+eligibility:
+  build:
+    source: "product-portfolio-reference-guide.pdf"
+    rule: "uhl_build_chart_premier"
+  nicotine_non_tobacco_allowed: false
+  driving:
+    dui_years_lookback: 5
+    max_dui_total: 1
+  felony_lookback_years: 10
+  avocation_hazardous: false
+  aviation: false
+
+accepted:
+  - "Controlled diabetes (Type 1 or 2, insulin OK)"
+  - "Controlled hypertension (up to 3 meds)"
+  - "Controlled high cholesterol"
+  - "Past heart attack (2+ years, stable)"
+  - "Past stroke (2+ years, stable)"
+  - "COPD (controlled with meds)"
+  - "Cancer history (3+ years, favorable types)"
+  - "Multiple controlled conditions"
+
+unique_advantages:
+  - "Immediate full death benefit from day one"
+  - "Accepts insulin-dependent diabetes"
+  - "Blue-collar friendly underwriting"
+  - "Higher face amounts than most final expense"
+  - "Strong for controlled diabetics"
+  - "Fast turnaround (often 48-72 hours)"
+
+limitations:
+  - "Face amount decreases with age"
+  - "Build chart must be strictly followed"
+  - "Cannot be in nursing home"
+  - "No cognitive impairment accepted"
+
+notes:
+  - "Premier = Immediate benefit (best health class)"
+  - "Deluxe = Immediate benefit (standard health)"
+  - "Strong choice for controlled diabetes cases"
+  - "Popular with blue-collar demographics"
+
+sources:
+  - file: "product-portfolio-reference-guide.pdf"
+  - file: "200-606-low-res35237ce737236d069586ff0700600a9b.pdf"
+
+state_availability:
+  all_states: true
+  except: ["NY", "WA"]
